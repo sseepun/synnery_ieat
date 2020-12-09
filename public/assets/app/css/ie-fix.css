@@ -1,0 +1,29 @@
+
+/* Topnav */
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none){
+    nav.topnav .menu > .dropdown{display:none;}
+    nav.topnav .menu:hover > .dropdown{display:block;}
+    nav.topnav .menu > .submenu-dropdown{display:none;}
+    nav.topnav .menu:hover > .submenu-dropdown{display:block;}
+    nav.topnav .submenu > .submenu-level2{display:none;}
+    nav.topnav .submenu:hover > .submenu-level2{display:block;}
+}
+
+/* Specia Search */
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none){
+    .ss-search .suggestion{display:none;}
+    .ss-search input[type=text]:focus ~ .suggestion,
+    .ss-search .suggestion:hover{display:block;}
+}
+
+/* Toggle Target */
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none){
+    .toggle-target-02{display:none;}
+    .toggle-target-02.active{display:block;}
+}
+
+/* Banner 01 */
+@media screen and (-ms-high-contrast:active), (-ms-high-contrast:none){
+    .banner-01 .slick-dots > li > .desc{display:none;}
+    .banner-01 .slick-dots > li:hover > .desc{display:block;}
+}
