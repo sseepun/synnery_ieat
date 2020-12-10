@@ -114,7 +114,7 @@
                         การอนุมัติคำขออนุญาตและการออกใบรับรองที่จำเป็นต่างๆ เพื่อการจัดตั้งโรงงานในทุกขั้นตอนโดยง่าย 
                         หรือแม้แต่การพัฒนาจัดตั้งนิคมอุตสาหกรรมร่วมกับ กนอ.
                     </p>
-                    <div class="sep"></div>
+                    <div class="ss-sep"></div>
                     <div class="scroll-wrapper" data-simplebar>
                         <div class="grids">
                             <div class="grid lg-25 mt-0">

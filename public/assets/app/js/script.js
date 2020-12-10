@@ -156,26 +156,6 @@ $(function(){ 'use strict';
     //     }
     // }
 
-    // // Banner Event
-    // if($('.banner-event').length){
-    //     $('.banner-event').each(function(){
-    //         var bannerSlides = $(this).find('.slides'),
-    //             bannerEvents = bannerSlides.find('.slide');
-    //         bannerEvents.click(function(e){
-    //             e.preventDefault();
-    //             bannerSlides.css('--month', $(this).data('month'));
-    //             bannerEvents.removeClass('active');
-    //             $(this).addClass('active');
-    //             if(calendar!==undefined){
-    //                 var currentMonth = calendar.data('plugin_simpleCalendar').currentDate.getMonth();
-    //                 calendar.data('plugin_simpleCalendar').changeMonth(
-    //                     $(this).data('month') - currentMonth
-    //                 );
-    //             }
-    //         });
-    //     });
-    // }
-
     // // Toggle Box
     // if($('.toggle-box').length){
     //     $('.toggle-box').each(function(){
@@ -382,26 +362,6 @@ $(function(){ 'use strict';
     //     });
     // }
 
-    
-    // // Call to Action 02
-    // var call02 = $('.call-02');
-    // if(call02.length){
-    //     call02.find('.slide-container').each(function(){
-    //         var self = $(this);
-    //         self.find('> .slides').slick({
-    //             centerMode: true, centerPadding: 0, slidesToShow: 6, 
-    //             focusOnSelect: true, autoplay: true, autoplaySpeed: 4000, speed: 600,
-    //             arrows: true, appendArrows: self.find('.arrows'), dots: false,
-    //             responsive: [
-    //                 { breakpoint: 1199.98, settings: { slidesToShow: 5, } },
-    //                 { breakpoint: 991.98, settings: { slidesToShow: 4, } },
-    //                 { breakpoint: 767.98, settings: { slidesToShow: 3, } },
-    //                 { breakpoint: 575.98, settings: { slidesToShow: 2, } },
-    //             ]
-    //         });
-    //     });
-    // }
-
 
     // // Content 01
     // var content01 = $('.content-01');
@@ -421,52 +381,25 @@ $(function(){ 'use strict';
     //     });
     // }
 
-
-    // // Content 03
-    // var content03 = $('.content-03');
-    // if(content03.length){
-    //     content03.each(function(){
-    //         var self=  $(this);
-    //         self.find('.slides').slick({
-    //             centerMode: true, centerPadding: 0, slidesToShow: 3, 
-    //             focusOnSelect: true, autoplay: false,
-    //             arrows: true, appendArrows: self.find('.arrows'), dots: false,
-    //             responsive: [
-    //                 { breakpoint: 991.98, settings: { slidesToShow: 2, } },
-    //                 { breakpoint: 767.98, settings: { slidesToShow: 1, } },
-    //             ]
-    //         });
-    //     });
-    // }
-
-
-    // // Content 07
-    // var content07 = $('.content-07');
-    // if(content07.length){
-    //     content07.each(function(){
-    //         var self=  $(this);
-    //         self.find('.slides').slick({
-    //             centerMode: true, centerPadding: 0, slidesToShow: 1, 
-    //             focusOnSelect: true, autoplay: false,
-    //             arrows: true, appendArrows: self.find('.arrows'), 
-    //             dots: true, appendDots: self.find('.dots'),
-    //         });
-    //     });
-    // }
-
     
-    // // FAQ 01
-    // var faq01 = $('.faq-01');
-    // if(faq01.length){
-    //     faq01.each(function(){
-    //         $(this).find('.question').click(function(e){
-    //             e.preventDefault();
-    //             var self = $(this);
-    //             self.toggleClass('active');
-    //             self.next().slideToggle();
-    //         });
-    //     });
-    // }
+    // Client 01
+    var client01 = $('.client-01');
+    if(client01.length){
+        client01.find('.slide-container').each(function(){
+            var self = $(this);
+            self.find('> .slides').slick({
+                centerMode: true, centerPadding: 0, slidesToShow: 6, swipeToSlide: true, 
+                focusOnSelect: true, autoplay: false, autoplaySpeed: 4000, speed: 600,
+                arrows: true, appendArrows: self.find('.arrows'), dots: false,
+                responsive: [
+                    { breakpoint: 1199.98, settings: { slidesToShow: 5, } },
+                    { breakpoint: 991.98, settings: { slidesToShow: 4, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 3, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 2, } },
+                ]
+            });
+        });
+    }
     
 
     // // Tab Container

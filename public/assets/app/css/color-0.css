@@ -7,10 +7,14 @@ html, body{color:#000;}
 .color-white{color:#fff!important;}
 .color-black{color:#000!important;}
 .color-01, .h-color-01:hover{color:#5e2472!important;}
+.color-02, .h-color-02:hover{color:#4b326e!important;}
+.color-03, .h-color-03:hover{color:#6cdded!important;}
 
 .bg-white{background:#fff!important;}
 .bg-black{background:#000!important;}
 .bg-01{background:#5e2472!important;}
+.bg-02{background:#4b326e!important;}
+.bg-03{background:#6cdded!important;}
 
 
 /* Input */
@@ -23,6 +27,7 @@ input[type=tel]:focus, input[type=number]:focus, input[type=phone]:focus, input[
 select:focus, textarea:focus{
     border-color:#59236e;
 }
+
 
 /* Topnav */
 nav.topnav{
@@ -58,10 +63,46 @@ nav.sidenav .menu:hover > a, nav.sidenav .item:hover > a{color:#0f9684;}
 /* Global Search Container */
 .global-search-container .hamburger > *{background:#fff;}
 
+/* Footer */
+nav.footer{color:#fff;}
+nav.footer .tag{
+    background-image:linear-gradient(to bottom, #2ea9a1, #0c8981, #0f8f87, #18a097,
+        #1aa198, #1aa198, #1aa198, #1aa198);
+    color:#fff; border-color:#5ebdb6;
+}
+
+
+/* Buttons */
+.btn-action, .btn-action:focus, .btn-action:hover, .btn-action:active{
+    background:#3d3d3d; color:#fff; border-color:#fff;
+}
+.btn-action::before{background:#6cdded;}
+
 
 /* Special List */
 ul.ss-list .btn-icon{background:#4b326e; color:#fff;}
 ul.ss-list > li > a{color:#000;}
 ul.ss-list > li:hover > a{color:#4b326e;}
+ul.ss-list.color-white > li > a{color:#fff;}
+ul.ss-list.color-white > li:hover > a{color:#6ddeee;}
 ul.ss-list > li::before{background:#6ddeee;}
 ul.ss-list.dot-dark > li::before{background:#282828;}
+
+
+/* Special Separation */
+.ss-sep{
+    background-image:linear-gradient(to left, rgba(202,202,202,0), rgba(202,202,202,0.5),
+        rgba(202,202,202,1), rgba(202,202,202,1), rgba(202,202,202,1), 
+        rgba(202,202,202,1), rgba(202,202,202,1), rgba(202,202,202,1), 
+        rgba(202,202,202,.5), rgba(202,202,202,0));
+}
+
+
+/* Call to Action 01 */
+.call-01{background-image:linear-gradient(to right, #55d49b, #1ba297, #18a097);}
+.call-01 .contents{color:#fff;}
+
+
+/* Client 01 */
+.client-01 .slide:first-child::before, .client-01 .slide::after{background:#cecece;}
+.client-01 p{color:#000;}
