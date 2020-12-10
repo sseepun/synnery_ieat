@@ -52,6 +52,21 @@
     </div>
 </section>
 
+<!-- Chatbot -->
+<a class="chatbot" href="#">
+    <div class="wrapper">
+        <img src="public/assets/app/images/icon/chatbot.png" alt="Icon" />
+    </div>
+</a>
+
+<!-- Back to Top -->
+<a class="back-to-top" href="#">
+    <div class="wrapper">
+        <img src="public/assets/app/images/icon/border.png" alt="Border" >
+        <i class="zmdi zmdi-chevron-up"></i>
+    </div>
+</a>
+
 <!-- Footer -->
 <nav class="footer bg-02">
     <div class="container">

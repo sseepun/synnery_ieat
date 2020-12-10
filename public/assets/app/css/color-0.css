@@ -63,6 +63,9 @@ nav.sidenav .menu:hover > a, nav.sidenav .item:hover > a{color:#0f9684;}
 /* Global Search Container */
 .global-search-container .hamburger > *{background:#fff;}
 
+/* Back to Top */
+.back-to-top i{color:#5a407c;}
+
 /* Footer */
 nav.footer{color:#fff;}
 nav.footer .tag{
