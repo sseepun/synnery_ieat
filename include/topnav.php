@@ -28,10 +28,10 @@
                             </div>
                             <div class="item">
                                 ภาษา 
-                                <a class="btn-icon btn-icon-xs btn-hex ml-3" href="#">
+                                <a class="btn-icon btn-icon-sm btn-hex ml-3" href="#">
                                     <div class="fit img-fill" style="background-image:url('public/assets/app/images/default/flag_th.jpg');"></div>
                                 </a> 
-                                <a class="btn-icon btn-icon-xs btn-hex inactive ml-1" href="#">
+                                <a class="btn-icon btn-icon-sm btn-hex inactive ml-1" href="#">
                                     <div class="fit img-fill" style="background-image:url('public/assets/app/images/default/flag_uk.jpg');"></div>
                                 </a>
                             </div>
@@ -99,7 +99,91 @@
 <div class="topnav-dropdown">
     <div class="container">
         <div class="dropdown-wrapper" style="background-image:url('public/assets/app/images/bg/14.jpg');">
-
+            <div class="grids">
+                <div class="grid xl-20 lg-25 sm-100">
+                    <h2 class="color-01">
+                        เกี่ยวกับ กนอ.
+                    </h2>
+                    <img class="hero" src="public/assets/app/images/hero/01.png" alt="Hero" />
+                </div>
+                <div class="grid xl-80 lg-75 sm-100">
+                    <p>
+                        กนอ. ได้จัดตั้งสำนักบริการเบ็ดเสร็จครบวงจร (One Stop Service Center : OSS) ขึ้น 
+                        เพื่อให้บริการแบบเบ็ดเสร็จตั้งแต่ต้นจนจบกระบวนการในการทำธุรกิจกับกนอ. 
+                        ไม่ว่าจะเป็นการซื้อหรือเช่าที่ดิน การแนะนำพื้นที่ที่เหมาะสมในการตั้งโรงงาน 
+                        การอนุมัติคำขออนุญาตและการออกใบรับรองที่จำเป็นต่างๆ เพื่อการจัดตั้งโรงงานในทุกขั้นตอนโดยง่าย 
+                        หรือแม้แต่การพัฒนาจัดตั้งนิคมอุตสาหกรรมร่วมกับ กนอ.
+                    </p>
+                    <div class="sep"></div>
+                    <div class="scroll-wrapper" data-simplebar>
+                        <div class="grids">
+                            <div class="grid lg-25 mt-0">
+                                <ul class="ss-list">
+                                    <li><a href="#">บทบาทหน้าที่ความรับผิดชอบขององค์กร</a></li>
+                                    <li><a href="#">ปรัชญา วิสัยทัศน์ และพันธกิจ</a></li>
+                                    <li><a href="#">ภารกิจหลักของ กนอ.</a></li>
+                                    <li><a href="#">การแถลงทิศทางและนโยบายที่สำคัญ</a></li>
+                                    <li><a href="#">การดำเนินงานตามนโยบายของรัฐบาล</a></li>
+                                </ul>
+                            </div>
+                            <div class="grid lg-30 mt-0">
+                                <ul class="ss-list ss-list-toggle">
+                                    <li><a href="#">แนวนโยบายผู้ถือหุ้นภาครัฐ</a></li>
+                                    <li><a href="#">การแสดงความรับผิดชอบต่อสังคม (CSR) ของ กนอ.</a></li>
+                                    <li><a href="#">ธรรมาภิบาล</a>
+                                        <div class="btn-icon btn-icon-xs btn-hex">
+                                            <i class="zmdi zmdi-chevron-down"></i>
+                                        </div>
+                                        <ul class="ss-list dot-dark">
+                                            <li><a href="#">นโยบาย กนอ. ใสสะอาด</a></li>
+                                            <li><a href="#">นโยบายการกำกับดูแลกิจการที่ดี</a></li>
+                                            <li><a href="#">บทบาทคณะกรรมการ กนอ.</a></li>
+                                            <li><a href="#">การบริหารความเสี้ยง</a></li>
+                                            <li><a href="#">การควบคุมภายใน</a></li>
+                                            <li><a href="#">การตรวจสอบภายใน</a></li>
+                                            <li><a href="#">การบริหารจัดการสารสนเทศ</a></li>
+                                            <li><a href="#">การบริหารทรัพยากรบุคคล</a></li>
+                                            <li><a href="#">จรรยาบรรณ กนอ.</a></li>
+                                            <li><a href="#">ส่งเสริมคุณธรรมจริยธรรม</a></li>
+                                            <li><a href="#">การเปิดเผยข้อมูลสาธารณะ (OIT)</a></li>
+                                            <li><a href="#">นโยบายการป้องกันและต่อค้านการทุจริต</a></li>
+                                            <li><a href="#">นโยบายการส่งเสริมความคิตสร้างสรรค์และการบริหารจัดการนวัตกรรม</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">ผลการตำเนินงานของ กนอ.</a></li>
+                                    <li><a href="#">รางวัลแห่งความภูมิใจ</a></li>
+                                </ul>
+                            </div>
+                            <div class="grid lg-20 mt-0">
+                                <ul class="ss-list">
+                                    <li><a href="#">ผังองค์กร</a></li>
+                                    <li><a href="#">คณะกรรมการ</a></li>
+                                    <li><a href="#">คณะผู้บริหาร</a></li>
+                                    <li><a href="#">รายงานประจำปี</a></li>
+                                </ul>
+                            </div>
+                            <div class="grid lg-25 mt-0">
+                                <ul class="ss-list ss-list-toggle">
+                                    <li><a href="#">แผนงานที่สำคัญ</a></li>
+                                    <li><a href="#">ข้อมูลโครงการลงทุนที่สำคัญ</a></li>
+                                    <li><a href="#">แผนแม่บท</a>
+                                        <div class="btn-icon btn-icon-xs btn-hex">
+                                            <i class="zmdi zmdi-chevron-down"></i>
+                                        </div>
+                                
+                                    </li>
+                                    <li><a href="#">แผนวิสาหกิจ กนอ /แผนปฏิบัติการ กนอ.</a>
+                                        <div class="btn-icon btn-icon-xs btn-hex">
+                                            <i class="zmdi zmdi-chevron-down"></i>
+                                        </div>
+                                
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -129,10 +213,10 @@
                 </div>
                 <div class="item">
                     ภาษา 
-                    <a class="btn-icon btn-icon-xs btn-hex ml-3" href="#">
+                    <a class="btn-icon btn-icon-sm btn-hex ml-3" href="#">
                         <div class="fit img-fill" style="background-image:url('public/assets/app/images/default/flag_th.jpg');"></div>
                     </a> 
-                    <a class="btn-icon btn-icon-xs btn-hex inactive ml-1" href="#">
+                    <a class="btn-icon btn-icon-sm btn-hex inactive ml-1" href="#">
                         <div class="fit img-fill" style="background-image:url('public/assets/app/images/default/flag_uk.jpg');"></div>
                     </a>
                 </div>

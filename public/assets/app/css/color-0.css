@@ -6,9 +6,11 @@ html, body{color:#000;}
 /* Colors */
 .color-white{color:#fff!important;}
 .color-black{color:#000!important;}
+.color-01, .h-color-01:hover{color:#5e2472!important;}
 
-.bg-color-white{background:#fff!important;}
-.bg-color-black{background:#000!important;}
+.bg-white{background:#fff!important;}
+.bg-black{background:#000!important;}
+.bg-01{background:#5e2472!important;}
 
 
 /* Input */
@@ -55,3 +57,11 @@ nav.sidenav .menu:hover > a, nav.sidenav .item:hover > a{color:#0f9684;}
 
 /* Global Search Container */
 .global-search-container .hamburger > *{background:#fff;}
+
+
+/* Special List */
+ul.ss-list .btn-icon{background:#4b326e; color:#fff;}
+ul.ss-list > li > a{color:#000;}
+ul.ss-list > li:hover > a{color:#4b326e;}
+ul.ss-list > li::before{background:#6ddeee;}
+ul.ss-list.dot-dark > li::before{background:#282828;}

@@ -47,7 +47,7 @@ $(function(){ 'use strict';
             e.preventDefault();
             $('html, body').stop().animate({ scrollTop: 0 }, 800 );
         });
-        
+
     }
 
     // Global Search
@@ -92,10 +92,18 @@ $(function(){ 'use strict';
     }
 
 
-    // // Date Picker
-    // $('input.date-picker').each(function(){
-    //     new Datepicker($(this)[0], {});
-    // });
+    // Date Picker
+    $('input.date-picker').each(function(){
+        new Datepicker($(this)[0], {});
+    });
+
+
+    // Special List Toggle
+    $('ul.ss-list.ss-list-toggle').find('.btn-icon').click(function(e){
+        e.preventDefault();
+        $(this).next().slideToggle();
+    });
+
     
     // // Calendar
     // var calendar;

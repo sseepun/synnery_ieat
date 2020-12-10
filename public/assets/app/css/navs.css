@@ -59,11 +59,19 @@ nav.topnav .mobile-container .menu.menu-icon:last-child > a{padding:0 0 0 .6875r
 nav.topnav + .topnav-spacer{display:block; width:100%; height:5.5rem;}
 
 .topnav-dropdown{
-    display:none; position:fixed; top:5.5rem; left:0; width:100vw; overflow:hidden; z-index:94;
+    display:none; position:fixed; top:5.5rem; left:0; width:100%; overflow:hidden; z-index:94;
 }
 .topnav-dropdown .dropdown-wrapper{
     position:relative; width:100%; height:calc(100vh - 5.5rem); background-size:cover;
-    background-position:bottom center;
+    background-position:bottom center; padding:0 1.5rem 1.5rem 1.5rem;
+}
+.topnav-dropdown h2{font-size:3.5rem; font-weight:600;}
+.topnav-dropdown img.hero{
+    display:block; width:10rem; height:auto; position:absolute; bottom:1.5rem; left:1.5rem;
+}
+.topnav-dropdown .scroll-wrapper{
+    width:100%; height:calc(100vh - 15rem); max-height:calc(100vh - 15rem);
+    overflow-x:hidden; overflow-y:auto;
 }
 .topnav-dropdown + .topnav-dropdown-filter{
     display:block; position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:93;
@@ -80,8 +88,19 @@ nav.topnav + .topnav-spacer{display:block; width:100%; height:5.5rem;}
     .topnav-dropdown{top:4.125rem;}
     .topnav-dropdown .dropdown-wrapper{height:calc(100vh - 4.125rem);}
 }
+@media screen and (max-width:991.98px){
+    .topnav-dropdown h2{font-size:3rem;}
+    .topnav-dropdown img.hero{width:7.5rem; top:1.5rem; bottom:auto; left:auto; right:1.5rem;}
+    .topnav-dropdown .scroll-wrapper{height:calc(100vh - 20rem); max-height:calc(100vh - 20rem);}
+}
+@media screen and (max-width:767.98px){
+    .topnav-dropdown h2{font-size:2.75rem;}
+    .topnav-dropdown img.hero{width:7rem;}
+    .topnav-dropdown .scroll-wrapper{height:calc(100vh - 21rem); max-height:calc(100vh - 21rem);}
+}
 @media screen and (max-width:575.98px){
     nav.topnav .logo .text-wrapper{display:none;}
+    .topnav-dropdown .scroll-wrapper{height:calc(100vh - 24rem); max-height:calc(100vh - 24rem);}
 }
 
 
@@ -124,7 +143,7 @@ nav.sidenav + .sidenav-filter{
 
 /* Global Search */
 .global-search-container{
-    display:block; position:fixed; top:0; left:0; width:100vw; height:100vh; z-index:100;
+    display:block; position:fixed; top:0; left:0; width:100%; height:100vh; z-index:100;
     opacity:0; pointer-events:none; background:rgba(0,0,0,.65); backdrop-filter:blur(5px);
 }
 .global-search-container:not(.use-gsap){transition:opacity .45s;}
