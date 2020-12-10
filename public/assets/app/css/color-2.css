@@ -4,13 +4,8 @@ html, body{color:#ffff00; background:#000;}
 
 
 /* Colors */
-.color-white, .color-black, .color-dark, .color-sgray, .color-gray, .color-dgray, .color-01, 
-.color-02, .color-03, .color-04, .color-05, .color-06, .color-07, .color-08, 
-.color-09{color:#ffff00!important;}
-.bg-color-white, .bg-color-black, .bg-color-dark, .bg-color-sgray, .bg-color-gray,
-.bg-color-dgray, .bg-color-01, .bg-color-02, .bg-color-03, .bg-color-04, .bg-color-05, 
-.bg-color-06, .bg-color-07, .bg-color-08, .bg-color-09{background:#000!important;}
-.bg-white-adaptive{background:#000!important;}
+.color-white, .color-black{color:#ffff00!important;}
+.bg-color-white, .bg-color-black{background:#000!important;}
 
 
 /* Input */

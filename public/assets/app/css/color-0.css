@@ -6,38 +6,9 @@ html, body{color:#000;}
 /* Colors */
 .color-white{color:#fff!important;}
 .color-black{color:#000!important;}
-.color-dark{color:#212529!important;}
-.color-sgray{color:#f3f3f3!important;}
-.color-gray{color:#e9e9e9!important;}
-.color-dgray{color:#666!important;}
-.color-01{color:#422754!important;}
-.color-02{color:#59236e!important;}
-.color-03{color:#4a2d73!important;}
-.color-04{color:#ba41ce!important;}
-.color-05{color:#b15fc8!important;}
-.color-06{color:#4a2d73!important;}
-.color-07{color:#7f179d!important;}
-.color-08{color:#4a3980!important;}
-.color-09{color:#6c109d!important;}
-.color-10{color:#5a0687!important;}
 
 .bg-color-white{background:#fff!important;}
-.bg-white-adaptive{background:#fff!important;}
 .bg-color-black{background:#000!important;}
-.bg-color-dark{background:#212529!important;}
-.bg-color-sgray{background:#f3f3f3!important;}
-.bg-color-gray{background:#e9e9e9!important;}
-.bg-color-dgray{background:#666!important;}
-.bg-color-01{background:#422754!important;}
-.bg-color-02{background:#59236e!important;}
-.bg-color-03{background:#4a2d73!important;}
-.bg-color-04{background:#ba41ce!important;}
-.bg-color-05{background:#b15fc8!important;}
-.bg-color-06{background:#4a2d73!important;}
-.bg-color-07{background:#7f179d!important;}
-.bg-color-08{background:#4a3980!important;}
-.bg-color-09{background:#6c109d!important;}
-.bg-color-09{background:#5a0687!important;}
 
 
 /* Input */
@@ -50,3 +21,37 @@ input[type=tel]:focus, input[type=number]:focus, input[type=phone]:focus, input[
 select:focus, textarea:focus{
     border-color:#59236e;
 }
+
+/* Topnav */
+nav.topnav{
+    background:#fff; box-shadow:rgba(0,0,0,.05) 0px 10px 20px;
+    border-bottom:1px solid #eee;
+}
+nav.topnav .logo{color:#000;}
+nav.topnav .top-container > .wrapper::before{
+    background-image:linear-gradient(to right, rgba(15,150,133,0), rgba(15,150,133,.5),
+        rgba(15,150,133,1), rgba(15,150,133,1), rgba(15,150,133,1), rgba(15,150,133,1),
+        rgba(31,111,94,1));
+}
+nav.topnav .top-container .item, nav.topnav .top-container .item a{color:#fff;}
+nav.topnav .bottom-container > .wrapper::before{
+    background-image:linear-gradient(to right, rgba(75,50,110,0), rgba(75,50,110,.75),
+        rgba(75,50,110,1), rgba(75,50,110,1), rgba(75,50,110,1), rgba(75,50,110,1),
+        rgba(128,63,151,1));
+}
+nav.topnav .menu::before{
+    background-image:linear-gradient(45deg, #9762aa, #803f97);
+}
+nav.topnav .menu > a{color:#fff;}
+nav.topnav .mobile-container .menu > a{color:#000;}
+nav.topnav .hamburger > *{background:#000;}
+
+/* Sidenav */
+nav.sidenav{background:#fff;}
+nav.sidenav .hamburger > *{background:#000;}
+nav.sidenav .scroll-wrapper, nav.sidenav .menu > a, nav.sidenav .item{border-color:#ddd;}
+nav.sidenav .menu > a, nav.sidenav .item, nav.sidenav .item > a{color:#000;}
+nav.sidenav .menu:hover > a, nav.sidenav .item:hover > a{color:#0f9684;}
+
+/* Global Search Container */
+.global-search-container .hamburger > *{background:#fff;}

@@ -8,6 +8,7 @@
 <script src="public/assets/lib/vanilla-datepicker/dist/js/datepicker.min.js"></script>
 <script src="public/assets/lib/aos-2.3.1/aos.min.js"></script>
 
+<script src="public/assets/app/js/TweenMax-2.1.2.min.js"></script>
 <script src="public/assets/app/js/script.js"></script>
 <script src="public/assets/app/js/lazy-load.js"></script>
 

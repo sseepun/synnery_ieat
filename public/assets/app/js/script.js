@@ -2,69 +2,52 @@ $(function(){ 'use strict';
 
     // Topnav
     var topnav = $('nav.topnav'),
-        topnavFilter = $('.topnav-filter'),
-        sidenav = $('nav.sidenav'),
+        topnavDropdownToggles = topnav.find('.topnav-dropdown-toggle'),
+        topnavDropdown = $('.topnav-dropdown');
+    var sidenav = $('nav.sidenav'),
         sidenavMenus = sidenav.find('.menu-container'),
-        sidenavBtns = $('nav.topnav .sidenav-btn, nav.sidenav .sidenav-btn');
+        sidenavToggles = $('nav.topnav .sidenav-toggle, nav.sidenav .sidenav-toggle');
     var backToTop = $('.back-to-top');
     if(topnav.length){
 
-        // On Scroll
-        checkOnScroll( $(window).scrollTop() );
-        $(window).scroll(function(){
-            checkOnScroll( $(this).scrollTop() );
+        // Topnav Dropdown Toggle
+        topnavDropdownToggles.click(function(e){
+            e.preventDefault();
+            topnavDropdownToggles.parent().toggleClass('active');
+            topnavDropdown.toggleClass('active');
+            topnavDropdown.slideToggle();
         });
 
-        // Topnav Filter
-        topnav.find('.menu.has-children').mouseenter(function(){
-            topnavFilter.addClass('active');
-        });
-        topnav.find('.menu.has-children').mouseleave(function(){
-            topnavFilter.removeClass('active');
-        });
-
-        // Sidenav buttons
-        sidenavBtns.click(function(e){
+        // Sidenav Toggles
+        sidenavToggles.click(function(e){
             e.preventDefault();
             if($('body').hasClass('sidenav-opened')){
                 $('html, body').removeClass('sidenav-opened');
-                sidenavBtns.find('> *').removeClass('active');
+                sidenavToggles.find('> *').removeClass('active');
                 sidenav.removeClass('active');
             }else{
                 $('html, body').addClass('sidenav-opened');
-                sidenavBtns.find('> *').addClass('active');
+                sidenavToggles.find('> *').addClass('active');
                 sidenav.addClass('active');
             }
         });
         $('.sidenav-filter').click(function(e){
             e.preventDefault();
             $('html, body').removeClass('sidenav-opened');
-            sidenavBtns.find('> *').removeClass('active');
+            sidenavToggles.find('> *').removeClass('active');
             sidenav.removeClass('active');
         });
 
         // Generate sidenav
-        sidenavMenus.html( topnav.find('#topnav-menu').html() );
-        topnav.find('#topnav-menu .submenu-container').each(function(){
-            new SimpleBar($(this)[0], {  });
-        });
-
+        sidenavMenus.html( topnav.find('.menu-container').html() );
         sidenavMenus.find('.menu.menu-icon').remove();
-        sidenavMenus.find('.has-children').each(function(){
-            $(this).append('<div class="dropdown-toggle"><i class="fas fa-chevron-right"></i></div>');
-        });
-        sidenavMenus.find('.dropdown-toggle').click(function(e){
-            e.preventDefault();
-            var self = $(this);
-            self.toggleClass('active');
-            self.prev().slideToggle();
-        });
 
         // Back to Top
         backToTop.click(function(e){
             e.preventDefault();
             $('html, body').stop().animate({ scrollTop: 0 }, 800 );
         });
+        
     }
 
     // Global Search
@@ -107,36 +90,6 @@ $(function(){ 'use strict';
             }
         });
     }
-
-    // Font Sizes
-    var bodySize = 16;
-    $('.btn.font-size-btn').click(function(e){
-        e.preventDefault();
-        var s = Number($(this).data('size'));
-        if(s==0) bodySize = 16;
-        else if(s==1 || s==-1) bodySize += s;
-        else bodySize = s;
-        $('html, body').css('font-size', bodySize+'px');
-    });
-    
-    // Check on Scroll
-    function checkOnScroll(st){
-        if(st > 3.0625*bodySize){
-            topnav.addClass('sticky');
-            backToTop.addClass('active');
-        }else{
-            topnav.removeClass('sticky');
-            backToTop.removeClass('active');
-        }
-    }
-
-    // Themes
-    $('.theme-btn').click(function(e){
-        e.preventDefault();
-        $('#css-theme').attr('href', 'public/assets/app/css/color-'+$(this).data('theme')+'.css');
-        $('body').removeClass('theme-0 theme-1 theme-2');
-        $('body').addClass('theme-'+$(this).data('theme'));
-    });
 
 
     // // Date Picker

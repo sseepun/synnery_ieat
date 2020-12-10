@@ -71,7 +71,7 @@
             <div class="img-bg-container">
                 <div class="img-bg" style="background-image:url('./public/assets/app/images/banner/02.jpg');"></div>
             </div>
-            <div class="container">
+            <div class="container px-sm-0">
                 <div class="text-center color-white">
                     <h1>ทำเลทอง</h1>
                     <p class="fw-100">ตอบโจทย์ที่ใช่... ตอบสนองทุกความต้องการทางด้านธุรกิจของคุณ</p>
@@ -96,7 +96,7 @@
         .btn-container .btn {width: 90%; height:100%; background-color:#3d3d3d; line-height:2.25rem;  clip-path: polygon(90% 0, 100% 50%, 90% 100%, 0 100%, 0 0);}
     </style>
     <section class="content-02 pt-0">
-        <div class="container">
+        <div class="container px-sm-0">
             <div class="grids no-gap">
                 <?php for($i=8; $i < 13; $i++){?>
                     <div class="grid text-center md-50 lg-20">
