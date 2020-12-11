@@ -34,10 +34,7 @@ select:focus, textarea:focus{
 
 
 /* Topnav */
-nav.topnav{
-    background:#fff; box-shadow:rgba(0,0,0,.05) 0px 10px 20px;
-    border-bottom:1px solid #eee;
-}
+nav.topnav{background:#fff; border-color:#eee; box-shadow:rgba(0,0,0,.05) 0px 10px 20px;}
 nav.topnav .logo{color:#000;}
 nav.topnav .top-container > .wrapper::before{
     background-image:linear-gradient(to right, rgba(15,150,133,0), rgba(15,150,133,.5),
@@ -136,6 +133,10 @@ ul.ss-list.dot-dark > li::before{background:#282828;}
 /* Special Tag */
 .ss-tag .tag{color:#4e4e50; border-color:#cfcfcf;}
 .ss-card:hover .ss-tag .tag{color:#fff; border-color:#fff;}
+
+
+/* Table */
+table.table{color:#000;}
 
 
 /* Tab Container 01 */

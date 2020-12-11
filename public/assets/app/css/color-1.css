@@ -1,15 +1,138 @@
 
 /* Reset */
-html, body{color:#fff; background:#000;}
+html, body{background:#000; color:#fff;}
 
 
 /* Colors */
-.color-white, .color-black{color:#fff!important;}
-.bg-color-white, .bg-color-black{background:#000!important;}
+.color-white, .color-black, .color-gray,
+.color-01, .h-color-01:hover,
+.color-02, .h-color-02:hover,
+.color-03, .h-color-03:hover,
+.color-04, .h-color-04:hover{color:#fff!important;}
+
+.bg-white, .bg-black, .bg-gray,
+.bg-01,
+.bg-02,
+.bg-03,
+.bg-04{background:#000!important;}
 
 
 /* Input */
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
 input[type=number], input[type=phone], input[type=submit], select, textarea{
-    border-color:#fff!important; background:#000!important; color:#fff!important;
+    border-color:#fff; background:#fff; color:#000;
 }
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, input[type=date]:focus, 
+input[type=tel]:focus, input[type=number]:focus, input[type=phone]:focus, input[type=submit]:focus, 
+select:focus, textarea:focus{
+    border-color:#fff;
+}
+
+
+/* Topnav */
+nav.topnav{
+    background:#000; border-color:#fff;
+}
+nav.topnav .logo{color:#fff;}
+nav.topnav .top-container .item, nav.topnav .top-container .item a{color:#fff;}
+nav.topnav .menu > a{color:#fff;}
+nav.topnav .mobile-container .menu > a{color:#fff;}
+nav.topnav .hamburger > *{background:#fff;}
+.topnav-dropdown .dropdown-wrapper{background:#000!important; border:1px solid #fff;}
+
+/* Sidenav */
+nav.sidenav{background:#000;}
+nav.sidenav .hamburger > *{background:#fff;}
+nav.sidenav .scroll-wrapper, nav.sidenav .menu > a, nav.sidenav .item{border-color:#fff;}
+nav.sidenav .menu > a, nav.sidenav .item, nav.sidenav .item > a{color:#fff;}
+
+/* Global Search Container */
+.global-search-container .hamburger > *{background:#fff;}
+
+/* Back to Top */
+.back-to-top i{color:#000;}
+
+/* Footer */
+nav.footer{color:#fff; border-top:1px solid #fff;}
+nav.footer .tag{background:#fff; color:#000;}
+
+
+/* Buttons */
+.btn-icon.btn-icon-01{background:#fff; color:#000;}
+.btn-icon.btn-icon-01:hover{background:#000; color:#fff;}
+
+.btn-action, .btn-action:focus, .btn-action:hover, .btn-action:active{
+    background:#000; color:#fff; border:1px solid #fff;
+}
+.btn-action::before{background:#fff;}
+
+
+/* Popup Container */
+.popup-container .box-header{background:#000; border:1px solid #fff;}
+.popup-container .box-body{
+    background:#000; border-left:1px solid #fff; border-right:1px solid #fff;
+}
+.popup-container .box-header .close-btn{color:#fff;}
+.popup-container .box-btns{border:1px solid #fff;}
+.popup-container .box-btn{background:#000; color:#fff;}
+.popup-container .box-btn:hover{background:#fff; color:#000;}
+
+
+/* Slide Container */
+.slide-container .arrows button{color:#fff;}
+
+
+/* Spacial Card 01 */
+.ss-card-01 .text-container{color:#fff; background:#000; border:1px solid #fff;}
+.ss-card-01:hover .text-container{color:#000; background:#fff;}
+.ss-card-01 a.title{color:#fff;}
+.ss-card-01:hover a.title{color:#000;}
+
+
+/* Special Image */
+.ss-img > .date{background:#fff; color:#000;}
+.ss-img > .date .d{border-color:#000;}
+.ss-img .hover-container{background-color:rgba(111,81,170,.65);}
+
+
+/* Special List */
+ul.ss-list .btn-icon{background:#fff; color:#000;}
+ul.ss-list > li > a{color:#fff;}
+ul.ss-list > li::before{background:#fff;}
+
+
+/* Special Separation */
+.ss-sep{background:#fff;}
+
+
+/* Special Stat */
+.ss-stat .stat > .icon{background:#fff; color:#000;}
+
+
+/* Special Tag */
+.ss-tag .tag{color:#fff; border-color:#fff;}
+.ss-card:hover .ss-tag .tag{color:#000; border-color:#000;}
+
+
+/* Table */
+table.table{color:#fff;}
+
+
+/* Tab Container 01 */
+.tab-container-01 .tab.tab-header{color:#000; background:#fff;}
+.tab-container-01 .tab::after{background:#fff;}
+
+
+/* Call to Action 01 */
+.call-01{background:#000; border-top:1px solid #fff;}
+.call-01 .contents{color:#fff;}
+
+
+/* Client 01 */
+.client-01{background:#000!important; border-top:1px solid #fff;}
+.client-01 .slide:first-child::before, .client-01 .slide::after{background:#fff;}
+.client-01 p{color:#fff;}
+
+
+/* Content 01 */
+.content-01 .btn-ad{background:#000;}
