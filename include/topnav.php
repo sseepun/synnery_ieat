@@ -189,7 +189,6 @@
 </div>
 <div class="topnav-dropdown-filter"></div>
 
-
 <!-- Sidenav -->
 <nav class="sidenav">
     <div class="wrapper">
@@ -227,7 +226,6 @@
 </nav>
 <div class="sidenav-filter"></div>
 
-
 <!-- Global Search Container -->
 <div class="global-search-container use-gsap">
     <div class="wrapper">
@@ -247,6 +245,99 @@
                         </button>
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Quick Tab -->
+<div class="quick-tab">
+    <div class="wrapper">
+        <div class="tabs">
+            <a class="tab btn-hover" href="#" data-tab="0">
+                <img src="public/assets/app/images/icon/access.png" alt="Icon" />
+            </a>
+            <a class="tab btn-hover" href="#" data-tab="1">
+                <img src="public/assets/app/images/icon/quicklink.png" alt="Icon" />
+            </a>
+        </div>
+        <div class="tab-bar" data-tab="0">
+            <div class="wrapper">
+                <div class="panel">
+                    <div class="wrapper">
+                        <div class="top-panel">
+                            ขนาดตัวอักษร 
+                            <a class="btn-font-size btn-hover" href="#" data-size="-1">
+                                <img src="public/assets/app/images/icon/font-0.png" alt="Icon" />
+                            </a>
+                            <a class="btn-font-size btn-hover" href="#" data-size="0">
+                                <img src="public/assets/app/images/icon/font-1.png" alt="Icon" />
+                            </a>
+                            <a class="btn-font-size btn-hover" href="#" data-size="1">
+                                <img src="public/assets/app/images/icon/font-2.png" alt="Icon" />
+                            </a>
+                        </div>
+                        <div class="bottom-panel">
+                            ความตัดกันของสี
+                            <a class="btn-theme btn-hover" href="#" data-theme="0">
+                                <img src="public/assets/app/images/icon/theme-0.png" alt="Icon" />
+                            </a>
+                            <a class="btn-theme btn-hover" href="#" data-theme="1">
+                                <img src="public/assets/app/images/icon/theme-1.png" alt="Icon" />
+                            </a>
+                            <a class="btn-theme btn-hover" href="#" data-theme="2">
+                                <img src="public/assets/app/images/icon/theme-2.png" alt="Icon" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="icon">
+                        <img src="public/assets/app/images/icon/access-2.png" alt="Icon" />
+                    </div>
+                    <a class="btn-close btn-hover" href="#">
+                        <img src="public/assets/app/images/icon/close.png" alt="Icon" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="tab-bar" data-tab="1" style="padding-top:.5rem;">
+            <div class="wrapper">
+                <div class="bubbles">
+                    <a class="bubble btn-hover pos pos-0" href="#">
+                        <img src="public/assets/app/images/icon/quicklink-ieat.png" alt="Bubble" />
+                    </a>
+                    <a class="bubble btn-hover pos pos-1" href="#">
+                        <img src="public/assets/app/images/icon/quicklink-tsc.png" alt="Bubble" />
+                    </a>
+                    <a class="bubble btn-hover pos pos-2" href="#">
+                        <img src="public/assets/app/images/icon/quicklink-ieat.png" alt="Bubble" />
+                    </a>
+                    <a class="bubble btn-hover pos pos-3" href="#">
+                        <img src="public/assets/app/images/icon/quicklink-tsc.png" alt="Bubble" />
+                    </a>
+                    <a class="bubble btn-hover pos pos-4" href="#">
+                        <img src="public/assets/app/images/icon/quicklink-ieat.png" alt="Bubble" />
+                    </a>
+                    <a class="bubble btn-hover pos pos-5" href="#">
+                        <img src="public/assets/app/images/icon/quicklink-tsc.png" alt="Bubble" />
+                    </a>
+                    <a class="bubble btn-hover pos pos-6" href="#">
+                        <img src="public/assets/app/images/icon/quicklink-eco.png" alt="Bubble" />
+                    </a>
+                    <a class="bubble btn-hover" href="#">
+                        <img src="public/assets/app/images/icon/quicklink-eco.png" alt="Bubble" />
+                    </a>
+                </div>
+                <div class="bar">
+                    <div class="icon">
+                        <img src="public/assets/app/images/icon/quicklink-2.png" alt="Icon" />
+                    </div>
+                    <a class="btn-close btn-hover" href="#">
+                        <img src="public/assets/app/images/icon/close.png" alt="Icon" />
+                    </a>
+                </div>
             </div>
         </div>
     </div>

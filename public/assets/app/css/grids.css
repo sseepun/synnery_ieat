@@ -600,6 +600,7 @@
 @media screen and (max-width:575.98px){
     /* xs */
     .grids > .grid{width:100%!important;}
+    .grids > .grid.xs-50{width:50%!important;}
     .grids > .grid.xs-mt-0{margin-top:0;}
     .grids > .grid.xs-0{display:none;}
     
