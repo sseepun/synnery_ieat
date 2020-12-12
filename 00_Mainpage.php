@@ -181,7 +181,7 @@
                 </div>
             </div>
             
-            <div class="btns text-center">
+            <div class="btns text-center" data-aos="fade-up" data-aos-delay="0">
                 <a class="btn btn-action" href="#">
                     <span>ดูทั้งหมด</span>
                 </a>

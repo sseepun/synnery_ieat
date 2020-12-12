@@ -290,6 +290,9 @@ nav.footer .count-container > .count{
     padding:.3125rem .375rem .3125rem .625rem; font-size:1.4375rem; letter-spacing:.3125rem;
     font-weight:500;
 }
+nav.footer .btn-social{display:inline-block; width:2.3125rem; transition:opacity .25s;}
+nav.footer .btn-social:hover{opacity:.75;}
+nav.footer .btn-social > img{display:block; width:100%; height:auto;}
 
 nav.footer .inner-container{
     width:100%; display:flex; align-items:center; justify-content:space-between;

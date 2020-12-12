@@ -12,6 +12,7 @@ html, body{color:#000;}
 .color-03, .h-color-03:hover{color:#6cdded!important;}
 .color-04, .h-color-04:hover{color:#169f96!important;}
 .color-05, .h-color-05:hover{color:#75ced2!important;}
+.color-06, .h-color-06:hover{color:#5d4189!important;}
 
 .bg-white{background:#fff!important;}
 .bg-black{background:#000!important;}
@@ -21,6 +22,7 @@ html, body{color:#000;}
 .bg-03{background:#6cdded!important;}
 .bg-04{background:#169f96!important;}
 .bg-05{background:#75ced2!important;}
+.bg-06{background:#5d4189!important;}
 
 
 /* Input */
@@ -86,6 +88,15 @@ nav.footer .tag{
     background:#3d3d3d; color:#fff;
 }
 .btn-action::before{background:#6cdded;}
+
+
+/* Content Footer */
+.content-footer .content-row{border-color:#e0e0e0!important;}
+.content-footer .btn-social{background:#2d2d2d;}
+.content-footer .btn-social:hover{background:#000;}
+.content-footer .btn-social.tw{color:#39cbed;}
+.content-footer .btn-social.fb{color:#5182f2;}
+.content-footer .btn-social.yt{color:#ff0000;}
 
 
 /* Grid Header */
@@ -161,10 +172,19 @@ ul.ss-list.dot-dark > li::before{background:#282828;}
 /* Special Tag */
 .ss-tag .tag{color:#4e4e50; border-color:#cfcfcf;}
 .ss-card:hover .ss-tag .tag{color:#fff; border-color:#fff;}
+.ss-tag .tag:hover{
+    border-color:#169f96!important; background:#169f96!important; color:#fff!important;
+}
 
 
 /* Table */
 table.table{color:#000;}
+table.table-download .btn-download{color:#000;}
+table.table-download .btn-download:hover{color:#169f96;}
+table.table-download .btn-download > i{border-color:#000;}
+table.table-download .btn-download:hover > i{
+    border-color:#169f96; background:#169f96; color:#fff;
+}
 
 
 /* Breadcrumb 01 */

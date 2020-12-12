@@ -351,12 +351,14 @@ $(function(){ 'use strict';
                 tabs = self.find('.tabs .tab'),
                 tabContents = self.find('.tab-contents .tab-content');
             tabs.click(function(e){
-                e.preventDefault();
-                tabs.removeClass('active');
-                $(this).addClass('active');
-                tabContents.removeClass('active');
-                tabContents.filter('[data-tab="'+$(this).data('tab')+'"]').addClass('active');
-                AOS.refresh();
+                if($(this).data('tab')!==undefined){
+                    e.preventDefault();
+                    tabs.removeClass('active');
+                    $(this).addClass('active');
+                    tabContents.removeClass('active');
+                    tabContents.filter('[data-tab="'+$(this).data('tab')+'"]').addClass('active');
+                    AOS.refresh();
+                }
             });
         });
     }

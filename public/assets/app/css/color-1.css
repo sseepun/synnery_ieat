@@ -13,14 +13,16 @@ html, body{background:#000; color:#fff;}
 .color-02, .h-color-02:hover,
 .color-03, .h-color-03:hover,
 .color-04, .h-color-04:hover,
-.color-05, .h-color-05:hover{color:#fff!important;}
+.color-05, .h-color-05:hover,
+.color-06, .h-color-06:hover{color:#fff!important;}
 
 .bg-white, .bg-black, .bg-gray,
 .bg-01,
 .bg-02,
 .bg-03,
 .bg-04,
-.bg-05{background:#000!important;}
+.bg-05,
+.bg-06{background:#000!important;}
 
 
 /* Input */
@@ -71,6 +73,11 @@ nav.footer .tag{background:#fff; color:#000;}
     background:#000; color:#fff; border:1px solid #fff;
 }
 .btn-action::before{background:#fff;}
+
+
+/* Content Footer */
+.content-footer .content-row{border-color:#fff!important;}
+.content-footer .btn-social{background:#fff; color:#000;}
 
 
 /* Grid Header */
@@ -143,10 +150,16 @@ ul.ss-list > li::before{background:#fff;}
 /* Special Tag */
 .ss-tag .tag{color:#fff; border-color:#fff;}
 .ss-card:hover .ss-tag .tag{color:#000; border-color:#000;}
+.ss-tag .tag:hover{
+    border-color:#fff!important; background:#fff!important; color:#000!important;
+}
 
 
 /* Table */
 table.table{color:#fff;}
+table.table-download .btn-download{color:#fff;}
+table.table-download .btn-download > i{border-color:#fff;}
+table.table-download .btn-download:hover > i{background:#fff; color:#000;}
 
 
 /* Breadcrumb 01 */
