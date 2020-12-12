@@ -100,6 +100,10 @@ nav.footer .tag{background:#ffff00; color:#000;}
 }
 
 
+/* Special Box */
+.ss-box{background:#000; border:1px solid #ffff00;}
+
+
 /* Popup Container */
 .popup-container .box-header{background:#000; border:1px solid #ffff00;}
 .popup-container .box-body{

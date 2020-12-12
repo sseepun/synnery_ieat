@@ -341,6 +341,22 @@ img.content-img-float{
 .slide-container .arrows button.slick-next::before{content:'\f2fb';}
 
 
+/* Special Box */
+.ss-box{position:relative; width:100%; padding:3rem;}
+@media screen and (max-width:1199.98px){
+    .ss-box{padding:2.75rem;}
+}
+@media screen and (max-width:991.98px){
+    .ss-box{padding:2.5rem;}
+}
+@media screen and (max-width:767.98px){
+    .ss-box{padding:2rem;}
+}
+@media screen and (max-width:575.98px){
+    .ss-box{padding:1.5rem;}
+}
+
+
 /* Special Box Shadow */
 .ss-box-shadow{
     position:absolute; top:0; bottom:0; left:-1rem; right:-1rem; pointer-events:none;
@@ -452,6 +468,9 @@ ul.ss-list > li{
 }
 ul.ss-list.fw-200 > li{font-weight:200;}
 ul.ss-list.fw-300 > li{font-weight:300;}
+ul.ss-list.fw-400 > li{font-weight:400;}
+ul.ss-list.fw-500 > li{font-weight:500;}
+ul.ss-list.fw-600 > li{font-weight:600;}
 ul.ss-list > li:first-child{padding-top:0;}
 ul.ss-list > li:last-child{padding-bottom:0;}
 ul.ss-list > li::before{
@@ -461,6 +480,9 @@ ul.ss-list > li:first-child::before{top:.5rem;}
 ul.ss-list .btn-icon{position:absolute; margin-left:.75rem; transition:opacity .25s;}
 ul.ss-list .btn-icon:hover{opacity:.8;}
 ul.ss-list.ss-list-toggle ul.ss-list{display:none;}
+ul.ss-list.gap-sm{margin:.5rem 0;}
+ul.ss-list.gap-sm > li{padding-top:.125rem; padding-bottom:.125rem;}
+ul.ss-list.gap-sm > li::before{top:.6875rem;}
 
 
 /* Special Separation */

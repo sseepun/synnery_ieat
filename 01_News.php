@@ -16,7 +16,7 @@
     ?>
 
     <section class="section-bpadding section-bg-hero">
-        <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/03.png"></div>
+        <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/03.jpg"></div>
         <div class="container">
             <h2 class="color-white" data-aos="fade-up" data-aos-delay="0">
                 ข่าวประชาสัมพันธ์
