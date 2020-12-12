@@ -34,9 +34,9 @@
 
     <section class="section-padding">
         <div class="container">
-            <h2 class="text-center" data-aos="fade-up" data-aos-delay="0">
+            <h1 class="text-center" data-aos="fade-up" data-aos-delay="0">
                 กนอ.อัพเดท
-            </h2>
+            </h1>
             <h5 class="text-center fw-200 color-gray sm-no-br" data-aos="fade-up" data-aos-delay="150">
                 เพิ่มขีดคสามสามารถของคุรและธุรกิจด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดท ต่างๆ <br> 
                 เกี่ยวกับ กนอ. และนิคมอุตสาหกรรมในประเทศไทย <span class="color-04 fw-600">ได้ที่นี่</span>
@@ -223,9 +223,9 @@
     <section class="content-01 section-padding">
         <div class="img-bg lazy-bg" data-src="public/assets/app/images/banner/02.jpg"></div>
         <div class="container">
-            <h2 class="text-center color-white" data-aos="fade-up" data-aos-delay="0">
+            <h1 class="text-center color-white" data-aos="fade-up" data-aos-delay="0">
                 ทำเลทอง
-            </h2>
+            </h1>
             <h5 class="text-center color-white fw-200" data-aos="fade-up" data-aos-delay="150">
                 ตอบโจทย์ที่ใช่... ตอบสนองทุกความต้องการทางด้านธุรกิจของคุณ
             </p>
