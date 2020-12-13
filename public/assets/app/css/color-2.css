@@ -161,6 +161,10 @@ table.table-download .btn-download > i{border-color:#ffff00;}
 table.table-download .btn-download:hover > i{background:#ffff00; color:#000;}
 
 
+/* About 01 */
+.about-01 .tab-icon{color:#ffff00;}
+
+
 /* Breadcrumb 01 */
 .breadcrumb-01 a.icon{background:#ffff00; color:#000;}
 .breadcrumb-01 a.text{color:#ffff00;}

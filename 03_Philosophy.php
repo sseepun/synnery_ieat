@@ -20,7 +20,7 @@
         <div class="section-bpadding">
             <div class="container">
                 <div class="grids ai-end">
-                    <div class="grid lg-60 mt-0">
+                    <div class="grid xl-60 sm-100 mt-0">
                         <h2 data-aos="fade-up" data-aos-delay="0">
                             ปรัชญา กนอ.
                         </h2>
@@ -32,7 +32,7 @@
                             ให้เกิดความมั่นคงและเป็นศูนย์กลางที่สำคัญของเอเชีย
                         </h5>
                     </div>
-                    <div class="grid lg-40 mt-0">
+                    <div class="grid xl-40 sm-100 mt-0">
                         <div class="tab-icons" data-aos="fade-up" data-aos-delay="450">
                             <?php
                                 foreach([
