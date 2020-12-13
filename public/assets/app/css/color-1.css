@@ -99,10 +99,6 @@ nav.footer .tag{background:#fff; color:#000;}
 }
 
 
-/* Special Box */
-.ss-box{background:#000; border:1px solid #fff;}
-
-
 /* Popup Container */
 .popup-container .box-header{background:#000; border:1px solid #fff;}
 .popup-container .box-body{
@@ -118,11 +114,24 @@ nav.footer .tag{background:#fff; color:#000;}
 .slide-container .arrows button{color:#fff;}
 
 
+/* Special Box */
+.ss-box{background:#000; border:1px solid #fff;}
+
+
 /* Special Card */
 .ss-card .text-container{color:#fff; background:#000; border:1px solid #fff;}
 .ss-card:hover .text-container{color:#000; background:#fff;}
 .ss-card a.title{color:#fff;}
 .ss-card:hover a.title{color:#000;}
+
+/* Special Card 05 */
+.ss-card-05 .text-container{background:#000; border-color:#fff;}
+.ss-card-05:hover .text-container h3{color:#000!important;}
+.ss-card-05 .stat-container{background:#000; border-color:#fff;}
+.ss-card-05 .stat-container .btns{border-color:#fff;}
+.ss-card-05 .stat-container .btn{background:#000; color:#fff;}
+.ss-card-05 .stat-container .btn:first-child{border-color:#fff;}
+.ss-card-05 .stat-container .btn i{background:#fff; color:#000;}
 
 
 /* Special Image */

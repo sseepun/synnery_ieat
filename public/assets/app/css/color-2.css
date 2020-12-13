@@ -100,10 +100,6 @@ nav.footer .tag{background:#ffff00; color:#000;}
 }
 
 
-/* Special Box */
-.ss-box{background:#000; border:1px solid #ffff00;}
-
-
 /* Popup Container */
 .popup-container .box-header{background:#000; border:1px solid #ffff00;}
 .popup-container .box-body{
@@ -119,11 +115,24 @@ nav.footer .tag{background:#ffff00; color:#000;}
 .slide-container .arrows button{color:#ffff00;}
 
 
+/* Special Box */
+.ss-box{background:#000; border:1px solid #ffff00;}
+
+
 /* Special Card */
 .ss-card .text-container{color:#ffff00; background:#000; border:1px solid #ffff00;}
 .ss-card:hover .text-container{color:#000; background:#ffff00;}
 .ss-card a.title{color:#ffff00;}
 .ss-card:hover a.title{color:#000;}
+
+/* Special Card 05 */
+.ss-card-05 .text-container{background:#000; border-color:#ffff00;}
+.ss-card-05:hover .text-container h3{color:#000!important;}
+.ss-card-05 .stat-container{background:#000; border-color:#ffff00;}
+.ss-card-05 .stat-container .btns{border-color:#ffff00;}
+.ss-card-05 .stat-container .btn{background:#000; color:#ffff00;}
+.ss-card-05 .stat-container .btn:first-child{border-color:#ffff00;}
+.ss-card-05 .stat-container .btn i{background:#ffff00; color:#000;}
 
 
 /* Special Image */

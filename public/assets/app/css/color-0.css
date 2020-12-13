@@ -119,10 +119,6 @@ nav.footer .tag{
 }
 
 
-/* Special Box */
-.ss-box{background:#fff; box-shadow:0 0 10px 2px rgba(0,0,0,.15);}
-
-
 /* Popup Container */
 .popup-container .box-header{background:#f6f6f6;}
 .popup-container .box-body{background:#fff;}
@@ -131,11 +127,24 @@ nav.footer .tag{
 .popup-container .box-btn:hover{background:#000;}
 
 
+/* Special Box */
+.ss-box{background:#fff; box-shadow:0 0 10px 2px rgba(0,0,0,.15);}
+
+
 /* Special Card */
 .ss-card .text-container{color:#000; background:#fff;}
 .ss-card:hover .text-container{color:#fff; background:#333333;}
 .ss-card a.title{color:#000;}
 .ss-card:hover a.title{color:#fff;}
+
+/* Special Card 05 */
+.ss-card-05 .text-container{background:#ebebeb;}
+.ss-card-05:hover .text-container{
+    background-image:linear-gradient(to right, #9f77cd, #8564aa, #77569d);
+}
+.ss-card-05 .stat-container{background:#8e8e8e;}
+.ss-card-05 .stat-container .btn{background:#a5a5a5; color:#fff;}
+.ss-card-05 .stat-container .btn i{background:#000;}
 
 
 /* Special Image */
