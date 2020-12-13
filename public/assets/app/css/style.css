@@ -397,6 +397,7 @@ img.content-img-float{
     position:relative; width:calc(100% - 1.375rem); margin:-1.125rem .6875rem 0 .6875rem;
     padding:.75rem 1rem 1rem 1rem; transition:color .25s, background .25s;
 }
+.ss-card-01.text-only .text-container{margin-top:0;}
 .ss-card-01 .text-wrapper{position:relative;}
 
 /* Special Card 02 */
@@ -485,6 +486,12 @@ img.content-img-float{
     .ss-card-05 .stat-container{width:100%; border-top:0; border-left:1px solid transparent;}
     .ss-card-05 .stat-container .btns{position:relative; bottom:auto; left:auto;}
 }
+
+/* Special Card 06 */
+.ss-card-06{width:100%; display:flex;}
+.ss-card-06 .card-tag{width:1.75rem; margin:.25rem .625rem 0 0;}
+.ss-card-06 .card-tag > img{display:block; width:100%; height:auto;}
+.ss-card-06 .text-container{width:calc(100% - 2.375rem);}
 
 
 /* Special Image */

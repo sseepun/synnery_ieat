@@ -146,6 +146,10 @@ nav.footer .tag{
 .ss-card-05 .stat-container .btn{background:#a5a5a5; color:#fff;}
 .ss-card-05 .stat-container .btn i{background:#000;}
 
+/* Special Card 06 */
+.ss-card-06:hover .text-container{color:#000; background:#fff;}
+.ss-card-06:hover a.title{color:#000;}
+
 
 /* Special Image */
 .ss-img > .date{background:#169f96; color:#fff;}
