@@ -425,9 +425,9 @@ img.content-img-float{
 }
 
 /* Special Card 04 */
-.ss-card-04{position:relative; padding:0 calc(100% - 20rem) 0 0;}
+.ss-card-04{position:relative; padding:0 calc(100% - 21rem) 0 0;}
 .ss-card-04 .text-container{
-    position:absolute; top:1rem; bottom:1rem; right:0; width:calc(100% - 17rem);
+    position:absolute; top:1rem; bottom:1rem; right:0; width:calc(100% - 18rem);
     transition:color .25s, background .25s;
 }
 .ss-card-04 .text-container > .wrapper{

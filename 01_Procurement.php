@@ -24,7 +24,7 @@
             <h3 class="fw-400" data-aos="fade-up" data-aos-delay="150">
                 <span class="text-sm">เพิ่มขีดความสามารถของคุณและธุรกิจ</span>
             </h3>
-            <h5 data-aos="fade-up" data-aos-delay="300">
+            <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 ด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆ <br>
                 เกี่ยวกับ กนอ.และนิคมอุตสาหกรรมในประเทศไทย
             </h5>
