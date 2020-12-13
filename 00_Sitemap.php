@@ -21,8 +21,8 @@
             <h2 class="color-05" data-aos="fade-up" data-aos-delay="0">
                 แผนผังเว็บไซต์
             </h2>
-            <h3 class="color-white fw-400" data-aos="fade-up" data-aos-delay="150">
-                <span class="text-sm">ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพ</span>
+            <h3 class="sm color-white fw-400" data-aos="fade-up" data-aos-delay="150">
+                ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพ
             </h3>
             <h5 class="color-white sm-no-br" data-aos="fade-up" data-aos-delay="300">
                 เพื่อการเติบโตทางธุรกิจสังคมและสิ่งแวดล้อมอย่างยั่งยืน รางวัลแห่งความสำเร็จต่างๆ <br>

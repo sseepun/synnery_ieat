@@ -21,8 +21,8 @@
             <h2 class="color-02" data-aos="fade-up" data-aos-delay="0">
                 ประกาศจัดซื้อจัดจ้าง
             </h2>
-            <h3 class="fw-400" data-aos="fade-up" data-aos-delay="150">
-                <span class="text-sm">เพิ่มขีดความสามารถของคุณและธุรกิจ</span>
+            <h3 class="sm fw-400" data-aos="fade-up" data-aos-delay="150">
+                เพิ่มขีดความสามารถของคุณและธุรกิจ
             </h3>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 ด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆ <br>
