@@ -348,16 +348,27 @@ $(function(){ 'use strict';
     if(tabContainers.length){
         tabContainers.each(function(){
             var self = $(this),
-                tabs = self.find('.tabs .tab'),
+                tabs = self.find('.tabs .tab.tab-main'),
+                tabChildren = self.find('.tabs .tab-children'),
                 tabContents = self.find('.tab-contents .tab-content');
             tabs.click(function(e){
-                if($(this).data('tab')!==undefined){
-                    e.preventDefault();
-                    tabs.removeClass('active');
-                    $(this).addClass('active');
-                    tabContents.removeClass('active');
-                    tabContents.filter('[data-tab="'+$(this).data('tab')+'"]').addClass('active');
-                    AOS.refresh();
+                var self = $(this),
+                    tabId = self.data('tab');
+                if(tabId!==undefined){
+                    var target = tabContents.filter('[data-tab="'+tabId+'"]');
+                    if(target.length){
+                        e.preventDefault();
+                        tabChildren.stop().slideUp();
+                        var children = self.next();
+                        if(children.hasClass('tab-children')){
+                            children.stop().slideDown();
+                        }
+                        tabs.removeClass('active');
+                        self.addClass('active');
+                        tabContents.removeClass('active');
+                        target.addClass('active');
+                        AOS.refresh();
+                    }
                 }
             });
         });

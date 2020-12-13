@@ -45,29 +45,11 @@
             <div class="tab-container tab-container-01">
                 <div class="grids">
                     <div class="grid xl-20 lg-25 md-30 sm-100" data-aos="fade-up" data-aos-delay="300">
-                        <div class="tabs">
-                            <div class="ss-box-shadow"></div>
-                            <div class="tab tab-header">
-                                <h6><span class="text-lg">ข่าวประชาสัมพันธ์</span></h6>
-                            </div>
-                            <?php
-                                foreach([
-                                    'ข่าวสารการลงทุน', 'สื่อมัลติมีเดีย', 'เอกสารเผยแพร่',
-                                    'ปฏิทินกิจกรรม', 'สถานการณ์ปัจจุบัน'
-                                ] as $i=>$d){
-                            ?>
-                                <a class="tab color-black h-color-04 <?php if($i==0)echo 'active'; ?>" data-tab="<?= $i ?>">
-                                    <div class="icon">
-                                        <img src="public/assets/app/images/icon/0<?= $i+1 ?>.png" alt="Icon">
-                                    </div>
-                                    <h6><?= $d ?></h6>
-                                </a>
-                            <?php }?>
-                        </div>
+                        <?php include('component/category-tab.php'); ?>
                     </div>
                     <div class="grid xl-80 lg-75 md-70 sm-100 mt-0" data-aos="fade-up" data-aos-delay="450">
                         <div class="tab-contents">
-                            <?php for($i=0; $i<5; $i++){?>
+                            <?php for($i=0; $i<6; $i++){?>
                                 <div class="tab-content <?php if($i==0)echo 'active'; ?>" data-tab="<?= $i ?>">
                                     <div class="grids">
                                         <div class="grid xl-40 sm-100">

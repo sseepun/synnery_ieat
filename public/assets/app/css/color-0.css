@@ -131,17 +131,11 @@ nav.footer .tag{
 .popup-container .box-btn:hover{background:#000;}
 
 
-/* Special Card 01 */
-.ss-card-01 .text-container{color:#000; background:#fff;}
-.ss-card-01:hover .text-container{color:#fff; background:#333333;}
-.ss-card-01 a.title{color:#000;}
-.ss-card-01:hover a.title{color:#fff;}
-
-/* Special Card 03 */
-.ss-card-03 .text-container{color:#000; background:#fff;}
-.ss-card-03:hover .text-container{color:#fff; background:#333333;}
-.ss-card-03 a.title{color:#000;}
-.ss-card-03:hover a.title{color:#fff;}
+/* Special Card */
+.ss-card .text-container{color:#000; background:#fff;}
+.ss-card:hover .text-container{color:#fff; background:#333333;}
+.ss-card a.title{color:#000;}
+.ss-card:hover a.title{color:#fff;}
 
 
 /* Special Image */
@@ -213,12 +207,12 @@ table.table-download .btn-download:hover > i{
 
 /* Tab Container 01 */
 .tab-container-01 .tabs{background:#fff;}
-.tab-container-01 .tab.tab-header{
-    color:#fff; background-image:linear-gradient(to right, #169f96, #1a9693, #2c6d88);
+.tab-container-01 .tab::before{
+    background-image:linear-gradient(to right, #169f96, #1a9693, #2c6d88);
 }
-.tab-container-01 .tab.active{color:#169f96!important;}
 .tab-container-01 .tab::after{
     background-image:linear-gradient(to right, #e7e7e7, #e7e7e7, rgba(255,255,255,0));
 }
+.tab-container-01 .tab.tab-main.active{color:#fff!important;}
 .tab-container-01 .tab.tab-list::before{background:#000;}
 .tab-container-01 .tab.tab-list.active::before{background:#75ced2;}

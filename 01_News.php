@@ -37,49 +37,79 @@
                 <div class="grids">
 
                     <div class="grid xl-20 lg-25 sm-100" data-aos="fade-up" data-aos-delay="600">
-                        <div class="tabs">
-                            <div class="ss-box-shadow"></div>
-                            <div class="tab tab-header">
-                                <h6><span class="text-lg">ข่าวประชาสัมพันธ์</span></h6>
-                            </div>
-                            <a class="tab tab-list color-black h-color-04 active" href="#">
-                                <p>ประกาศจาก กนอ.</p>
-                            </a>
-                            <a class="tab tab-list color-black h-color-04" href="#">
-                                <p>ข่าวสารจาก กนอ.</p>
-                            </a>
-                            <a class="tab tab-list color-black h-color-04" href="#">
-                                <p>ข่าวสารจากหน่วยงานที่เกี่ยวข้อง</p>
-                            </a>
-                            <a class="tab color-black h-color-04" href="#">
-                                <div class="icon">
-                                    <img src="public/assets/app/images/icon/01.png" alt="Icon">
-                                </div>
-                                <h6 class="fw-500">ข่าวสารการลงทุน</h6>
-                            </a>
-                            <a class="tab color-black h-color-04" href="#">
-                                <div class="icon">
-                                    <img src="public/assets/app/images/icon/08.png" alt="Icon">
-                                </div>
-                                <h6 class="fw-500">ประกาศจัดซื้อจัดจ้าง</h6>
-                            </a>
-                            <a class="tab color-black h-color-04" href="#">
-                                <div class="icon">
-                                    <img src="public/assets/app/images/icon/09.png" alt="Icon">
-                                </div>
-                                <h6 class="fw-500">ร่วมงานกับเรา</h6>
-                            </a>
-                        </div>
+                        <?php
+                            $cateActive = 0;
+                            $cateChildren = true;
+                            include('component/category-tab.php');
+                        ?>
                     </div>
 
                     <div class="grid xl-80 lg-75 sm-100 mt-0" data-aos="fade-up" data-aos-delay="750">
-                        <div class="tab-contents">
-                            <?php for($i=0; $i<6; $i++){?>
-                                <div class="tab-content <?php if($i==0)echo 'active'; ?>" data-tab="<?= $i ?>">
-                                    <div class="grids">
-                                        <div class="grid sm-100">
+                        <div class="grids">
+                            <div class="grid sm-100">
 
-                                            <div class="ss-card ss-card-03">
+                                <div class="ss-card ss-card-03">
+                                    <a class="ss-img" href="#">
+                                        <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
+                                        <div class="hover-container">
+                                            <div class="icon">
+                                                <img src="public/assets/app/images/icon/06.png" alt="Icon" />
+                                            </div>
+                                        </div>
+                                        <div class="date bg-05">
+                                            <div class="d">04</div>
+                                            <div class="m-y">09.2563</div>
+                                        </div>
+                                        <div class="tag-star">
+                                            <img src="public/assets/app/images/icon/star.png" alt="Icon" />
+                                        </div>
+                                    </a>
+                                    <div class="text-container">
+                                        <div class="wrapper">
+                                            <div class="ss-box-shadow fade-right"></div>
+                                            <div class="text-wrapper">
+                                                <a class="title h4" href="#">
+                                                    กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบ
+                                                    สายสื่อสารลงดิน วางระบบ 5G
+                                                </a>
+                                                <p class="desc mt-1">
+                                                    บอร์ดกนอ.ไฟเขียวลงทุนนำสายสื่อสารในนิคมอุตสาหกรรมลงใต้ดิน 
+                                                    รองรับ Smart City เตรียมวางระบบ 5 G ครอบคลุมพื้นที่นิคมอุตสาห
+                                                    กรรรม 14 แห่ง และท่าเรืออุตสาหกรรม 1 แห่ง คาดเริ่มได้ปี’67  
+                                                </p>
+                                                <div class="ss-stat">
+                                                    <div class="stat">
+                                                        <div class="icon">
+                                                            <img src="public/assets/app/images/icon/07.png" alt="Icon" />
+                                                        </div> 112
+                                                    </div>
+                                                    <div class="stat">
+                                                        <div class="icon">
+                                                            <i class="zmdi zmdi-share"></i>
+                                                        </div> 20
+                                                    </div>
+                                                </div>
+                                                <div class="ss-tag">
+                                                    <div class="text">TAG :</div> 
+                                                    <div class="tags">
+                                                        <a class="tag" href="#">นิคมอุตสาหกรรม</a>
+                                                        <a class="tag" href="#">กนอ.</a>
+                                                        <a class="tag" href="#">5G</a>
+                                                        <a class="tag" href="#">สายสื่อสาร</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="grid sm-100 mt-0">
+                                <div class="grids">
+
+                                    <?php for($j=0; $j<9; $j++){?>
+                                        <div class="grid md-1-3 sm-50">
+                                            <div class="ss-card ss-card-01">
                                                 <a class="ss-img" href="#">
                                                     <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
                                                     <div class="hover-container">
@@ -87,109 +117,44 @@
                                                             <img src="public/assets/app/images/icon/06.png" alt="Icon" />
                                                         </div>
                                                     </div>
-                                                    <div class="date bg-05">
-                                                        <div class="d">0<?= $i+1 ?></div>
+                                                    <div class="date">
+                                                        <div class="d">04</div>
                                                         <div class="m-y">09.2563</div>
-                                                    </div>
-                                                    <div class="tag-star">
-                                                        <img src="public/assets/app/images/icon/star.png" alt="Icon" />
                                                     </div>
                                                 </a>
                                                 <div class="text-container">
-                                                    <div class="wrapper">
-                                                        <div class="ss-box-shadow fade-right"></div>
-                                                        <div class="text-wrapper">
-                                                            <a class="title h4" href="#">
-                                                                กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบ
-                                                                สายสื่อสารลงดิน วางระบบ 5G
-                                                            </a>
-                                                            <p class="desc mt-1">
-                                                                บอร์ดกนอ.ไฟเขียวลงทุนนำสายสื่อสารในนิคมอุตสาหกรรมลงใต้ดิน 
-                                                                รองรับ Smart City เตรียมวางระบบ 5 G ครอบคลุมพื้นที่นิคมอุตสาห
-                                                                กรรรม 14 แห่ง และท่าเรืออุตสาหกรรม 1 แห่ง คาดเริ่มได้ปี’67  
-                                                            </p>
-                                                            <div class="ss-stat">
-                                                                <div class="stat">
-                                                                    <div class="icon">
-                                                                        <img src="public/assets/app/images/icon/07.png" alt="Icon" />
-                                                                    </div> 112
-                                                                </div>
-                                                                <div class="stat">
-                                                                    <div class="icon">
-                                                                        <i class="zmdi zmdi-share"></i>
-                                                                    </div> 20
-                                                                </div>
+                                                    <div class="ss-box-shadow"></div>
+                                                    <div class="text-wrapper">
+                                                        <a class="title h6 fw-600" href="#">
+                                                            กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบ
+                                                            สายสื่อสารลงดิน วางระบบ 5G
+                                                        </a>
+                                                        <p class="desc mt-1">
+                                                            บอร์ดกนอ.ไฟเขียวลงทุนนำสายสื่อสารในนิคมอุตสาหกรรมลงใต้ดิน 
+                                                            รองรับ Smart City เตรียมวางระบบ 5 G ครอบคลุมพื้นที่นิคมอุตสาห
+                                                            กรรรม 14 แห่ง และท่าเรืออุตสาหกรรม 1 แห่ง คาดเริ่มได้ปี’67  
+                                                        </p>
+                                                        <div class="ss-stat">
+                                                            <div class="stat">
+                                                                <div class="icon">
+                                                                    <img src="public/assets/app/images/icon/07.png" alt="Icon" />
+                                                                </div> 112
                                                             </div>
-                                                            <div class="ss-tag">
-                                                                <div class="text">TAG :</div> 
-                                                                <div class="tags">
-                                                                    <a class="tag" href="#">นิคมอุตสาหกรรม</a>
-                                                                    <a class="tag" href="#">กนอ.</a>
-                                                                    <a class="tag" href="#">5G</a>
-                                                                    <a class="tag" href="#">สายสื่อสาร</a>
-                                                                </div>
+                                                            <div class="stat">
+                                                                <div class="icon">
+                                                                    <i class="zmdi zmdi-share"></i>
+                                                                </div> 20
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-
                                         </div>
-                                        <div class="grid sm-100 mt-0">
-                                            <div class="grids">
+                                    <?php }?> 
 
-                                                <?php for($j=0; $j<9; $j++){?>
-                                                    <div class="grid md-1-3 sm-50">
-                                                        <div class="ss-card ss-card-01">
-                                                            <a class="ss-img" href="#">
-                                                                <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
-                                                                <div class="hover-container">
-                                                                    <div class="icon">
-                                                                        <img src="public/assets/app/images/icon/06.png" alt="Icon" />
-                                                                    </div>
-                                                                </div>
-                                                                <div class="date">
-                                                                    <div class="d">04</div>
-                                                                    <div class="m-y">09.2563</div>
-                                                                </div>
-                                                            </a>
-                                                            <div class="text-container">
-                                                                <div class="ss-box-shadow"></div>
-                                                                <div class="text-wrapper">
-                                                                    <a class="title h6 fw-600" href="#">
-                                                                        กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบ
-                                                                        สายสื่อสารลงดิน วางระบบ 5G
-                                                                    </a>
-                                                                    <p class="desc mt-1">
-                                                                        บอร์ดกนอ.ไฟเขียวลงทุนนำสายสื่อสารในนิคมอุตสาหกรรมลงใต้ดิน 
-                                                                        รองรับ Smart City เตรียมวางระบบ 5 G ครอบคลุมพื้นที่นิคมอุตสาห
-                                                                        กรรรม 14 แห่ง และท่าเรืออุตสาหกรรม 1 แห่ง คาดเริ่มได้ปี’67  
-                                                                    </p>
-                                                                    <div class="ss-stat">
-                                                                        <div class="stat">
-                                                                            <div class="icon">
-                                                                                <img src="public/assets/app/images/icon/07.png" alt="Icon" />
-                                                                            </div> 112
-                                                                        </div>
-                                                                        <div class="stat">
-                                                                            <div class="icon">
-                                                                                <i class="zmdi zmdi-share"></i>
-                                                                            </div> 20
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                <?php }?> 
-
-                                            </div>
-                                        </div>
-                                    </div>    
                                 </div>
-                            <?php }?>
+                            </div>
                         </div>
-                        
                         <?php include('component/grid-footer.php'); ?>
                     </div>
 

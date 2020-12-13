@@ -30,39 +30,11 @@
                 <div class="grids">
 
                     <div class="grid xl-20 lg-25 sm-100" data-aos="fade-up" data-aos-delay="150">
-                        <div class="tabs">
-                            <div class="ss-box-shadow"></div>
-                            <div class="tab tab-header">
-                                <h6><span class="text-lg">ข่าวประชาสัมพันธ์</span></h6>
-                            </div>
-                            <a class="tab tab-list color-black h-color-04 active" href="#">
-                                <p>ประกาศจาก กนอ.</p>
-                            </a>
-                            <a class="tab tab-list color-black h-color-04" href="#">
-                                <p>ข่าวสารจาก กนอ.</p>
-                            </a>
-                            <a class="tab tab-list color-black h-color-04" href="#">
-                                <p>ข่าวสารจากหน่วยงานที่เกี่ยวข้อง</p>
-                            </a>
-                            <a class="tab color-black h-color-04" href="#">
-                                <div class="icon">
-                                    <img src="public/assets/app/images/icon/01.png" alt="Icon">
-                                </div>
-                                <h6 class="fw-500">ข่าวสารการลงทุน</h6>
-                            </a>
-                            <a class="tab color-black h-color-04" href="#">
-                                <div class="icon">
-                                    <img src="public/assets/app/images/icon/08.png" alt="Icon">
-                                </div>
-                                <h6 class="fw-500">ประกาศจัดซื้อจัดจ้าง</h6>
-                            </a>
-                            <a class="tab color-black h-color-04" href="#">
-                                <div class="icon">
-                                    <img src="public/assets/app/images/icon/09.png" alt="Icon">
-                                </div>
-                                <h6 class="fw-500">ร่วมงานกับเรา</h6>
-                            </a>
-                        </div>
+                        <?php
+                            $cateActive = 0;
+                            $cateChildren = true;
+                            include('component/category-tab.php');
+                        ?>
                     </div>
 
                     <div class="grid xl-80 lg-75 sm-100">

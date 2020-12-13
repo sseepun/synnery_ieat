@@ -119,17 +119,11 @@ nav.footer .tag{background:#ffff00; color:#000;}
 .slide-container .arrows button{color:#ffff00;}
 
 
-/* Special Card 01 */
-.ss-card-01 .text-container{color:#ffff00; background:#000; border:1px solid #ffff00;}
-.ss-card-01:hover .text-container{color:#000; background:#ffff00;}
-.ss-card-01 a.title{color:#ffff00;}
-.ss-card-01:hover a.title{color:#000;}
-
-/* Special Card 03 */
-.ss-card-03 .text-container{color:#ffff00; background:#000; border:1px solid #ffff00;}
-.ss-card-03:hover .text-container{color:#000; background:#ffff00;}
-.ss-card-03 a.title{color:#ffff00;}
-.ss-card-03:hover a.title{color:#000;}
+/* Special Card */
+.ss-card .text-container{color:#ffff00; background:#000; border:1px solid #ffff00;}
+.ss-card:hover .text-container{color:#000; background:#ffff00;}
+.ss-card a.title{color:#ffff00;}
+.ss-card:hover a.title{color:#000;}
 
 
 /* Special Image */
@@ -188,7 +182,10 @@ table.table-download .btn-download:hover > i{background:#ffff00; color:#000;}
 
 
 /* Tab Container 01 */
-.tab-container-01 .tabs{background:#000; border:1px solid #ffff00;}
-.tab-container-01 .tab.tab-header{color:#000; background:#ffff00;}
 .tab-container-01 .tab::after{background:#ffff00;}
+.tab-container-01 .tab.tab-list::before{background:#ffff00;}
+.tab-container-01 .tabs{background:#000; border:1px solid #ffff00;}
+.tab-container-01 .tab::before{background:#ffff00;}
+.tab-container-01 .tab::after{background:#ffff00;}
+.tab-container-01 .tab.tab-main.active{color:#000!important;}
 .tab-container-01 .tab.tab-list::before{background:#ffff00;}
