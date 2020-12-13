@@ -285,6 +285,27 @@ $(function(){ 'use strict';
     });
 
 
+    // About 01
+    var about01 = $('.about-01');
+    if(about01.length){
+        about01.each(function(){
+            var self = $(this),
+                tabIcons = self.find('.tab-icons .tab-icon'),
+                slides = self.find('.slides');
+            slides.slick({
+                centerMode: true, centerPadding: 0, slidesToShow: 1, infinite: false,
+                autoplay: false, speed: 900, arrows: false, dots: false,
+                adaptiveHeight: true, swipe: false, touchMove: false
+            });
+            tabIcons.click(function(e){
+                e.preventDefault();
+                tabIcons.removeClass('active');
+                $(this).addClass('active');
+                slides.slick('slickGoTo', $(this).data('slide'));
+            });
+        });
+    }
+
 
     // Banner 01
     var banner01 = $('.banner-01');
@@ -352,19 +373,19 @@ $(function(){ 'use strict';
                 tabChildren = self.find('.tabs .tab-children'),
                 tabContents = self.find('.tab-contents .tab-content');
             tabs.click(function(e){
-                var self = $(this),
-                    tabId = self.data('tab');
+                var temp = $(this),
+                    tabId = temp.data('tab');
                 if(tabId!==undefined){
                     var target = tabContents.filter('[data-tab="'+tabId+'"]');
                     if(target.length){
                         e.preventDefault();
                         tabChildren.stop().slideUp();
-                        var children = self.next();
+                        var children = temp.next();
                         if(children.hasClass('tab-children')){
                             children.stop().slideDown();
                         }
                         tabs.removeClass('active');
-                        self.addClass('active');
+                        temp.addClass('active');
                         tabContents.removeClass('active');
                         target.addClass('active');
                         AOS.refresh();

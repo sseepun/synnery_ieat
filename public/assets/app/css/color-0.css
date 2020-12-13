@@ -185,6 +185,14 @@ table.table-download .btn-download:hover > i{
 }
 
 
+/* About 01 */
+.about-01{
+    background-image:linear-gradient(to bottom, #ececec, #fbfbfb, #ffffff, #ffffff, 
+        #ffffff, #ffffff);
+}
+.about-01 .tab-icon{color:#000;}
+
+
 /* Breadcrumb 01 */
 .breadcrumb-01 a.icon{background:#000; color:#75ced2;}
 .breadcrumb-01 a.text{color:#000;}

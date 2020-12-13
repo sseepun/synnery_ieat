@@ -30,7 +30,7 @@
                 อีกทั้งพัฒนาอย่างต่อเนื่อง
             </h5>
 
-            <div class="ss-box mt-5">
+            <div class="ss-box mt-5" data-aos="fade-up" data-aos-delay="450">
 
                 <h3 class="sm color-06">เกี่ยวกับ กนอ.</h3>
                 <div class="grids mt-3">
