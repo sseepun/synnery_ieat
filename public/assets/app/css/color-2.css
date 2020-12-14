@@ -111,6 +111,10 @@ nav.footer .tag{background:#ffff00; color:#000;}
 .popup-container .box-btn:hover{background:#ffff00; color:#000;}
 
 
+/* Shortcode */
+.shortcode-container > textarea{border-color:#ffff00; color:#ffff00;}
+
+
 /* Slide Container */
 .slide-container .arrows button{color:#ffff00;}
 
@@ -201,6 +205,14 @@ table.table-download .btn-download:hover > i{background:#ffff00; color:#000;}
 
 /* Content 01 */
 .content-01 .btn-ad{background:#000;}
+
+
+/* Content 04 */
+.content-04{background:none!important;}
+.content-04 .slide-container{background:#ffff00;}
+.content-04 .slide-container .arrows button{background:#000; color:#ffff00;}
+.content-04 .slide-nav .slide > .wrapper{border:1px solid #ffff00;}
+.content-04 .slide-nav .slide.slick-current > .wrapper{background:#ffff00;}
 
 
 /* Content 03 */

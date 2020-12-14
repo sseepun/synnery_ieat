@@ -88,6 +88,11 @@
                                                 <div class="ss-stat">
                                                     <div class="stat">
                                                         <div class="icon">
+                                                            <i class="zmdi zmdi-view-list"></i>
+                                                        </div> 20
+                                                    </div>
+                                                    <div class="stat">
+                                                        <div class="icon">
                                                             <img src="public/assets/app/images/icon/07.png" alt="Icon" />
                                                         </div> 112
                                                     </div>
@@ -143,6 +148,11 @@
                                                             กรรรม 14 แห่ง และท่าเรืออุตสาหกรรม 1 แห่ง คาดเริ่มได้ปี’67  
                                                         </p>
                                                         <div class="ss-stat">
+                                                            <div class="stat">
+                                                                <div class="icon">
+                                                                    <i class="zmdi zmdi-view-list"></i>
+                                                                </div> 20
+                                                            </div>
                                                             <div class="stat">
                                                                 <div class="icon">
                                                                     <img src="public/assets/app/images/icon/07.png" alt="Icon" />

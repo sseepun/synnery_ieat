@@ -10,7 +10,7 @@
     <?php
         $breadcrumb = [
             [ 'url' => '#', 'display' => 'กนอ.อัพเดท' ],
-            [ 'url' => '#', 'display' => 'ข่าวประชาสัมพันธ์' ],
+            [ 'url' => '#', 'display' => 'หน่วยงานที่เกี่ยวข้อง' ],
         ];
         include('component/breadcrumb.php');
     ?>
