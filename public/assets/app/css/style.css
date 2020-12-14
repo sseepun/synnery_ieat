@@ -356,6 +356,23 @@ img.content-img-float{
     .ss-box{padding:1.5rem;}
 }
 
+/* Special Box Header */
+.ss-box-header{position:relative; width:100%; padding:0;}
+.ss-box-header > .header, .ss-box-header > .body{position:relative; padding:1rem 1.5rem;}
+@media screen and (max-width:991.98px){
+    .ss-box-header > .header, .ss-box-header > .body{padding:1rem;} 
+}
+
+
+/* Special Box Background */
+.ss-box-bg{
+    position:absolute; top:0; bottom:0; left:-1rem; right:-1rem; pointer-events:none;
+    -webkit-mask-image:linear-gradient(to bottom, #000, #000, #000, #000,
+        #000, #000, #000, #000, #000, rgba(0,0,0,.5), rgba(0,0,0,0));
+}
+.ss-box-bg::before{
+    content:''; display:block; width:calc(100% - 2rem); height:100%; margin:0 1rem;
+}
 
 /* Special Box Shadow */
 .ss-box-shadow{

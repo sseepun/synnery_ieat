@@ -118,6 +118,10 @@ nav.footer .tag{background:#ffff00; color:#000;}
 /* Special Box */
 .ss-box{background:#000; border:1px solid #ffff00;}
 
+/* Special Box Header */
+.ss-box-header > .header, .ss-box-header > .body{border:1px solid #ffff00;}
+.ss-box-header > .body{border-top:0;}
+
 
 /* Special Card */
 .ss-card .text-container{color:#ffff00; background:#000; border:1px solid #ffff00;}
@@ -199,6 +203,10 @@ table.table-download .btn-download:hover > i{background:#ffff00; color:#000;}
 .content-01 .btn-ad{background:#000;}
 
 
+/* Content 03 */
+.content-03{background:none!important;}
+
+
 /* Tab Container 01 */
 .tab-container-01 .tab::after{background:#ffff00;}
 .tab-container-01 .tab.tab-list::before{background:#ffff00;}
@@ -207,3 +215,6 @@ table.table-download .btn-download:hover > i{background:#ffff00; color:#000;}
 .tab-container-01 .tab::after{background:#ffff00;}
 .tab-container-01 .tab.tab-main.active{color:#000!important;}
 .tab-container-01 .tab.tab-list::before{background:#ffff00;}
+
+/* Tab Container 02 */
+.tab-container-02 .tab .text-wrapper{background:#ffff00; color:#000;}

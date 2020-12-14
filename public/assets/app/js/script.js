@@ -369,7 +369,7 @@ $(function(){ 'use strict';
     if(tabContainers.length){
         tabContainers.each(function(){
             var self = $(this),
-                tabs = self.find('.tabs .tab.tab-main'),
+                tabs = self.find('.tabs .tab'),
                 tabChildren = self.find('.tabs .tab-children'),
                 tabContents = self.find('.tab-contents .tab-content');
             tabs.click(function(e){
