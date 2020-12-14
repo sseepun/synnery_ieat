@@ -33,7 +33,7 @@
                 <h2 class="color-white" data-aos="fade-up" data-aos-delay="0">
                     คลังความรู้
                 </h2>
-                <h3 class="sm color-white fw-400" data-aos="fade-up" data-aos-delay="150">
+                <h3 class="sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
                     องค์ความรู้ในด้านต่าง ๆ เกี่ยวกับอุตสาหากรรม
                 </h3>
                 <h5 class="color-white xs-no-br" data-aos="fade-up" data-aos-delay="300">
