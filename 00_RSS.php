@@ -102,9 +102,11 @@
                             <?php }?>
                         </div>
                     </div>
-                    <?php include('component/grid-footer.php'); ?>
                 </div>
 
+            </div>
+            <div data-aos="fade-up" data-aos-delay="0">
+                <?php include('component/grid-footer.php'); ?>
             </div>
         </div>
     </section>
