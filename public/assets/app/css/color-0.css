@@ -131,6 +131,10 @@ nav.footer .tag{
 .ss-box{background:#fff; box-shadow:0 0 10px 2px rgba(0,0,0,.15);}
 
 
+/* Special Box Background */
+.ss-box-bg::before{background:#fff;}
+
+
 /* Special Card */
 .ss-card .text-container{color:#000; background:#fff;}
 .ss-card:hover .text-container{color:#fff; background:#333333;}
@@ -237,3 +241,11 @@ table.table-download .btn-download:hover > i{
 .tab-container-01 .tab.tab-main.active{color:#fff!important;}
 .tab-container-01 .tab.tab-list::before{background:#000;}
 .tab-container-01 .tab.tab-list.active::before{background:#75ced2;}
+
+/* Tab Container 02 */
+.tab-container-02 .tab .text-wrapper{color:#fff;}
+.tab-container-02 .tab:nth-child(5n+1) .text-wrapper{background:rgba(108,221,237,.8);}
+.tab-container-02 .tab:nth-child(5n+2) .text-wrapper{background:rgba(117,206,210,.8);}
+.tab-container-02 .tab:nth-child(5n+3) .text-wrapper{background:rgba(140,106,178,.8);}
+.tab-container-02 .tab:nth-child(5n+4) .text-wrapper{background:rgba(192,131,188,.8);}
+.tab-container-02 .tab:nth-child(5n) .text-wrapper{background:rgba(29,36,85,.8);}

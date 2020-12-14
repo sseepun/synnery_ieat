@@ -117,6 +117,10 @@ nav.footer .tag{background:#fff; color:#000;}
 /* Special Box */
 .ss-box{background:#000; border:1px solid #fff;}
 
+/* Special Box Header */
+.ss-box-header > .header, .ss-box-header > .body{border:1px solid #fff;}
+.ss-box-header > .body{border-top:0;}
+
 
 /* Special Card */
 .ss-card .text-container{color:#fff; background:#000; border:1px solid #fff;}
@@ -198,6 +202,10 @@ table.table-download .btn-download:hover > i{background:#fff; color:#000;}
 .content-01 .btn-ad{background:#000;}
 
 
+/* Content 03 */
+.content-03{background:none!important;}
+
+
 /* Tab Container 01 */
 .tab-container-01 .tab::after{background:#fff;}
 .tab-container-01 .tab.tab-list::before{background:#fff;}
@@ -206,3 +214,6 @@ table.table-download .btn-download:hover > i{background:#fff; color:#000;}
 .tab-container-01 .tab::after{background:#fff;}
 .tab-container-01 .tab.tab-main.active{color:#000!important;}
 .tab-container-01 .tab.tab-list::before{background:#fff;}
+
+/* Tab Container 02 */
+.tab-container-02 .tab .text-wrapper{background:#000; color:#fff;}
