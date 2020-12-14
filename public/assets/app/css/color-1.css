@@ -110,6 +110,10 @@ nav.footer .tag{background:#fff; color:#000;}
 .popup-container .box-btn:hover{background:#fff; color:#000;}
 
 
+/* Shortcode */
+.shortcode-container > textarea{border-color:#fff; color:#fff;}
+
+
 /* Slide Container */
 .slide-container .arrows button{color:#fff;}
 
@@ -200,6 +204,14 @@ table.table-download .btn-download:hover > i{background:#fff; color:#000;}
 
 /* Content 01 */
 .content-01 .btn-ad{background:#000;}
+
+
+/* Content 04 */
+.content-04{background:none!important;}
+.content-04 .slide-container{background:#fff;}
+.content-04 .slide-container .arrows button{background:#000; color:#fff;}
+.content-04 .slide-nav .slide > .wrapper{border:1px solid #fff;}
+.content-04 .slide-nav .slide.slick-current > .wrapper{background:#fff;}
 
 
 /* Content 03 */

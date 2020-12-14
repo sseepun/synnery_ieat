@@ -252,30 +252,30 @@ $(function(){ 'use strict';
     // });
 
     // Shortcode
-    // var shortcodeReady = true,
-    //     shortcodes = $('.shortcode');
-    // if(shortcodes.length){
-    //     shortcodes.each(function(){
-    //         var self = $(this),
-    //             target = self.find('input[type="text"]');
-    //         self.find('button').click(function(e){
-    //             e.preventDefault();
-    //             var thisBtn = $(this);
-    //             if(shortcodeReady && target.length){
-    //                 shortcodeReady = false;
-    //                 thisBtn.html('Copied!');
-    //                 target[0].select();
-    //                 target[0].setSelectionRange(0, target[0].value.length);
-    //                 document.execCommand('copy');
-    //                 target.blur();
-    //                 setTimeout(function(){
-    //                     shortcodeReady = true;
-    //                     thisBtn.html('Copy');
-    //                 }, 2000);
-    //             }
-    //         });
-    //     });
-    // }
+    var shortcodeReady = true,
+        shortcodes = $('.shortcode-container');
+    if(shortcodes.length){
+        shortcodes.each(function(){
+            var self = $(this),
+                target = self.find('textarea');
+            self.find('.btn-code-copy').click(function(e){
+                e.preventDefault();
+                var thisBtn = $(this);
+                if(shortcodeReady && target.length){
+                    shortcodeReady = false;
+                    thisBtn.html('[คัดลอกแล้ว]');
+                    target[0].select();
+                    target[0].setSelectionRange(0, target[0].value.length);
+                    document.execCommand('copy');
+                    target.blur();
+                    setTimeout(function(){
+                        shortcodeReady = true;
+                        thisBtn.html('[คัดลอก]');
+                    }, 1500);
+                }
+            });
+        });
+    }
 
 
     // Special List Toggle
@@ -323,7 +323,7 @@ $(function(){ 'use strict';
                     focusOnSelect: true, autoplay: true, autoplaySpeed: 14000, speed: 900,
                     arrows: true, appendArrows: self.find('.arrows'),
                     dots: true, appendDots: self.find('.dots'),
-                    adaptiveHeight: false
+                    adaptiveHeight: true
                 };
             }
 
@@ -358,6 +358,35 @@ $(function(){ 'use strict';
                     { breakpoint: 991.98, settings: { slidesToShow: 4, } },
                     { breakpoint: 767.98, settings: { slidesToShow: 3, } },
                     { breakpoint: 575.98, settings: { slidesToShow: 2, } },
+                ]
+            });
+        });
+    }
+
+    
+    // Content 04
+    var content04 = $('.content-04');
+    if(content04.length){
+        content04.each(function(){
+            var self = $(this),
+                slideContainer = self.find('.slide-container'),
+                slideNav = self.find('.slide-nav');
+            slideContainer.find('> .slides').slick({
+                centerMode: true, centerPadding: 0, slidesToShow: 1, infinite: true,
+                focusOnSelect: true, autoplay: false, speed: 900,
+                arrows: true, appendArrows: slideContainer.find('.arrows'), dots: false,
+                adaptiveHeight: true, asNavFor: slideNav.find('> .slides'),
+            });
+            slideNav.find('> .slides').slick({
+                centerMode: true, centerPadding: 0, slidesToShow: 9, infinite: true,
+                focusOnSelect: true, autoplay: false, speed: 900,
+                arrows: false, dots: false, asNavFor: slideContainer.find('> .slides'),
+                responsive: [
+                    { breakpoint: 1299.98, settings: { slidesToShow: 8, } },
+                    { breakpoint: 1199.98, settings: { slidesToShow: 7, } },
+                    { breakpoint: 991.98, settings: { slidesToShow: 6, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 5, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 3, } },
                 ]
             });
         });

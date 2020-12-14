@@ -44,4 +44,18 @@
             </tbody>
         </table>
     </div>
+    <?php if(!empty($rowEmbed) && $rowEmbed){?>
+        <div class="content-row no-border-bottom">
+            <h6 class="fw-500">EMBED CODE</h6>
+            <div class="shortcode-container my-2">
+                <div class="icon">
+                    <img src="public/assets/app/images/icon/code.png" alt="Icon" />
+                </div>
+                <textarea data-copy="0">Temporary code test temporary code test temporary code test</textarea>
+                <a class="btn-code-copy color-black h-color-04" data-copy="0" href="#">
+                    [คัดลอก]
+                </a>
+            </div>
+        </div>
+    <?php }?>
 </div>
