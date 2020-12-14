@@ -561,6 +561,15 @@ img.content-img-float{
 }
 .ss-img > .tag-star > img{display:block; width:100%; height:auto;}
 
+.ss-img .play-container{
+    position:absolute; top:0; bottom:0; left:0; right:0; transition:transform .25s;
+    display:flex; justify-content:center; align-items:center;
+}
+.ss-img .play-container .icon{
+    display:block; width:4rem; height:4rem; border-radius:50%; border:5px solid transparent;
+    font-size:2.25rem; text-align:center; line-height:4rem;
+}
+
 
 /* Special List */
 ul.ss-list{list-style:none; padding:0; margin:.25rem 0;}

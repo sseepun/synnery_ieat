@@ -3,19 +3,6 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
-
-
-    <style>
-        /* Custom stytle for ss-card-03 */
-        @media screen and (min-width:768px) {
-            .ss-card-03.ss-card-03-custom{padding: 0 55% 0 0;}
-            .ss-card-03.ss-card-03-custom .text-container {
-                width:65%;
-            }
-            .ss-card-03.ss-card-03-custom .text-container .text-wrapper a.title.h4 {font-size:1.5625rem;}
-            .ss-card-03.ss-card-03-custom .text-container .text-wrapper p.desc {font-size:110%;}
-        }
-    </style>
 </head>
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>
@@ -50,11 +37,21 @@
                     <div class="grids">
 
                         <div class="grid xl-20 lg-25 sm-100" data-aos="fade-up" data-aos-delay="600">
-                            <?php
-                                $cateActive = 1;
-                                $cateChildren = false;
-                                include('component/category-tab.php');
-                            ?>
+                            <div class="tabs">
+                                <div class="ss-box-shadow"></div>
+                                <a class="tab tab-main color-black h-color-04 active" href="#">
+                                    <div class="icon">
+                                        <img src="public/assets/app/images/icon/tab-1.png" alt="Icon">
+                                    </div>
+                                    <h6>บทความ</h6>
+                                </a>
+                                <a class="tab tab-main color-black h-color-04" href="#">
+                                    <div class="icon">
+                                        <img src="public/assets/app/images/icon/tab-8.png" alt="Icon">
+                                    </div>
+                                    <h6>วิดีทัศน์ / E-learning</h6>
+                                </a>
+                            </div>
                         </div>
 
                         <div class="grid xl-80 lg-75 sm-100 mt-0" data-aos="fade-up" data-aos-delay="750">
@@ -122,7 +119,7 @@
 
                                         <?php for($j=0; $j<9; $j++){?>
                                             <div class="grid sm-100">
-                                                <div class="ss-card ss-card-03 ss-card-03-custom">
+                                                <div class="ss-card ss-card-04">
                                                     <a class="ss-img" href="#">
                                                         <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
                                                         <div class="hover-container">
@@ -130,7 +127,7 @@
                                                                 <img src="public/assets/app/images/icon/06.png" alt="Icon" />
                                                             </div>
                                                         </div>
-                                                        <div class="date bg-05">
+                                                        <div class="date">
                                                             <div class="d">04</div>
                                                             <div class="m-y">09.2563</div>
                                                         </div>
@@ -139,7 +136,7 @@
                                                         <div class="wrapper">
                                                             <div class="ss-box-shadow fade-right"></div>
                                                             <div class="text-wrapper">
-                                                                <a class="title h4" href="#">
+                                                                <a class="title h6 fw-600" href="#">
                                                                     กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบ
                                                                     สายสื่อสารลงดิน วางระบบ 5G
                                                                 </a>
@@ -165,7 +162,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        <?php }?> 
+                                        <?php }?>
 
                                     </div>
                                 </div>

@@ -71,7 +71,6 @@
         include('component/breadcrumb.php');
     ?>
 
-
     <section class="section-bpadding section-bg-hero">
         <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/10.jpg"></div>
         <div class="container">
