@@ -12,9 +12,8 @@
         }
         .grids.no-gap > .grid:first-child {justify-content: flex-end;}
         .bg-light-gray { background-color: #ebebeb; }
-        .grid > .wrapper, .border-bottom > .wrapper, .w-100 > .wrapper {min-width:25rem; max-width: 35rem; width:100%;}
+        .grid > .wrapper, .border-bottom > .wrapper, .w-100 > .wrapper {max-width: 80%; width:100%;}
         .ss-list.ss-list-custom{width:100%;}
-        p.num {margin-right: 1.5rem; }
         .border-bottom {border-bottom:1px solid #dee2e6 !important;}
         .container > .grids .grid:nth-child(2n+1) .grids .grid:first-child{background-color:#4b326e;}
         .container > .grids .grid:nth-child(2n) .grids .grid:first-child{background-color: #5e2472;}
@@ -22,9 +21,7 @@
         .container > .grids .grid:nth-child(2n+1) .grids .grid:last-child{background-color:#fff;}
         .container > .grids .grid:nth-child(2n) .grids .grid:last-child{background-color: #ebebeb;}
         @media screen and (max-width: 575.98px){
-            p.num {margin-right: .75rem; }
             .grids.no-gap > .grid:first-child {justify-content: flex-start;}
-
         }
     </style>
 </head>
@@ -77,7 +74,7 @@
                                             <div class="d-flex jc-space-between ai-center fw-wrap">
                                                 <p class="fw-200">เขตอุตสาหกรรม</p>
                                                 <div class="d-flex jc-end">
-                                                    <p class="fw-400 num">3,659 - 0 - 96</p>
+                                                    <p class="fw-400 mr-2">3,659 - 0 - 96</p>
                                                     <p class="fw-200">ไร่</p>
                                                 </div>
                                             </div>
@@ -105,7 +102,7 @@
                                             <div class="d-flex jc-space-between ai-center fw-wrap">
                                                 <p class="fw-200">พื้นที่อุตสาหกรรม</p>
                                                 <div class="d-flex jc-end">
-                                                    <p class="fw-400 num">6-1-99.3</p>
+                                                    <p class="fw-400 mr-2">6-1-99.3</p>
                                                     <p class="fw-200">ไร่</p>
                                                 </div>
                                             </div>
@@ -132,7 +129,7 @@
                                             <div class="d-flex jc-space-between ai-center fw-wrap">
                                                 <p class="fw-200">สนามบินสุวรรณภูมิ</p>
                                                 <div class="d-flex jc-end">
-                                                    <p class="fw-400 num">25</p>
+                                                    <p class="fw-400 mr-2">25</p>
                                                     <p class="fw-200">กิโลเมตร</p>
                                                 </div>
                                             </div>
@@ -160,7 +157,7 @@
                                             <div class="d-flex jc-space-between ai-center fw-wrap">
                                                 <p class="fw-200">เขคอุตสาหกรรม</p>
                                                 <div class="d-flex jc-end">
-                                                    <p class="fw-400 num">3,600,000</p>
+                                                    <p class="fw-400 mr-2">3,600,000</p>
                                                     <p class="fw-200">บาท/ไร่</p>
                                                 </div>
                                             </div>
@@ -180,7 +177,7 @@
 
                                         </div>
                                         <div class="d-flex jc-end">
-                                            <p class="fw-400">3,741,536.83</p>
+                                            <p class="fw-400 mr-2">3,741,536.83</p>
                                             <p class="fw-200">บาท/ไร่/ปี</p>
                                         </div>
                                     </div>
@@ -197,7 +194,7 @@
                                                 <div class="d-flex jc-space-between ai-center fw-wrap">
                                                     <p class="fw-200">อัตราค่าเช่า (ตารางเมตรละ)</p>
                                                     <div class="d-flex jc-end">
-                                                        <p class="fw-400 num">331.29</p>
+                                                        <p class="fw-400 mr-2">331.29</p>
                                                         <p class="fw-200">บาท/เดือน</p>
                                                     </div>
                                                 </div>
@@ -219,7 +216,7 @@
                                                 <div class="d-flex jc-space-between ai-center fw-wrap">
                                                     <p class="fw-200">อัตราค่าเช่า (ตารางเมตรละ)</p>
                                                     <div class="d-flex jc-end">
-                                                        <p class="fw-400 num">726</p>
+                                                        <p class="fw-400 mr-2">726</p>
                                                         <p class="fw-200">บาท/เดือน</p>
                                                     </div>
                                                 </div>
@@ -334,7 +331,7 @@
                                                 <div class="d-flex jc-space-between ai-center fw-wrap">
                                                     <p class="fw-200">เขตอุตสาหกรรมทั่วไป</p>
                                                     <div class="d-flex jc-end">
-                                                        <p class="fw-400 num">1,000</p>
+                                                        <p class="fw-400 mr-2">1,000</p>
                                                         <p class="fw-200">บาท/ ไร่ / เดือน</p>
                                                     </div>
                                                 </div>
@@ -357,7 +354,7 @@
                                                 </div>  
                                             
                                                 <div class="d-flex jc-end">
-                                                    <p class="fw-400 num">0.15</p>
+                                                    <p class="fw-400 mr-2">0.15</p>
                                                     <p class="fw-200">บาท/ ลบ.ม.</p>
                                                 </div>
                                             </div>
@@ -371,19 +368,19 @@
                                                 </div>  
                                                 <div>
                                                     <div class="d-flex jc-end fw-wrap">
-                                                        <p class="fw-400 num">18</p>
+                                                        <p class="fw-400 mr-2">18</p>
                                                         <p class="fw-200">บาท/ ลบ.ม.</p>
                                                         <p class="fw-200">(1 - 5,000 ลบ.ม./เดือน)</p>
                                                     </div>
 
                                                     <div class="d-flex jc-end fw-wrap">
-                                                        <p class="fw-400 num">19.50</p>
+                                                        <p class="fw-400 mr-2">19.50</p>
                                                         <p class="fw-200">บาท/ ลบ.ม.</p>
                                                         <p class="fw-200">(5,001 - 10,000 ลบ.ม./เดือน)</p>
                                                     </div>
 
                                                     <div class="d-flex jc-end">
-                                                        <p class="fw-400 num">0.15</p>
+                                                        <p class="fw-400 mr-2">0.15</p>
                                                         <p class="fw-200">บาท/ ลบ.ม.</p>
                                                     </div>
 
@@ -403,7 +400,7 @@
                                             <div class="d-flex jc-space-between ai-center fw-wrap">
                                                 <p class="fw-200">อัตราค่าบริการตามที่การไฟฟ้านครหลวงกำหนด</p>
                                                 <div class="d-flex jc-end">
-                                                    <p class="fw-400 num">3.20 - 3.90</p>
+                                                    <p class="fw-400 mr-2">3.20 - 3.90</p>
                                                     <p class="fw-200">บาท / หน่วย</p>
                                                 </div>
                                             </div>
