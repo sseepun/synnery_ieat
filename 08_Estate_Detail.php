@@ -397,9 +397,49 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="grid sm-100 mt-0">
+                    <div class="grids no-gap">
+                        <div class="grid lg-20 mt-0 bg-01 d-flex jc-end ai-flex-start px-3 py-3">
+                            <h5 class="color-white fw-100">สิทธิประโยชน์</h5>
+                        </div>
+                        <div class="grid lg-80 mt-0 bg-light-gray d-flex fw-wrap ai-center px-3 py-3">
+                            <?php for($j=0; $j < 2; $j++){?>
+                                <div class="pb-2">
+                                    <p class="fw-400 w-100">สิทธิประโยชน์ที่ไม่เกี่ยวกับภาษีอกร ในเขตอุตสาหกรรมทั่วไปและเขตประกอบการเสรี</p> 
+                                    <?php for($i = 1; $i < 5; $i++){?>
+                                        <li class="d-flex">
+                                            <p class="fw-200 mr-3"><?= $i; ?>.</p>
+                                            <p class="fw-200">ผู้ประกอบการอุตสาหกรรม หรือพาณิชยกรรม หรือ การบริการ ทั้งที่เป็นคนไทยและคนต่างด้าว อาจได้รับอนุญาติให้ถือกรรมสิทธิ์ในที่ดินในนิคมอุตสาหกรรมเพื่อประกอบกิจการ ได้ตามจำนวนเนื้อที่ที่คณะกรรมการ กนอ. เห็นสมควรแม้วาสจะเกินกำหนดที่จะพึงมีได้ตามกฏหมายอื่น</p>
+                                        </li>
+                                    <?php }?>
+                                </div>
+                            <?php }?>
+                           
+
+
+                        </div>
+                    </div>
+                </div>
                 
 
-                
+                <div class="grid sm-100 mt-0">
+                    <div class="grids no-gap">
+                        <div class="grid lg-20 mt-0 bg-01 d-flex jc-end ai-flex-start px-3 py-3">
+                            <h5 class="color-white fw-100">รายชื่อผู้ใช้ที่ดิน</h5>
+                        </div>
+                        <div class="grid lg-80 mt-0 bg-light-gray d-flex fw-wrap ai-center px-3 py-3">
+                            <p class="fw-400">เอกสารแนบ</p>
+                            <div>
+                                    </div>
+                           <div class="file-icon mr-2">
+                               <img src="./public/assets/app/images/icon/pdf.png" alt="">
+                           </div>
+
+
+                        </div>
+                    </div>
+                </div>
 
 
 
