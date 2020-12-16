@@ -48,7 +48,7 @@
             <h5 class="fw-100">ตอบสนองทุกความต้องการทางด้านธุรกิจของคุณ</h5>
             <div class="grids">
                 <?php for($j=0; $j<9; $j++){?>
-                    <div class="grid lg-25 md-50 sm-50">
+                    <div class="grid xl-25 md-50 sm-50">
                         <div class="ss-card ss-card-01">
                             <a class="ss-img" href="#">
                                 <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
@@ -61,52 +61,52 @@
                             <div class="text-container">
                                 <div class="ss-box-shadow"></div>
                                 <div class="text-wrapper">
-                                    <a class="title h6 fw-600" href="#">
+                                    <a class="title h6 fw-400" href="#">
                                         นิคมอุตสาหกรรมที เอฟ ดี
                                     </a>
 
                                     <div class="d-flex fw-wrap jc-space-between mt-1">
-                                        <h6 class="text-md fw-600">เนื้อที่ทั้งหมด</h6>
+                                        <h6 class="text-md fw-400">เนื้อที่ทั้งหมด</h6>
                                         <p class="text-md fw-200">302-1-20.70 ไร่</p>
                                     </div>
 
                                     <div class="d-flex fw-wrap jc-space-between mt-1">
-                                        <h6 class="text-md fw-600">ที่ตั้ง</h6>
+                                        <h6 class="text-md fw-400">ที่ตั้ง</h6>
                                         <p class="text-md fw-200">ต.ท่าสะอ้าน อ.บางปะกง จ.ฉะเชิงเทรา</p>
                                     </div>
 
-                                    <div class="grids mt-2">
-                                        <div class="grid sm-25 mt-0">
-                                            <h6 class="text-md fw-600">โทรศัพท์</h6>
+                                    <div class="grids no-gap mt-2">
+                                        <div class="grid sm-25 md-20 mt-0">
+                                            <h6 class="text-md fw-400">โทรศัพท์</h6>
                                         </div>
-                                        <div class="grid sm-70 mt-0">
+                                        <div class="grid sm-70 md-80 mt-0">
                                             <p class="text-md fw-200">: 0 2676 4031-6</p>
                                         </div>
                                     </div>
 
-                                    <div class="grids">
-                                        <div class="grid sm-25 mt-0">
-                                            <h6 class="text-md fw-600">โทรสาร</h6>
+                                    <div class="grids no-gap">
+                                        <div class="grid sm-25 md-20 mt-0">
+                                            <h6 class="text-md fw-400">โทรสาร</h6>
                                         </div>
-                                        <div class="grid sm-75 mt-0">
+                                        <div class="grid sm-70 md-80 mt-0">
                                             <p class="text-md fw-200">: 0 2676 4038</p>
                                         </div>
                                     </div>
 
-                                    <div class="grids">
-                                        <div class="grid sm-25 mt-0">
-                                            <h6 class="text-md fw-600">E-mail</h6>
+                                    <div class="grids no-gap">
+                                        <div class="grid sm-25 md-20 mt-0">
+                                            <h6 class="text-md fw-400">E-mail</h6>
                                         </div>
-                                        <div class="grid sm-75 mt-0">
+                                        <div class="grid sm-70 md-80 mt-0">
                                             <p class="text-md fw-200">: industrial@tfd-factory.com</p>
                                         </div>
                                     </div>
 
-                                    <div class="grids">
-                                        <div class="grid sm-25 mt-0">
-                                            <h6 class="text-md fw-600 mt-0">Website</h6>
+                                    <div class="grids no-gap">
+                                        <div class="grid sm-25 md-20 mt-0">
+                                            <h6 class="text-md fw-400 mt-0">Website</h6>
                                         </div>
-                                        <div class="grid sm-75 mt-0">
+                                        <div class="grid sm-70 md-80 mt-0">
                                             <a class="text-md fw-200 web-link"><span>:</span> www.tfd-factory.com</a>
                                         </div>
                                     </div>
