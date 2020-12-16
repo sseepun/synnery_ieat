@@ -45,7 +45,7 @@
     <?php
         $breadcrumb = [
             [ 'url' => '#', 'display' => 'เกี่ยวกับกนอ' ],
-            [ 'url' => '#', 'display' => 'ร่วมงา' ],
+            [ 'url' => '#', 'display' => 'ร่วมงานกับเรา' ],
         ];
         include('component/breadcrumb.php');
     ?>
