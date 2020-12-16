@@ -59,11 +59,40 @@ input[type=number], input[type=phone], input[type=submit], select, textarea, but
 
 /* Input */
 input[type=text], input[type=email], input[type=password], input[type=date], input[type=tel],
-input[type=number], input[type=phone], input[type=submit], select, textarea{
+input[type=number], input[type=phone], input[type=submit], input[type=file], select, textarea{
     border:1px solid transparent; border-radius:.25rem; box-shadow:none; outline:none;
     padding:.5rem .75rem; font-size:1rem; font-weight:300; margin:0; line-height:1.25;
     transition:border-color .3s;
 }
+
+
+/* Fields & Inputs */
+.field{margin:.75rem 0 0 0; width:100%;}
+.field label{font-size:1.375rem; font-weight:200; margin:0;}
+
+.field > .control, .field > .control-flex{position:relative; width:100%; margin:.25rem 0 0 0;}
+.field > .control:first-child{margin:0;}
+.field > .control-flex{display:flex; align-items:center; flex-wrap:wrap; margin:.5rem 0 0 0;}
+.field > .control-flex > *{
+    margin-right:.75rem; margin-top:.25rem; margin-bottom:.25rem; width:11rem;
+}
+
+.field input[type=text], .field input[type=email], .field input[type=password], 
+.field input[type=date], .field input[type=tel], .field input[type=number], 
+.field input[type=phone], .field input[type=file], .field select, .field textarea{
+    width:100%; border-radius:0; font-size:1.375rem;
+}
+
+.field .control.checkbox-control, .field .control.radio-control{display:flex; position:relative;}
+.field .control.radio-control > input[type=radio]{position:absolute; opacity:0;}
+.field .control.checkbox-control > input[type=checkbox]{
+    position:absolute; margin:0; font-size:.875rem; width:.875rem; height:.875rem;
+    cursor:pointer; top:.25rem;
+}
+.field .control.checkbox-control > label, .field .control.radio-control > label{
+    width:100%; padding:0 0 0 1.5rem; cursor:pointer;
+}
+
 
 /* Select Input */
 .select-wrapper{display:inline-block; position:relative;}
@@ -156,6 +185,11 @@ ul > li, ol > li{margin:.125rem 0;}
 .btn-hex{clip-path:polygon(50% 0%, 100% 24%, 100% 76%, 50% 100%, 0% 76%, 0% 24%);}
 
 
+/* Capcha Container */
+.capcha-container{width:100%; max-width:18.5rem;}
+.capcha-container > img{display:block; width:100%; height:auto;}
+
+
 /* Content Footer */
 .content-footer{position:relative; width:100%;}
 .content-footer .content-row{
@@ -203,7 +237,7 @@ img.content-img-float.left{float:left; margin:0 3rem 1.5rem 0;}
 .grid-header .options{width:100%; display:flex; align-items:center; margin:.25rem 0 0 0;}
 .grid-header .btn-grid{
     display:block; width:2.25rem; height:2.25rem; border-radius:0; text-align:center;
-    border:1px solid transparent; line-height:2.625rem; font-size:1.5rem; padding:0;
+    border:1px solid transparent; line-height:2.375rem; font-size:1.5rem; padding:0;
 }
 .grid-header .options > *{margin:0 0 0 .4375rem;}
 .grid-header .options > *:first-child{margin:0;}

@@ -8,21 +8,21 @@ html, body{background:#000; color:#ffff00;}
 
 
 /* Colors */
-.color-white, .color-black, .color-gray,
-.color-01, .h-color-01:hover,
-.color-02, .h-color-02:hover,
-.color-03, .h-color-03:hover,
-.color-04, .h-color-04:hover,
-.color-05, .h-color-05:hover,
-.color-06, .h-color-06:hover{color:#ffff00!important;}
+.color-white, .color-black, .color-gray, .color-sgray,
+.color-01, .h-color-01:hover, .color-02, .h-color-02:hover, .color-03, .h-color-03:hover,
+.color-04, .h-color-04:hover, .color-05, .h-color-05:hover, .color-06, .h-color-06:hover{
+    color:#ffff00!important;
+}
 
-.bg-white, .bg-black, .bg-gray,
-.bg-01,
-.bg-02,
-.bg-03,
-.bg-04,
-.bg-05,
-.bg-06{background:#000!important;}
+.bg-white, .bg-black, .bg-gray, .bg-sgray,
+.bg-01, .bg-02, .bg-03, .bg-04, .bg-05, .bg-06{
+    background:#000!important;
+}
+
+.bcolor-white, .bcolor-black, .bcolor-gray, .bcolor-sgray,
+.bcolor-01, .bcolor-02, .bcolor-03, .bcolor-04, .bcolor-05, .bcolor-06{
+    border-color:#ffff00!important;
+}
 
 
 /* Input */

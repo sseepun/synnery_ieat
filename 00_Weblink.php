@@ -61,7 +61,7 @@
                                 <div class="tab-content <?php if($i==$cateActive)echo 'active'; ?>"  data-tab="<?= $i ?>">
                                     <div class="ss-box-header">
                                         <div class="ss-box-bg"></div>
-                                        <div class="header bg-06 color-white">
+                                        <div class="header bg-01 color-white">
                                             <h3 class="sm fw-500"><?= $d ?></h3>
                                         </div>
                                         <div class="body">
