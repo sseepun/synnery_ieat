@@ -307,6 +307,25 @@ $(function(){ 'use strict';
     }
 
 
+    // About 02
+    var about02 = $('.about-02');
+    if(about02.length){
+        about02.each(function(){
+            var self = $(this),
+                aboutContainers = self.find('.about-container');
+            aboutContainers.not('.active').find('> .about-body').hide();
+            aboutContainers.find('> .about-header').click(function(e){
+                e.preventDefault();
+                var parent = $(this).parent();
+                parent.toggleClass('active');
+                if(parent.hasClass('active')) parent.find('> .about-body').slideDown();
+                else parent.find('> .about-body').slideUp();
+                AOS.refresh();
+            });
+        });
+    }
+
+
     // Banner 01
     var banner01 = $('.banner-01');
     if(banner01.length){

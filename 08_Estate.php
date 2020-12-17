@@ -15,8 +15,6 @@
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>
 
-
-
     <?php
         $breadcrumb = [
             [ 'url' => '#', 'display' => 'ข้อมูลนิคมฯ/ท่าเรือฯ/โรงงานฯ' ],
