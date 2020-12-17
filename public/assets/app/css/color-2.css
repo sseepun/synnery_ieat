@@ -188,6 +188,16 @@ table.table-download .btn-download:hover > i{background:#ffff00; color:#000;}
 .about-01 .tab-icon{color:#ffff00;}
 
 
+/* About 02 */
+.about-02 .about-container{border:1px solid #ffff00; border-top:0;}
+.about-02 .about-container:first-child{border-top:1px solid #ffff00;}
+.about-02 .about-container .date{
+    border-right:1px solid #ffff00; border-bottom:1px solid #ffff00;
+}
+.about-02 .about-container > .about-tag .icon{color:#ffff00; border-color:#ffff00;}
+.about-02 .about-container .about-side{background-color:#573f77;}
+
+
 /* Breadcrumb 01 */
 .breadcrumb-01 a.icon{background:#ffff00; color:#000;}
 .breadcrumb-01 a.text{color:#ffff00;}

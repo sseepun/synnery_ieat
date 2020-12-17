@@ -237,6 +237,16 @@ table.table-download .btn-download:hover > i{
 .about-01 .tab-icon{color:#000;}
 
 
+/* About 02 */
+.about-02 .about-container{background:#f1f1f1;}
+.about-02 .about-container:nth-child(2n){background:#ffffff;}
+.about-02 .about-container .date{background-color:#75ced2; color:#fff;}
+.about-02 .about-container:nth-child(2n) .date{background-color:#1a849e;}
+.about-02 .about-container:not(.active) .title{color:#000!important;}
+.about-02 .about-container > .about-tag .icon{color:#76ced2; border-color:#76ced2;}
+.about-02 .about-container .about-side{background-color:#573f77;}
+
+
 /* Breadcrumb 01 */
 .breadcrumb-01 a.icon{background:#000; color:#75ced2;}
 .breadcrumb-01 a.text{color:#000;}
