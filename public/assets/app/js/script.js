@@ -390,24 +390,26 @@ $(function(){ 'use strict';
             var self = $(this),
                 slideContainer = self.find('.slide-container'),
                 slideNav = self.find('.slide-nav');
-            slideContainer.find('> .slides').slick({
-                centerMode: true, centerPadding: 0, slidesToShow: 1, infinite: true,
-                focusOnSelect: true, autoplay: false, speed: 900,
-                arrows: true, appendArrows: slideContainer.find('.arrows'), dots: false,
-                adaptiveHeight: true, asNavFor: slideNav.find('> .slides'),
-            });
-            slideNav.find('> .slides').slick({
-                centerMode: true, centerPadding: 0, slidesToShow: 9, infinite: true,
-                focusOnSelect: true, autoplay: false, speed: 900,
-                arrows: false, dots: false, asNavFor: slideContainer.find('> .slides'),
-                responsive: [
-                    { breakpoint: 1299.98, settings: { slidesToShow: 8, } },
-                    { breakpoint: 1199.98, settings: { slidesToShow: 7, } },
-                    { breakpoint: 991.98, settings: { slidesToShow: 6, } },
-                    { breakpoint: 767.98, settings: { slidesToShow: 5, } },
-                    { breakpoint: 575.98, settings: { slidesToShow: 3, } },
-                ]
-            });
+            if(slideContainer.length){
+                slideContainer.find('> .slides').slick({
+                    centerMode: true, centerPadding: 0, slidesToShow: 1, infinite: true,
+                    focusOnSelect: true, autoplay: false, speed: 900,
+                    arrows: true, appendArrows: slideContainer.find('.arrows'), dots: false,
+                    adaptiveHeight: true, asNavFor: slideNav.find('> .slides'),
+                });
+                slideNav.find('> .slides').slick({
+                    centerMode: true, centerPadding: 0, slidesToShow: 9, infinite: true,
+                    focusOnSelect: true, autoplay: false, speed: 900,
+                    arrows: false, dots: false, asNavFor: slideContainer.find('> .slides'),
+                    responsive: [
+                        { breakpoint: 1299.98, settings: { slidesToShow: 8, } },
+                        { breakpoint: 1199.98, settings: { slidesToShow: 7, } },
+                        { breakpoint: 991.98, settings: { slidesToShow: 6, } },
+                        { breakpoint: 767.98, settings: { slidesToShow: 5, } },
+                        { breakpoint: 575.98, settings: { slidesToShow: 3, } },
+                    ]
+                });
+            }
         });
     }
     

@@ -566,6 +566,23 @@ img.content-img-float.left{float:left; margin:0 3rem 1.5rem 0;}
 .ss-card-06 .text-container{width:calc(100% - 2.375rem);}
 
 
+/* Special Date */
+.ss-date{width:100%; position:relative;}
+.ss-date > .date{
+    display:block; position:absolute; top:0; left:-4rem; text-align:center;
+    padding:.25rem .3125rem; min-width:3rem;
+}
+.ss-date > .date .d{
+    border-bottom:1px solid transparent; font-size:2rem; font-weight:400; line-height:.9;
+    white-space:nowrap;
+}
+.ss-date > .date .m-y{margin:.25rem 0 0 0; font-weight:100; font-size:1rem; white-space:nowrap;}
+@media screen and (max-width:991.98px){
+    .ss-date{padding:0 0 0 4rem; min-height:3.75rem;}
+    .ss-date > .date{left:0;}
+}
+
+
 /* Special Image */
 .ss-img{display:block; position:relative; width:100%; padding:60% 0 0 0; overflow:hidden;}
 .ss-img.horizontal{padding:50% 0 0 0;}

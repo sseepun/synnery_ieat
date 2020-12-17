@@ -148,6 +148,11 @@ nav.footer .tag{background:#fff; color:#000;}
 .ss-card-06:hover a.title{color:#fff;}
 
 
+/* Special Date */
+.ss-date > .date{border:1px solid #fff; color:#fff;}
+.ss-date > .date .d{border-color:#fff;}
+
+
 /* Special Image */
 .ss-img > .date{background:#fff!important; color:#000!important;}
 .ss-img > .date .d{border-color:#000;}
@@ -218,7 +223,7 @@ table.table-download .btn-download:hover > i{background:#fff; color:#000;}
 
 /* Content 04 */
 .content-04{background:none!important;}
-.content-04 .slide-container{background:#fff;}
+.content-04 .slide-container, .content-04 .video-container{background:#fff;}
 .content-04 .slide-container .arrows button{background:#000; color:#fff;}
 .content-04 .slide-nav .slide > .wrapper{border:1px solid #fff;}
 .content-04 .slide-nav .slide.slick-current > .wrapper{background:#fff;}

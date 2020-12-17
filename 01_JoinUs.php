@@ -87,7 +87,7 @@
                                     </h3>
                                     <div class="date">
                                         <div class="d">04</div>
-                                        <div class="m">09.2563</div>
+                                        <div class="m-y">09.2563</div>
                                     </div>
                                 </div>
                                 <div class="about-tag">
