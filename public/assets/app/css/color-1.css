@@ -200,6 +200,9 @@ table.table-download .btn-download{color:#fff;}
 table.table-download .btn-download > i{border-color:#fff;}
 table.table-download .btn-download:hover > i{background:#fff; color:#000;}
 table.table-estate > tbody > tr > td{border:1px solid #fff;}
+table.table-helpdesk th{border:1px solid #fff;}
+table.table-helpdesk td{border:1px solid #fff;}
+table.table-helpdesk .tag-status{border:1px solid #fff;}
 
 
 /* About 01 */

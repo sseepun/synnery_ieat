@@ -145,7 +145,7 @@
             </div>
 
             <div class="ss-box px-0 py-0 bg-white" data-aos="fade-up" data-aos-delay="150">
-                <div class="table-wrapper pb-0">
+                <div class="table-wrapper pb-0 border-top-4 bcolor-01">
                     <table class="table table-estate">
                         <tbody>
                             <tr>
