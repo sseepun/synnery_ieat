@@ -332,8 +332,8 @@ $(function(){ 'use strict';
                 slideContainer = self.find('.slide-container');
             slideContainer.find('.slides').slick({
                 centerMode: true, centerPadding: 0, slidesToShow: 1, infinite: false,
-                adaptiveHeight: true, swipe: false, touchMove: false,
-                autoplay: false, speed: 900, arrows: false, 
+                adaptiveHeight: true, swipe: true, touchMove: true,
+                autoplay: false, speed: 600, arrows: false, 
                 dots: true, appendDots: slideContainer.find('.dots'),
                 customPaging: function(slide, i){
                     return '<button data-slide="'+i+'">'
@@ -359,10 +359,10 @@ $(function(){ 'use strict';
                 else if(j==3) $(k).attr('data-pos', '3');
                 else $(k).attr('data-pos', 'after');
             });
+
             li.click(function(){
                 if(clickReady){
                     clickReady = false;
-                    
                     var i = $(this).find('> button').data('slide'),
                         start = i - 2,
                         end = i + 2;
@@ -380,11 +380,31 @@ $(function(){ 'use strict';
                         else if(j==i+3) $(k).attr('data-pos', '3');
                         else $(k).attr('data-pos', 'after');
                     });
-
                     setTimeout(function(){
                         clickReady = true;
-                    }, 900);
+                    }, 600);
                 }
+            });
+            slideContainer.find('.slides').on('beforeChange', function(e, s, c, i){
+                var start = i - 2,
+                    end = i + 2;
+                while(start < 0){ start += 1; end += 1; }
+                while(end > li.length-1){ start -= 1; end -= 1; }
+                li.attr('data-class', '');
+                li.each(function(j, k){
+                    if(start<=j && j<=end) $(k).attr('data-class', 'active');
+                });
+                awards.each(function(j, k){
+                    if(j<i) $(k).attr('data-pos', 'before');
+                    else if(j==i) $(k).attr('data-pos', '0');
+                    else if(j==i+1) $(k).attr('data-pos', '1');
+                    else if(j==i+2) $(k).attr('data-pos', '2');
+                    else if(j==i+3) $(k).attr('data-pos', '3');
+                    else $(k).attr('data-pos', 'after');
+                });
+                setTimeout(function(){
+                    clickReady = true;
+                }, 900);
             });
         });
     }
@@ -471,6 +491,27 @@ $(function(){ 'use strict';
                     ]
                 });
             }
+        });
+    }
+
+    // Content 06
+    var content06 = $('.content-06');
+    if(content06.length){
+        content06.each(function(){
+            var self = $(this),
+                slideContainer = self.find('.slide-container');
+            slideContainer.find('> .slides').slick({
+                centerMode: true, centerPadding: 0, slidesToShow: 7, infinite: true,
+                focusOnSelect: true, autoplay: false, speed: 600, swipeToSlide: true,
+                fots: false, arrows: true, appendArrows: slideContainer.find('> .arrows'),
+                responsive: [
+                    { breakpoint: 1299.98, settings: { slidesToShow: 6, } },
+                    { breakpoint: 1199.98, settings: { slidesToShow: 5, } },
+                    { breakpoint: 991.98, settings: { slidesToShow: 4, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 3, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 2, } },
+                ]
+            });
         });
     }
 

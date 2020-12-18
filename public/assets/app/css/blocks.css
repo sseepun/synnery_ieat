@@ -383,6 +383,22 @@
 .content-05 .field > label + *{width:100%;}
 
 
+/* Content 06 */
+.content-06 .slide-container{width:100%; margin:0 0 2rem 0;}
+.content-06 .slide-container .slides{width:100%;}
+.content-06 .slide-container .slide{padding:.75rem .1875rem;}
+.content-06 .slide-container .slide > .wrapper{
+    position:relative; width:100%; padding:.25rem; box-shadow:0 0 8px 2px rgba(0,0,0,.06);
+    cursor:pointer; transition:background .25s;
+}
+.content-06 .slide-container .arrows{left:-1.25rem; right:-1.25rem;}
+.content-06 .slide-container .arrows button{padding:.125rem 1rem;}
+@media screen and (max-width:991.98px){
+    .content-06 .slide-container{margin:0 0 1.5rem 0;}
+    .content-06 .slide-container .arrows{left:-1rem; right:-1rem;}
+}
+
+
 /* Tab Container */
 .tab-container .tabs .tab{cursor:pointer;}
 .tab-container .tab-contents .tab-content{display:none;}
