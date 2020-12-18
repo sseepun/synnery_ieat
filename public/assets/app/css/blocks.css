@@ -297,6 +297,31 @@
 .client-01 .slide-container:hover .arrows button.slick-next{transform:translateX(1.5rem);}
 
 
+/* Contact 01 */
+.contact-01 .contact-card{
+    position:relative; background-size:cover; background-position:center; margin:3.75rem 0 0 0;
+    background-repeat:no-repeat;
+}
+.contact-01 .contact-card > .wrapper{
+    width:calc(100% - 3rem); display:block; text-align:center; padding:0 0 3rem 0;
+}
+.contact-01 .contact-card .icon{transform:translate(.625rem, -50%);}
+.contact-01 .contact-card .icon > img{display:block; width:6.25rem; height:auto; margin:0 auto;}
+.contact-01 .contact-card .text-wrapper{transform:translateY(-50%);}
+.contact-01 .contact-form .field{
+    display:flex; justify-content:space-between; align-items:center; margin:0;
+}
+.contact-01 .contact-form label{margin:.5625rem 0 .3125rem 0;}
+@media screen and (max-width:991.98px){
+    .contact-01 .contact-form .field{justify-content:flex-start;}
+    .contact-01 .contact-form label{margin-right:.375rem;}
+}
+@media screen and (max-width:767.98px){
+    .contact-01 .contact-card{background-position:1.25rem center;}
+    .contact-01 .contact-card > .wrapper{width:calc(100% - 1rem);}
+}
+
+
 /* Content 01 */
 .content-01{width:100%; position:relative;}
 .content-01 > .img-bg{
