@@ -11,17 +11,17 @@ html, body{background:#000; color:#ffff00;}
 .color-white, .color-black, .color-gray, .color-sgray,
 .color-01, .h-color-01:hover, .color-02, .h-color-02:hover, .color-03, .h-color-03:hover,
 .color-04, .h-color-04:hover, .color-05, .h-color-05:hover, .color-06, .h-color-06:hover, 
-.color-07, .h-color-07:hover{
+.color-07, .h-color-07:hover, .color-08, .h-color-08:hover{
     color:#ffff00!important;
 }
 
 .bg-white, .bg-black, .bg-gray, .bg-sgray,
-.bg-01, .bg-02, .bg-03, .bg-04, .bg-05, .bg-06, .bg-07{
+.bg-01, .bg-02, .bg-03, .bg-04, .bg-05, .bg-06, .bg-07, .bg-08{
     background:#000!important;
 }
 
 .bcolor-white, .bcolor-black, .bcolor-gray, .bcolor-sgray,
-.bcolor-01, .bcolor-02, .bcolor-03, .bcolor-04, .bcolor-05, .bcolor-06, .bcolor-07{
+.bcolor-01, .bcolor-02, .bcolor-03, .bcolor-04, .bcolor-05, .bcolor-06, .bcolor-07, .bcolor-08{
     border-color:#ffff00!important;
 }
 
@@ -36,6 +36,9 @@ input[type=tel]:focus, input[type=number]:focus, input[type=phone]:focus, input[
 select:focus, textarea:focus{
     border-color:#ffff00;
 }
+
+/* Select Input */
+.select-wrapper.icon-square::after{background:#ffff00; color:#000;}
 
 
 /* Topnav */
@@ -139,7 +142,7 @@ nav.footer .tag{background:#ffff00; color:#000;}
 .ss-card .text-container{color:#ffff00; background:#000; border:1px solid #ffff00;}
 .ss-card:hover .text-container{color:#000; background:#ffff00;}
 .ss-card a.title{color:#ffff00;}
-.ss-card:hover a.title{color:#000;}
+.ss-card:hover a.title, .ss-card:hover table td{color:#000;}
 
 /* Special Card 05 */
 .ss-card-05 .text-container{background:#000; border-color:#ffff00;}

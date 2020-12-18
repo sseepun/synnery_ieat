@@ -3,14 +3,6 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
-
-    <style>
-        .web-link {color:#4b326e; transition: color .2s;}
-        .web-link > span {color: #000;}
-
-        .ss-card.ss-card-01:hover .web-link {color:#fff;}
-        .ss-card.ss-card-01:hover .web-link > span {color:#fff;}
-    </style>
 </head>
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>
@@ -24,7 +16,8 @@
         include('component/breadcrumb.php');
     ?>
 
-    <section class="section-bpadding bg-white">
+    <section class="content-05 section-bpadding">
+        <div class="img-bg bg-gradient-gray-02"></div>
         <div class="container">
             <h2 class="color-black" data-aos="fade-up" data-aos-delay="0">
                 นิคมอุตสาหกรรมในประเทศไทย
@@ -36,19 +29,98 @@
                 ด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆ <br>
                 เกี่ยวกับ กนอ.และนิคมอุตสาหกรรมในประเทศไทย 
             </h5>
-
-
             
-        </div>
-    </section>
+            <div class="py-2 my-4" action="" data-aos="fade-up" data-aos-delay="450">
+                <form>
+                    <div class="ss-box-header shadow">
+                        <div class="header bg-06 color-white pt-2">
+                            <div class="grids">
+                                <div class="grid lg-25 mt-0">
+                                    <div class="field field-sm">
+                                        <label>คำค้นหา :</label>
+                                        <input type="text" class="bg-white" />
+                                    </div>
+                                </div>
+                                <div class="grid lg-25 mt-0">
+                                    <div class="field field-sm">
+                                        <label>นิคมอุตสาหกรรม :</label>
+                                        <div class="select-wrapper icon-square">
+                                            <select class="bg-white">
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid lg-25 mt-0">
+                                    <div class="field field-sm">
+                                        <label>พื้นที่ประกอบกิจการ :</label>
+                                        <div class="select-wrapper icon-square">
+                                            <select class="bg-white">
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid lg-25 mt-0">
+                                    <div class="field field-sm">
+                                        <label>ประเภทโรงงาน :</label>
+                                        <div class="select-wrapper icon-square">
+                                            <select class="bg-white">
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid lg-25 mt-0">
+                                    <div class="field field-sm">
+                                        <label>ประเภท ISIC :</label>
+                                        <div class="select-wrapper icon-square">
+                                            <select class="bg-white">
+                                                <option value=""></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid lg-25 mt-0">
+                                    <div class="field field-sm">
+                                        <label>เลขทะเบียนโรงงาน :</label>
+                                        <input type="text" class="bg-white" />
+                                    </div>
+                                </div>
+                                <div class="grid lg-25 mt-0">
+                                    <div class="field field-sm">
+                                        <label>บริษัท :</label>
+                                        <input type="text" class="bg-white" />
+                                    </div>
+                                </div>
+                                <div class="grid lg-25 mt-0">
+                                    <div class="field field-sm">
+                                        <label>ประกอบอุตสาหกรรม :</label>
+                                        <input type="text" class="bg-white" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body bg-08">
+                            <div class="btns text-center mt-0">
+                                <button type="submit" class="btn btn-action">
+                                    <span>ค้นหา</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
 
-    <section class="section-bpadding" style="background: linear-gradient(to bottom, #c5c5c5, #f9f9f9, #f9f9f9, #f9f9f9, #f9f9f9, #f9f9f9, transparent, transparent, transparent, transparent);">
-        <div class="container">
-            <h3 class="mt-5 color-02 fw-200">ตอบโจทย์ที่ใช่</h3>
-            <h5 class="fw-100">ตอบสนองทุกความต้องการทางด้านธุรกิจของคุณ</h5>
-            <div class="grids">
-                <?php for($j=0; $j<9; $j++){?>
-                    <div class="grid xl-25 md-50 sm-50">
+            <h3 class="color-02 fw-300" data-aos="fade-up" data-aos-delay="0">
+                ตอบโจทย์ที่ใช่...
+            </h3>
+            <h5 class="fw-300" data-aos="fade-up" data-aos-delay="150">
+                ตอบสนองทุกความต้องการทางด้านธุรกิจของคุณ
+            </h5>
+            <div class="grids" data-aos="fade-up" data-aos-delay="300">
+                <?php for($j=0; $j<12; $j++){?>
+                    <div class="grid xl-25 lg-1-3 sm-50">
                         <div class="ss-card ss-card-01">
                             <a class="ss-img" href="#">
                                 <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
@@ -61,56 +133,53 @@
                             <div class="text-container">
                                 <div class="ss-box-shadow"></div>
                                 <div class="text-wrapper">
-                                    <a class="title h6 fw-400" href="#">
+                                    <a class="title h5 fw-400" href="#">
                                         นิคมอุตสาหกรรมที เอฟ ดี
                                     </a>
-
-                                    <div class="d-flex fw-wrap jc-space-between mt-1">
-                                        <h6 class="text-md fw-400">เนื้อที่ทั้งหมด</h6>
-                                        <p class="text-md fw-200">302-1-20.70 ไร่</p>
-                                    </div>
-
-                                    <div class="d-flex fw-wrap jc-space-between mt-1">
-                                        <h6 class="text-md fw-400">ที่ตั้ง</h6>
-                                        <p class="text-md fw-200">ต.ท่าสะอ้าน อ.บางปะกง จ.ฉะเชิงเทรา</p>
-                                    </div>
-
-                                    <div class="grids no-gap mt-2">
-                                        <div class="grid sm-25 md-20 mt-0">
-                                            <h6 class="text-md fw-400">โทรศัพท์</h6>
-                                        </div>
-                                        <div class="grid sm-70 md-80 mt-0">
-                                            <p class="text-md fw-200">: 0 2676 4031-6</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="grids no-gap">
-                                        <div class="grid sm-25 md-20 mt-0">
-                                            <h6 class="text-md fw-400">โทรสาร</h6>
-                                        </div>
-                                        <div class="grid sm-70 md-80 mt-0">
-                                            <p class="text-md fw-200">: 0 2676 4038</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="grids no-gap">
-                                        <div class="grid sm-25 md-20 mt-0">
-                                            <h6 class="text-md fw-400">E-mail</h6>
-                                        </div>
-                                        <div class="grid sm-70 md-80 mt-0">
-                                            <p class="text-md fw-200">: industrial@tfd-factory.com</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="grids no-gap">
-                                        <div class="grid sm-25 md-20 mt-0">
-                                            <h6 class="text-md fw-400 mt-0">Website</h6>
-                                        </div>
-                                        <div class="grid sm-70 md-80 mt-0">
-                                            <a class="text-md fw-200 web-link"><span>:</span> www.tfd-factory.com</a>
-                                        </div>
-                                    </div>
-
+                                    <table class="table table-sm">
+                                        <tbody>
+                                            <tr>
+                                                <td>เนื้อที่ทั้งหมด</td>
+                                                <td class="text-right">
+                                                    302-1-20.70 ไร่
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table table-sm">
+                                        <tbody>
+                                            <tr>
+                                                <td>ที่ตั้ง</td>
+                                                <td class="text-right">
+                                                    ต.ท่าสะอ้าน อ.บางปะกง จ.ฉะเชิงเทรา
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table table-sm">
+                                        <tbody>
+                                            <tr>
+                                                <td>โทรศัพท์</td>
+                                                <td><span class="mx-1">:</span></td>
+                                                <td>0 2676 4031-6</td>
+                                            </tr>
+                                            <tr>
+                                                <td>โทรสาร</td>
+                                                <td><span class="mx-1">:</span></td>
+                                                <td>0 2676 4038</td>
+                                            </tr>
+                                            <tr>
+                                                <td>E-mail</td>
+                                                <td><span class="mx-1">:</span></td>
+                                                <td>industrial@tfd-factory.com</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Website</td>
+                                                <td><span class="mx-1">:</span></td>
+                                                <td>www.tfd-factory.com</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                     <div class="ss-tag fw-wrap">
                                         <div class="text fw-400">TAG :</div> 
                                         <div class="tags">
@@ -120,7 +189,6 @@
                                             <a class="tag" href="#">ระบบสาธารณูปโภค</a>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>

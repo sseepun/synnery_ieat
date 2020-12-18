@@ -15,6 +15,7 @@ html, body{color:#000;}
 .color-05, .h-color-05:hover{color:#75ced2!important;}
 .color-06, .h-color-06:hover{color:#5d4189!important;}
 .color-07, .h-color-07:hover{color:#8c6ab2!important;}
+.color-08, .h-color-08:hover{color:#33bbc6!important;}
 
 .bg-white{background:#fff!important;}
 .bg-black{background:#000!important;}
@@ -27,6 +28,7 @@ html, body{color:#000;}
 .bg-05{background:#75ced2!important;}
 .bg-06{background:#5d4189!important;}
 .bg-07{background:#8c6ab2!important;}
+.bg-08{background:#33bbc6!important;}
 
 .bcolor-white{border-color:#fff!important;}
 .bcolor-black{border-color:#000!important;}
@@ -39,6 +41,7 @@ html, body{color:#000;}
 .bcolor-05{border-color:#75ced2!important;}
 .bcolor-06{border-color:#5d4189!important;}
 .bcolor-07{border-color:#8c6ab2!important;}
+.bcolor-08{border-color:#33bbc6!important;}
 
 .color-gradient-01{
     background-image:linear-gradient(to bottom, #9057b0, #56237b);
@@ -50,6 +53,10 @@ html, body{color:#000;}
         rgba(255,255,255, 1), rgba(255,255,255, 1), rgba(255,255,255, 1), 
         rgba(255,255,255, 1), rgba(255,255,255, 1),  rgba(255,255,255, 1),
         rgba(255,255,255, 1),rgba(255,255,255, 1),rgba(255,255,255, 1) );
+}
+.bg-gradient-gray-02{
+    background-image:linear-gradient(to bottom, #c5c5c5, #f9f9f9, #f9f9f9, #f9f9f9, 
+        #f9f9f9, #f9f9f9, transparent, transparent, transparent, transparent);
 }
 
 
@@ -68,6 +75,9 @@ input[type=tel]:focus, input[type=number]:focus, input[type=phone]:focus, input[
 input[type=file]:focus, select:focus, textarea:focus{
     border-color:#59236e;
 }
+
+/* Select Input */
+.select-wrapper.icon-square::after{background:#000; color:#fff;}
 
 
 /* Topnav */
@@ -188,7 +198,7 @@ nav.footer .tag{
 .ss-card .text-container{color:#000; background:#fff;}
 .ss-card:hover .text-container{color:#fff; background:#333333;}
 .ss-card a.title{color:#000;}
-.ss-card:hover a.title{color:#fff;}
+.ss-card:hover a.title, .ss-card:hover table td{color:#fff;}
 
 /* Special Card 05 */
 .ss-card-05 .text-container{background:#ebebeb;}
