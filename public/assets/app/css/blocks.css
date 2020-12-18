@@ -81,6 +81,92 @@
 }
 
 
+/* About 03 */
+.about-03{position:relative; overflow:hidden;}
+.about-03 .slide-container{
+    width:100%; position:relative; margin:0; padding:3rem 0 10rem 0;
+}
+.about-03 .slide-container > .slide-wrapper{
+    position:relative; width:100%; max-width:33rem; margin:0 3rem; z-index:1;
+}
+.about-03 .slide-container > .dots{position:absolute; bottom:0; left:0; right:0; z-index:1;}
+.about-03 .slick-dots{
+    position:relative; width:100%; padding:0; margin:0; list-style:none;
+    display:flex; align-items:center; justify-content:space-between;
+}
+.about-03 .slick-dots::before{
+    content:''; position:absolute; top:-.5px; left:-50vw; right:-50vw; border:1px dotted transparent;
+}
+.about-03 .slick-dots button{
+    display:block; position:relative; text-align:center; white-space:nowrap; box-shadow:none;
+    padding:.5rem .25rem .25rem .25rem; margin:0; border:0; background:none; outline:none;
+}
+.about-03 .slick-dots button img{
+    display:block; width:2.5rem; height:auto; position:absolute; opacity:0;
+    top:-2.6875rem; left:calc(50% - 1.25rem); transition:opacity .3s;
+}
+.about-03 .slick-dots li.slick-active > button img{opacity:1;}
+.about-03 .slick-dots button .y{
+    position:relative; height:1.5rem; font-size:1.0625rem; transition:font-size .3s;
+}
+.about-03 .slick-dots li.slick-active > button .y{font-size:1.4375rem;}
+.about-03 .slick-dots button .y > span{font-size:0; transition:font-size .3s;}
+.about-03 .slick-dots li.slick-active > button .y > span{font-size:1.4375rem;}
+.about-03 .slick-dots button::before{
+    content:''; display:block; width:.75rem; height:.75rem; border-radius:50%;
+    position:absolute; top:-.5rem; left:calc(50% - .5rem);
+    border:.0625rem solid transparent; transition:opacity .3s;
+}
+.about-03 .slick-dots button::after{
+    content:''; display:block; width:.4375rem; height:.4375rem; border-radius:50%;
+    position:absolute; top:-.375rem; left:calc(50% - .375rem); transition:opacity .3s;
+}
+.about-03 .slick-dots li.slick-active > button::before,
+.about-03 .slick-dots li.slick-active > button::after{opacity:0;}
+
+.about-03 .awards{
+    display:block; width:37rem; height:36rem; position:absolute; top:-6.5rem; right:0;
+    pointer-events:none; z-index:0;
+}
+.about-03 .awards > .wrapper{display:block; position:relative; width:100%;}
+.about-03 .award{position:absolute; width:18rem; transition:opacity .6s, transform .6s;}
+.about-03 .award[data-pos="before"]{transform:translateX(-95%)scale(1.28); opacity:0;}
+.about-03 .award[data-pos="1"]{transform:translateX(65%)scale(.75);}
+.about-03 .award[data-pos="2"]{transform:translateX(110%)scale(.50);}
+.about-03 .award[data-pos="3"]{transform:translateX(145%)scale(.30);}
+.about-03 .award[data-pos="after"]{transform:translateX(166%)scale(.12); opacity:0;}
+.about-03 .award .img-container{display:block; position:relative; width:100%; padding:200% 0 0 0;}
+.about-03 .award .img-wrapper{
+    position:absolute; top:0; bottom:0; left:0; right:0; display:flex; align-items:center;
+    justify-content:center;
+}
+.about-03 .award .img-wrapper > img{
+    display:block; width:auto; max-width:100%; height:auto; max-height:100%;
+}
+
+@media screen and (max-width:1299.98px){
+    .about-03 .slide-container > .slide-wrapper{max-width:33rem; margin:0;}
+    .about-03 .awards{top:-6rem;}
+}
+@media screen and (max-width:1199.98px){
+    .about-03 .slide-container{padding:2rem 0;}
+    .about-03 .slide-container > .slide-wrapper{max-width:100%;}
+    .about-03 .awards{
+        width:34rem; height:32rem; position:relative; top:auto; right:auto;
+        margin:2rem auto 0 auto;
+    }
+    .about-03 .award{width:16rem;}
+}
+@media screen and (max-width:991.98px){
+    .about-03 .slick-dots li{display:none}
+    .about-03 .slick-dots li[data-class="active"]{display:block}
+}
+@media screen and (max-width:767.98px){
+    .about-03 .awards{width:25.75rem; height:25.75rem; margin:1.75rem auto 0 auto;}
+    .about-03 .award{width:12rem;}
+}
+
+
 /* Banner 01 */
 .banner-01{position:relative; width:100%;}
 .banner-01 .slide > .wrapper{

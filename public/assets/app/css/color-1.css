@@ -209,6 +209,14 @@ table.table-download .btn-download:hover > i{background:#fff; color:#000;}
 .about-02 .about-container .about-side{background-color:#573f77;}
 
 
+/* About 03 */
+.about-03{background:none!important;}
+.about-03 .slick-dots::before{border-color:#fff;}
+.about-03 .slick-dots button{color:#fff;}
+.about-03 .slick-dots button::before{border-color:#fff; background:#fff;}
+.about-03 .slick-dots button::after{background:#000;}
+
+
 /* Breadcrumb 01 */
 .breadcrumb-01 a.icon{background:#fff; color:#000;}
 .breadcrumb-01 a.text{color:#fff;}

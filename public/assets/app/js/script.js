@@ -306,7 +306,6 @@ $(function(){ 'use strict';
         });
     }
 
-
     // About 02
     var about02 = $('.about-02');
     if(about02.length){
@@ -324,7 +323,71 @@ $(function(){ 'use strict';
             });
         });
     }
+    
+    // About 03
+    var about03 = $('.about-03');
+    if(about03.length){
+        about03.each(function(){
+            var self = $(this),
+                slideContainer = self.find('.slide-container');
+            slideContainer.find('.slides').slick({
+                centerMode: true, centerPadding: 0, slidesToShow: 1, infinite: false,
+                adaptiveHeight: true, swipe: false, touchMove: false,
+                autoplay: false, speed: 900, arrows: false, 
+                dots: true, appendDots: slideContainer.find('.dots'),
+                customPaging: function(slide, i){
+                    return '<button data-slide="'+i+'">'
+                            +'<img src="public/assets/app/images/icon/pin.png" alt="Icon" />'
+                            +'<div class="y">'
+                                +'<span>พ.ศ.</span>'
+                                +(2551+i)
+                            +'<div>'
+                        +'</button>';
+                }
+            });
 
+            var awards = self.find('.awards .award'),
+                li = slideContainer.find('.dots li'),
+                clickReady = true;
+            li.each(function(j, k){
+                if(j<5) $(k).attr('data-class', 'active');
+            });
+            awards.each(function(j, k){
+                if(j==0) $(k).attr('data-pos', '0');
+                else if(j==1) $(k).attr('data-pos', '1');
+                else if(j==2) $(k).attr('data-pos', '2');
+                else if(j==3) $(k).attr('data-pos', '3');
+                else $(k).attr('data-pos', 'after');
+            });
+            li.click(function(){
+                if(clickReady){
+                    clickReady = false;
+                    
+                    var i = $(this).find('> button').data('slide'),
+                        start = i - 2,
+                        end = i + 2;
+                    while(start < 0){ start += 1; end += 1; }
+                    while(end > li.length-1){ start -= 1; end -= 1; }
+                    li.attr('data-class', '');
+                    li.each(function(j, k){
+                        if(start<=j && j<=end) $(k).attr('data-class', 'active');
+                    });
+                    awards.each(function(j, k){
+                        if(j<i) $(k).attr('data-pos', 'before');
+                        else if(j==i) $(k).attr('data-pos', '0');
+                        else if(j==i+1) $(k).attr('data-pos', '1');
+                        else if(j==i+2) $(k).attr('data-pos', '2');
+                        else if(j==i+3) $(k).attr('data-pos', '3');
+                        else $(k).attr('data-pos', 'after');
+                    });
+
+                    setTimeout(function(){
+                        clickReady = true;
+                    }, 900);
+                }
+            });
+        });
+    }
 
     // Banner 01
     var banner01 = $('.banner-01');
@@ -361,7 +424,6 @@ $(function(){ 'use strict';
             });
         });
     }
-
     
     // Client 01
     var client01 = $('.client-01');
@@ -382,7 +444,6 @@ $(function(){ 'use strict';
         });
     }
 
-    
     // Content 04
     var content04 = $('.content-04');
     if(content04.length){
@@ -412,8 +473,8 @@ $(function(){ 'use strict';
             }
         });
     }
-    
 
+    
     // Tab Container
     var tabContainers = $('.tab-container');
     if(tabContainers.length){

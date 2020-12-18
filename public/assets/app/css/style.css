@@ -689,6 +689,8 @@ ul.ss-list.ss-list-toggle ul.ss-list{display:none;}
 ul.ss-list.gap-sm{margin:.5rem 0;}
 ul.ss-list.gap-sm > li{padding-top:.125rem; padding-bottom:.125rem;}
 ul.ss-list.gap-sm > li::before{top:.6875rem;}
+ul.ss-list.dot-h3-xs > li::before{top:1.125rem;}
+ul.ss-list.dot-h3-xs > li:first-child::before{top:.875rem;}
 
 
 /* Special Separation */

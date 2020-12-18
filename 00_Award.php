@@ -7,7 +7,89 @@
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>
 
-    <img class="img" src="public/assets/app/images/page/00_Award.jpg" alt="Page" />
+    <?php
+        $breadcrumb = [
+            [ 'url' => '#', 'display' => 'เกี่ยวกับ กนอ.' ],
+            [ 'url' => '#', 'display' => 'รางวัลแห่งความภูมิใจ' ],
+        ];
+        include('component/breadcrumb.php');
+    ?>
+
+    <section class="about-03 section-bpadding img-fill lazy-bg" data-src="public/assets/app/images/bg/29.jpg">
+        <div class="container">
+            <h2 data-aos="fade-up" data-aos-delay="0">
+                รางวัลแห่งความภูมิใจ
+            </h2>
+            <h3 class="sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+                ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพในทุกๆด้าน 
+            </h3>
+            <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
+                เพื่อการเติบโตทางธุรกิจสังคมและสิ่งแวดล้อมอย่างยั่งยืน รางวัลแห่งความสำเร็จต่างๆ <br>
+                ที่ กนอ. ได้รับนับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดีและมีการบูรณาการ <br>
+                อีกทั้งพัฒนาอย่างต่อเนื่อง
+            </h5>
+
+            <div class="slide-container" data-aos="fade-up" data-aos-delay="450">
+                <div class="slide-wrapper">
+                    <div class="slides">
+                        <?php for($i=0; $i<13; $i++){?>
+                            <div class="slide">
+                                <div class="wrapper">
+                                    <h2 class="color-gradient-01">
+                                        พ.ศ.<?= 2551+$i ?>
+                                    </h2>
+                                    <ul class="ss-list dot-dark dot-h3-xs">
+                                        <li>
+                                            <h3 class="xs fw-300">
+                                                รางวัลชมเชย 
+                                            </h3>
+                                            <h6 class="fw-600 color-06">
+                                                รัฐวิสาหกิจที่มีการพัฒนาสู่ความเป็นเลิศด้านคุณธรรมความโปร่งใสในการดำเนินงาน 
+                                                <span class="color-black">
+                                                    (Transparency)
+                                                </span>
+                                            </h6>
+                                            <p>
+                                                จากสำนักงานป้องกันปละปราบปรามการทุจริตแห่งชาติ (ป.ป.ช.)
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <h3 class="xs fw-300">
+                                                รางวัลชมเชย 
+                                            </h3>
+                                            <h6 class="fw-600 color-06">
+                                                ด้านความปลอดจากการทุจริตในการปฏิบัติงาน 
+                                                <span class="color-black">
+                                                    (Corruption - Free)
+                                                </span>
+                                            </h6>
+                                            <p>
+                                                จากสำนักงานป้องกันปละปราบปรามการทุจริตแห่งชาติ(ป.ป.ช.)
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        <?php }?>
+                    </div>
+                </div>
+                <div class="awards" class="slide-container" data-aos="fade-up" data-aos-delay="600">
+                    <div class="wrapper">
+                        <?php for($i=0; $i<13; $i++){?>
+                            <div class="award" style="z-index:<?= 13-$i ?>;">
+                                <div class="img-container">
+                                    <div class="img-wrapper">
+                                        <img src="public/assets/app/images/hero/award-<?= $i%2+1 ?>.png" alt="Award" />
+                                    </div>
+                                </div>
+                            </div>
+                        <?php }?>
+                    </div>
+                </div>
+                <div class="dots"></div>
+            </div>
+        </div>
+    </section>
 
     <?php include_once('include/footer-inside.php'); ?>
     <?php include_once('include/script.php'); ?>
