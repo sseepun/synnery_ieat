@@ -33,7 +33,7 @@
                     </td>
                     <td class="pr-3">
                         ระบบ 5G ในนิคมอุตสาหกรรม <br>
-                        <span class="fw-500">150 Hb.</span>
+                        <span class="fw-500">150 Kb.</span>
                     </td>
                     <td>
                         <a class="btn-download" href="#">
