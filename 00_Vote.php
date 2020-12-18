@@ -31,6 +31,7 @@
             <div class="grids jc-center">
                 <div class="grid lg-80 sm-100">
                     <form action="" method="POST">
+
                         <div class="mt-5" data-aos="fade-up" data-aos-delay="450">
                             <div class="ss-box-header bg-white">
                                 <div class="ss-box-shadow"></div>
@@ -274,6 +275,8 @@
                                     </div>
                                 </div>
                             </div>
+                        
+                        
                         </div>
     
                         <div class="table-wrapper mt-4 pt-2" data-aos="fade-up" data-aos-delay="0">
