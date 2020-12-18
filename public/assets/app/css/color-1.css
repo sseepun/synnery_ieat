@@ -8,19 +8,19 @@ html, body{background:#000; color:#fff;}
 
 
 /* Colors */
-.color-white, .color-black, .color-gray, .color-sgray,
+.color-white, .color-black, .color-gray, .color-sgray, .color-fgray,
 .color-01, .h-color-01:hover, .color-02, .h-color-02:hover, .color-03, .h-color-03:hover,
 .color-04, .h-color-04:hover, .color-05, .h-color-05:hover, .color-06, .h-color-06:hover, 
 .color-07, .h-color-07:hover, .color-08, .h-color-08:hover{
     color:#fff!important;
 }
 
-.bg-white, .bg-black, .bg-gray, .bg-sgray,
+.bg-white, .bg-black, .bg-gray, .bg-sgray, .bg-fgray,
 .bg-01, .bg-02, .bg-03, .bg-04, .bg-05, .bg-06, .bg-07, .bg-08{
     background:#000!important;
 }
 
-.bcolor-white, .bcolor-black, .bcolor-gray, .bcolor-sgray,
+.bcolor-white, .bcolor-black, .bcolor-gray, .bcolor-sgray, .bcolor-fgray,
 .bcolor-01, .bcolor-02, .bcolor-03, .bcolor-04, .bcolor-05, .bcolor-06, .bcolor-07, .bcolor-08{
     border-color:#fff!important;
 }
@@ -203,6 +203,8 @@ table.table-estate > tbody > tr > td{border:1px solid #fff;}
 table.table-helpdesk th{border:1px solid #fff;}
 table.table-helpdesk td{border:1px solid #fff;}
 table.table-helpdesk .tag-status{border:1px solid #fff;}
+table.table-vote th{border:1px solid #fff;}
+table.table-vote td{border:1px solid #fff;}
 
 
 /* About 01 */
