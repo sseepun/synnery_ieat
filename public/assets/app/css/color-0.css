@@ -283,6 +283,12 @@ table.table-helpdesk tr:nth-child(2n+1) > td:nth-child(2n){background:#f1f1f1;}
 table.table-helpdesk tr:nth-child(2n+1) > td:nth-child(2n+1){background:#e3e3e3;}
 table.table-vote th{background:#852985; color:#fff;}
 table.table-vote td{background:#313335; color:#fff;}
+table.table-faq th{
+    color:#fff; border-color:#000; background:#5d4189; border-right:1px solid #fff;
+}
+table.table-faq th:nth-child(2n){background:#936dcf;}
+table.table-faq td{background:#f1f1f1; border-color:#000!important;}
+table.table-faq tr:nth-child(2n) > td{background:#fff;}
 
 
 /* About 01 */
@@ -339,6 +345,13 @@ table.table-vote td{background:#313335; color:#fff;}
 /* Content 06 */
 .content-06 .slide-container .arrows button{background:#2c2e2f; color:#fff;}
 .content-06 .slide-container .slide > .wrapper{background:#fff;}
+
+
+/* FAQ 01 */
+.faq-01 .faq{border-color:#ddd;}
+.faq-01 .faq .icon{background:#5d4189;}
+.faq-01 .faq > .faq-body .icon{background:#169f96;}
+.faq-01 .faq .title:hover{color:#5d4189;}
 
 
 /* Tab Container 01 */

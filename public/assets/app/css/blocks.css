@@ -424,6 +424,28 @@
 }
 
 
+/* FAQ 01 */
+.faq-01 .faq{display:block; position:relative; width:100%;}
+.faq-01 .faq > .faq-header, .faq-01 .faq > .faq-body > .wrapper{width:100%; display:flex;}
+.faq-01 .faq > .faq-body{display:none;}
+.faq-01 .faq .icon{position:relative; width:3.25rem; text-align:center; padding:.5rem 0;}
+.faq-01 .faq .icon + *{width:calc(100% - 3.25rem); padding:1rem 1.25rem;}
+.faq-01 .faq .icon + .content{padding-top:0;}
+.faq-01 .faq .icon > img{
+    position:absolute; top:1.0625rem; left:calc(50% - .5625rem); opacity:0;
+    display:block; width:1.125rem; height:auto; transition:opacity .25s;
+}
+.faq-01 .faq .icon > img.active{width:1rem; top:1.375rem; left:calc(50% - .5rem);}
+.faq-01 .faq .icon > img.inactive{opacity:1;}
+.faq-01 .faq.active .icon > img.active{opacity:1;}
+.faq-01 .faq.active .icon > img.inactive{opacity:0;}
+.faq-01 .faq .title{cursor:pointer;}
+@media screen and (max-width:767.98px){
+    .faq-01 .faq{border:1px solid transparent;}
+    .faq-01 .faq .icon + *{padding:1rem;}
+}
+
+
 /* Tab Container */
 .tab-container .tabs .tab{cursor:pointer;}
 .tab-container .tab-contents .tab-content{display:none;}

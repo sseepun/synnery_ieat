@@ -205,6 +205,8 @@ table.table-helpdesk td{border:1px solid #fff;}
 table.table-helpdesk .tag-status{border:1px solid #fff;}
 table.table-vote th{border:1px solid #fff;}
 table.table-vote td{border:1px solid #fff;}
+table.table-faq th{border-color:#fff; border-right:1px solid #fff;}
+table.table-faq td{border-color:#fff!important; border-bottom:1px solid #fff;}
 
 
 /* About 01 */
@@ -251,6 +253,10 @@ table.table-vote td{border:1px solid #fff;}
 .content-01 .btn-ad{background:#000;}
 
 
+/* Content 03 */
+.content-03{background:none!important;}
+
+
 /* Content 04 */
 .content-04{background:none!important;}
 .content-04 .slide-container, .content-04 .video-container{background:#fff;}
@@ -268,8 +274,10 @@ table.table-vote td{border:1px solid #fff;}
 .content-06 .slide-container .slide > .wrapper{background:#fff;}
 
 
-/* Content 03 */
-.content-03{background:none!important;}
+/* FAQ 01 */
+.faq-01 .faq{border:1px solid #fff;;}
+.faq-01 .faq .icon{border-right:1px solid #fff;}
+.faq-01 .faq > .faq-body .icon{border-top:1px solid #fff;}
 
 
 /* Tab Container 01 */

@@ -515,6 +515,21 @@ $(function(){ 'use strict';
         });
     }
 
+
+    // FAQ 01
+    var faq01 = $('.faq-01');
+    if(faq01.length){
+        faq01.each(function(){
+            var self = $(this);
+            self.find('.faq > .faq-header .title').click(function(e){
+                e.preventDefault();
+                var parent = $(this).closest('.faq');
+                parent.toggleClass('active');
+                parent.find('> .faq-body').slideToggle();
+            });
+        });
+    }
+
     
     // Tab Container
     var tabContainers = $('.tab-container');
