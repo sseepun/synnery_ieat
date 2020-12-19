@@ -187,18 +187,6 @@
 .about-04 .profile-container .profile .text-container{
     width:100%; max-width:24.25rem; margin:4.5rem 0 0 auto;
 }
-.about-04 .profile-container .profile-quote{
-    position:relative; width:100%; text-align:center; font-size:1.375rem;
-    padding:0 1.125rem; margin:.875rem 0 0 0; font-style:italic;
-}
-.about-04 .profile-container .profile-quote::before, .about-04 .profile-quote::after{
-    content:'“'; position:absolute; font-size:3.75rem; font-weight:600; line-height:1;
-    pointer-events:none;
-}
-.about-04 .profile-container .profile-quote::before{top:-1rem; left:-.4375rem;}
-.about-04 .profile-container .profile-quote::after{
-    font-size:3rem; transform:rotate(180deg); bottom:.125rem; right:-.3125rem;
-}
 .about-04 .profile-container .profile .profile-img{
     display:block; height:100%; width:auto; position:absolute; bottom:0; left:50%;
     transform:translateX(-50%);
@@ -542,6 +530,22 @@
 }
 
 
+/* Content 07 */
+.content-07{width:100%; padding-bottom:24rem;}
+@media screen and (max-width:1199.98px){
+    .content-07{padding-bottom:20rem;}
+}
+@media screen and (max-width:991.98px){
+    .content-07{padding-bottom:16rem;}
+}
+@media screen and (max-width:767.98px){
+    .content-07{padding-bottom:14rem;}
+}
+@media screen and (max-width:575.98px){
+    .content-07{padding-bottom:12rem;}
+}
+
+
 /* FAQ 01 */
 .faq-01 .faq{display:block; position:relative; width:100%;}
 .faq-01 .faq > .faq-header, .faq-01 .faq > .faq-body > .wrapper{width:100%; display:flex;}
@@ -562,6 +566,20 @@
     .faq-01 .faq{border:1px solid transparent;}
     .faq-01 .faq .icon + *{padding:1rem;}
 }
+
+
+/* Hero Container 01 */
+.hero-container-01{
+    display:block; width:100%; max-width:20rem; margin:0 auto;
+    -webkit-mask-image:linear-gradient(to bottom, #000, #000, #000, #000,
+        #000, #000, #000, #000, #000, rgba(0,0,0,.5), rgba(0,0,0,0));
+}
+.hero-container-01 > .wrapper{position:relative; display:block; width:100%; padding:100% 0 0 0;}
+.hero-container-01 .img-wrapper{
+    position:absolute; top:0; bottom:0; left:0; right:0; display:flex; align-items:flex-end;
+    justify-content:center;
+}
+.hero-container-01 img.hero{display:block; width:auto; max-width:100%; height:auto; max-height:100%;}
 
 
 /* Tab Container */

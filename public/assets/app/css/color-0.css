@@ -253,6 +253,19 @@ ul.ss-list.dot-dark > li::before{background:#282828;}
 .ss-stat .stat.icon-only > .icon{background:none;}
 
 
+/* Special Step */
+.ss-step .step .icon{color:#fff;}
+.ss-step .step:nth-child(5n+1) .icon{background:#2c205e;}
+.ss-step .step:nth-child(5n+2) .icon{background:#53418b;}
+.ss-step .step:nth-child(5n+3) .icon{background:#956dd0;}
+.ss-step .step:nth-child(5n+4) .icon{background:#8b2b84;}
+.ss-step .step:nth-child(5n) .icon{background:#33b2b9;}
+.ss-step > .wrapper::before{
+    background-image:linear-gradient(to right, #2c205e, #53418b, #956dd0,
+        #8b2b84, #33b2b9);
+}
+
+
 /* Special Tag */
 .ss-tag .tag{color:#4e4e50; border-color:#cfcfcf;}
 .ss-card:hover .ss-tag .tag{color:#fff; border-color:#fff;}

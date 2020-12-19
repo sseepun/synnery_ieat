@@ -43,7 +43,7 @@
                                             ผู้ว่าการ การนิคมอุตสาหกรรมแห่งประเทศไทย
                                         </span>
                                     </p>
-                                    <div class="profile-quote fw-300">
+                                    <div class="content-quote-simple fw-300">
                                         <span class="color-07">พัฒนานิคมอุตสาหกรรม</span>
                                         และ<span class="color-04">ยกระดับการให้บริการ</span> 
                                         มุ่งเน้น ให้เกิดการพัฒนานิคมอุตสาหกรรม และท่าเรืออุตสาหกรรม
