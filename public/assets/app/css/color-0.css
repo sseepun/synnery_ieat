@@ -373,3 +373,10 @@ table.table-faq tr:nth-child(2n) > td{background:#fff;}
 .tab-container-02 .tab:nth-child(5n+3) .text-wrapper{background:rgba(140,106,178,.8);}
 .tab-container-02 .tab:nth-child(5n+4) .text-wrapper{background:rgba(192,131,188,.8);}
 .tab-container-02 .tab:nth-child(5n) .text-wrapper{background:rgba(29,36,85,.8);}
+
+/* Tab Container 03 */
+.tab-container-03 .tabs{background:#fff;}
+.tab-container-03 .tab::before{
+    background-image:linear-gradient(to right, #169f96, #1a9693, #2c6d88);
+}
+.tab-container-03 .tab.active{color:#fff!important;}

@@ -281,9 +281,8 @@ table.table-faq td{border-color:#fff!important; border-bottom:1px solid #fff;}
 
 
 /* Tab Container 01 */
-.tab-container-01 .tab::after{background:#fff;}
-.tab-container-01 .tab.tab-list::before{background:#fff;}
 .tab-container-01 .tabs{background:#000; border:1px solid #fff;}
+.tab-container-01 .tab.active{color:#000!important;}
 .tab-container-01 .tab::before{background:#fff;}
 .tab-container-01 .tab::after{background:#fff;}
 .tab-container-01 .tab.tab-main.active{color:#000!important;}
@@ -291,3 +290,8 @@ table.table-faq td{border-color:#fff!important; border-bottom:1px solid #fff;}
 
 /* Tab Container 02 */
 .tab-container-02 .tab .text-wrapper{background:#000; color:#fff;}
+
+/* Tab Container 03 */
+.tab-container-03 .tabs{background:#000; border:1px solid #fff;}
+.tab-container-03 .tab.active{color:#000!important;}
+.tab-container-03 .tab::before{background:#fff;}

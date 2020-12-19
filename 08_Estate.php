@@ -30,86 +30,8 @@
                 เกี่ยวกับ กนอ.และนิคมอุตสาหกรรมในประเทศไทย 
             </h5>
             
-            <div class="py-2 my-4" action="" data-aos="fade-up" data-aos-delay="450">
-                <form>
-                    <div class="ss-box-header shadow">
-                        <div class="header bg-06 color-white pt-2">
-                            <div class="grids">
-                                <div class="grid lg-25 mt-0">
-                                    <div class="field field-sm">
-                                        <label>คำค้นหา :</label>
-                                        <input type="text" class="bg-white" />
-                                    </div>
-                                </div>
-                                <div class="grid lg-25 mt-0">
-                                    <div class="field field-sm">
-                                        <label>นิคมอุตสาหกรรม :</label>
-                                        <div class="select-wrapper icon-square">
-                                            <select class="bg-white">
-                                                <option value=""></option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="grid lg-25 mt-0">
-                                    <div class="field field-sm">
-                                        <label>พื้นที่ประกอบกิจการ :</label>
-                                        <div class="select-wrapper icon-square">
-                                            <select class="bg-white">
-                                                <option value=""></option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="grid lg-25 mt-0">
-                                    <div class="field field-sm">
-                                        <label>ประเภทโรงงาน :</label>
-                                        <div class="select-wrapper icon-square">
-                                            <select class="bg-white">
-                                                <option value=""></option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="grid lg-25 mt-0">
-                                    <div class="field field-sm">
-                                        <label>ประเภท ISIC :</label>
-                                        <div class="select-wrapper icon-square">
-                                            <select class="bg-white">
-                                                <option value=""></option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="grid lg-25 mt-0">
-                                    <div class="field field-sm">
-                                        <label>เลขทะเบียนโรงงาน :</label>
-                                        <input type="text" class="bg-white" />
-                                    </div>
-                                </div>
-                                <div class="grid lg-25 mt-0">
-                                    <div class="field field-sm">
-                                        <label>บริษัท :</label>
-                                        <input type="text" class="bg-white" />
-                                    </div>
-                                </div>
-                                <div class="grid lg-25 mt-0">
-                                    <div class="field field-sm">
-                                        <label>ประกอบอุตสาหกรรม :</label>
-                                        <input type="text" class="bg-white" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="body bg-08">
-                            <div class="btns text-center mt-0">
-                                <button type="submit" class="btn btn-action">
-                                    <span>ค้นหา</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
+            <div class="py-2 my-4" data-aos="fade-up" data-aos-delay="450">
+                <?php include('component/search-panel.php'); ?>
             </div>
 
             <h3 class="color-02 fw-300" data-aos="fade-up" data-aos-delay="0">
@@ -118,6 +40,7 @@
             <h5 class="fw-300" data-aos="fade-up" data-aos-delay="150">
                 ตอบสนองทุกความต้องการทางด้านธุรกิจของคุณ
             </h5>
+
             <div class="grids" data-aos="fade-up" data-aos-delay="300">
                 <?php for($j=0; $j<12; $j++){?>
                     <div class="grid xl-25 lg-1-3 sm-50">
@@ -196,10 +119,9 @@
                 <?php }?> 
             </div>
             <?php include('component/grid-footer.php'); ?>
-
-
         </div>
     </section>
+
     <?php include_once('include/footer-inside.php'); ?>
     <?php include_once('include/script.php'); ?>
 </body>
