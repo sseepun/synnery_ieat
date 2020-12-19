@@ -231,6 +231,14 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 .about-03 .slick-dots button::after{background:#000;}
 
 
+/* About 04 */
+.about-04 > .top-container{background:none!important;}
+.about-04 .director-container{
+    background:rgba(0,0,0,.75); border-top:1px solid #ffff00; border-bottom:1px solid #ffff00;
+}
+.about-04 .director-container-02{border-bottom:1px solid #ffff00;}
+
+
 /* Breadcrumb 01 */
 .breadcrumb-01 a.icon{background:#ffff00; color:#000;}
 .breadcrumb-01 a.text{color:#ffff00;}

@@ -408,6 +408,32 @@ $(function(){ 'use strict';
             });
         });
     }
+    
+    // About 04
+    var about04 = $('.about-04');
+    if(about04.length){
+        var about04Ready = true,
+            teams = about04.find('.director'),
+            targets = about04.find('.about-target');
+        teams.click(function(e){
+            e.preventDefault();
+            var target = targets.filter('[data-team="'+$(this).data('team')+'"]');
+            if(about04Ready && target.length){
+                about04Ready = false;
+                teams.removeClass('active');
+                $(this).addClass('active');
+                targets.filter('.active').addClass('out');
+                setTimeout(function(){
+                    targets.removeClass('active in out');
+                    target.addClass('active in');
+                    setTimeout(function(){
+                        target.removeClass('in');
+                        about04Ready = true;
+                    }, 50);
+                }, 450);
+            }
+        });
+    }
 
     // Banner 01
     var banner01 = $('.banner-01');

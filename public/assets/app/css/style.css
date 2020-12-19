@@ -212,6 +212,7 @@ ul > li, ol > li{margin:.125rem 0;}
 
 .btn-round{border-radius:1000em; padding-left:1.1875rem; padding-right:1.1875rem;}
 .btn-hex{clip-path:polygon(50% 0%, 100% 24%, 100% 76%, 50% 100%, 0% 76%, 0% 24%);}
+.btn-hex-02{clip-path:polygon(50% 0%, 100% 26%, 100% 74%, 50% 100%, 0% 74%, 0% 26%);}
 
 
 /* Capcha Container */
