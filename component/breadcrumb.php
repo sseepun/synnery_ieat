@@ -1,5 +1,5 @@
 <?php if(!empty($breadcrumb)){?>
-    <section class="breadcrumb-01">
+    <section class="breadcrumb-01 <?php if(!empty($breadcrumbClass))echo $breadcrumbClass; ?>">
         <div class="container">
             <div class="wrapper">
                 <a class="icon" href="#">

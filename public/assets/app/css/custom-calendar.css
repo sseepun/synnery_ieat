@@ -1,0 +1,26 @@
+
+/* Calendar - Month */
+.calendar-month .fc-toolbar.fc-header-toolbar{display:none;}
+.calendar-month .fc-head-container.fc-widget-header{border:0;}
+.calendar-month .fc-day-header{
+    padding:0 0 .5rem 0; font-size:1.8125rem; font-weight:300; border:0; text-align:left;
+}
+.calendar-month .fc-day-top > span{
+    display:block; width:2.125rem; height:3rem; font-size:1.75rem; font-weight:300;
+    text-align:center; line-height:3rem;
+}
+.calendar-month .fc-row.fc-week.fc-widget-content{height:auto; min-height:12rem;}
+.calendar-month .fc-event{background:none; padding:0; margin:0; border:0;}
+.calendar-month .custom-event{display:block; width:calc(100% - .75rem); padding:.375rem .375rem;}
+.calendar-month .custom-event .time{font-size:1.125rem; font-weight:300;}
+.calendar-month .custom-event .title{
+    font-size:1.3125rem; font-weight:400; line-height:1;
+    display:block; display:-webkit-box; text-overflow:ellipsis; overflow:hidden;
+    -webkit-box-orient:vertical; -webkit-line-clamp:3; transition:color .25s;
+}
+.calendar-month a.fc-more{
+    display:block; padding:.375rem; margin:.75rem 0 0 0; font-size:1.3125rem;
+    border-top:1px solid transparent; text-decoration:none!important;
+    transition:color .25s;
+}
+.calendar-month .fc-popover .fc-header .fc-title{font-size:1.3125rem; font-weight:400; margin:4px;}

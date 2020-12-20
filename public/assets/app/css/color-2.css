@@ -309,3 +309,25 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 .tab-container-03 .tabs{background:#000; border:1px solid #ffff00;}
 .tab-container-03 .tab.active{color:#000!important;}
 .tab-container-03 .tab::before{background:#ffff00;}
+
+
+/* Section Calendar */
+.section-calendar > .top-container,
+.section-calendar > .middle-container,
+.section-calendar > .bottom-container{border-top:1px solid #ffff00;}
+.section-calendar .slide > .wrapper{color:#ffff00;}
+.section-calendar .slide.slick-current > .wrapper{color:#000;}
+.section-calendar .slide > .wrapper::before{background:#ffff00;}
+.section-calendar .slide-container .arrows button{color:#ffff00;}
+
+/* Calendar - Month */
+.calendar-month .fc-day-header{color:#ffff00;}
+.calendar-month .fc-day-top > span{background:#ffff00; color:#000;}
+.calendar-month .fc-unthemed td.fc-today{background:rgba(255,255,0,.18);}
+.calendar-month .fc-day-top.fc-other-month > span{opacity:.4;}
+.calendar-month .custom-event{color:#ffff00;}
+.calendar-month a.fc-more{color:#ffff00; border-color:#ffff00;}
+.calendar-month .fc-unthemed .fc-popover{border:1px solid #ffff00; background:#000;}
+.calendar-month .fc-unthemed .fc-popover .fc-header{
+    border-bottom:1px solid #ffff00; background:#000;
+}

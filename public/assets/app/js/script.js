@@ -529,7 +529,7 @@ $(function(){ 'use strict';
             slideContainer.find('> .slides').slick({
                 centerMode: true, centerPadding: 0, slidesToShow: 7, infinite: true,
                 focusOnSelect: true, autoplay: false, speed: 600, swipeToSlide: true,
-                fots: false, arrows: true, appendArrows: slideContainer.find('> .arrows'),
+                dots: false, arrows: true, appendArrows: slideContainer.find('> .arrows'),
                 responsive: [
                     { breakpoint: 1299.98, settings: { slidesToShow: 6, } },
                     { breakpoint: 1199.98, settings: { slidesToShow: 5, } },
