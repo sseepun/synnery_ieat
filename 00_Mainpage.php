@@ -8,7 +8,7 @@
     <?php include_once('include/topnav.php'); ?>
 
     <section class="banner-01">
-        <h1 class="d-none">Banner 01</h1>
+        <h2 class="d-none">Banner 01</h2>
         <h3 class="d-none">Banner 01 Description</h3>
         <div class="slide-container">
             <div class="slides">
