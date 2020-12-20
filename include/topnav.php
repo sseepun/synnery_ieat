@@ -239,7 +239,7 @@
                         คุณกำลังมองหาอะไร?
                     </h3>
                     <div class="input-container">
-                        <input type="text" name="keywords" placeholder="ค้นหา" required>
+                        <input type="text" name="keywords" placeholder="ค้นหา" required title="keywords" />
                         <button type="submit">
                             <em class="fas fa-search"></em>
                         </button>
