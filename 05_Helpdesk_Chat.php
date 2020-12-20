@@ -192,7 +192,7 @@
 
                             </div>
                             <div class="body bg-04">
-                                <form action="" method="POST">
+                                <form action="/" method="POST">
                                     <div class="chat-message py-2">
                                         <div class="profile-container">
                                             <div class="profile" style="background-image:url('public/assets/app/images/hero/chat-me.jpg');"></div>

@@ -30,7 +30,7 @@
             </h5>
             <div class="grids jc-center">
                 <div class="grid lg-80 sm-100">
-                    <form action="" method="POST">
+                    <form action="/" method="POST">
 
                         <div class="mt-5" data-aos="fade-up" data-aos-delay="450">
                             <div class="ss-box-header bg-white">
@@ -77,7 +77,7 @@
                                                 <div class="control">
                                                     <div class="select-wrapper icon-square">
                                                         <select class="bg-white">
-                                                            <option value=""></option>
+                                                            <option value="">&nbsp;</option>
                                                         </select>
                                                     </div>
                                                 </div>

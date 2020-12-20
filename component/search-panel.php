@@ -1,4 +1,4 @@
-<form action="" method="POST">
+<form action="/" method="POST">
     <div class="ss-box-header shadow position-relative" style="z-index:1;">
         <div class="header bg-06 color-white pt-2">
             <div class="grids">
@@ -13,7 +13,7 @@
                         <label>นิคมอุตสาหกรรม :</label>
                         <div class="select-wrapper icon-square">
                             <select class="bg-white">
-                                <option value=""></option>
+                                <option value="">&nbsp;</option>
                             </select>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                         <label>พื้นที่ประกอบกิจการ :</label>
                         <div class="select-wrapper icon-square">
                             <select class="bg-white">
-                                <option value=""></option>
+                                <option value="">&nbsp;</option>
                             </select>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                         <label>ประเภทโรงงาน :</label>
                         <div class="select-wrapper icon-square">
                             <select class="bg-white">
-                                <option value=""></option>
+                                <option value="">&nbsp;</option>
                             </select>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                         <label>ประเภท ISIC :</label>
                         <div class="select-wrapper icon-square">
                             <select class="bg-white">
-                                <option value=""></option>
+                                <option value="">&nbsp;</option>
                             </select>
                         </div>
                     </div>

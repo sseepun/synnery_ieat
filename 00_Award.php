@@ -73,7 +73,7 @@
                         <?php }?>
                     </div>
                 </div>
-                <div class="awards" class="slide-container" data-aos="fade-up" data-aos-delay="600">
+                <div class="awards" data-aos="fade-up" data-aos-delay="600">
                     <div class="wrapper">
                         <?php for($i=0; $i<13; $i++){?>
                             <div class="award" style="z-index:<?= 13-$i ?>;">

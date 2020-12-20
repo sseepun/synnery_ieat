@@ -79,7 +79,7 @@
                                 <h3 class="sm fw-500">แบบฟอร์มสมัครรับข่าวสาร</h3>
                             </div>
                             <div class="body bg-white">
-                                <form action="" method="POST">
+                                <form action="/" method="POST">
                                     <div class="grids">
                                         <div class="grid md-80 sm-100 mt-0">
                                             <div class="field">

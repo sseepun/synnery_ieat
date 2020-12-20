@@ -101,7 +101,7 @@
                 แบบฟอร์มการติดต่อ
             </h3>
             <div data-aos="fade-up" data-aos-delay="150">
-                <form class="contact-form" action="" method="POST">
+                <form class="contact-form" action="/" method="POST">
                     <div class="grids mt-3">
 
                         <div class="grid sm-100 mt-2">

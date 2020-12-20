@@ -25,7 +25,7 @@
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 ของประเทศโดยเน้นภาคอุตสาหกรรมและบริการสู่อนาคตที่ยั่งยืน
             </h5>
-            <div class="ss-box mt-5" class="xs-no-br" data-aos="fade-up" data-aos-delay="450">
+            <div class="ss-box mt-5" data-aos="fade-up" data-aos-delay="450">
                 <img class="img" src="public/assets/app/images/bg/orgchart-1.jpg" alt="Org Chart" />
             </div>
         </div>
