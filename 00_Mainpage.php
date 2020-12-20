@@ -88,7 +88,7 @@
                                                             </div>
                                                             <div class="stat">
                                                                 <div class="icon">
-                                                                    <i class="zmdi zmdi-share"></i>
+                                                                    <em class="zmdi zmdi-share"></em>
                                                                 </div> 20
                                                             </div>
                                                         </div>
@@ -144,7 +144,7 @@
                                                                         </div>
                                                                         <div class="stat">
                                                                             <div class="icon">
-                                                                                <i class="zmdi zmdi-share"></i>
+                                                                                <em class="zmdi zmdi-share"></em>
                                                                             </div> 20
                                                                         </div>
                                                                     </div>
@@ -193,7 +193,7 @@
                             </p>
                             <div class="btns mt-2">
                                 <a class="btn-icon btn-icon-01 btn-hex" href="#">
-                                    <i class="zmdi zmdi-chevron-right"></i>
+                                    <em class="zmdi zmdi-chevron-right"></em>
                                 </a>
                             </div>
                         </div>
@@ -266,7 +266,7 @@
                         08. <span class="fw-300">นิคมอุตสาหกรรมที เอฟ ดี</span>
                     </h4>
                     <a class="close-btn btn-popup-toggle" data-popup="0" href="#">
-                        <i class="zmdi zmdi-close"></i>
+                        <em class="zmdi zmdi-close"></em>
                     </a>
                 </div>
                 <div class="box-body">
@@ -328,10 +328,10 @@
                 </div>
                 <div class="box-btns">
                     <a class="box-btn" href="#">
-                        <i class="zmdi zmdi-swap-alt"></i> View Google Map
+                        <em class="zmdi zmdi-swap-alt"></em> View Google Map
                     </a>
                     <a class="box-btn" href="#">
-                        <i class="zmdi zmdi-swap-alt"></i> View Graphic Map
+                        <em class="zmdi zmdi-swap-alt"></em> View Graphic Map
                     </a>
                 </div>
             </div>

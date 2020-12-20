@@ -33,7 +33,7 @@
                         <div class="options">
                             <input type="text" name="search" placeholder="ค้นหา" required />
                             <button type="submit" class="btn btn-grid">
-                                <i class="zmdi zmdi-search"></i>
+                                <em class="zmdi zmdi-search"></em>
                             </button>
                         </div>
                     </div>

@@ -61,7 +61,7 @@
                                             <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
                                             <div class="play-container">
                                                 <div class="icon">
-                                                    <i class="zmdi zmdi-play"></i>
+                                                    <em class="zmdi zmdi-play"></em>
                                                 </div>
                                             </div>
                                             <div class="date bg-05">
@@ -83,7 +83,7 @@
                                                     <div class="ss-stat">
                                                         <div class="stat">
                                                             <div class="icon">
-                                                                <i class="zmdi zmdi-time"></i>
+                                                                <em class="zmdi zmdi-time"></em>
                                                             </div> 11:34
                                                         </div>
                                                         <div class="stat">
@@ -93,7 +93,7 @@
                                                         </div>
                                                         <div class="stat">
                                                             <div class="icon">
-                                                                <i class="zmdi zmdi-share"></i>
+                                                                <em class="zmdi zmdi-share"></em>
                                                             </div> 20
                                                         </div>
                                                     </div>
@@ -122,7 +122,7 @@
                                                         <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
                                                         <div class="play-container">
                                                             <div class="icon">
-                                                                <i class="zmdi zmdi-play"></i>
+                                                                <em class="zmdi zmdi-play"></em>
                                                             </div>
                                                         </div>
                                                         <div class="date">
@@ -140,7 +140,7 @@
                                                             <div class="ss-stat">
                                                                 <div class="stat">
                                                                     <div class="icon">
-                                                                        <i class="zmdi zmdi-time"></i>
+                                                                        <em class="zmdi zmdi-time"></em>
                                                                     </div> 11:34
                                                                 </div>
                                                                 <div class="stat">
@@ -150,7 +150,7 @@
                                                                 </div>
                                                                 <div class="stat">
                                                                     <div class="icon">
-                                                                        <i class="zmdi zmdi-share"></i>
+                                                                        <em class="zmdi zmdi-share"></em>
                                                                     </div> 20
                                                                 </div>
                                                             </div>

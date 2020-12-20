@@ -150,7 +150,7 @@
                                                         หน้าแรก
                                                     </a> -->
                                                     <a href="#" class="page-btn page-prev disabled">
-                                                        <i class="zmdi zmdi-chevron-left"></i>
+                                                        <em class="zmdi zmdi-chevron-left"></em>
                                                     </a>
                                                     <a href="#" class="page-btn active">01</a>
                                                     <a href="#" class="page-btn">02</a>
@@ -158,7 +158,7 @@
                                                     <a href="#" class="page-btn">04</a>
                                                     <a href="#" class="page-btn">05</a>
                                                     <a href="#" class="page-btn page-next">
-                                                        <i class="zmdi zmdi-chevron-right"></i>
+                                                        <em class="zmdi zmdi-chevron-right"></em>
                                                     </a>
                                                     <!-- <a href="#" class="page-btn page-last">
                                                         หน้าสุดท้าย

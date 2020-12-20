@@ -115,7 +115,7 @@ nav.sidenav .menu:hover > a, nav.sidenav .item:hover > a{color:#0f9684;}
 .global-search-container .hamburger > *{background:#fff;}
 
 /* Back to Top */
-.back-to-top i{color:#5a407c;}
+.back-to-top i, .back-to-top em{color:#5a407c;}
 
 /* Footer */
 nav.footer{color:#fff;}
@@ -215,7 +215,7 @@ nav.footer .tag{
 }
 .ss-card-05 .stat-container{background:#8e8e8e;}
 .ss-card-05 .stat-container .btn{background:#a5a5a5; color:#fff;}
-.ss-card-05 .stat-container .btn i{background:#000;}
+.ss-card-05 .stat-container .btn i, .ss-card-05 .stat-container .btn em{background:#000;}
 
 /* Special Card 06 */
 .ss-card-06:hover .text-container{color:#000; background:#fff;}
@@ -283,8 +283,8 @@ ul.ss-list.dot-dark > li::before{background:#282828;}
 table.table{color:#000;}
 table.table-download .btn-download{color:#000;}
 table.table-download .btn-download:hover{color:#169f96;}
-table.table-download .btn-download > i{border-color:#000;}
-table.table-download .btn-download:hover > i{
+table.table-download .btn-download > i, table.table-download .btn-download > em{border-color:#000;}
+table.table-download .btn-download:hover > i, table.table-download .btn-download:hover > em{
     border-color:#169f96; background:#169f96; color:#fff;
 }
 table.table-estate > tbody > tr > td:nth-child(1){background:#5d4289; color:#fff;}

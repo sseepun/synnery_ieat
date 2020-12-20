@@ -64,7 +64,7 @@
 <a class="back-to-top" href="#">
     <div class="wrapper">
         <img src="public/assets/app/images/icon/border.png" alt="Border" >
-        <i class="zmdi zmdi-chevron-up"></i>
+        <em class="zmdi zmdi-chevron-up"></em>
     </div>
 </a>
 
@@ -73,7 +73,7 @@
     <div class="container">
 
         <div class="tag">
-            <i class="zmdi zmdi-close"></i>
+            <em class="zmdi zmdi-close"></em>
             <p>ลิงก์ที่เกี่ยวข้อง</p>
         </div>
 
@@ -167,7 +167,7 @@
                 <div class="grids">
                     <div class="grid xl-1-3 mt-0">
                         <div class="footer-link">
-                            <i class="zmdi zmdi-smartphone-iphone"></i>
+                            <em class="zmdi zmdi-smartphone-iphone"></em>
                             <span class="color-03">Telephone.</span>
                             <a class="fw-500 color-white h-color-03" href="#">
                                 02 2530561
@@ -176,7 +176,7 @@
                     </div>
                     <div class="grid xl-1-3 mt-0">
                         <div class="footer-link">
-                            <i class="zmdi zmdi-print"></i>
+                            <em class="zmdi zmdi-print"></em>
                             <span class="color-03">Fax.</span>
                             <a class="fw-500 color-white h-color-03" href="#">
                                 02 2526582</a>, 
@@ -198,7 +198,7 @@
                     </div>
                     <div class="grid xl-1-3 mt-0">
                         <div class="footer-link">
-                            <i class="zmdi zmdi-email"></i>
+                            <em class="zmdi zmdi-email"></em>
                             <span class="color-03">Contact Us</span>
                             <a class="fw-500 color-white h-color-03" href="#">
                                 contact@ieat.mail.go.th

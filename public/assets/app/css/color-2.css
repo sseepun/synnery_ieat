@@ -62,7 +62,7 @@ nav.sidenav .menu > a, nav.sidenav .item, nav.sidenav .item > a{color:#ffff00;}
 .global-search-container .hamburger > *{background:#ffff00;}
 
 /* Back to Top */
-.back-to-top i{color:#000;}
+.back-to-top i, .back-to-top em{color:#000;}
 
 /* Footer */
 nav.footer{color:#ffff00; border-top:1px solid #ffff00;}
@@ -156,7 +156,9 @@ nav.footer .tag{background:#ffff00; color:#000;}
 .ss-card-05 .stat-container .btns{border-color:#ffff00;}
 .ss-card-05 .stat-container .btn{background:#000; color:#ffff00;}
 .ss-card-05 .stat-container .btn:first-child{border-color:#ffff00;}
-.ss-card-05 .stat-container .btn i{background:#ffff00; color:#000;}
+.ss-card-05 .stat-container .btn i, .ss-card-05 .stat-container .btn em{
+    background:#ffff00; color:#000;
+}
 
 /* Special Card 06 */
 .ss-card-06 .text-container{border:0;}
@@ -202,8 +204,10 @@ ul.ss-list > li::before{background:#ffff00;}
 /* Table */
 table.table{color:#ffff00;}
 table.table-download .btn-download{color:#ffff00;}
-table.table-download .btn-download > i{border-color:#ffff00;}
-table.table-download .btn-download:hover > i{background:#ffff00; color:#000;}
+table.table-download .btn-download > i, table.table-download .btn-download > em{border-color:#ffff00;}
+table.table-download .btn-download:hover > i, table.table-download .btn-download:hover > em{
+    background:#ffff00; color:#000;
+}
 table.table-estate > tbody > tr > td{border:1px solid #ffff00;}
 table.table-helpdesk th{border:1px solid #ffff00;}
 table.table-helpdesk td{border:1px solid #ffff00;}

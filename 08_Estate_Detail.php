@@ -25,7 +25,7 @@
                     <div class="ss-stat width-full">
                         <div class="stat fit-text icon-only ai-start ws-normal mt-0">
                             <div class="icon mr-2">
-                                <i class="zmdi zmdi-share"></i> 
+                                <em class="zmdi zmdi-share"></em> 
                             </div>
                             <p>
                                 <span class="fw-600 mr-2">ปีที่ก่อตั้ง:</span>
@@ -38,7 +38,7 @@
                     <div class="ss-stat width-full">
                         <div class="stat fit-text icon-only ai-start ws-normal mt-0">
                             <div class="icon mr-2">
-                                <i class="zmdi zmdi-account"></i>
+                                <em class="zmdi zmdi-account"></em>
                             </div>
                             <p>
                                 <span class="fw-600 mr-2">ผู้อำนวยการนิคมฯ:</span>
@@ -51,7 +51,7 @@
                     <div class="ss-stat width-full">
                         <div class="stat fit-text icon-only ai-start ws-normal mt-0">
                             <div class="icon mr-2">
-                                <i class="zmdi zmdi-account"></i>
+                                <em class="zmdi zmdi-account"></em>
                             </div>
                             <p>
                                 <span class="fw-600 mr-2">ผู้พัฒนานิคมฯ:</span>
@@ -64,7 +64,7 @@
                     <div class="ss-stat width-full">
                         <div class="stat fit-text icon-only ai-start ws-normal mt-0">
                             <div class="icon mr-2">
-                                <i class="zmdi zmdi-smartphone-iphone"></i>
+                                <em class="zmdi zmdi-smartphone-iphone"></em>
                             </div>
                             <p>
                                 <span class="fw-600 mr-2">โทรศัพท์:</span>
@@ -77,7 +77,7 @@
                     <div class="ss-stat width-full">
                         <div class="stat fit-text icon-only ai-start ws-normal mt-0">
                             <div class="icon mr-2">
-                                <i class="zmdi zmdi-phone"></i>
+                                <em class="zmdi zmdi-phone"></em>
                             </div>
                             <p>
                                 <span class="fw-600 mr-2">โทรสาร:</span>
@@ -90,7 +90,7 @@
                     <div class="ss-stat width-full">
                         <div class="stat fit-text icon-only ai-start ws-normal mt-0">
                             <div class="icon mr-2">
-                                <i class="zmdi zmdi-email"></i>
+                                <em class="zmdi zmdi-email"></em>
                             </div>
                             <p>
                                 <span class="fw-600 mr-2">Email:</span>
@@ -103,7 +103,7 @@
                     <div class="ss-stat width-full">
                         <div class="stat fit-text icon-only ai-start ws-normal mt-0">
                             <div class="icon mr-2">
-                                <i class="zmdi zmdi-globe-alt"></i>
+                                <em class="zmdi zmdi-globe-alt"></em>
                             </div>
                             <p>
                                 <span class="fw-600 mr-2">เว็บไซต์:</span>
@@ -466,7 +466,7 @@
                                                         </td>
                                                         <td>
                                                             <a class="btn-download" href="#">
-                                                                ดาวน์โหลดไฟล์นี้ <i class="zmdi zmdi-arrow-right"></i>
+                                                                ดาวน์โหลดไฟล์นี้ <em class="zmdi zmdi-arrow-right"></em>
                                                             </a>
                                                         </td>
                                                     </tr>

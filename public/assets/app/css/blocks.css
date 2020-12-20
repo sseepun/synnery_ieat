@@ -299,7 +299,7 @@
 .breadcrumb-01 a.icon{
     width:1.0625rem; height:1.0625rem; line-height:1.125rem; text-align:center; font-size:.75rem;
 }
-.breadcrumb-01 a.text i{font-size:1rem; margin:0 .1875rem 0 0;}
+.breadcrumb-01 a.text i, .breadcrumb-01 a.text em{font-size:1rem; margin:0 .1875rem 0 0;}
 
 
 /* Call to Action 01 */
@@ -600,7 +600,8 @@
 .section-calendar .calendar-header .calendar-btn{
     min-width:5.5rem; display:flex; align-items:center; cursor:pointer; transition:color .25s;
 }
-.section-calendar .calendar-header .calendar-btn i{font-size:1.5rem; transform:none;}
+.section-calendar .calendar-header .calendar-btn i,
+.section-calendar .calendar-header .calendar-btn em{font-size:1.5rem; transform:none;}
 
 .section-calendar .calendar-tabs{
     position:relative; width:100%; display:flex; justify-content:space-between;

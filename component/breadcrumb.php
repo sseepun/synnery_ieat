@@ -4,13 +4,13 @@
             <div class="wrapper">
                 <h6>
                     <a class="icon" href="#">
-                        <i class="zmdi zmdi-home"></i>
+                        <em class="zmdi zmdi-home"></em>
                     </a>
                 </h6>
                 <?php foreach($breadcrumb as $b){?>
                     <h6>
                         <a class="text" href="<?= $b['url'] ?>">
-                            <i class="zmdi zmdi-chevron-right"></i> 
+                            <em class="zmdi zmdi-chevron-right"></em> 
                             <?= $b['display'] ?>
                         </a>
                     </h6>

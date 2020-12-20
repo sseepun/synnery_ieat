@@ -124,13 +124,13 @@
                                         <p class="job-title"><?= $d['job-title'] ?></p>
                                         <div class="icon-bullet mt-2">
                                             <div class="icon bg-07 color-white btn-hex-02">
-                                                <i class="zmdi zmdi-phone"></i>
+                                                <em class="zmdi zmdi-phone"></em>
                                             </div>
                                             <p>02-253-2561 ต่อ 1194</p>
                                         </div>
                                         <div class="icon-bullet">
                                             <div class="icon bg-03 color-white btn-hex-02">
-                                                <i class="zmdi zmdi-email"></i>
+                                                <em class="zmdi zmdi-email"></em>
                                             </div>
                                             <p>mail@ieat.go.th</p>
                                         </div>
@@ -156,7 +156,7 @@
                             <?php if($i<12){?>
                                 <div class="icon-bullet mt-2">
                                     <div class="icon bg-07 color-white btn-hex-02">
-                                        <i class="zmdi zmdi-phone"></i>
+                                        <em class="zmdi zmdi-phone"></em>
                                     </div>
                                     <p>02-253-2561 ต่อ 1410</p>
                                 </div>

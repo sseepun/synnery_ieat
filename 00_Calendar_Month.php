@@ -34,7 +34,7 @@
                     <div class="options">
                         <input type="text" name="search" placeholder="ค้นหา" required />
                         <button type="submit" class="btn btn-grid">
-                            <i class="zmdi zmdi-search"></i>
+                            <em class="zmdi zmdi-search"></em>
                         </button>
                     </div>
                 </div>
@@ -65,13 +65,13 @@
             <div class="container">
                 <div class="calendar-header">
                     <div id="prev-month-btn" class="calendar-btn">
-                        <i class="zmdi zmdi-chevron-left mr-2"></i>
+                        <em class="zmdi zmdi-chevron-left mr-2"></em>
                         <span class="h6"></span>
                     </div>
                     <h3 id="calendar-title" class="sm fw-300 calendar-title"></h3>
                     <div id="next-month-btn" class="calendar-btn">
                         <span class="h6"></span>
-                        <i class="zmdi zmdi-chevron-right ml-2"></i>
+                        <em class="zmdi zmdi-chevron-right ml-2"></em>
                     </div>
                 </div>
             </div>

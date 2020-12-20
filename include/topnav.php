@@ -15,13 +15,13 @@
                         <div class="items">
                             <div class="item">
                                 <a href="#">
-                                    <i class="zmdi zmdi-comment-more"></i> 
+                                    <em class="zmdi zmdi-comment-more"></em> 
                                     แจ้งเรื่องร้องเรียน
                                 </a>
                             </div>
                             <div class="item">
                                 <a href="#">
-                                    <i class="zmdi zmdi-account-o"></i> 
+                                    <em class="zmdi zmdi-account-o"></em> 
                                     ติดต่อ Call Center : 
                                     <span class="text-xl fw-500">02 2072700</span>
                                 </a>
@@ -58,12 +58,12 @@
                             </div>
                             <div class="menu menu-icon">
                                 <a class="topnav-dropdown-toggle" href="#">
-                                    <i class="zmdi zmdi-more-vert"></i>
+                                    <em class="zmdi zmdi-more-vert"></em>
                                 </a>
                             </div>
                             <div class="menu menu-icon">
                                 <a class="global-search-toggle" href="#">
-                                    <i class="zmdi zmdi-search"></i>
+                                    <em class="zmdi zmdi-search"></em>
                                 </a>
                             </div>
                         </div>
@@ -73,12 +73,12 @@
             <div class="mobile-container">
                 <div class="menu menu-icon">
                     <a class="topnav-dropdown-toggle" href="#">
-                        <i class="zmdi zmdi-more-vert"></i>
+                        <em class="zmdi zmdi-more-vert"></em>
                     </a>
                 </div>
                 <div class="menu menu-icon">
                     <a class="global-search-toggle" href="#">
-                        <i class="zmdi zmdi-search"></i>
+                        <em class="zmdi zmdi-search"></em>
                     </a>
                 </div>
                 <div class="menu menu-icon">
@@ -132,7 +132,7 @@
                                     <li><a href="#">การแสดงความรับผิดชอบต่อสังคม (CSR) ของ กนอ.</a></li>
                                     <li><a href="#">ธรรมาภิบาล</a>
                                         <div class="btn-icon btn-icon-xs btn-hex">
-                                            <i class="zmdi zmdi-chevron-down"></i>
+                                            <em class="zmdi zmdi-chevron-down"></em>
                                         </div>
                                         <ul class="ss-list dot-dark">
                                             <li><a href="#">นโยบาย กนอ. ใสสะอาด</a></li>
@@ -168,13 +168,13 @@
                                     <li><a href="#">ข้อมูลโครงการลงทุนที่สำคัญ</a></li>
                                     <li><a href="#">แผนแม่บท</a>
                                         <div class="btn-icon btn-icon-xs btn-hex">
-                                            <i class="zmdi zmdi-chevron-down"></i>
+                                            <em class="zmdi zmdi-chevron-down"></em>
                                         </div>
                                 
                                     </li>
                                     <li><a href="#">แผนวิสาหกิจ กนอ /แผนปฏิบัติการ กนอ.</a>
                                         <div class="btn-icon btn-icon-xs btn-hex">
-                                            <i class="zmdi zmdi-chevron-down"></i>
+                                            <em class="zmdi zmdi-chevron-down"></em>
                                         </div>
                                 
                                     </li>
@@ -241,7 +241,7 @@
                     <div class="input-container">
                         <input type="text" name="keywords" placeholder="ค้นหา" required>
                         <button type="submit">
-                            <i class="fas fa-search"></i>
+                            <em class="fas fa-search"></em>
                         </button>
                     </div>
                 </form>

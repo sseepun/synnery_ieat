@@ -34,7 +34,7 @@
                     <div class="options">
                         <input type="text" name="search" placeholder="ค้นหา" required />
                         <button type="submit" class="btn btn-grid">
-                            <i class="zmdi zmdi-search"></i>
+                            <em class="zmdi zmdi-search"></em>
                         </button>
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                                         <div class="ss-stat mt-0">
                                             <div class="stat icon-only fit-text mt-0">
                                                 <div class="icon">
-                                                    <i class="zmdi zmdi-calendar"></i>
+                                                    <em class="zmdi zmdi-calendar"></em>
                                                 </div>
                                                 <p><span class="fw-500">วันที่</span> 12/09/2563</p>
                                             </div>
@@ -112,7 +112,7 @@
                                         <div class="ss-stat mt-0">
                                             <div class="stat icon-only fit-text mt-0">
                                                 <div class="icon">
-                                                    <i class="zmdi zmdi-time"></i>
+                                                    <em class="zmdi zmdi-time"></em>
                                                 </div>
                                                 <p><span class="fw-500">เวลา</span> 12.45</p>
                                             </div>
@@ -122,7 +122,7 @@
                                         <div class="ss-stat mt-0">
                                             <div class="stat icon-only fit-text ai-start mt-0">
                                                 <div class="icon">
-                                                    <i class="zmdi zmdi-pin"></i>
+                                                    <em class="zmdi zmdi-pin"></em>
                                                 </div>
                                                 <p class="ws-normal">
                                                     <span class="fw-500">สถานที่</span>
@@ -189,19 +189,19 @@
                                     <div class="ss-stat mt-1">
                                         <div class="stat icon-only fit-text width-full">
                                             <div class="icon">
-                                                <i class="zmdi zmdi-calendar"></i>
+                                                <em class="zmdi zmdi-calendar"></em>
                                             </div>
                                             <p><span class="fw-500">วันที่</span> 12/09/2563</p>
                                         </div>
                                         <div class="stat icon-only fit-text width-full">
                                             <div class="icon">
-                                                <i class="zmdi zmdi-time"></i>
+                                                <em class="zmdi zmdi-time"></em>
                                             </div>
                                             <p><span class="fw-500">เวลา</span> 12.45</p>
                                         </div>
                                         <div class="stat icon-only fit-text width-full ai-start">
                                             <div class="icon">
-                                                <i class="zmdi zmdi-pin"></i>
+                                                <em class="zmdi zmdi-pin"></em>
                                             </div>
                                             <p class="ws-normal">
                                                 <span class="fw-500">สถานที่</span>

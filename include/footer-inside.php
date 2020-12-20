@@ -9,7 +9,7 @@
 <a class="back-to-top" href="#">
     <div class="wrapper">
         <img src="public/assets/app/images/icon/border.png" alt="Border" >
-        <i class="zmdi zmdi-chevron-up"></i>
+        <em class="zmdi zmdi-chevron-up"></em>
     </div>
 </a>
 

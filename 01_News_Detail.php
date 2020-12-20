@@ -43,7 +43,7 @@
                                 <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
                             </div>
                             <p class="text-right mt-2">
-                                <i class="zmdi zmdi-eye mr-1"></i> 
+                                <em class="zmdi zmdi-eye mr-1"></em> 
                                 ยอดการเปิดอ่าน <span class="fw-500">126485</span> ครั้ง
                             </p>
                         </div>
@@ -158,7 +158,7 @@
                                                         </div>
                                                         <div class="stat">
                                                             <div class="icon">
-                                                                <i class="zmdi zmdi-share"></i>
+                                                                <em class="zmdi zmdi-share"></em>
                                                             </div> 20
                                                         </div>
                                                     </div>

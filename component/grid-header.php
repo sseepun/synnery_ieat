@@ -3,20 +3,20 @@
         <div class="options">
             <input type="text" name="search" placeholder="ค้นหา" required />
             <button type="submit" class="btn btn-grid">
-                <i class="zmdi zmdi-search"></i>
+                <em class="zmdi zmdi-search"></em>
             </button>
         </div>
     </div>
     <div class="grid xl-80 lg-75 md-70 sm-100 mt-0">
         <div class="options">
             <a class="btn btn-grid" href="#">
-                <i class="zmdi zmdi-view-list-alt"></i>
+                <em class="zmdi zmdi-view-list-alt"></em>
             </a>
             <a class="btn btn-grid active" href="#">
-                <i class="zmdi zmdi-apps"></i>
+                <em class="zmdi zmdi-apps"></em>
             </a>
             <a class="btn btn-grid" href="#">
-                <i class="zmdi zmdi-rss"></i>
+                <em class="zmdi zmdi-rss"></em>
             </a>
             <div class="select-wrapper">
                 <select class="order">

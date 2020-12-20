@@ -93,7 +93,7 @@
                                 <div class="about-tag">
                                     <h5>จำนวนที่รับสมัคร <span class="fw-500 color-03">10</span> ตำแหน่ง</h5>
                                     <div class="icon">
-                                        <i class="zmdi zmdi-plus"></i>
+                                        <em class="zmdi zmdi-plus"></em>
                                     </div>
                                 </div>
                                 <div class="about-body">

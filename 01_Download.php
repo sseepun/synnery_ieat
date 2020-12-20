@@ -99,11 +99,11 @@
                                             </div>
                                             <div class="btns">
                                                 <a class="btn" href="#">
-                                                    <i class="zmdi zmdi-download"></i> 
+                                                    <em class="zmdi zmdi-download"></em> 
                                                     ดาวน์โหลดไฟล์นี้
                                                 </a>
                                                 <a class="btn" href="#">
-                                                    <i class="zmdi zmdi-alert-circle-o"></i> 
+                                                    <em class="zmdi zmdi-alert-circle-o"></em> 
                                                     แจ้งไฟล์เสีย
                                                 </a>
                                             </div>

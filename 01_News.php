@@ -85,7 +85,7 @@
                                                     </div>
                                                     <div class="stat">
                                                         <div class="icon">
-                                                            <i class="zmdi zmdi-share"></i>
+                                                            <em class="zmdi zmdi-share"></em>
                                                         </div> 20
                                                     </div>
                                                 </div>
@@ -142,7 +142,7 @@
                                                             </div>
                                                             <div class="stat">
                                                                 <div class="icon">
-                                                                    <i class="zmdi zmdi-share"></i>
+                                                                    <em class="zmdi zmdi-share"></em>
                                                                 </div> 20
                                                             </div>
                                                         </div>

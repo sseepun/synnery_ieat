@@ -1,13 +1,13 @@
 <div class="content-footer">
     <div class="content-row">
         <a class="btn-icon btn-hex btn-social tw" href="#">
-            <i class="zmdi zmdi-twitter"></i>
+            <em class="zmdi zmdi-twitter"></em>
         </a>
         <a class="btn-icon btn-hex btn-social fb" href="#">
-            <i class="zmdi zmdi-facebook"></i>
+            <em class="zmdi zmdi-facebook"></em>
         </a>
         <a class="btn-icon btn-hex btn-social yt" href="#">
-            <i class="zmdi zmdi-youtube-play"></i>
+            <em class="zmdi zmdi-youtube-play"></em>
         </a>
     </div>
     <div class="content-row">
@@ -37,7 +37,7 @@
                     </td>
                     <td>
                         <a class="btn-download" href="#">
-                            ดาวน์โหลดไฟล์นี้ <i class="zmdi zmdi-arrow-right"></i>
+                            ดาวน์โหลดไฟล์นี้ <em class="zmdi zmdi-arrow-right"></em>
                         </a>
                     </td>
                 </tr>
