@@ -8,6 +8,7 @@
     <?php include_once('include/topnav.php'); ?>
 
     <section class="banner-01">
+        <h1 class="d-none">Banner 01</h1>
         <div class="slide-container">
             <div class="slides">
                 <?php for($i=0; $i<2; $i++){?>
@@ -210,7 +211,7 @@
             </h1>
             <h5 class="text-center color-white fw-200" data-aos="fade-up" data-aos-delay="150">
                 ตอบโจทย์ที่ใช่... ตอบสนองทุกความต้องการทางด้านธุรกิจของคุณ
-            </p>
+            </h5>
         </div>
         <div class="btn-ads" data-aos="fade-up" data-aos-delay="300">
             <a class="btn-ad" href="#">
