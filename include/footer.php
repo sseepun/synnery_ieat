@@ -1,7 +1,7 @@
 <section class="client-01 img-fill" style="background-image:url('public/assets/app/images/bg/15.jpg');">
     <div class="container">
-        <h1 class="d-none">Client 01</h1>
-        <h2 class="d-none">Client 01 Description</h2>
+        <h2 class="d-none">Client 01</h2>
+        <h3 class="d-none">Client 01 Description</h3>
         <div class="slide-container">
             <div class="slides">
                 <?php

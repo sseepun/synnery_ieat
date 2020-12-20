@@ -239,7 +239,7 @@
                         คุณกำลังมองหาอะไร?
                     </h3>
                     <div class="input-container field">
-                        <input type="text" name="keywords" placeholder="ค้นหา" required title="keywords" />
+                        <input type="text" name="keywords" placeholder="ค้นหา" required title="Keywords" />
                         <button type="submit">
                             <em class="zmdi zmdi-search"></em>
                         </button>
