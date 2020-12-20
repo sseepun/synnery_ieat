@@ -163,9 +163,8 @@ nav.sidenav + .sidenav-filter{
 .global-search-container form{width:100%; max-width:450px; margin:0 auto; position:relative;}
 .global-search-container .input-container{position:relative;}
 .global-search-container input[type=text]{
-    width:100%; font-size:1rem; border:1.5px solid transparent; border-radius:.3125rem;
-    padding:.75rem 3.5rem .75rem .75rem; margin:.25rem 0 0 0; box-shadow:none;
-    transition:border-color .3s;
+    width:100%; border:1.5px solid transparent; border-radius:0; margin:0;
+    box-shadow:none; transition:border-color .25s;
 }
 .global-search-container button{
     position:absolute; top:0; bottom:0; right:0; width:3.5rem; background:transparent;

@@ -238,10 +238,10 @@
                     <h3 class="color-white text-center mt-0 mb-0-5">
                         คุณกำลังมองหาอะไร?
                     </h3>
-                    <div class="input-container">
+                    <div class="input-container field">
                         <input type="text" name="keywords" placeholder="ค้นหา" required title="keywords" />
                         <button type="submit">
-                            <em class="fas fa-search"></em>
+                            <em class="zmdi zmdi-search"></em>
                         </button>
                     </div>
                 </form>
