@@ -68,7 +68,7 @@
                         <em class="zmdi zmdi-chevron-left mr-2"></em>
                         <span class="h6"></span>
                     </div>
-                    <h3 id="calendar-title" class="sm fw-300 calendar-title"></h3>
+                    <h3 id="calendar-title" class="sm fw-300 calendar-title">&nbsp;</h3>
                     <div id="next-month-btn" class="calendar-btn">
                         <span class="h6"></span>
                         <em class="zmdi zmdi-chevron-right ml-2"></em>
@@ -104,9 +104,9 @@
 
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.4.0/main.min.css" />
     <link rel="stylesheet" type="text/css" href="public/assets/app/css/custom-calendar.css" />
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.4.0/main.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/@fullcalendar/daygrid@4.4.0/main.min.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/@fullcalendar/interaction@4.4.0/main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@4.4.0/main.min.js"></script>
+    <script src="https://unpkg.com/@fullcalendar/daygrid@4.4.0/main.min.js"></script>
+    <script src="https://unpkg.com/@fullcalendar/interaction@4.4.0/main.min.js"></script>
     <script>
         $(function(){ 'use strict';
 

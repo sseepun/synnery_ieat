@@ -264,7 +264,7 @@
                                             </div>
                                         <?php }?>
                                         <div class="grid sm-100 mt-0 py-1">
-                                            <input class="mr-2" type="checkbox" name="choice_3_4">
+                                            <input class="mr-2" type="checkbox" name="choice_3_4" id="choice_3_4" />
                                             <label class="fw-300 text-xl mb-0" for="choice_3_4">
                                                 อื่นๆ (โปรดระบุ)
                                             </label>
@@ -283,10 +283,8 @@
                             <table class="table table-vote">
                                 <thead class="px-4 py-3"> 
                                     <tr class="bg-06 color-white">
-                                        <th style="min-width:220px;">
-                                            <h4 class="fw-300">
-                                                คุณประเมิน "บทความ" ในเว็บไซต์อย่างไร *
-                                            </h4>
+                                        <th class="h4 fw-300" style="min-width:220px;">
+                                            คุณประเมิน "บทความ" ในเว็บไซต์อย่างไร *
                                         </th>
                                         <th class="text-center" style="min-width:80px;">ดีมาก</th>
                                         <th class="text-center" style="min-width:80px;">ดี</th>
