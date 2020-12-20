@@ -43,16 +43,15 @@
     </section>
 
     <section class="section-calendar">
-
         <div class="top-container">
             <div class="container">
                 <div class="slide-container">
                     <div class="slides">
-                        <?php for($i=20; $i>=0; $i--){?>
-                            <div class="slide">
+                        <?php for($i=30; $i>=0; $i--){?>
+                            <div class="slide" data-year="<?= 2579-$i-543 ?>" data-index="<?= 30-$i ?>">
                                 <div class="wrapper">
                                     <p>พ.ศ.</p>
-                                    <h5><?= 2564-$i ?></h5>
+                                    <h5><?= 2579-$i ?></h5>
                                 </div>
                             </div>
                         <?php }?>
@@ -110,30 +109,6 @@
     <script type="text/javascript" src="https://unpkg.com/@fullcalendar/interaction@4.4.0/main.min.js"></script>
     <script>
         $(function(){ 'use strict';
-                
-            // Section Calendar
-            var sectionCalendar = $('.section-calendar');
-            if(sectionCalendar.length){
-                sectionCalendar.each(function(){
-                    var self = $(this),
-                        slideContainer = self.find('.slide-container');
-                    slideContainer.find('> .slides').slick({
-                        centerMode: true, centerPadding: 0, slidesToShow: 8, infinite: true,
-                        focusOnSelect: true, autoplay: false, speed: 600, 
-                        swipe: false, touchMove: false, swipeToSlide: false,
-                        dots: false, arrows: true, appendArrows: slideContainer.find('> .arrows'),
-                        initialSlide: 19,
-                        responsive: [
-                            { breakpoint: 1299.98, settings: { slidesToShow: 7, } },
-                            { breakpoint: 1199.98, settings: { slidesToShow: 6, } },
-                            { breakpoint: 991.98, settings: { slidesToShow: 5, } },
-                            { breakpoint: 767.98, settings: { slidesToShow: 4, } },
-                            { breakpoint: 575.98, settings: { slidesToShow: 3, } },
-                        ]
-                    });
-                });
-            }
-
 
             // Calendar Variables
             var days = ['อาทิตย์', 'จันทร์', 'อังคาร', 'พุธ', 'พฤหัสบดี', 'ศุกร์', 'เสาร์'];
@@ -142,6 +117,26 @@
                 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'
             ];
             var today = new Date();
+
+                
+            // Section Calendar
+            var sectionCalendar = $('.section-calendar');
+            var slideContainer = sectionCalendar.find('.slide-container'),
+                slides = slideContainer.find('.slide');
+            slideContainer.find('> .slides').slick({
+                centerMode: true, centerPadding: 0, slidesToShow: 8, infinite: true,
+                focusOnSelect: true, autoplay: false, speed: 600, 
+                swipe: false, touchMove: false, swipeToSlide: false,
+                dots: false, arrows: true, appendArrows: slideContainer.find('> .arrows'),
+                initialSlide: slides.filter('[data-year="'+today.getFullYear()+'"]').data('index'),
+                responsive: [
+                    { breakpoint: 1299.98, settings: { slidesToShow: 7, } },
+                    { breakpoint: 1199.98, settings: { slidesToShow: 6, } },
+                    { breakpoint: 991.98, settings: { slidesToShow: 5, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 4, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 3, } },
+                ]
+            });
 
 
             // Calendar Month
@@ -155,23 +150,29 @@
                 template.innerHTML = html;
                 return template.content.firstChild;
             }
-            function updateCalendarHeader(currentMonth){
-                let prevMonth = 0;
-                let nextMonth = 0;
+            function updateCalendarHeader(month, year, updateSlick){
+                var prevMonth = 0;
+                var nextMonth = 0;
 
-                if(months[currentMonth - 1]) prevMonth = months[currentMonth - 1];
+                if(months[month - 1]) prevMonth = months[month - 1];
                 else prevMonth = months[months.length - 1];
 
-                if(months[currentMonth + 1]) nextMonth = months[currentMonth + 1];
+                if(months[month + 1]) nextMonth = months[month + 1];
                 else nextMonth = months[0];
 
-                calendarTitle.html('เดือน'+months[currentMonth]);
+                calendarTitle.html('เดือน'+months[month]);
                 prevMonthBtn.find('> span').html(prevMonth);
                 nextMonthBtn.find('> span').html(nextMonth);
+
+                if(updateSlick){
+                    var slickIndex = slides.filter('[data-year="'+year+'"]').data('index');
+                    if(slickIndex!==undefined){
+                        slideContainer.find('> .slides').slick('slickGoTo', slickIndex);
+                    }
+                }
             }
 
-            var calendarMonth = $('#calendar-month');
-            const calendar = new FullCalendar.Calendar(calendarMonth[0], {
+            const calendarMonth = new FullCalendar.Calendar($('#calendar-month')[0], {
                 plugins: [ 'interaction', 'dayGrid' ],
                 defaultView: 'dayGridMonth',
                 firstDay: 0,
@@ -242,8 +243,8 @@
                     return days[date.getDay()];
                 },
                 datesRender: function(info){
-                    const date = new Date(info.view.currentStart);
-                    updateCalendarHeader(date.getMonth());
+                    var date = new Date(info.view.currentStart);
+                    updateCalendarHeader(date.getMonth(), date.getFullYear(), true);
                 },
                 eventRender: function(info, d){
                     var event = info.event,
@@ -265,15 +266,23 @@
                     return true;
                 },
             });
-            calendar.render();
+            calendarMonth.render();
 
+
+            // Events
             prevMonthBtn.click(function(e){
                 e.preventDefault();
-                calendar.prev();
+                calendarMonth.prev();
             });
             nextMonthBtn.click(function(e){
                 e.preventDefault();
-                calendar.next();
+                calendarMonth.next();
+            });
+            slideContainer.find('.slides').on('beforeChange', function(e, s, c, i){
+                var year = slides.filter('[data-index="'+i+'"]').data('year'),
+                    date = calendarMonth.getDate(),
+                    gotoDate = new Date(year+'-'+(date.getMonth()+1)+'-'+'14');
+                calendarMonth.gotoDate(gotoDate);
             });
 
         });

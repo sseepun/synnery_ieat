@@ -604,12 +604,32 @@
 }
 .section-calendar .calendar-header .calendar-btn i{font-size:1.5rem; transform:none;}
 
-.section-calendar .ss-box{box-shadow:none;}
-.section-calendar .scroll-wrapper{width:100%; height:auto; overflow-x:auto; overflow-y:hidden;}
-.section-calendar .calendar-wrapper{
-    display:block; width:100%; min-width:52rem; padding:0 2px;
+.section-calendar .calendar-tabs{
+    position:relative; width:100%; display:flex; justify-content:space-between;
+    flex-wrap:wrap; padding:.5rem 0;
+}
+.section-calendar .calendar-tabs::before, .section-calendar .calendar-tabs::after{
+    content:''; position:absolute; top:2.0625rem; left:calc(50% - 50vw); right:calc(50% - 50vw);
+    border-top:1px dotted transparent;
+}
+.section-calendar .calendar-tabs::after{display:none; top:5.8125rem;}
+.section-calendar .calendar-tabs .tab{
+    display:block; position:relative; width:1.75rem; text-align:center; padding:.3125rem 0;
+    font-size:1.0625rem; font-weight:300;
+}
+.section-calendar .calendar-tabs .tab .icon{
+    display:block; width:1.5rem; height:1.625rem; text-align:center; line-height:1.625rem;
+    font-size:1.1875rem; margin:.375rem auto 0 auto;
 }
 
+.section-calendar .ss-box{box-shadow:none;}
+.section-calendar .scroll-wrapper{width:100%; height:auto; overflow-x:auto; overflow-y:hidden;}
+.section-calendar .calendar-wrapper{display:block; width:100%; min-width:52rem; padding:0 2px;}
+
+@media screen and (max-width:991.98px){
+    .section-calendar .calendar-tabs{justify-content:center;}
+    .section-calendar .calendar-tabs::after{display:block;}
+}
 @media screen and (max-width:767.98px){
     .section-calendar .slide-container{padding:0 1.5rem;}
 }

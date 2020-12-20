@@ -154,6 +154,11 @@ nav.footer .tag{
 .content-footer .btn-social.yt{color:#ff0000;}
 
 
+/* Content General */
+.content-float-date{background:#169f96; color:#fff;}
+.content-float-date .d{border-color:#c1dade;}
+
+
 /* Grid Header */
 .grid-header .btn-grid{background:#000; border-color:#000; color:#fff;}
 .grid-header .btn-grid.active{background:#169f96; border-color:#169f96;}
@@ -417,6 +422,9 @@ table.table-faq tr:nth-child(2n) > td{background:#fff;}
 }
 .section-calendar .slide-container .arrows button{color:#fff;}
 .section-calendar .calendar-header .calendar-btn:hover{color:#169f96;}
+.section-calendar .calendar-tabs::before,
+.section-calendar .calendar-tabs::after{border-color:#000;}
+.section-calendar .calendar-tabs .tab.active .icon{background:#75ced2;}
 
 /* Calendar - Month */
 .calendar-month .fc-day-header{color:#8b8b8b;}

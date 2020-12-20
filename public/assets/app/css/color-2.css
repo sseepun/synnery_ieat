@@ -91,6 +91,11 @@ nav.footer .tag{background:#ffff00; color:#000;}
 .content-footer .btn-social{background:#ffff00; color:#000;}
 
 
+/* Content General */
+.content-float-date{border:1px solid #ffff00; color:#ffff00;}
+.content-float-date .d{border-color:#ffff00;}
+
+
 /* Grid Header */
 .grid-header .btn-grid{background:#000; border-color:#ffff00; color:#ffff00;}
 .grid-header .btn-grid:hover, .grid-header .btn-grid.active{background:#ffff00; color:#000;}
@@ -319,6 +324,9 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 .section-calendar .slide.slick-current > .wrapper{color:#000;}
 .section-calendar .slide > .wrapper::before{background:#ffff00;}
 .section-calendar .slide-container .arrows button{color:#ffff00;}
+.section-calendar .calendar-tabs::before,
+.section-calendar .calendar-tabs::after{border-color:#ffff00;}
+.section-calendar .calendar-tabs .tab.active .icon{background:#ffff00; color:#000;}
 
 /* Calendar - Month */
 .calendar-month .fc-day-header{color:#ffff00;}

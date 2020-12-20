@@ -276,6 +276,7 @@ ul > li, ol > li{margin:.125rem 0;}
 .content-footer .content-row:last-child{border-bottom:1px solid transparent;}
 .content-footer .btn-social{display:block; margin:0 .1875rem 0 0;}
 
+
 /* Content General */
 .content-banner{width:100%; max-width:48rem; margin:0 auto;}
 img.content-img-float{
@@ -284,6 +285,16 @@ img.content-img-float{
 img.content-img-float.left{float:left; margin:0 3rem 1.5rem 0;}
 
 .content-grid-title{transform:translateY(.875rem);}
+
+.content-float-date{
+    display:block; position:absolute; top:0; left:0; text-align:center;
+    padding:.25rem .3125rem; min-width:3rem;
+}
+.content-float-date .d{
+    border-bottom:1px solid transparent; font-size:2rem; font-weight:400; line-height:.9;
+    white-space:nowrap;
+}
+.content-float-date .m-y{margin:.25rem 0 0 0; font-weight:100; font-size:1rem; white-space:nowrap;}
 
 .content-quote{
     position:relative; width:100%; max-width:46rem; display:flex; justify-content:center;
