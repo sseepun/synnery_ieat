@@ -17,9 +17,9 @@
 
     <section class="section-bpadding">
         <div class="container">
-            <h2 class="color-black" data-aos="fade-up" data-aos-delay="0">
+            <h5 class="h1 color-black" data-aos="fade-up" data-aos-delay="0">
                 นิคมอุตสาหกรรมบางปู
-            </h2>
+            </h5>
             <div class="grids mt-2" data-aos="fade-up" data-aos-delay="150">
                 <div class="grid lg-25 sm-50 mt-2">
                     <div class="ss-stat width-full">
@@ -149,7 +149,7 @@
                     <table class="table table-estate">
                         <tbody>
                             <tr>
-                                <td><h4 class="fw-200">สถานที่ตั้ง</h4></td>
+                                <td><h5 class="h4 fw-200">สถานที่ตั้ง</h5></td>
                                 <td>
                                     <p class="sm-no-br">
                                         กิโลเมตรที่ 34-37 ถ.สุขุมวิท ต.บางปูใหม่ และ ต.แพรกษา อ.เมือง จ.สมุทปราการ <br>
@@ -158,7 +158,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><h4 class="fw-200">พื้นที่โครงการ</h4></td>
+                                <td><h5 class="h4 fw-200">พื้นที่โครงการ</h5></td>
                                 <td>
                                     <p class="fw-200">พื้นที่ 5.472 - 2 - 69 ไร่ แบ่งเป็น</p> 
                                     <ul class="ss-list">
@@ -176,7 +176,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><h4 class="fw-200">พื้นที่ว่างในนิคมฯ</h4></td>
+                                <td><h5 class="h4 fw-200">พื้นที่ว่างในนิคมฯ</h5></td>
                                 <td>
                                     <p class="fw-200">พื้นที่ 5.472 - 2 - 69 ไร่ แบ่งเป็น</p> 
                                     <ul class="ss-list">
@@ -194,7 +194,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><h4 class="fw-200">ระยะทางจากสถานที่ต่างๆ</h4></td>
+                                <td><h5 class="h4 fw-200">ระยะทางจากสถานที่ต่างๆ</h5></td>
                                 <td>
                                     <p class="fw-200">พื้นที่ 5.472 - 2 - 69 ไร่ แบ่งเป็น</p> 
                                     <ul class="ss-list">
@@ -212,7 +212,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><h4 class="fw-200">ราคาขาย/เช่า</h4></td>
+                                <td><h5 class="h4 fw-200">ราคาขาย/เช่า</h5></td>
                                 <td>
                                     <p class="fw-200">ราคาขายที่ดิน</p> 
                                     <ul class="ss-list">
@@ -285,7 +285,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><h4 class="fw-200">สิ่งอำนวยความสะดวก</h4></td>
+                                <td><h5 class="h4 fw-200">สิ่งอำนวยความสะดวก</h5></td>
                                 <td>
                                     <p class="fw-400">ระบบน้ำประปา</p> 
                                     <ul class="ss-list">
@@ -327,7 +327,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><h4 class="fw-200">อัตราค่าบริการ</h4></td>
+                                <td><h5 class="h4 fw-200">อัตราค่าบริการ</h5></td>
                                 <td>
                                     <p class="fw-400">ค่าบำรุงรักษา</p> 
                                     <ul class="ss-list">
@@ -417,7 +417,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><h4 class="fw-200">สิทธิประโยชน์</h4></td>
+                                <td><h5 class="h4 fw-200">สิทธิประโยชน์</h5></td>
                                 <td>
                                     <p class="fw-400">
                                         สิทธิประโยชน์ที่ไม่เกี่ยวกับภาษีอกร ในเขตอุตสาหกรรมทั่วไปและเขตประกอบการเสรี
@@ -447,7 +447,7 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td><h4 class="fw-200">รายชื่อผู้ใช้ที่ดิน</h4></td>
+                                <td><h5 class="h4 fw-200">รายชื่อผู้ใช้ที่ดิน</h5></td>
                                 <td>
                                     <div class="content-footer">
                                         <div class="content-row no-border px-0 py-0">

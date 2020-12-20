@@ -18,12 +18,12 @@
     <section class="section-bpadding section-bg-hero">
         <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/10.jpg"></div>
         <div class="container">
-            <h2 data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 จดหมายข่าวสาร
-            </h2>
-            <h3 class="sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
-                สมัครรับจดหมายข่าวผ่านทางอีเมล์
             </h3>
+            <h4 class="h3 sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
+                สมัครรับจดหมายข่าวผ่านทางอีเมล์
+            </h4>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 จัดการเนื้อหาในเว็บไซต์และข้อมูลส่วนตัว
             </h5>
@@ -32,7 +32,7 @@
                 <div class="grids grid-header">
                     <div class="grid xl-20 lg-25 md-30 sm-100 mt-0">
                         <div class="options">
-                            <input type="text" name="search" placeholder="ค้นหา" required />
+                            <input type="text" name="search" placeholder="ค้นหา" required title="Search" />
                             <button type="submit" class="btn btn-grid">
                                 <em class="zmdi zmdi-search"></em>
                             </button>
@@ -77,7 +77,7 @@
                     <div class="grid xl-80 lg-75 sm-100" data-aos="fade-up" data-aos-delay="750">
                         <div class="ss-box-header shadow">
                             <div class="header bg-01 color-white">
-                                <h3 class="sm fw-500">แบบฟอร์มสมัครรับข่าวสาร</h3>
+                                <h5 class="h3 sm fw-500">แบบฟอร์มสมัครรับข่าวสาร</h5>
                             </div>
                             <div class="body bg-white">
                                 <form action="/" method="POST">
@@ -85,7 +85,7 @@
                                         <div class="grid md-80 sm-100 mt-0">
                                             <div class="field">
                                                 <div class="control">
-                                                    <input type="text" placeholder="กรุณากรอกอีเมลที่ต้องการรับข่าวสาร *">
+                                                    <input type="email" placeholder="กรุณากรอกอีเมลที่ต้องการรับข่าวสาร *" title="Email" />
                                                 </div>
                                             </div>
                                         </div>
@@ -100,14 +100,16 @@
                                             ด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆเกี่ยวกับ กนอ. 
                                             และนิคมอุตสาหกรรมในประเทศไทย
                                         </p>
-                                        <?php for($i=0; $i<6;$i++){?>
-                                            <div class="field mt-2">
-                                                <div class="control checkbox-control">
-                                                    <input type="checkbox" name="types[]" id="type_0_<?= $i; ?>"  value="<?= $i; ?>" />
-                                                    <label class="mb-0" for="type_0_<?= $i; ?>">ประกาศจาก กนอ</label>
+                                        <fieldset>
+                                            <?php for($i=0; $i<6;$i++){?>
+                                                <div class="field mt-2">
+                                                    <div class="control checkbox-control">
+                                                        <input type="checkbox" name="types[]" id="type_0_<?= $i; ?>"  value="<?= $i; ?>" title="Checkbox" />
+                                                        <label class="mb-0" for="type_0_<?= $i; ?>">ประกาศจาก กนอ</label>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        <?php }?>
+                                            <?php }?>
+                                        </fieldset>
                                     </div>
 
                                     <div class="border-bottom mt-4 pb-4">
@@ -115,14 +117,16 @@
                                         <p class="fw-200 pb-1">
                                             เพื่อยกระดับและพัฒนาศักยภาพสำหรับกิจการในนิคมอุตสาหกรรม
                                         </p>
-                                        <?php for($i=0; $i<3;$i++){?>
-                                            <div class="field mt-2">
-                                                <div class="control checkbox-control">
-                                                    <input type="checkbox" name="types[]" id="type_1_<?= $i; ?>"  value="<?= $i; ?>" />
-                                                    <label class="mb-0" for="type_1_<?= $i; ?>">คลังภาพ</label>
+                                        <fieldset>
+                                            <?php for($i=0; $i<3;$i++){?>
+                                                <div class="field mt-2">
+                                                    <div class="control checkbox-control">
+                                                        <input type="checkbox" name="types[]" id="type_1_<?= $i; ?>"  value="<?= $i; ?>" title="Checkbox" />
+                                                        <label class="mb-0" for="type_1_<?= $i; ?>">คลังภาพ</label>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        <?php }?>
+                                            <?php }?>
+                                        </fieldset>
                                     </div>
 
                                     <div class="capcha-container mt-2">

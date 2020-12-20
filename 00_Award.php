@@ -17,12 +17,12 @@
 
     <section class="about-03 section-bpadding img-fill lazy-bg" data-src="public/assets/app/images/bg/29.jpg">
         <div class="container">
-            <h2 data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 รางวัลแห่งความภูมิใจ
-            </h2>
-            <h3 class="sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
-                ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพในทุกๆด้าน 
             </h3>
+            <h4 class="h3 sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+                ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพในทุกๆด้าน 
+            </h4>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 เพื่อการเติบโตทางธุรกิจสังคมและสิ่งแวดล้อมอย่างยั่งยืน รางวัลแห่งความสำเร็จต่างๆ <br>
                 ที่ กนอ. ได้รับนับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดีและมีการบูรณาการ <br>
@@ -35,14 +35,14 @@
                         <?php for($i=0; $i<13; $i++){?>
                             <div class="slide">
                                 <div class="wrapper">
-                                    <h2 class="color-gradient-01">
+                                    <h5 class="h2 color-gradient-01">
                                         พ.ศ.<?= 2551+$i ?>
-                                    </h2>
+                                    </h5>
                                     <ul class="ss-list dot-dark dot-h3-xs">
                                         <li>
-                                            <h3 class="xs fw-300">
+                                            <h5 class="h3 xs fw-300">
                                                 รางวัลชมเชย 
-                                            </h3>
+                                            </h5>
                                             <h6 class="fw-600 color-06">
                                                 รัฐวิสาหกิจที่มีการพัฒนาสู่ความเป็นเลิศด้านคุณธรรมความโปร่งใสในการดำเนินงาน 
                                                 <span class="color-black">
@@ -54,9 +54,9 @@
                                             </p>
                                         </li>
                                         <li>
-                                            <h3 class="xs fw-300">
+                                            <h5 class="h3 xs fw-300">
                                                 รางวัลชมเชย 
-                                            </h3>
+                                            </h5>
                                             <h6 class="fw-600 color-06">
                                                 ด้านความปลอดจากการทุจริตในการปฏิบัติงาน 
                                                 <span class="color-black">

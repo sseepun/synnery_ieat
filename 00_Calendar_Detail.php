@@ -18,13 +18,13 @@
 
     <section class="section-bpadding img-fill" style="background-image:url('public/assets/app/images/bg/30.jpg');">
         <div class="container">
-            <h2 class="color-white" data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2 color-white" data-aos="fade-up" data-aos-delay="0">
                 ปฏิทินกิจกรรม
-            </h2>
-            <h3 class="sm color-08 fw-400 xs-no-br" data-aos="fade-up" data-aos-delay="150">
+            </h3>
+            <h4 class="h3 sm color-08 fw-400 xs-no-br" data-aos="fade-up" data-aos-delay="150">
                 ตลอดระยะเวลากว่า 47 ปีที่ผ่านมา มุ่งมั่น <br>
                 สร้างฐานการผลิต 
-            </h3>
+            </h4>
             <h5 class="color-white xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 เพื่อรองรับการลงทุนด้านอุตสาหกรรม ผลักดันการลงทุน เพื่อพัฒนาเศรษฐกิจของประเทศ <br>
                 ให้เกิดความมั่นคงและเป็นศูนย์กลางที่สำคัญของเอเชีย 
@@ -32,7 +32,7 @@
             <div class="grids grid-header mt-3" data-aos="fade-up" data-aos-delay="450">
                 <div class="grid xl-20 lg-25 md-30 sm-100 mt-0">
                     <div class="options">
-                        <input type="text" name="search" placeholder="ค้นหา" required />
+                        <input type="text" name="search" placeholder="ค้นหา" required title="Search" />
                         <button type="submit" class="btn btn-grid">
                             <em class="zmdi zmdi-search"></em>
                         </button>
@@ -89,76 +89,74 @@
                 <div class="grids">
 
                     <div class="grid xl-75 lg-70 sm-100">
-                        <div class="ss-box position-relative pl-5">
+                        <div class="ss-box padding-pull-right">
                             <div class="content-float-date">
                                 <div class="d">04</div>
                                 <div class="m-y">09.2563</div>
                             </div>
-                            <div class="pl-3">
-                                <h4 class="fw-500">
-                                    วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสารลงดิน วางระบบ 5G ในนิคมอุตสาหกรรม
-                                </h4>
-                                
-                                <div class="grids mt-3">
-                                    <div class="grid sm-40 mt-0">
-                                        <div class="ss-stat mt-0">
-                                            <div class="stat icon-only fit-text mt-0">
-                                                <div class="icon">
-                                                    <em class="zmdi zmdi-calendar"></em>
-                                                </div>
-                                                <p><span class="fw-500">วันที่</span> 12/09/2563</p>
+                            <h5 class="h4 fw-500">
+                                วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสารลงดิน วางระบบ 5G ในนิคมอุตสาหกรรม
+                            </h5>
+                            
+                            <div class="grids mt-3">
+                                <div class="grid sm-40 mt-0">
+                                    <div class="ss-stat mt-0">
+                                        <div class="stat icon-only fit-text mt-0">
+                                            <div class="icon">
+                                                <em class="zmdi zmdi-calendar"></em>
                                             </div>
-                                        </div>
-                                        <div class="ss-stat mt-0">
-                                            <div class="stat icon-only fit-text mt-0">
-                                                <div class="icon">
-                                                    <em class="zmdi zmdi-time"></em>
-                                                </div>
-                                                <p><span class="fw-500">เวลา</span> 12.45</p>
-                                            </div>
+                                            <p><span class="fw-500">วันที่</span> 12/09/2563</p>
                                         </div>
                                     </div>
-                                    <div class="grid sm-60 mt-0">
-                                        <div class="ss-stat mt-0">
-                                            <div class="stat icon-only fit-text ai-start mt-0">
-                                                <div class="icon">
-                                                    <em class="zmdi zmdi-pin"></em>
-                                                </div>
-                                                <p class="ws-normal">
-                                                    <span class="fw-500">สถานที่</span>
-                                                    618 ถนนนิคมมักกะสัน เเขวงมักกะสัน เขตราชเทวี กรุงเทพมหานคร
-                                                </p>
+                                    <div class="ss-stat mt-0">
+                                        <div class="stat icon-only fit-text mt-0">
+                                            <div class="icon">
+                                                <em class="zmdi zmdi-time"></em>
                                             </div>
+                                            <p><span class="fw-500">เวลา</span> 12.45</p>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="grid sm-60 mt-0">
+                                    <div class="ss-stat mt-0">
+                                        <div class="stat icon-only fit-text ai-start mt-0">
+                                            <div class="icon">
+                                                <em class="zmdi zmdi-pin"></em>
+                                            </div>
+                                            <p class="ws-normal">
+                                                <span class="fw-500">สถานที่</span>
+                                                618 ถนนนิคมมักกะสัน เเขวงมักกะสัน เขตราชเทวี กรุงเทพมหานคร
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                                <div class="content-banner mt-3">
-                                    <div class="ss-img">
-                                        <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
-                                    </div>
+                            <div class="content-banner mt-3">
+                                <div class="ss-img">
+                                    <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
                                 </div>
-                                
-                                <h6 class="fw-500 mt-4">
-                                    รายละเอียด : 
-                                </h6>
-                                <p class="mt-3">
-                                    กนอ.ดำเนินธุรกิจจัดตั้งนิคมอุตสาหกรรมพร้อมให้บริการระบบสาธารณูปโภคอย่างครบวงจร 
-                                    และสร้างมูลค่าเพิ่มให้กับนิคมอุตสาหกรรมที่ กนอ. ดำเนินงานเอง 
-                                    รวมทั้งส่งสริมภาคเอกชนเป็นผู้จัดตั้งนิคมอุตสาหกรรมเพื่อรองรับการประกอบกิจการโรงงานอุตสาหกรรมให้อยู่รวมกัน 
-                                    โดย กนอ.จะสามารถให้บริการระบบสาธารณูปโภค และบริหารจัดการนิคมอุตสาหกรรมได้อย่างเป็นระบบและรวมถึงการบริหารจัดการด้าน
-                                    สิ่งแวดล้อม ก่อให้เกิดการกระจายความเจริญทางเศรษฐกิจและอุตสาหกรรมไปสู่ภูมิภาคของประเทศอย่างสมดุลและยั่งยืน
-                                </p>
-                                <p class="mt-3">
-                                    โดยอุตสาหกรรมดิจิทัล เป็นหนึ่งในกลุ่มอุตสาหกรรมที่ใช้เทคโนโลยีขั้นสูง และเป็นอุตสาหกรรมเป้าหมายของการพัฒนาในพื้นที่อีอีซี 
-                                    ซึ่งนักลงทุนต่างชาติโดยเฉพาะนักลงทุนจีนได้ย้ายฐานการผลิตมายังภูมิภาคอาเซียนจนยอดการลงทุนโดยตรงจากจากต่างประเทศ 
-                                    (Foreign Direct Investment : FDI) เพิ่มมากขึ้นถึงแม้ว่าในช่วงไตรมาส 2 จะชะลอตัวลงเล็กน้อยจากสถานการณ์โควิด-19 
-                                    แต่หลังจากที่รัฐบาลได้ประกาศผ่อนปรนมาตรการต่างๆ ทำให้บรรยากาศการลงทุนเริ่มกลับมาคึกคักอีกครั้ง
-                                </p>
-                                
-                                <div class="mt-5 pt-1">
-                                    <?php include('component/content-footer.php'); ?>
-                                </div>
+                            </div>
+                            
+                            <h6 class="fw-500 mt-4">
+                                รายละเอียด : 
+                            </h6>
+                            <p class="mt-3">
+                                กนอ.ดำเนินธุรกิจจัดตั้งนิคมอุตสาหกรรมพร้อมให้บริการระบบสาธารณูปโภคอย่างครบวงจร 
+                                และสร้างมูลค่าเพิ่มให้กับนิคมอุตสาหกรรมที่ กนอ. ดำเนินงานเอง 
+                                รวมทั้งส่งสริมภาคเอกชนเป็นผู้จัดตั้งนิคมอุตสาหกรรมเพื่อรองรับการประกอบกิจการโรงงานอุตสาหกรรมให้อยู่รวมกัน 
+                                โดย กนอ.จะสามารถให้บริการระบบสาธารณูปโภค และบริหารจัดการนิคมอุตสาหกรรมได้อย่างเป็นระบบและรวมถึงการบริหารจัดการด้าน
+                                สิ่งแวดล้อม ก่อให้เกิดการกระจายความเจริญทางเศรษฐกิจและอุตสาหกรรมไปสู่ภูมิภาคของประเทศอย่างสมดุลและยั่งยืน
+                            </p>
+                            <p class="mt-3">
+                                โดยอุตสาหกรรมดิจิทัล เป็นหนึ่งในกลุ่มอุตสาหกรรมที่ใช้เทคโนโลยีขั้นสูง และเป็นอุตสาหกรรมเป้าหมายของการพัฒนาในพื้นที่อีอีซี 
+                                ซึ่งนักลงทุนต่างชาติโดยเฉพาะนักลงทุนจีนได้ย้ายฐานการผลิตมายังภูมิภาคอาเซียนจนยอดการลงทุนโดยตรงจากจากต่างประเทศ 
+                                (Foreign Direct Investment : FDI) เพิ่มมากขึ้นถึงแม้ว่าในช่วงไตรมาส 2 จะชะลอตัวลงเล็กน้อยจากสถานการณ์โควิด-19 
+                                แต่หลังจากที่รัฐบาลได้ประกาศผ่อนปรนมาตรการต่างๆ ทำให้บรรยากาศการลงทุนเริ่มกลับมาคึกคักอีกครั้ง
+                            </p>
+                            
+                            <div class="mt-5 pt-1">
+                                <?php include('component/content-footer.php'); ?>
                             </div>
                         </div>
                     </div>

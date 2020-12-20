@@ -8,8 +8,7 @@
     <?php include_once('include/topnav.php'); ?>
 
     <section class="banner-01">
-        <h2 class="d-none">Banner 01</h2>
-        <h3 class="d-none">Banner 01 Description</h3>
+        <h5 class="d-none">&nbsp;</h5>
         <div class="slide-container">
             <div class="slides">
                 <?php for($i=0; $i<2; $i++){?>
@@ -36,9 +35,9 @@
 
     <section class="section-padding">
         <div class="container">
-            <h1 class="text-center" data-aos="fade-up" data-aos-delay="0">
+            <div class="h1 text-center" data-aos="fade-up" data-aos-delay="0">
                 กนอ.อัพเดท
-            </h1>
+            </div>
             <h5 class="text-center fw-200 color-gray sm-no-br" data-aos="fade-up" data-aos-delay="150">
                 เพิ่มขีดคสามสามารถของคุรและธุรกิจด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดท ต่างๆ <br> 
                 เกี่ยวกับ กนอ. และนิคมอุตสาหกรรมในประเทศไทย <span class="color-04 fw-600">ได้ที่นี่</span>
@@ -185,9 +184,9 @@
                     <div class="content">
                         <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/02.jpg"></div>
                         <div class="text-wrapper">
-                            <h3 class="color-01 fw-600">
+                            <h5 class="h3 color-01 fw-600">
                                 ประกาศจัดซื้อจัดจ้าง
-                            </h3>
+                            </h5>
                             <p class="fw-400 color-gray">
                                 เพิ่มขีดความสามารถของคุณด้วยการอัพเดทข่าวสาร
                                 <br> พร้อมกันทุกกระแสความเคลื่อนไหว
@@ -207,9 +206,9 @@
     <section class="content-01 section-padding">
         <div class="img-bg lazy-bg" data-src="public/assets/app/images/banner/02.jpg"></div>
         <div class="container">
-            <h1 class="text-center color-white" data-aos="fade-up" data-aos-delay="0">
+            <div class="h1 text-center color-white" data-aos="fade-up" data-aos-delay="0">
                 ทำเลทอง
-            </h1>
+            </div>
             <h5 class="text-center color-white fw-200" data-aos="fade-up" data-aos-delay="150">
                 ตอบโจทย์ที่ใช่... ตอบสนองทุกความต้องการทางด้านธุรกิจของคุณ
             </h5>

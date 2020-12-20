@@ -1,8 +1,7 @@
 <?php if(!empty($breadcrumb)){?>
     <section class="breadcrumb-01 <?php if(!empty($breadcrumbClass))echo $breadcrumbClass; ?>">
         <div class="container">
-            <h2 class="d-none">Breadcrumb 01</h2>
-            <h3 class="d-none">Breadcrumb 01 Description</h3>
+            <h5 class="d-none">&nbsp;</h5>
             <div class="wrapper">
                 <a class="icon" href="#">
                     <em class="zmdi zmdi-home"></em>

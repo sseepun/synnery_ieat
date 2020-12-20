@@ -18,12 +18,12 @@
     <section class="faq-01 section-bpadding section-bg-hero">
         <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/14.jpg"></div>
         <div class="container">
-            <h2 class="color-black" data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                 คำถามที่พบบ่อย
-            </h2>
-            <h3 class="sm color-07 fw-400" data-aos="fade-up" data-aos-delay="150">
-                ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพ 
             </h3>
+            <h4 class="h3 sm color-07 fw-400" data-aos="fade-up" data-aos-delay="150">
+                ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพ 
+            </h4>
             <h5 class="color-black xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 เพื่อการเติบโตทางธุรกิจสังคมและสิ่งแวดล้อมอย่างยั่งยืน รางวัลแห่งความสำเร็จต่างๆ <br>
                 ที่ กนอ. ได้รับนับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดีและมีการบูรณาการ <br>

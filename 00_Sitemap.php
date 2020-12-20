@@ -18,12 +18,12 @@
     <section class="section-bpadding section-bg-hero">
         <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/04.jpg"></div>
         <div class="container">
-            <h2 class="color-05" data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2 color-05" data-aos="fade-up" data-aos-delay="0">
                 แผนผังเว็บไซต์
-            </h2>
-            <h3 class="sm color-white fw-400" data-aos="fade-up" data-aos-delay="150">
-                ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพ
             </h3>
+            <h4 class="h3 sm color-white fw-400" data-aos="fade-up" data-aos-delay="150">
+                ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพ
+            </h4>
             <h5 class="color-white sm-no-br" data-aos="fade-up" data-aos-delay="300">
                 เพื่อการเติบโตทางธุรกิจสังคมและสิ่งแวดล้อมอย่างยั่งยืน รางวัลแห่งความสำเร็จต่างๆ <br>
                 ที่ กนอ. ได้รับนับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดีและมีการบูรณาการ <br> 
@@ -32,7 +32,7 @@
 
             <div class="ss-box mt-5" data-aos="fade-up" data-aos-delay="450">
 
-                <h3 class="sm color-06">เกี่ยวกับ กนอ.</h3>
+                <h5 class="h3 sm color-06">เกี่ยวกับ กนอ.</h5>
                 <div class="grids mt-3">
                     <div class="grid lg-1-3 md-50 sm-100 mt-0">
                         <ul class="ss-list fw-500">
@@ -140,8 +140,8 @@
                 <div class="ss-sep mt-5 mb-3"></div>
                 <div class="grids">
                     <div class="grid lg-1-3 md-50 sm-100 mt-0">
-                        <h3 class="sm color-06 mt-4">TSC</h3>
-                        <h4 class="color-06 mb-3">(Total Solutions Center)</h4>
+                        <h5 class="h3 sm color-06 mt-4">TSC</h5>
+                        <h6 class="h4 color-06 mb-3">(Total Solutions Center)</h6>
                         <ul class="ss-list fw-500">
                             <li><a href="#">การขออนุมัติ - อนุญาต ทางอิเล็กทรอนิกส์</a></li>
                             <li><a href="#">คู่มือการลงทุน และงานบริการ</a>
@@ -159,7 +159,7 @@
                         </ul>
                     </div>
                     <div class="grid lg-1-3 md-50 sm-100 mt-0">
-                        <h3 class="sm color-06 mt-4 mb-3">รายงานความยั่งยืน</h3>
+                        <h5 class="h3 sm color-06 mt-4 mb-3">รายงานความยั่งยืน</h5>
                         <ul class="ss-list fw-500">
                             <li><a href="#">การจัดการสิ่งแวดล้อม และความปลอดภัย</a>
                                 <ul class="ss-list dot-dark fw-200 gap-sm">
@@ -176,7 +176,7 @@
                         </ul>
                     </div>
                     <div class="grid lg-1-3 md-50 sm-100 mt-0">
-                        <h3 class="sm color-06 mt-4 mb-3">ทำเลทอง</h3>
+                        <h5 class="h3 sm color-06 mt-4 mb-3">ทำเลทอง</h5>
                         <ul class="ss-list fw-500">
                             <li><a href="#">Status For Sale/Rent in Industrial Estate</a></li>
                             <li><a href="#">นิคมฯ สระแก้ว</a></li>
@@ -190,8 +190,8 @@
                 <div class="ss-sep mt-5 mb-3"></div>
                 <div class="grids">
                     <div class="grid lg-1-3 md-50 sm-100 mt-0">
-                        <h3 class="sm color-06 mt-4">ข้อมูลนิคมอุตสาหกรรม</h3>
-                        <h4 class="color-06 mb-3">โรงงาน / ท่าเรือ</h4>
+                        <h5 class="h3 sm color-06 mt-4">ข้อมูลนิคมอุตสาหกรรม</h5>
+                        <h6 class="h4 color-06 mb-3">โรงงาน / ท่าเรือ</h6>
                         <ul class="ss-list fw-500">
                             <li><a href="#">นิคมอุตสาหกรรม</a>
                                 <ul class="ss-list dot-dark fw-200 gap-sm">
@@ -218,7 +218,7 @@
                         </ul>
                     </div>
                     <div class="grid lg-2-3 md-50 sm-100 mt-0">
-                        <h3 class="sm color-06 mt-4 mb-3">ข่าวสารจาก กนอ.</h3>
+                        <h5 class="h3 sm color-06 mt-4 mb-3">ข่าวสารจาก กนอ.</h5>
                         <ul class="ss-list fw-500">
                             <li><a href="#">ข่าวประชาสัมพันธ์</a></li>
                             <li><a href="#">ข่าวจัดซื้อจัดจ้าง</a>

@@ -33,7 +33,7 @@
         <div class="text-wrapper">
             แสดงผลต่อหน้า 
             <div class="select-wrapper">
-                <select class="pp">
+                <select class="pp" title="Per Page">
                     <option value="10">10</option>
                     <option value="25">25</option>
                     <option value="50">50</option>

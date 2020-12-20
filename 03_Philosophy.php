@@ -21,12 +21,12 @@
             <div class="container">
                 <div class="grids ai-end">
                     <div class="grid xl-60 sm-100 mt-0">
-                        <h2 data-aos="fade-up" data-aos-delay="0">
+                        <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                             ปรัชญา กนอ.
-                        </h2>
-                        <h3 class="sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
-                            ตลอดระยะเวลากว่า 47 ปีที่ผ่านมา มุ่งมั่นสร้างฐานการผลิต
                         </h3>
+                        <h4 class="h3 sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+                            ตลอดระยะเวลากว่า 47 ปีที่ผ่านมา มุ่งมั่นสร้างฐานการผลิต
+                        </h4>
                         <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                             เพื่อรองรับการลงทุนด้านอุตสาหกรรม ผลักดันการลงทุน เพื่อพัฒนาเศรษฐกิจของประเทศ <br>
                             ให้เกิดความมั่นคงและเป็นศูนย์กลางที่สำคัญของเอเชีย

@@ -5,14 +5,14 @@
                 <div class="grid lg-25 mt-0">
                     <div class="field field-sm">
                         <label>คำค้นหา :</label>
-                        <input type="text" class="bg-white" />
+                        <input type="text" class="bg-white" title="Keyword" />
                     </div>
                 </div>
                 <div class="grid lg-25 mt-0">
                     <div class="field field-sm">
                         <label>นิคมอุตสาหกรรม :</label>
                         <div class="select-wrapper icon-square">
-                            <select class="bg-white">
+                            <select class="bg-white" title="Type">
                                 <option value="">&nbsp;</option>
                             </select>
                         </div>
@@ -22,7 +22,7 @@
                     <div class="field field-sm">
                         <label>พื้นที่ประกอบกิจการ :</label>
                         <div class="select-wrapper icon-square">
-                            <select class="bg-white">
+                            <select class="bg-white" title="Land Type">
                                 <option value="">&nbsp;</option>
                             </select>
                         </div>
@@ -32,7 +32,7 @@
                     <div class="field field-sm">
                         <label>ประเภทโรงงาน :</label>
                         <div class="select-wrapper icon-square">
-                            <select class="bg-white">
+                            <select class="bg-white" title="Asset Type">
                                 <option value="">&nbsp;</option>
                             </select>
                         </div>
@@ -42,7 +42,7 @@
                     <div class="field field-sm">
                         <label>ประเภท ISIC :</label>
                         <div class="select-wrapper icon-square">
-                            <select class="bg-white">
+                            <select class="bg-white" title="ISIC Type">
                                 <option value="">&nbsp;</option>
                             </select>
                         </div>
@@ -51,19 +51,19 @@
                 <div class="grid lg-25 mt-0">
                     <div class="field field-sm">
                         <label>เลขทะเบียนโรงงาน :</label>
-                        <input type="text" class="bg-white" />
+                        <input type="text" class="bg-white" title="Company Number" />
                     </div>
                 </div>
                 <div class="grid lg-25 mt-0">
                     <div class="field field-sm">
                         <label>บริษัท :</label>
-                        <input type="text" class="bg-white" />
+                        <input type="text" class="bg-white" title="Company" />
                     </div>
                 </div>
                 <div class="grid lg-25 mt-0">
                     <div class="field field-sm">
                         <label>ประกอบอุตสาหกรรม :</label>
-                        <input type="text" class="bg-white" />
+                        <input type="text" class="bg-white" title="Area" />
                     </div>
                 </div>
             </div>

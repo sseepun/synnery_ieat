@@ -16,12 +16,12 @@
 
     <section class="section-bpadding section-bg" style="background-image:url('public/assets/app/images/bg/orgchart-2.jpg');">
         <div class="container">
-            <h2 class="color-black" data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                 ผังองค์กร
-            </h2>
-            <h3 class="sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
-                องค์กรหลักที่มีส่วนร่วมในการขับเคลื่อนเศรษฐกิจ 
             </h3>
+            <h4 class="h3 sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+                องค์กรหลักที่มีส่วนร่วมในการขับเคลื่อนเศรษฐกิจ 
+            </h4>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 ของประเทศโดยเน้นภาคอุตสาหกรรมและบริการสู่อนาคตที่ยั่งยืน
             </h5>

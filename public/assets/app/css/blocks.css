@@ -631,6 +631,10 @@
 }
 @media screen and (max-width:767.98px){
     .section-calendar .slide-container{padding:0 1.5rem;}
+    .section-calendar .padding-pull-right{padding-top:4.25rem;}
+}
+@media screen and (min-width:768px){
+    .section-calendar .padding-pull-right{padding-top:2.375rem; padding-left:4rem;}
 }
 
 

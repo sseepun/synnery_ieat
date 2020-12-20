@@ -22,12 +22,12 @@
 
         <div class="top-container section-bpadding" style="background-image:url('public/assets/app/images/banner/04.jpg');">
             <div class="container">
-                <h2 class="color-black" data-aos="fade-up" data-aos-delay="0">
+                <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                     คณะผู้บริหาร
-                </h2>
-                <h3 class="sm color-07 fw-400" data-aos="fade-up" data-aos-delay="150">
-                    การบริหารจัดการในเชิงบูรณาการ 
                 </h3>
+                <h4 class="h3 sm color-07 fw-400" data-aos="fade-up" data-aos-delay="150">
+                    การบริหารจัดการในเชิงบูรณาการ 
+                </h4>
                 <h5 class="color-black xs-no-br" data-aos="fade-up" data-aos-delay="300">
                     ภายใต้กรอบยุทธศาสตร์ 5G โดยมุ่งสู่เป้าหมาย <br>
                     การเจริญเติบโตอย่างยั่งยืน
@@ -37,7 +37,7 @@
                         <div class="profile about-target <?php if($i==0)echo 'active'; ?>" data-team="<?= $i ?>">
                             <div class="wrapper">
                                 <div class="text-container text-center">
-                                    <h3 class="xs fw-300">นางสาวสมจิณณ์ พิลึก</h3>
+                                    <h5 class="h3 xs fw-300">นางสาวสมจิณณ์ พิลึก</h5>
                                     <p class="fw-200">
                                         <span class="text-sm">
                                             ผู้ว่าการ การนิคมอุตสาหกรรมแห่งประเทศไทย
@@ -99,9 +99,9 @@
             </div>
             <div class="director-container-02">
                 <div class="container">
-                    <h3 class="xs text-center color-white fw-500">
+                    <h5 class="h3 xs text-center color-white fw-500">
                         ผู้ช่วยผู้ว่าการ
-                    </h3>
+                    </h5>
                     <div class="grids jc-space-evenly mt-3">
                         <?php
                             foreach([
@@ -145,9 +145,9 @@
         
         <div class="bottom-container section-padding" data-aos="fade-up" data-aos-delay="0">
             <div class="container">
-                <h3 class="xs text-center fw-500">
+                <h5 class="h3 xs text-center fw-500">
                     ผู้อำนวยการ
-                </h3>
+                </h5>
                 <div class="grids jc-space-evenly">
                     <?php for($i=0; $i<40; $i++){?>
                         <div class="grid xl-25 lg-1-3 pt-3">

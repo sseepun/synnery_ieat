@@ -18,12 +18,12 @@
     <section class="content-03 section-bpadding section-bg-hero" style="background-image:url('public/assets/app/images/bg/19.jpg');">
         <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/10.png"></div>
         <div class="container">
-            <h2 data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 หน่วยงานที่เกี่ยวข้อง
-            </h2>
-            <h3 class="sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
-                เพิ่มขีดความสามารถของคุณและธุรกิจ 
             </h3>
+            <h4 class="h3 sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+                เพิ่มขีดความสามารถของคุณและธุรกิจ 
+            </h4>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 ด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆ <br>
                 เกี่ยวกับ กนอ.และนิคมอุตสาหกรรมในประเทศไทย 

@@ -17,13 +17,13 @@
     <section class="section-bpadding section-bg-hero">
         <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/09.jpg"></div>
         <div class="container">
-            <h2 class="d-flex ai-center" data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2 d-flex ai-center" data-aos="fade-up" data-aos-delay="0">
                 <img class="mr-2" src="public/assets/app/images/icon/rss.jpg" alt="Icon" style="width:2rem; height:2rem;" /> 
                 RSS Feed
-            </h2>
-            <h3 class="sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
-                เพิ่มขีดความสามารถของคุณและธุรกิจ
             </h3>
+            <h4 class="h3 sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+                เพิ่มขีดความสามารถของคุณและธุรกิจ
+            </h4>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 ด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆเกี่ยวกับ กนอ.และ <br>
                 นิคมอุตสาหกรรมในประเทศไทย 

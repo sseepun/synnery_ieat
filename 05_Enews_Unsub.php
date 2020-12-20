@@ -17,12 +17,12 @@
     <section class="section-bpadding section-bg-hero">
         <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/10.jpg"></div>
         <div class="container">
-            <h2 data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 จดหมายข่าวสาร
-            </h2>
-            <h3 class="sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
-                สมัครรับจดหมายข่าวผ่านทางอีเมล์
             </h3>
+            <h4 class="h3 sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
+                สมัครรับจดหมายข่าวผ่านทางอีเมล์
+            </h4>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 จัดการเนื้อหาในเว็บไซต์และข้อมูลส่วนตัว
             </h5>
@@ -31,7 +31,7 @@
                 <div class="grids grid-header">
                     <div class="grid xl-20 lg-25 md-30 sm-100 mt-0">
                         <div class="options">
-                            <input type="text" name="search" placeholder="ค้นหา" required />
+                            <input type="text" name="search" placeholder="ค้นหา" required title="Search" />
                             <button type="submit" class="btn btn-grid">
                                 <em class="zmdi zmdi-search"></em>
                             </button>
@@ -76,7 +76,7 @@
                     <div class="grid xl-80 lg-75 sm-100" data-aos="fade-up" data-aos-delay="750">
                         <div class="ss-box-header shadow">
                             <div class="header bg-01 color-white">
-                                <h3 class="sm fw-500">แบบฟอร์มสมัครรับข่าวสาร</h3>
+                                <h5 class="h3 sm fw-500">แบบฟอร์มสมัครรับข่าวสาร</h5>
                             </div>
                             <div class="body bg-white">
                                 <form action="/" method="POST">
@@ -84,7 +84,7 @@
                                         <div class="grid md-80 sm-100 mt-0">
                                             <div class="field">
                                                 <div class="control">
-                                                    <input type="text" placeholder="ป้อนอีเมลของคุณและเลือกจดหมายข่าวที่คุณต้องการยกเลิกการรับสมัครข้อมูล" />
+                                                    <input type="email" placeholder="ป้อนอีเมลของคุณและเลือกจดหมายข่าวที่คุณต้องการยกเลิกการรับสมัครข้อมูล" title="Email" />
                                                 </div>
                                             </div>
                                         </div>

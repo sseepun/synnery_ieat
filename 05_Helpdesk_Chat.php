@@ -18,12 +18,12 @@
     <section class="section-bpadding section-bg-hero helpdesk-chat">
         <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/10.jpg"></div>
         <div class="container">
-            <h2 class="color-black" data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                 แจ้งเรื่องร้องเรียน
-            </h2>
-            <h3 class="sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
-                ระบบจัดการ เกี่ยวกับการใช้งาน
             </h3>
+            <h4 class="h3 sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
+                ระบบจัดการ เกี่ยวกับการใช้งาน
+            </h4>
             <h5 class="color-black xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 จัดการเนื้อหาในเว็บไซต์และข้อมูลส่วนตัว
             </h5>
@@ -32,7 +32,7 @@
                 <div class="grids grid-header">
                     <div class="grid xl-20 lg-25 md-30 sm-100 mt-0">
                         <div class="options">
-                            <input type="text" name="search" placeholder="ค้นหา" required />
+                            <input type="text" name="search" placeholder="ค้นหา" required title="Search" />
                             <button type="submit" class="btn btn-grid">
                                 <em class="zmdi zmdi-search"></em>
                             </button>
@@ -198,7 +198,7 @@
                                             <div class="profile" style="background-image:url('public/assets/app/images/hero/chat-me.jpg');"></div>
                                         </div>
                                         <div class="text-container field mt-0">
-                                            <input type="text" placeholder="พิมพ์ตอบหรือถามเพิ่มเติมเรื่องร้องเรียน..." required />
+                                            <input type="text" placeholder="พิมพ์ตอบหรือถามเพิ่มเติมเรื่องร้องเรียน..." required title="Subject" />
                                             <div class="btns mt-2">
                                                 <button type="submit" class="btn btn-action">
                                                     <span>ส่งข้อความ</span>

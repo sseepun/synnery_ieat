@@ -5,7 +5,7 @@
             <a class="logo" href="index.php">
                 <img src="public/assets/app/images/logo.png" alt="Logo" />
                 <div class="text-wrapper">
-                    <h2>การนิคมอุตสาหกรรมแห่งประเทศไทย (กนอ.)</h2>
+                    <h5>การนิคมอุตสาหกรรมแห่งประเทศไทย (กนอ.)</h5>
                     <p>Industrial Estate Authority of Thailand</p>
                 </div>
             </a>
@@ -101,9 +101,9 @@
         <div class="dropdown-wrapper" style="background-image:url('public/assets/app/images/bg/14.jpg');">
             <div class="grids">
                 <div class="grid xl-20 lg-25 sm-100">
-                    <h2 class="color-01">
+                    <h5 class="h2 color-01">
                         เกี่ยวกับ กนอ.
-                    </h2>
+                    </h5>
                     <img class="hero" src="public/assets/app/images/hero/01.png" alt="Hero" />
                 </div>
                 <div class="grid xl-80 lg-75 sm-100">
@@ -235,9 +235,9 @@
             </div>
             <div class="container">
                 <form action="/" method="GET">
-                    <h3 class="color-white text-center mt-0 mb-0-5">
+                    <h5 class="h3 color-white text-center mt-0 mb-0-5">
                         คุณกำลังมองหาอะไร?
-                    </h3>
+                    </h5>
                     <div class="input-container field">
                         <input type="text" name="keywords" placeholder="ค้นหา" required title="Keywords" />
                         <button type="submit">

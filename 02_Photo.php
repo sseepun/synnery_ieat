@@ -17,12 +17,12 @@
     <section class="section-bpadding section-bg-hero">
         <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/07.jpg"></div>
         <div class="container">
-            <h2 class="color-white" data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2 color-white" data-aos="fade-up" data-aos-delay="0">
                 คลังภาพ กนอ.
-            </h2>
-            <h3 class="sm color-white fw-400" data-aos="fade-up" data-aos-delay="150">
-                สัมผัสภาพความประทับใจต่างๆ
             </h3>
+            <h4 class="h3 sm color-white fw-400" data-aos="fade-up" data-aos-delay="150">
+                สัมผัสภาพความประทับใจต่างๆ
+            </h4>
             <h5 class="color-white xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 จากการทำงาน และช่วยเหลืงสังคมกับการนิคมอุตสาหกรรม 
             </h5>

@@ -18,12 +18,12 @@
     <section class="section-bpadding section-bg-hero">
         <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/10.jpg"></div>
         <div class="container">
-            <h2 class="color-black" data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                 แจ้งเรื่องร้องเรียน
-            </h2>
-            <h3 class="sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
-                ระบบจัดการ เกี่ยวกับการใช้งาน
             </h3>
+            <h4 class="h3 sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
+                ระบบจัดการ เกี่ยวกับการใช้งาน
+            </h4>
             <h5 class="color-black xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 จัดการเนื้อหาในเว็บไซต์และข้อมูลส่วนตัว
             </h5>

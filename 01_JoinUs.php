@@ -18,12 +18,12 @@
     <section class="about-02 section-bpadding section-bg-hero">
         <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/12.jpg"></div>
         <div class="container">
-            <h2 class="color-black" data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                 ร่วมงานกับเรา
-            </h2>
-            <h3 class="sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
-                ทุกความสำเร็จมาจากทีมที่ยิ่งใหญ่
             </h3>
+            <h4 class="h3 sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
+                ทุกความสำเร็จมาจากทีมที่ยิ่งใหญ่
+            </h4>
             <h5 class="color-black xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 มาร่วมเป็นส่วนหนึ่งกับเรา กนอ.
             </h5>
@@ -82,9 +82,9 @@
                             <div class="about-container <?php if($i==0)echo 'active'; ?>">
                                 <div class="about-header">
                                     <h5 class="prefix fw-400">ตำแหน่ง</h5>
-                                    <h3 class="title xs color-04">
+                                    <h6 class="title h3 xs color-04">
                                         Mechanical Project Manager / ผู้จัดการโครงการเครื่องกล 2 อัตรา
-                                    </h3>
+                                    </h6>
                                     <div class="date">
                                         <div class="d">04</div>
                                         <div class="m-y">09.2563</div>

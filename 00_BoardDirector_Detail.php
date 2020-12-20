@@ -19,12 +19,12 @@
             <div class="grids">
 
                 <div class="grid xl-50 lg-60 sm-100 mt-0" data-aos="fade-up" data-aos-delay="0">
-                    <h2 class="color-black">
+                    <h4 class="h2 color-black">
                         นางสาวสมจิณณ์ พิลึก
-                    </h2>
-                    <h3 class="sm fw-200">
+                    </h4>
+                    <h5 class="h3 sm fw-200">
                         ผู้ว่าการการนิคมอุตสาหกรรมแห่งประเทศไทย
-                    </h3>
+                    </h5>
 
                     <h6 class="fw-600 mt-4 pt-2">
                         คุณวุฒิการศึกษา
@@ -121,9 +121,9 @@
                             เพื่อสร้างคุณค่าและก่อให้เกิดประโยชน์แก่ผู้มีส่วนได้ส่วนเสีย
                         </div>
                     </div>
-                    <h4 class="lg fw-500 text-center mt-4">
+                    <h5 class="h4 lg fw-500 text-center mt-4">
                         นางสาวสมจิณณ์ พิลึก
-                    </h4>
+                    </h5>
                     <h6 class="fw-200 text-center">
                         ผู้ว่าการการนิคมอุตสาหกรรมแห่งประเทศไทย
                     </h6>
@@ -135,10 +135,10 @@
 
     <section class="content-07 section-padding img-fill lazy-bg" data-src="public/assets/app/images/bg/19.jpg">
         <div class="container text-center">
-            <h2 class="sm fw-300 color-06" data-aos="fade-up" data-aos-delay="0">
+            <h5 class="h2 sm fw-300 color-06" data-aos="fade-up" data-aos-delay="0">
                 ในปี 2563 กนอ. ดำเนินงานมาครบระยะเวลา 
                 <span class="text-xl fw-600">48</span> ปี
-            </h2>
+            </h5>
             <h6 class="fw-300 mt-1 md-no-br" data-aos="fade-up" data-aos-delay="150">
                 ในตลอดระยะเวลาที่ผ่านมา กนอ. ได้ทำหน้าที่ในการจัดตั้งนิคมอุตสาหกรรมให้เป็นฐานการผลิดที่มีมาตรฐาน และให้บริการระบบสาธารณูปโภค
                 <br> พื้นฐานครบวงจร โดยมุ่งให้ประเทศไทยเป็นศูนย์กลางของฐานการผลิตของภูมิภาคอาเซียน จึงต้องเร่งเสริมสร้างศักยภาพนิคมอุตสาหกรรมไทย 
@@ -148,15 +148,15 @@
             </h6>
             <div class="mt-4 pt-2" data-aos="fade-up" data-aos-delay="300">
                 <div class="content-quote-02">
-                    <h3 class="sm text-center fw-300 color-06 md-no-br">
+                    <h5 class="h3 sm text-center fw-300 color-06 md-no-br">
                         เป็นองค์กรหลักที่มีส่วนร่วมในการขับเคลื่อนเศรษฐกิจของประเทศ
                         <br> โดยเน้นภาคอุตสาหกรรม และบริการสู่อนาคตที่ยั่งยืน
-                    </h3>
+                    </h5>
                 </div>
-                <h4 class="lg fw-300 mt-3">
+                <h5 class="h4 lg fw-300 mt-3">
                     ภายใต้การดำเนินงานที่พร้อมรับมือกับสถานการณ์ที่
                     <br> เปลี่ยนแปลงตลอดเวลา กนอ. จึงมั่นใจว่าจะยังคงเติบโตไปอย่างยั่งยืน
-                </h4>
+                </h5>
                 <h6 class="fw-300 mt-2 md-no-br">
                     ตามกรอบการขับเคลื่อนองค์กรด้วยยุทธศาสตร์ 5G+ Growth/Green/Great/Good Governance/Global 
                     <br> Competitiveness และ Innovation เพื่อปฎิรูปกระบวนการทำงานด้วยเทคโนโลยีและนวัตกรรม รวมถึงการปลูกฝัง

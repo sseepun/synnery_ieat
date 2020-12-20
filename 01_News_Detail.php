@@ -19,10 +19,10 @@
             <div class="grids">
                 <div class="grid xl-20 lg-25 sm-100"></div>
                 <div class="grid xl-80 lg-75 sm-100 mt-0">
-                    <h3 class="text-center sm xs-no-br" data-aos="fade-up" data-aos-delay="0">
+                    <h5 class="h3 text-center sm xs-no-br" data-aos="fade-up" data-aos-delay="0">
                         ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสารลงดิน 
                         <br> วางระบบ 5G ในนิคมฯ
-                    </h3>
+                    </h5>
                 </div>
             </div>
 
@@ -95,18 +95,18 @@
                         
                         <div class="clear-both"></div>
                         <div class="content-quote mt-4 pt-2" data-aos="fade-up" data-aos-delay="0">
-                            <h3 class="xs text-center fw-200 md-no-br">
+                            <h4 class="h3 xs text-center fw-200 md-no-br">
                                 สำหรับพื้นที่เป้าหมายของการวางท่อร้อยสายสื่อสารใต้ดินในนิคมอุตสาหกรรม <br> 
                                 เพื่อให้บริการโทรคมนาคมประกอบด้วย นิคมอุตสาหกรรม 14 แห่ง <br>
                                 และท่าเรืออุตสาหกรรม 1 แห่งที่ กนอ.บริหารจัดการเอง
-                            </h3>
-                            <h4 class="text-center mt-2">
+                            </h4>
+                            <h5 class="h4 text-center mt-2">
                                 เนื้อที่ประมาณ 
                                 <span class="text-2xl color-05">33,855.72</span>
                                 ไร่ มีผู้ประกอบกิจการในพื้นที่รวมทั้งสิ้น 
                                 <span class="text-2xl color-05">2,142</span>
                                 ราย
-                            </h4>
+                            </h5>
                         </div>
                         
                         <div class="mt-5 pt-1" data-aos="fade-up" data-aos-delay="0">

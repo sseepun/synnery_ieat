@@ -661,7 +661,7 @@ img.content-img-float.left{float:left; margin:0 3rem 1.5rem 0;}
     width:calc(100% - 17.5rem); padding:1rem 1.5rem; display:flex; min-height:6.875rem;
     border:1px solid transparent; transition:all .25s;
 }
-.ss-card-05 .text-container > h3{width:2.25rem;}
+.ss-card-05 .text-container > h5{width:2.25rem;}
 .ss-card-05 .text-wrapper{width:calc(100% - 2.25rem);}
 .ss-card-05 .stat-container{
     width:17.5rem; position:relative; border:1px solid transparent; border-left:0;
@@ -686,7 +686,7 @@ img.content-img-float.left{float:left; margin:0 3rem 1.5rem 0;}
 @media screen and (max-width:767.98px){
     .ss-card-05{display:block;}
     .ss-card-05 .text-container{width:100%;}
-    .ss-card-05 .text-container > h3{width:2rem;}
+    .ss-card-05 .text-container > h5{width:2rem;}
     .ss-card-05 .text-wrapper{width:calc(100% - 2rem);}
     .ss-card-05 .stat-container{width:100%; border-top:0; border-left:1px solid transparent;}
     .ss-card-05 .stat-container .btns{position:relative; bottom:auto; left:auto;}

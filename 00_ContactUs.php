@@ -17,21 +17,21 @@
 
     <section class="contact-01 section-bpadding img-fill" style="background-image:url('public/assets/app/images/bg/contact-1.jpg'); background-size:cover; background-position:center;">
         <div class="container">
-            <h2 data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 ติดต่อ กนอ.
-            </h2>
-            <h3 class="sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
-                ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพในทุกๆด้าน
             </h3>
+            <h4 class="h3 sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
+                ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพในทุกๆด้าน
+            </h4>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 เพื่อการเติบโตทางธุรกิจสังคมและสิ่งแวดล้อมอย่างยั่งยืน รางวัลแห่งความสำเร็จต่างๆ<br>
                 ที่ กนอ. ได้รับนับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดี
             </h5>
             <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="450">
-                <h3 class="xs">
+                <h4 class="h3 xs">
                     การนิคมอุตสาหกรรมแห่งประเทศไทย (กนอ.)
-                </h3>
-                <h5 class="text-md color-02">
+                </h4>
+                <h5 class="color-02">
                     ช่องทางแจ้งเรื่องร้องเรียนการทุจริต / ช่องทางรับฟังความคิดเห็น
                 </h5>
             </div>
@@ -114,7 +114,7 @@
                                 </div>
                                 <div class="grid lg-40 md-2-3 sm-90 mt-0">
                                     <div class="field">
-                                        <input type="text" class="sm bg-white" required />
+                                        <input type="text" class="sm bg-white" required title="Name" />
                                     </div>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@
                                 </div>
                                 <div class="grid lg-40 md-2-3 sm-90 mt-0">
                                     <div class="field">
-                                        <input type="email" class="sm bg-white" required />
+                                        <input type="email" class="sm bg-white" required title="Email" />
                                     </div>
                                 </div>
                             </div>
@@ -144,7 +144,7 @@
                                 </div>
                                 <div class="grid lg-40 md-2-3 sm-90 mt-0">
                                     <div class="field">
-                                        <input type="text" class="sm bg-white" required />
+                                        <input type="text" class="sm bg-white" required title="Subject" />
                                     </div>
                                 </div>
                             </div>
@@ -159,7 +159,7 @@
                                 </div>
                                 <div class="grid lg-40 md-2-3 sm-90 mt-0">
                                     <div class="field">
-                                        <textarea class="sm bg-white" rows="7" required></textarea>
+                                        <textarea class="sm bg-white" rows="7" required title="Message"></textarea>
                                     </div>
                                 </div>
                             </div>

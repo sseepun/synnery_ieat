@@ -17,12 +17,12 @@
     <section class="section-bpadding section-bg-hero">
         <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/08.jpg"></div>
         <div class="container">
-            <h2 data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 ดาวน์โหลดเอกสาร
-            </h2>
-            <h3 class="sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
-                แบบฟอร์มและเอกสารต่างๆ 
             </h3>
+            <h4 class="h3 sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+                แบบฟอร์มและเอกสารต่างๆ 
+            </h4>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 เพื่อการเติบโตทางธุรกิจสังคมและสิ่งแวดล้อมอย่างยั่งยืน รางวัลแห่งความสำเร็จต่างๆ <br>
                 ที่ กนอ. ได้รับนับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดีและมีการบูรณาการ <br>
@@ -62,9 +62,9 @@
                                 <div class="grid sm-100">
                                     <div class="ss-card ss-card-05">
                                         <div class="text-container">
-                                            <h3 class="xs color-05">
+                                            <h5 class="h3 xs color-05">
                                                 0<?= $i+1 ?>
-                                            </h3>
+                                            </h5>
                                             <div class="text-wrapper">
                                                 <h5 class="title fw-600">
                                                     ผลแผนปฏิบัติการ-ไตรมาส2 (070463)

@@ -18,13 +18,13 @@
 
     <section class="section-bpadding img-fill" style="background-image:url('public/assets/app/images/bg/30.jpg');">
         <div class="container">
-            <h2 class="color-white" data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2 color-white" data-aos="fade-up" data-aos-delay="0">
                 ปฏิทินกิจกรรม
-            </h2>
-            <h3 class="sm color-08 fw-400 xs-no-br" data-aos="fade-up" data-aos-delay="150">
+            </h3>
+            <h4 class="h3 sm color-08 fw-400 xs-no-br" data-aos="fade-up" data-aos-delay="150">
                 ตลอดระยะเวลากว่า 47 ปีที่ผ่านมา มุ่งมั่น <br>
                 สร้างฐานการผลิต 
-            </h3>
+            </h4>
             <h5 class="color-white xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 เพื่อรองรับการลงทุนด้านอุตสาหกรรม ผลักดันการลงทุน เพื่อพัฒนาเศรษฐกิจของประเทศ <br>
                 ให้เกิดความมั่นคงและเป็นศูนย์กลางที่สำคัญของเอเชีย 
@@ -32,7 +32,7 @@
             <div class="grids grid-header mt-3" data-aos="fade-up" data-aos-delay="450">
                 <div class="grid xl-20 lg-25 md-30 sm-100 mt-0">
                     <div class="options">
-                        <input type="text" name="search" placeholder="ค้นหา" required />
+                        <input type="text" name="search" placeholder="ค้นหา" required title="Search" />
                         <button type="submit" class="btn btn-grid">
                             <em class="zmdi zmdi-search"></em>
                         </button>

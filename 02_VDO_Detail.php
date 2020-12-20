@@ -16,12 +16,12 @@
 
     <section class="content-04 section-bpadding img-fill lazy-bg" data-src="public/assets/app/images/bg/28.jpg">
         <div class="container">
-            <h2 data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 คลังวิดีโอ
-            </h2>
-            <h3 class="sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
-                รับชมวิดีทัศน์ที่น่าสนใจ
             </h3>
+            <h4 class="h3 sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+                รับชมวิดีทัศน์ที่น่าสนใจ
+            </h4>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 เพื่อสร้างแรงบันดาลในให้แก่คุณ
             </h5>
@@ -71,20 +71,20 @@
                                 <div class="d">04</div>
                                 <div class="m-y">09.2563</div>
                             </div>
-                            <h3 class="sm color-01">
+                            <h5 class="h3 sm color-01">
                                 ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสารลงดิน วางระบบ 5G ในนิคมฯ
-                            </h3>
+                            </h5>
                         </div>
 
                         <div data-aos="fade-up" data-aos-delay="0">
-                            <h3 class="xs fw-200 mt-4 pt-1" style="max-width:44rem;">
+                            <h5 class="h3 xs fw-200 mt-4 pt-1" style="max-width:44rem;">
                                 บอร์ดกนอ.ไฟเขียวลงทุนนำสายสื่อสารในนิคมอุตสาหกรรมลงใต้ดิน 
                                 <span class="fw-600 color-06">
                                     รองรับ Smart City เตรียมวางระบบ 5 G
                                 </span>
                                 ครอบคลุมพื้นที่นิคมอุตสาหกรรรม 14 แห่ง 
                                 และท่าเรืออุตสาหกรรม 1 แห่ง คาดเริ่มได้ปี’67
-                            </h3>
+                            </h5>
                             <p class="mt-3">
                                 น.ส.สมจิณณ์ พิลึก ผู้ว่าการการนิคมอุตสาหกรรมแห่งประเทศไทย (กนอ.) เปิดเผยว่า  
                                 กนอ.มีแนวคิดจัดระเบียบสายสื่อสารในนิคมอุตสาหกรรมลงใต้ดิน เพื่อเพิ่มความ
@@ -92,10 +92,10 @@
                                 และจัดเตรียมระบบสาธารณูปโภค สิ่งอำนวยความสะดวกและการบริการให้กับผู้ประกอบ
                                 การในนิคมอุตสาหกรรม เพื่อให้สามารถใช้ประโยชน์ร่วมกันได้
                             </p>
-                            <h3 class="xs fw-500 color-06 xs-no-br mt-4 pt-2">
+                            <h5 class="h3 xs fw-500 color-06 xs-no-br mt-4 pt-2">
                                 นอกจากนี้ ยังเป็นการรองรับการขยายตัว <br>
                                 ของอุตสาหกรรมโทรคมนาคมที่สูงขึ้นในอนาคต 
-                            </h3>
+                            </h5>
                             <p class="mt-3">
                                 โดยล่าสุดในการประชุมคณะกรรมการ กนอ.(บอร์ด กนอ.) ที่มีนายนรินทร์ กัลยาณมิตร ประธานบอร์ด 
                                 กนอ.เป็นประธานการประชุม มีมติเห็นชอบในหลักการของแนวทาง

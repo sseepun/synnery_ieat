@@ -18,12 +18,12 @@
     <section class="section-bpadding section-bg-hero">
         <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/05.jpg"></div>
         <div class="container">
-            <h2 class="color-02" data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2 color-02" data-aos="fade-up" data-aos-delay="0">
                 ประกาศจัดซื้อจัดจ้าง
-            </h2>
-            <h3 class="sm fw-400" data-aos="fade-up" data-aos-delay="150">
-                เพิ่มขีดความสามารถของคุณและธุรกิจ
             </h3>
+            <h4 class="h3 sm fw-400" data-aos="fade-up" data-aos-delay="150">
+                เพิ่มขีดความสามารถของคุณและธุรกิจ
+            </h4>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 ด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆ <br>
                 เกี่ยวกับ กนอ.และนิคมอุตสาหกรรมในประเทศไทย

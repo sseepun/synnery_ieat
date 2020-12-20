@@ -51,7 +51,7 @@
                 <div class="icon">
                     <img src="public/assets/app/images/icon/code.png" alt="Icon" />
                 </div>
-                <textarea data-copy="0">Temporary code test temporary code test temporary code test</textarea>
+                <textarea data-copy="0" title="Copy Area">Temporary code test temporary code test temporary code test</textarea>
                 <a class="btn-code-copy color-01 h-color-04" data-copy="0" href="#">
                     [คัดลอก]
                 </a>

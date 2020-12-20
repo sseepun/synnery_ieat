@@ -19,12 +19,12 @@
     <section class="content-05 section-bpadding">
         <div class="img-bg bg-gradient-gray-02"></div>
         <div class="container">
-            <h2 class="color-black" data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                 นิคมอุตสาหกรรมในประเทศไทย
-            </h2>
-            <h3 class="sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
-                เพิ่มขีดความสามารถของคุณและธุรกิจ 
             </h3>
+            <h4 class="h3 sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+                เพิ่มขีดความสามารถของคุณและธุรกิจ 
+            </h4>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 ด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆ <br>
                 เกี่ยวกับ กนอ.และนิคมอุตสาหกรรมในประเทศไทย 
@@ -34,9 +34,9 @@
                 <?php include('component/search-panel.php'); ?>
             </div>
 
-            <h3 class="color-02 fw-300" data-aos="fade-up" data-aos-delay="0">
+            <h4 class="h3 color-02 fw-300" data-aos="fade-up" data-aos-delay="0">
                 ตอบโจทย์ที่ใช่...
-            </h3>
+            </h4>
             <h5 class="fw-300" data-aos="fade-up" data-aos-delay="150">
                 ตอบสนองทุกความต้องการทางด้านธุรกิจของคุณ
             </h5>

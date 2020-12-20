@@ -16,12 +16,12 @@
 
     <section class="content-04 section-bpadding img-fill lazy-bg" data-src="public/assets/app/images/bg/25.jpg">
         <div class="container">
-            <h2 data-aos="fade-up" data-aos-delay="0">
+            <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 คลังภาพ กนอ.
-            </h2>
-            <h3 class="sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
-                สัมผัสภาพความประทับใจต่างๆ
             </h3>
+            <h4 class="h3 sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+                สัมผัสภาพความประทับใจต่างๆ
+            </h4>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
                 จากการทำงาน และช่วยเหลืงสังคมกับการนิคมอุตสาหกรรม 
             </h5>
@@ -141,18 +141,18 @@
                         
                         <div class="clear-both"></div>
                         <div class="content-quote mt-4 pt-2" data-aos="fade-up" data-aos-delay="0">
-                            <h3 class="xs text-center fw-200 md-no-br">
+                            <h4 class="h3 xs text-center fw-200 md-no-br">
                                 สำหรับพื้นที่เป้าหมายของการวางท่อร้อยสายสื่อสารใต้ดินในนิคมอุตสาหกรรม <br> 
                                 เพื่อให้บริการโทรคมนาคมประกอบด้วย นิคมอุตสาหกรรม 14 แห่ง <br>
                                 และท่าเรืออุตสาหกรรม 1 แห่งที่ กนอ.บริหารจัดการเอง
-                            </h3>
-                            <h4 class="text-center mt-2">
+                            </h4>
+                            <h5 class="h4 text-center mt-2">
                                 เนื้อที่ประมาณ 
                                 <span class="text-2xl color-05">33,855.72</span>
                                 ไร่ มีผู้ประกอบกิจการในพื้นที่รวมทั้งสิ้น 
                                 <span class="text-2xl color-05">2,142</span>
                                 ราย
-                            </h4>
+                            </h5>
                         </div>
                         
                         <div class="mt-5 pt-1" data-aos="fade-up" data-aos-delay="0">

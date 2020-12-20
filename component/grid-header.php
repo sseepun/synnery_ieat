@@ -1,7 +1,7 @@
 <div class="grids grid-header">
     <div class="grid xl-20 lg-25 md-30 sm-100 mt-0">
         <div class="options">
-            <input type="text" name="search" placeholder="ค้นหา" required />
+            <input type="text" name="search" placeholder="ค้นหา" required title="Search" />
             <button type="submit" class="btn btn-grid">
                 <em class="zmdi zmdi-search"></em>
             </button>
@@ -19,7 +19,7 @@
                 <em class="zmdi zmdi-rss"></em>
             </a>
             <div class="select-wrapper">
-                <select class="order">
+                <select class="order" title="Order">
                     <option value="" disabled="" selected="">เรียงลำดับข้อมูล</option>
                     <option value="newest">เรียงลำดับข้อมูล</option>
                 </select>
