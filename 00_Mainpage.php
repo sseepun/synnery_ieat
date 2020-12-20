@@ -9,6 +9,7 @@
 
     <section class="banner-01">
         <h1 class="d-none">Banner 01</h1>
+        <h3 class="d-none">Banner 01 Description</h3>
         <div class="slide-container">
             <div class="slides">
                 <?php for($i=0; $i<2; $i++){?>
