@@ -43,6 +43,12 @@ $(function(){ 'use strict';
 
     }
 
+    // Footer
+    $('nav.footer .tag').click(function(e){
+        e.preventDefault();
+        $('nav.footer .tag-target').slideToggle(600);
+    });
+
     // Global Search
     var globalSearchContainer = $('.global-search-container');
     if(globalSearchContainer.hasClass('use-gsap')){
@@ -156,72 +162,6 @@ $(function(){ 'use strict';
         new Datepicker($(this)[0], {});
     });
     
-    // // Calendar
-    // var calendar;
-    // if($('.calendar-container > .calendar-wrapper').length){
-    //     if(!$('.banner-event').length){
-    //         $('.calendar-container > .calendar-wrapper').simpleCalendar({
-    //             months: [
-    //                 'มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 
-    //                 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'
-    //             ],
-    //             days: ['อา', 'จ', 'อ', 'พ', 'พฤ', 'ศ', 'ส'],
-    //             displayYear: false,
-    //             fixedStartDay: 0,
-    //             displayEvent: true,
-    //             disableEventDetails: false,
-    //             disableEmptyDetails: true,
-    //             events: [
-    //                 {
-    //                     startDate: new Date('08-18-2020'),
-    //                     endDate: new Date('08-18-2020'),
-    //                     summary: 'กิจกรรมที่ 1'
-    //                 }
-    //             ]
-    //         });
-    //     }else{
-    //         calendar = $('.calendar-container > .calendar-wrapper').simpleCalendar({
-    //             months: [
-    //                 'มกราคม', 'กุมภาพันธ์', 'มีนาคม', 'เมษายน', 'พฤษภาคม', 'มิถุนายน', 
-    //                 'กรกฎาคม', 'สิงหาคม', 'กันยายน', 'ตุลาคม', 'พฤศจิกายน', 'ธันวาคม'
-    //             ],
-    //             days: ['อา', 'จ', 'อ', 'พ', 'พฤ', 'ศ', 'ส'],
-    //             displayYear: false,
-    //             fixedStartDay: 0,
-    //             displayEvent: true,
-    //             disableEventDetails: false,
-    //             disableEmptyDetails: true,
-    //             events: [
-    //                 {
-    //                     startDate: new Date('08-18-2020'),
-    //                     endDate: new Date('08-18-2020'),
-    //                     summary: 'กิจกรรมที่ 1'
-    //                 }
-    //             ],
-    //             onMonthChange: function(month, year){
-    //                 $('.banner-event').find('.slides').css('--month', month);
-    //                 $('.banner-event').find('.slide').removeClass('active');
-    //                 $('.banner-event').find('.slide[data-month="'+month+'"]').addClass('active');
-    //             }
-    //         });
-    //     }
-    // }
-
-    
-    // $('.btn-form-clear').click(function(e){
-    //     e.preventDefault();
-    //     var target = $(this).closest('form');
-    //     if(target.length){
-    //         target.find('input, select, textarea').val('');
-    //         target.find('input[type="checkbox"], input[type="radio"]').prop('checked', false);
-    //     }
-    // });
-
-    // Button Toggle
-    // $('.btn-toggle').click(function(e){
-    //     e.preventDefault();
-    //     $('.toggle-target[data-toggle="'+$(this).data('toggle')+'"]').slideToggle();
-    // });
 
     // Button Popup
     $('.btn-popup-toggle').click(function(e){

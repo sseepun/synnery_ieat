@@ -265,12 +265,13 @@ nav.sidenav + .sidenav-filter{
 /* Footer */
 nav.footer{width:100%; overflow:hidden;}
 nav.footer .tag{
-    display:block; margin:0 auto; text-align:center; width:100%; max-width:7.5rem;
-    border-top:1px solid transparent; padding:.125rem 0 .5625rem 0;
-    clip-path:polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    position:relative; display:block; margin:0 auto 1.1875rem auto; width:100%; z-index:1;
+    border-top:1px solid transparent; padding:.125rem 0 .5625rem 0; max-width:7.5rem;
+    clip-path:polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%); cursor:pointer; text-align:center;
 }
 nav.footer .tag i{font-size:1.6875rem;}
 nav.footer .tag p{font-size:1.1875rem;}
+nav.footer .tag-target{display:none;}
 nav.footer h3.title{font-size:1.9375rem; font-weight:500; line-height:1;}
 nav.footer h4.title{font-size:1.75rem; margin:1.5rem 0 .5rem 0;}
 nav.footer p.desc{font-size:1.3125rem; font-weight:100; line-height:1; margin:0 0 .5625rem 0;}
