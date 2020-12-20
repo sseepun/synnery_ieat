@@ -97,14 +97,14 @@
                         <table class="table table-faq">
                             <thead>
                                 <tr>
-                                    <th style="min-width:200px;">
-                                        <h4 class="fw-200">ปัญหา</h4>
+                                    <th class="h4 fw-200" style="min-width:200px;">
+                                        ปัญหา
                                     </th>
-                                    <th style="min-width:200px;">
-                                        <h4 class="fw-200">หน่วยงาน</h4>
+                                    <th class="h4 fw-200" style="min-width:200px;">
+                                        หน่วยงาน
                                     </th>
-                                    <th style="min-width:200px;">
-                                        <h4 class="fw-200">เบอร์โทรศัพท์</h4>
+                                    <th class="h4 fw-200" style="min-width:200px;">
+                                        เบอร์โทรศัพท์
                                     </th>
                                 </tr>
                             </thead>
