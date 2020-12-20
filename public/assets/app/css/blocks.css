@@ -293,11 +293,9 @@
 .breadcrumb-01{display:block; position:absolute; width:100%; padding:1rem 0; z-index:1;}
 .breadcrumb-01 > .container{position:relative;}
 .breadcrumb-01 .wrapper{width:100%; display:flex; align-items:center; flex-wrap:wrap;}
-.breadcrumb-01 a{
-    display:block; white-space:nowrap; margin:.125rem .6875rem .125rem 0; font-size:1.25rem;
-    line-height:1;
-}
-.breadcrumb-01 a:last-child{margin-right:0; font-weight:600;}
+.breadcrumb-01 h6{display:block; margin-right:.6875rem;}
+.breadcrumb-01 h6:last-child{margin-right:0; font-weight:600;}
+.breadcrumb-01 a{display:block; white-space:nowrap; margin:.125rem 0; font-size:1.25rem; line-height:1;}
 .breadcrumb-01 a.icon{
     width:1.0625rem; height:1.0625rem; line-height:1.125rem; text-align:center; font-size:.75rem;
 }
