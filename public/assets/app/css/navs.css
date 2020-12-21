@@ -101,11 +101,11 @@ nav.topnav + .topnav-spacer{display:block; width:100%; height:5.5rem;}
 @media screen and (max-width:767.98px){
     .topnav-dropdown h5{font-size:2.75rem;}
     .topnav-dropdown img.hero{width:7rem;}
-    .topnav-dropdown .scroll-wrapper{height:calc(100vh - 21rem); max-height:calc(100vh - 21rem);}
+    .topnav-dropdown .scroll-wrapper{height:calc(100vh - 24.5rem); max-height:calc(100vh - 24.5rem);}
 }
 @media screen and (max-width:575.98px){
     nav.topnav .logo .text-wrapper{display:none;}
-    .topnav-dropdown .scroll-wrapper{height:calc(100vh - 24rem); max-height:calc(100vh - 24rem);}
+    .topnav-dropdown .scroll-wrapper{height:calc(100vh - 27.5rem); max-height:calc(100vh - 27.5rem);}
 }
 
 
@@ -268,7 +268,9 @@ nav.footer{width:100%; overflow:hidden;}
 nav.footer .tag{
     position:relative; display:block; margin:0 auto 1.1875rem auto; width:100%; z-index:1;
     border-top:1px solid transparent; padding:.125rem 0 .5625rem 0; max-width:7.5rem;
-    clip-path:polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%); cursor:pointer; text-align:center;
+    clip-path:polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    -webkit-clip-path:polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    cursor:pointer; text-align:center;
 }
 nav.footer .tag i, nav.footer .tag em{font-size:1.6875rem;}
 nav.footer .tag p{font-size:1.1875rem;}

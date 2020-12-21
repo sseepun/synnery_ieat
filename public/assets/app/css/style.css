@@ -213,13 +213,21 @@ ul > li, ol > li{margin:.125rem 0;}
 }
 .btn-action::before{
     content:''; position:absolute; top:0; bottom:0; right:0; width:1.75rem;
-    clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%, 40% 50%); transition:transform .3s;
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%, 40% 50%);
+    -webkit-clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%, 40% 50%);
+    transition:transform .3s;
 }
 .btn-action:hover::before{transform:translateX(calc(1.75rem * .6));}
 
 .btn-round{border-radius:1000em; padding-left:1.1875rem; padding-right:1.1875rem;}
-.btn-hex{clip-path:polygon(50% 0%, 100% 24%, 100% 76%, 50% 100%, 0% 76%, 0% 24%);}
-.btn-hex-02{clip-path:polygon(50% 0%, 100% 26%, 100% 74%, 50% 100%, 0% 74%, 0% 26%);}
+.btn-hex{
+    clip-path:polygon(50% 0%, 100% 24%, 100% 76%, 50% 100%, 0% 76%, 0% 24%);
+    -webkit-clip-path:polygon(50% 0%, 100% 24%, 100% 76%, 50% 100%, 0% 76%, 0% 24%);
+}
+.btn-hex-02{
+    clip-path:polygon(50% 0%, 100% 26%, 100% 74%, 50% 100%, 0% 74%, 0% 26%);
+    -webkit-clip-path:polygon(50% 0%, 100% 26%, 100% 74%, 50% 100%, 0% 74%, 0% 26%);
+}
 
 
 /* Capcha Container */
