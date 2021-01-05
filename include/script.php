@@ -11,5 +11,6 @@
 <script src="public/assets/app/js/TweenMax-2.1.2.min.js"></script>
 <script src="public/assets/app/js/script.js"></script>
 <script src="public/assets/app/js/lazy-load.js"></script>
+<script src="public/assets/app/js/ss-scroll.js"></script>
 
 <script src="public/assets/lib/simplebar/simplebar.min.js"></script>
