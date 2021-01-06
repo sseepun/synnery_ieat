@@ -112,7 +112,7 @@
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
-                                                            <table class="table table-sm">
+                                                            <table class="table table-sm mt-3">
                                                                 <tbody>
                                                                     <tr>
                                                                         <td>โทรศัพท์</td>

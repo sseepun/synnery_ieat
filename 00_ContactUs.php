@@ -20,14 +20,14 @@
             <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 ติดต่อ กนอ.
             </h3>
-            <h4 class="h3 sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-02 fw-400 xs-no-text" data-aos="fade-up" data-aos-delay="150">
                 ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพในทุกๆด้าน
             </h4>
-            <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="300">
                 เพื่อการเติบโตทางธุรกิจสังคมและสิ่งแวดล้อมอย่างยั่งยืน รางวัลแห่งความสำเร็จต่างๆ<br>
                 ที่ กนอ. ได้รับนับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดี
             </h5>
-            <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="450">
+            <div class="text-center mt-5" data-aos="fade-up" id="fade-up-mobile" data-aos-delay="450">
                 <h4 class="h3 xs">
                     การนิคมอุตสาหกรรมแห่งประเทศไทย (กนอ.)
                 </h4>
@@ -35,7 +35,7 @@
                     ช่องทางแจ้งเรื่องร้องเรียนการทุจริต / ช่องทางรับฟังความคิดเห็น
                 </h5>
             </div>
-            <div class="grids jc-center mt-3" data-aos="fade-up" data-aos-delay="600">
+            <div class="grids jc-center mt-3" data-aos="fade-up" id="fade-up-mobile-2" data-aos-delay="600">
                 <div class="grid lg-1-3 md-50 sm-100 mt-0">
                     <div class="contact-card" style="background-image:url('public/assets/app/images/bg/contact-btn.png');">
                         <div class="wrapper">
@@ -47,7 +47,7 @@
                                     Telephone :</span> 02 2530561
                                 </p>
                                 <p class="fw-200">
-                                    <span class="fw-400">Call Center: </span>02 2072700
+                                    <span class="fw-400">Call Center : </span>02 2072700
                                 </p>
                             </div>
                         </div>
@@ -104,11 +104,31 @@
                 <form class="contact-form" action="/" method="POST">
                     <div class="grids mt-3">
 
+                        <!-- Update by Ton -->
                         <div class="grid sm-100 mt-2">
                             <div class="grids jc-center">
-                                <div class="grid xl-10 lg-15 md-2-3 sm-90 mt-0">
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0">
                                     <div class="field color-white fw-300">
-                                        <label class="fw-300">ชื่อ-นามสกุล</label>
+                                        <label class="fw-300">เลือกหน่วยงาน *</label>
+                                        <span class="text-xl">:</span>
+                                    </div>
+                                </div>
+                                <div class="grid lg-40 md-2-3 sm-90 mt-0">
+                                    <div class="select-wrapper w-100">
+                                        <select class="form-control no-bradius w-100" required>
+                                            <option value="">เลือกหน่วยงาน</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="grid sm-100 mt-2">
+                            <div class="grids jc-center">
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0">
+                                    <div class="field color-white fw-300">
+                                        <label class="fw-300">ชื่อ-นามสกุล *</label>
                                         <span class="text-xl">:</span>
                                     </div>
                                 </div>
@@ -121,9 +141,9 @@
                         </div>
                         <div class="grid sm-100 mt-2">
                             <div class="grids jc-center">
-                                <div class="grid xl-10 lg-15 md-2-3 sm-90 mt-0">
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0">
                                     <div class="field color-white fw-300">
-                                        <label class="fw-300">อีเมล์</label>
+                                        <label class="fw-300">อีเมล *</label>
                                         <span class="text-xl">:</span>
                                     </div>
                                 </div>
@@ -136,9 +156,9 @@
                         </div>
                         <div class="grid sm-100 mt-2">
                             <div class="grids jc-center">
-                                <div class="grid xl-10 lg-15 md-2-3 sm-90 mt-0">
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0">
                                     <div class="field color-white fw-300">
-                                        <label class="fw-300">หัวข้อ</label>
+                                        <label class="fw-300">หัวข้อ *</label>
                                         <span class="text-xl">:</span>
                                     </div>
                                 </div>
@@ -151,9 +171,9 @@
                         </div>
                         <div class="grid sm-100 mt-2">
                             <div class="grids jc-center">
-                                <div class="grid xl-10 lg-15 md-2-3 sm-90 mt-0">
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0">
                                     <div class="field color-white fw-300">
-                                        <label class="fw-300">ข้อความ</label>
+                                        <label class="fw-300">ข้อความ *</label>
                                         <span class="text-xl">:</span>
                                     </div>
                                 </div>
@@ -166,7 +186,7 @@
                         </div>
                         <div class="grid sm-100 mt-2">
                             <div class="grids jc-center">
-                                <div class="grid xl-10 lg-15 md-2-3 sm-90 mt-0"></div>
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0"></div>
                                 <div class="grid lg-40 md-2-3 sm-90 mt-0">
                                     <div class="capcha-container width-full">
                                         <img class="img" src="public/assets/app/images/icon/capcha2.png" alt="Capcha Image" />
@@ -176,11 +196,14 @@
                         </div>
                         <div class="grid sm-100 mt-3">
                             <div class="grids jc-center">
-                                <div class="grid xl-10 lg-15 md-2-3 sm-90 mt-0"></div>
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0"></div>
                                 <div class="grid lg-40 md-2-3 sm-90 mt-0">
                                     <div class="btns text-center mt-2">
                                         <button type="submit" class="btn btn-action mr-1">
                                             <span>ส่ง</span>
+                                        </button>
+                                        <button type="reset" class="btn btn-action btn-action-01">
+                                            ล้างข้อมูล
                                         </button>
                                     </div>
                                 </div>

@@ -42,10 +42,10 @@
                             <div class="ss-img">
                                 <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
                             </div>
-                            <p class="text-right mt-2">
+                            <!-- <p class="text-right mt-2">
                                 <em class="zmdi zmdi-eye mr-1"></em> 
                                 ยอดการเปิดอ่าน <span class="fw-500">126485</span> ครั้ง
-                            </p>
+                            </p> -->
                         </div>
 
                         <div data-aos="fade-up" data-aos-delay="0">

@@ -183,6 +183,8 @@ p, .p{font-size:1.375rem; font-weight:300;}
     h4.lg, .h4.lg{font-size:1.75rem;}
     h5, .h5{font-size:1.4375rem;}
     h6, .h6{font-size:1.375rem;}
+    /* Newly added style */
+    .xs-no-text{font-size:0 !important;}
 }
 
 ul, ol{font-size:1.375rem; margin:.625rem 0;}
@@ -1001,4 +1003,14 @@ table.table-faq tr:last-child > td{border-bottom:3px solid transparent;}
 }
 @media screen and (max-width:575.98px){
     .xs-no-br > br{display:none;}
+}
+
+/* Custom aos */
+@media screen and (max-width:575.98px){
+    #fade-up-mobile {
+        transition-delay: .15s;
+    }
+    #fade-up-mobile-2 {
+        transition-delay: .3s;
+    }
 }

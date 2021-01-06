@@ -20,10 +20,10 @@
             <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 รายงานความยั่งยืน
             </h3>
-            <h4 class="h3 sm fw-400" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm fw-100" data-aos="fade-up" data-aos-delay="150">
                 เพิ่มขีดความสามารถของคุณและธุรกิจ
             </h4>
-            <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="xs-no-br fw-100" data-aos="fade-up" data-aos-delay="300">
                 ด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆ <br>
                 เกี่ยวกับ กนอ.และนิคมอุตสาหกรรมในประเทศไทย
             </h5>

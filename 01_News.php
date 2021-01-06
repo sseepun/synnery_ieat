@@ -80,7 +80,8 @@
                                                 <div class="ss-stat">
                                                     <div class="stat">
                                                         <div class="icon">
-                                                            <img src="public/assets/app/images/icon/07.png" alt="Icon" />
+                                                            <i class="zmdi zmdi-eye"></i>
+                                                            <!-- <img src="public/assets/app/images/icon/07.png" alt="Icon" /> -->
                                                         </div> 112
                                                     </div>
                                                     <div class="stat">
@@ -137,7 +138,8 @@
                                                         <div class="ss-stat">
                                                             <div class="stat">
                                                                 <div class="icon">
-                                                                    <img src="public/assets/app/images/icon/07.png" alt="Icon" />
+                                                                    <i class="zmdi zmdi-eye"></i>
+                                                                    <!-- <img src="public/assets/app/images/icon/07.png" alt="Icon" /> -->
                                                                 </div> 112
                                                             </div>
                                                             <div class="stat">

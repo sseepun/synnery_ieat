@@ -3,6 +3,18 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
+
+    <style>
+        /* Start Fixes by Ton */
+            /* Removing word on Mobile */
+            @media screen and (max-width:575.98px){
+                .xs-color {color: #169f96 !important;}
+                .section-calendar .calendar-header .calendar-btn{
+                    color:#169f96;
+                }
+            }
+        /* End Fixes */
+    </style>
 </head>
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>
@@ -21,15 +33,15 @@
             <h3 class="h2 color-white" data-aos="fade-up" data-aos-delay="0">
                 ปฏิทินกิจกรรม
             </h3>
-            <h4 class="h3 sm color-08 fw-400 xs-no-br" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-08 fw-400 xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="150">
                 ตลอดระยะเวลากว่า 47 ปีที่ผ่านมา มุ่งมั่น <br>
                 สร้างฐานการผลิต 
             </h4>
-            <h5 class="color-white xs-no-br" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="color-white xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="300">
                 เพื่อรองรับการลงทุนด้านอุตสาหกรรม ผลักดันการลงทุน เพื่อพัฒนาเศรษฐกิจของประเทศ <br>
                 ให้เกิดความมั่นคงและเป็นศูนย์กลางที่สำคัญของเอเชีย 
             </h5>
-            <div class="grids grid-header mt-3" data-aos="fade-up" data-aos-delay="450">
+            <div class="grids grid-header mt-3" data-aos="fade-up" id="fade-up-mobile" data-aos-delay="450">
                 <div class="grid xl-20 lg-25 md-30 sm-100 mt-0">
                     <div class="options">
                         <input type="text" name="search" placeholder="ค้นหา" required title="Search" />
@@ -185,57 +197,57 @@
                     {
                         title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
                         start: '2020-12-19',
-                        customStartTime: '12:45',
+                        customStartTime: '12:45 น.',
                         end: '2020-12-19',
-                        customEndTime: '15:00',
+                        customEndTime: '15:00 น.',
                         url: '#',
                     },
                     {
                         title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
                         start: '2020-12-19',
-                        customStartTime: '12:45',
+                        customStartTime: '12:45 น.',
                         end: '2020-12-19',
-                        customEndTime: '15:00',
+                        customEndTime: '15:00 น.',
                         url: '#',
                     },
                     {
                         title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
                         start: '2020-12-19',
-                        customStartTime: '12:45',
+                        customStartTime: '12:45 น.',
                         end: '2020-12-19',
-                        customEndTime: '15:00',
+                        customEndTime: '15:00 น.',
                         url: '#',
                     },
                     {
                         title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
                         start: '2020-12-24',
-                        customStartTime: '09:00',
+                        customStartTime: '09:00 น.',
                         end: '2020-12-24',
-                        customEndTime: '20:00',
+                        customEndTime: '20:00 น.',
                         url: '#',
                     },
                     {
                         title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
                         start: '2020-12-29',
-                        customStartTime: '09:00',
+                        customStartTime: '09:00 น.',
                         end: '2020-12-24',
-                        customEndTime: '20:00',
+                        customEndTime: '20:00 น.',
                         url: '#',
                     },
                     {
                         title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
                         start: '2020-12-29',
-                        customStartTime: '09:00',
+                        customStartTime: '09:00 น.',
                         end: '2020-12-24',
-                        customEndTime: '20:00',
+                        customEndTime: '20:00 น.',
                         url: '#',
                     },
                     {
                         title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
                         start: '2020-12-29',
-                        customStartTime: '09:00',
+                        customStartTime: '09:00 น.',
                         end: '2020-12-24',
-                        customEndTime: '20:00',
+                        customEndTime: '20:00 น.',
                         url: '#',
                     },
                 ],

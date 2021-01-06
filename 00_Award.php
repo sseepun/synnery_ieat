@@ -3,6 +3,19 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
+
+     <!-- Start Fixes by Ton -->
+     <style>
+         /* Slide 1 */
+         /* สลับ active ให้ไม่มีปี พ.ศ. */
+        .about-03 .slick-dots button .y > span{font-size:1.4375rem; transition:font-size .3s;}
+        .about-03 .slick-dots li.slick-active > button .y > span{font-size:0;}
+        /* เพิ่ม contrast ของ active dot */
+        .about-03 .slick-dots li{opacity: .4;}
+        .about-03 .slick-dots li.slick-active { opacity:1;}
+    </style>
+
+    <!-- End Fixes -->
 </head>
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>

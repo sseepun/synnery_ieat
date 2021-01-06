@@ -48,7 +48,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="grid lg-25 mt-0">
+                <!-- <div class="grid lg-25 mt-0">
                     <div class="field field-sm">
                         <label>เลขทะเบียนโรงงาน :</label>
                         <input type="text" class="bg-white" title="Company Number" />
@@ -65,13 +65,17 @@
                         <label>ประกอบอุตสาหกรรม :</label>
                         <input type="text" class="bg-white" title="Area" />
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="body bg-08">
             <div class="btns text-center mt-0">
                 <button type="submit" class="btn btn-action">
-                    <span>ค้นหา</span>
+                    <?php if($d == ''){?>
+                        <span>ค้นหา</span>
+                    <?php }else{?>
+                        <span>ค้นหา<?= $d == 'นิคมอุตสาหกรรม'? 'นิคมใกล้ฉัน': 'โรงงานใกล้ฉัน'; ?></span>
+                    <?php }?>
                 </button>
             </div>
         </div>

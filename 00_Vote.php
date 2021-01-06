@@ -21,10 +21,10 @@
             <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                 ร่วมแสดงความคิดเห็น
             </h3>
-            <h4 class="h3 sm color-07 fw-400" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-07 fw-400 xs-no-text" data-aos="fade-up" data-aos-delay="150">
                 เพิ่มขีดความสามารถของคุณและธุรกิจ
             </h4>
-            <h5 class="color-black xs-no-br" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="color-black xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="300">
                 ด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆเกี่ยวกับ กนอ.และ <br>
                 นิคมอุตสาหกรรมในประเทศไทย
             </h5>
@@ -32,10 +32,10 @@
                 <div class="grid lg-80 sm-100">
                     <form action="/" method="POST">
 
-                        <div class="mt-5" data-aos="fade-up" data-aos-delay="450">
+                        <div class="mt-5" data-aos="fade-up" id="fade-up-mobile" data-aos-delay="450">
                             <div class="ss-box-header bg-white">
                                 <div class="ss-box-shadow"></div>
-                                <div class="header bg-02 color-white">
+                                <div class="header bg-06 color-white">
                                     <div class="p fw-100 pt-2">
                                         <span class="text-3xl fw-400 mr-1">
                                             กรอกแบบสอบถาม
@@ -50,7 +50,7 @@
 
                             <div class="ss-box-header bg-white border-bottom-2 bcolor-black">
                                 <div class="ss-box-shadow"></div>
-                                <div class="header bg-01 color-white">
+                                <div class="header bg-07 color-white">
                                     <h5 class="fw-200">01. ข้อมูลส่วนตัว</h5>
                                 </div>
                                 <div class="body bg-white border-bottom bcolor-sgray">
@@ -105,7 +105,7 @@
                                         </div>
                                         <div class="grid md-50 sm-100 mt-0">
                                             <div class="field field-sm field-adaptive">
-                                                <label class="fw-400">อีเมล์ *</label>
+                                                <label class="fw-400">อีเมล *</label>
                                                 <div class="control">
                                                     <input type="email" class="bg-white" title="Email" />
                                                 </div>
@@ -211,7 +211,7 @@
                         <div class="mt-4 pt-2" data-aos="fade-up" data-aos-delay="0">
                             <div class="ss-box-header bg-white border-bottom-2 bcolor-black">
                                 <div class="ss-box-shadow"></div>
-                                <div class="header bg-04 color-white">
+                                <div class="header bg-05 color-white">
                                     <h5 class="fw-200">02. ข้อมูลทั่วไปเกี่ยวกับเว็บไซต์การนิคมอุตสาหกรรม</h5>
                                 </div>
                                 <div class="body bg-fgray border-bottom bcolor-sgray">
@@ -332,7 +332,10 @@
 
                         <div class="btns text-center mt-3" data-aos="fade-up" data-aos-delay="0">
                             <button type="submit" class="btn btn-action mr-1">
-                                <span>สมัครรับข่าวสาร</span>
+                                <span>บันทึก</span>
+                            </button>
+                            <button type="reset" class="btn btn-action btn-action-01">
+                                ล้างข้อมูล
                             </button>
                         </div>
                     </form>

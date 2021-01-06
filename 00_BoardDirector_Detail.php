@@ -3,6 +3,12 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
+
+    <style>
+        /* Start Fixes by Ton */
+            
+        /* End Fixes */
+    </style>
 </head>
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>

@@ -21,16 +21,16 @@
             <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                 คำถามที่พบบ่อย
             </h3>
-            <h4 class="h3 sm color-07 fw-400" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-07 fw-400 xs-no-text" data-aos="fade-up" data-aos-delay="150">
                 ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพ 
             </h4>
-            <h5 class="color-black xs-no-br" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="color-black xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="300">
                 เพื่อการเติบโตทางธุรกิจสังคมและสิ่งแวดล้อมอย่างยั่งยืน รางวัลแห่งความสำเร็จต่างๆ <br>
                 ที่ กนอ. ได้รับนับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดีและมีการบูรณาการ <br>
                 อีกทั้งพัฒนาอย่างต่อเนื่อง
             </h5>
 
-            <div class="grids jc-center" data-aos="fade-up" data-aos-delay="450">
+            <div class="grids jc-center" id="fade-up-mobile" data-aos="fade-up" data-aos-delay="450">
                 <div class="grid lg-80 sm-100">
                     <div class="mt-4">
                         <div class="grids">
@@ -40,8 +40,8 @@
                                         <div class="ss-box-shadow fade-right"></div>
                                         <div class="faq-header">
                                             <div class="icon">
-                                                <img class="active" src="public/assets/app/images/icon/faq-2.png" alt="Icon" />
-                                                <img class="inactive" src="public/assets/app/images/icon/faq-1.png" alt="Icon" />
+                                                <img class="active" src="public/assets/app/images/icon/faq-1.png" alt="Icon" />
+                                                <img class="inactive" src="public/assets/app/images/icon/faq-2.png" alt="Icon" />
                                             </div>
                                             <h3 class="title xs fw-300">
                                                 ผู้ประกอบการสามารถขออนุมัติ อนุญาต ทางออนไลน์ผ่านช่องทางใด ?

@@ -29,7 +29,26 @@
             </h5>
  
             <div data-aos="fade-up" data-aos-delay="450">
-                <?php include('component/grid-header.php'); ?>
+                <div class="grids grid-header">
+                    <div class="grid xl-20 lg-25 md-30 sm-100 mt-0">
+                        <div class="options">
+                            <input type="text" name="search" placeholder="ค้นหา" required title="Search" />
+                            <button type="submit" class="btn btn-grid">
+                                <em class="zmdi zmdi-search"></em>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="grid xl-80 lg-75 md-70 sm-100 mt-0">
+                        <div class="options">
+                            <div class="select-wrapper">
+                                <select class="order" title="Order">
+                                    <option value="" disabled="" selected="">เรียงลำดับข้อมูล</option>
+                                    <option value="newest">เรียงลำดับข้อมูล</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="tab-container tab-container-01">

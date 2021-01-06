@@ -60,11 +60,11 @@
                             ?>
                                 <div class="tab-content <?php if($i==$cateActive)echo 'active'; ?>"  data-tab="<?= $i ?>">
                                     <div class="ss-box-header">
-                                        <div class="ss-box-bg"></div>
+                                        <!-- <div class="ss-box-bg"></div> -->
                                         <div class="header bg-01 color-white">
                                             <h3 class="sm fw-500"><?= $d ?></h3>
                                         </div>
-                                        <div class="body">
+                                        <div class="body bg-white">
                                             <div class="grids">
                                                 <?php for($j=0; $j<9; $j++){?>
                                                     <div class="grid xl-50 lg-100 md-50 sm-100 mt-2 mb-2 pb-4">

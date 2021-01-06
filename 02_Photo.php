@@ -20,10 +20,10 @@
             <h3 class="h2 color-white" data-aos="fade-up" data-aos-delay="0">
                 คลังภาพ กนอ.
             </h3>
-            <h4 class="h3 sm color-white fw-400" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-white fw-100" data-aos="fade-up" data-aos-delay="150">
                 สัมผัสภาพความประทับใจต่างๆ
             </h4>
-            <h5 class="color-white xs-no-br" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="color-white xs-no-br fw-100" data-aos="fade-up" data-aos-delay="300">
                 จากการทำงาน และช่วยเหลืงสังคมกับการนิคมอุตสาหกรรม 
             </h5>
 
@@ -64,7 +64,7 @@
                                                 <img src="public/assets/app/images/icon/06.png" alt="Icon" />
                                             </div>
                                         </div>
-                                        <div class="date bg-05">
+                                        <div class="date bg-04">
                                             <div class="d">04</div>
                                             <div class="m-y">09.2563</div>
                                         </div>

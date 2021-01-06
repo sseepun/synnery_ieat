@@ -225,7 +225,7 @@
                 </div>
             </div>
             <div class="grid xl-20 lg-25 sm-100 text-center mt-3">
-                <h4 class="title color-03 fw-200 mt-0 mb-0">Social Media</h4>
+                <!-- <h4 class="title color-03 fw-200 mt-0 mb-0">Social Media</h4> -->
                 <div class="btns mt-0">
                     <a class="btn-social" href="#">
                         <img src="public/assets/app/images/icon/twitter.png" alt="Icon" />

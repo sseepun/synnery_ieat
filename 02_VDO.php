@@ -64,7 +64,7 @@
                                                     <em class="zmdi zmdi-play"></em>
                                                 </div>
                                             </div>
-                                            <div class="date bg-05">
+                                            <div class="date bg-04">
                                                 <div class="d">04</div>
                                                 <div class="m-y">09.2563</div>
                                             </div>
@@ -88,7 +88,8 @@
                                                         </div>
                                                         <div class="stat">
                                                             <div class="icon">
-                                                                <img src="public/assets/app/images/icon/07.png" alt="Icon" />
+                                                                <i class="zmdi zmdi-eye"></i>
+                                                                <!-- <img src="public/assets/app/images/icon/07.png" alt="Icon" /> -->
                                                             </div> 112
                                                         </div>
                                                         <div class="stat">
@@ -145,7 +146,8 @@
                                                                 </div>
                                                                 <div class="stat">
                                                                     <div class="icon">
-                                                                        <img src="public/assets/app/images/icon/07.png" alt="Icon" />
+                                                                    <i class="zmdi zmdi-eye"></i>
+                                                                        <!-- <img src="public/assets/app/images/icon/07.png" alt="Icon" /> -->
                                                                     </div> 112
                                                                 </div>
                                                                 <div class="stat">
