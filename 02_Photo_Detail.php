@@ -3,6 +3,12 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
+
+    <style>
+        /* Tag content info */
+        .ss-img.horizontal .content-info {position:absolute; bottom:0; left:0; width:100%; background: linear-gradient(90deg, rgba(82,65,137,1) 0%, rgba(114,164,197,1) 30%, rgba(193,239,244,0.4962359943977591) 60%, rgba(255,255,255,0) 100%);}
+        .ss-img.horizontal .content-info .text-wrapper {padding: 2.25rem 0 1.75rem 2rem;}
+    </style>
 </head>
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>
@@ -57,6 +63,12 @@
                                             <div class="date">
                                                 <div class="d">0<?= $i+1 ?></div>
                                                 <div class="m-y">09.2563</div>
+                                            </div>
+                                            <div class="content-info">
+                                                <div class="text-wrapper color-white">
+                                                    <h4 class="fw-400">กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสารลงดิน</h4>
+                                                    <h5 class="fw-200">วางระบบ 5G ในนิคมอุตสาหกรรม</h5>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
