@@ -21,10 +21,10 @@
             <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 จดหมายข่าวสาร
             </h3>
-            <h4 class="h3 sm color-02 fw-400 xs-no-text" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-02 fw-300 xs-hide" data-aos="fade-up" data-aos-delay="150">
                 สมัครรับจดหมายข่าวผ่านทางอีเมล
             </h4>
-            <h5 class="xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                 จัดการเนื้อหาในเว็บไซต์และข้อมูลส่วนตัว
             </h5>
 
@@ -93,9 +93,9 @@
                                         <a href="#" class="btn btn-action mr-1">
                                             สมัครรับข่าวสาร
                                         </a>
-                                        <a href="#" class="btn btn-action btn-action-01">
+                                        <button type="reset" class="btn btn-action btn-action-01">
                                             ล้างข้อมูล
-                                        </a>
+                                        </button>
                                     </div>
 
                                     <h6 class="fw-600 mt-4 pt-3">

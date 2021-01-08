@@ -3,18 +3,6 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
-
-    <style>
-        /* Start Fixes by Ton */
-            /* Removing word on Mobile */
-            @media screen and (max-width:575.98px){
-                .xs-color {color: #169f96 !important;}
-                .section-calendar .calendar-header .calendar-btn{
-                    color:#169f96;
-                }
-            }
-        /* End Fixes */
-    </style>
 </head>
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>
@@ -33,17 +21,17 @@
             <h3 class="h2 color-white" data-aos="fade-up" data-aos-delay="0">
                 ปฏิทินกิจกรรม
             </h3>
-            <h4 class="h3 sm color-08 fw-400 xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-08 fw-300 xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="150">
                 ตลอดระยะเวลากว่า 47 ปีที่ผ่านมา มุ่งมั่น <br>
                 สร้างฐานการผลิต 
             </h4>
-            <h5 class="color-white xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="color-white xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                 เพื่อรองรับการลงทุนด้านอุตสาหกรรม ผลักดันการลงทุน เพื่อพัฒนาเศรษฐกิจของประเทศ <br>
                 ให้เกิดความมั่นคงและเป็นศูนย์กลางที่สำคัญของเอเชีย 
             </h5>
             <div class="grids grid-header mt-3" data-aos="fade-up" id="fade-up-mobile" data-aos-delay="450">
                 <div class="grid xl-20 lg-25 md-30 sm-100 mt-0">
-                    <div class="options">
+                    <div class="options jc-start">
                         <input type="text" name="search" placeholder="ค้นหา" required title="Search" />
                         <button type="submit" class="btn btn-grid">
                             <em class="zmdi zmdi-search"></em>
@@ -57,7 +45,7 @@
     <section class="section-calendar">
         <div class="top-container">
             <div class="container">
-                <div class="slide-container">
+                <div class="slide-container slide-month">
                     <div class="slides">
                         <?php for($i=30; $i>=0; $i--){?>
                             <div class="slide" data-year="<?= 2579-$i-543 ?>" data-index="<?= 30-$i ?>">
@@ -130,17 +118,17 @@
             ];
             var today = new Date();
 
-                
+             
             // Section Calendar
             var sectionCalendar = $('.section-calendar');
-            var slideContainer = sectionCalendar.find('.slide-container'),
-                slides = slideContainer.find('.slide');
-            slideContainer.find('> .slides').slick({
+            var slideMonth = sectionCalendar.find('.slide-container.slide-month'),
+                slides = slideMonth.find('.slide');
+            slideMonth.find('> .slides').slick({
                 centerMode: true, centerPadding: 0, slidesToShow: 8, infinite: true,
                 focusOnSelect: true, autoplay: false, speed: 600, 
                 swipe: false, touchMove: false, swipeToSlide: false,
-                dots: false, arrows: true, appendArrows: slideContainer.find('> .arrows'),
-                initialSlide: slides.filter('[data-year="'+today.getFullYear()+'"]').data('index'),
+                dots: false, arrows: true, appendArrows: slideMonth.find('> .arrows'),
+                initialSlide: slides.filter('[data-month="'+today.getMonth()+'"]').data('index'),
                 responsive: [
                     { breakpoint: 1299.98, settings: { slidesToShow: 7, } },
                     { breakpoint: 1199.98, settings: { slidesToShow: 6, } },
@@ -179,7 +167,7 @@
                 if(updateSlick){
                     var slickIndex = slides.filter('[data-year="'+year+'"]').data('index');
                     if(slickIndex!==undefined){
-                        slideContainer.find('> .slides').slick('slickGoTo', slickIndex);
+                        slideMonth.find('> .slides').slick('slickGoTo', slickIndex);
                     }
                 }
             }
@@ -276,7 +264,7 @@
                             +'<div class="title">'+event.title+'</div>'
                         +'</div>';
                     return true;
-                },
+                }
             });
             calendarMonth.render();
 
@@ -290,7 +278,7 @@
                 e.preventDefault();
                 calendarMonth.next();
             });
-            slideContainer.find('.slides').on('beforeChange', function(e, s, c, i){
+            slideMonth.find('.slides').on('beforeChange', function(e, s, c, i){
                 var year = slides.filter('[data-index="'+i+'"]').data('year'),
                     date = calendarMonth.getDate(),
                     gotoDate = new Date(year+'-'+(date.getMonth()+1)+'-'+'14');

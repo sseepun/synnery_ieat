@@ -20,14 +20,14 @@
             <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 ติดต่อ กนอ.
             </h3>
-            <h4 class="h3 sm color-02 fw-400 xs-no-text" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-02 fw-300 xs-hide" data-aos="fade-up" data-aos-delay="150">
                 ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพในทุกๆด้าน
             </h4>
-            <h5 class="xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                 เพื่อการเติบโตทางธุรกิจสังคมและสิ่งแวดล้อมอย่างยั่งยืน รางวัลแห่งความสำเร็จต่างๆ<br>
                 ที่ กนอ. ได้รับนับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดี
             </h5>
-            <div class="text-center mt-5" data-aos="fade-up" id="fade-up-mobile" data-aos-delay="450">
+            <div class="text-center mt-5 xs-hide" data-aos="fade-up" id="fade-up-mobile" data-aos-delay="450">
                 <h4 class="h3 xs">
                     การนิคมอุตสาหกรรมแห่งประเทศไทย (กนอ.)
                 </h4>
@@ -102,10 +102,8 @@
             </h3>
             <div data-aos="fade-up" data-aos-delay="150">
                 <form class="contact-form" action="/" method="POST">
-                    <div class="grids mt-3">
-
-                        <!-- Update by Ton -->
-                        <div class="grid sm-100 mt-2">
+                    <div class="grids">
+                        <div class="grid sm-100 mt-3">
                             <div class="grids jc-center">
                                 <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0">
                                     <div class="field color-white fw-300">
@@ -114,16 +112,15 @@
                                     </div>
                                 </div>
                                 <div class="grid lg-40 md-2-3 sm-90 mt-0">
-                                    <div class="select-wrapper w-100">
-                                        <select class="form-control no-bradius w-100" required>
+                                    <div class="field select-wrapper w-100">
+                                        <select class="sm bg-white w-100" required>
                                             <option value="">เลือกหน่วยงาน</option>
                                         </select>
                                     </div>
                                 </div>
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0"></div>
                             </div>
                         </div>
-
-
                         <div class="grid sm-100 mt-2">
                             <div class="grids jc-center">
                                 <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0">
@@ -137,6 +134,7 @@
                                         <input type="text" class="sm bg-white" required title="Name" />
                                     </div>
                                 </div>
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0"></div>
                             </div>
                         </div>
                         <div class="grid sm-100 mt-2">
@@ -152,6 +150,7 @@
                                         <input type="email" class="sm bg-white" required title="Email" />
                                     </div>
                                 </div>
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0"></div>
                             </div>
                         </div>
                         <div class="grid sm-100 mt-2">
@@ -167,6 +166,7 @@
                                         <input type="text" class="sm bg-white" required title="Subject" />
                                     </div>
                                 </div>
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0"></div>
                             </div>
                         </div>
                         <div class="grid sm-100 mt-2">
@@ -182,6 +182,7 @@
                                         <textarea class="sm bg-white" rows="7" required title="Message"></textarea>
                                     </div>
                                 </div>
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0"></div>
                             </div>
                         </div>
                         <div class="grid sm-100 mt-2">
@@ -192,6 +193,7 @@
                                         <img class="img" src="public/assets/app/images/icon/capcha2.png" alt="Capcha Image" />
                                     </div>
                                 </div>
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0"></div>
                             </div>
                         </div>
                         <div class="grid sm-100 mt-3">
@@ -207,6 +209,7 @@
                                         </button>
                                     </div>
                                 </div>
+                                <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0"></div>
                             </div>
                         </div>
                     

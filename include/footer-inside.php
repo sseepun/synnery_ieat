@@ -44,16 +44,16 @@
                     </span>
                 </p>
             </div>
-            <div class="content">
-                <div class="btns">
-                    <a class="btn-social" href="#">
-                        <img src="public/assets/app/images/icon/twitter.png" alt="Icon" />
+            <div class="content mt-0">
+                <div class="btns mt-0">
+                    <a class="btn-social-white tw" href="#">
+                        <em class="zmdi zmdi-twitter"></em>
                     </a>
-                    <a class="btn-social" href="#">
-                        <img src="public/assets/app/images/icon/youtube.png" alt="Icon" />
+                    <a class="btn-social-white fb" href="#">
+                        <em class="zmdi zmdi-facebook"></em>
                     </a>
-                    <a class="btn-social" href="#">
-                        <img src="public/assets/app/images/icon/facebook.png" alt="Icon" />
+                    <a class="btn-social-white yt" href="#">
+                        <em class="zmdi zmdi-youtube-play"></em>
                     </a>
                 </div>
             </div>

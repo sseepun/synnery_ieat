@@ -20,10 +20,10 @@
                 <h3 class="h2 color-white" data-aos="fade-up" data-aos-delay="0">
                     คลังความรู้
                 </h3>
-                <h4 class="h3 sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+                <h4 class="h3 sm color-06 fw-300 xs-hide" data-aos="fade-up" data-aos-delay="150">
                     องค์ความรู้ในด้านต่าง ๆ เกี่ยวกับอุตสาหากรรม
                 </h4>
-                <h5 class="color-white xs-no-br" data-aos="fade-up" data-aos-delay="300">
+                <h5 class="color-white xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                     เพื่อยกระดับและพัฒนาศักยภาพสำหรับกิจกรรมในนิคมอุตสาหกรรม <br>
                     กนอ. ได้รับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดีและมีการบูรณาการ <br>
                     อีกทั้งพัฒนาอย่างต่อเนื่อง

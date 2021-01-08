@@ -3,7 +3,8 @@ $(function(){ 'use strict';
     // Topnav
     var topnav = $('nav.topnav'),
         topnavDropdownToggles = topnav.find('.topnav-dropdown-toggle'),
-        topnavDropdown = $('.topnav-dropdown');
+        topnavDropdown = $('.topnav-dropdown'),
+        topnavDropdownWrappers = topnavDropdown.find('.dropdown-wrapper');
     var sidenav = $('nav.sidenav'),
         sidenavMenus = sidenav.find('.menu-container'),
         sidenavToggles = $('nav.topnav .sidenav-toggle, nav.sidenav .sidenav-toggle');
@@ -12,9 +13,28 @@ $(function(){ 'use strict';
         // Topnav Dropdown Toggle
         topnavDropdownToggles.click(function(e){
             e.preventDefault();
-            topnavDropdownToggles.parent().toggleClass('active');
-            topnavDropdown.toggleClass('active');
-            topnavDropdown.slideToggle();
+            var self = $(this),
+                parent = self.parent();
+            if(parent.hasClass('active')){
+                parent.removeClass('active');
+                topnavDropdown.removeClass('active');
+                topnavDropdown.stop().slideUp();
+            }else{
+                topnavDropdownToggles.parent().removeClass('active');
+                parent.addClass('active');
+                topnavDropdownWrappers.removeClass('active');
+                topnavDropdownWrappers
+                    .filter('[data-dropdown="'+self.data('dropdown')+'"]')
+                    .addClass('active');
+                topnavDropdown.addClass('active');
+                topnavDropdown.stop().slideDown();
+            }
+        });
+        topnavDropdown.find('> .close-filter').click(function(e){
+            e.preventDefault();
+            topnavDropdownToggles.parent().removeClass('active');
+            topnavDropdown.removeClass('active');
+            topnavDropdown.stop().slideUp();
         });
 
         // Sidenav Toggles

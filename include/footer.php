@@ -227,14 +227,14 @@
             <div class="grid xl-20 lg-25 sm-100 text-center mt-3">
                 <!-- <h4 class="title color-03 fw-200 mt-0 mb-0">Social Media</h4> -->
                 <div class="btns mt-0">
-                    <a class="btn-social" href="#">
-                        <img src="public/assets/app/images/icon/twitter.png" alt="Icon" />
+                    <a class="btn-social-white tw" href="#">
+                        <em class="zmdi zmdi-twitter"></em>
                     </a>
-                    <a class="btn-social" href="#">
-                        <img src="public/assets/app/images/icon/youtube.png" alt="Icon" />
+                    <a class="btn-social-white fb" href="#">
+                        <em class="zmdi zmdi-facebook"></em>
                     </a>
-                    <a class="btn-social" href="#">
-                        <img src="public/assets/app/images/icon/facebook.png" alt="Icon" />
+                    <a class="btn-social-white yt" href="#">
+                        <em class="zmdi zmdi-youtube-play"></em>
                     </a>
                 </div>
             </div>

@@ -11,7 +11,7 @@
                 <div class="grid lg-25 mt-0">
                     <div class="field field-sm">
                         <label>นิคมอุตสาหกรรม :</label>
-                        <div class="select-wrapper icon-square">
+                        <div class="select-wrapper">
                             <select class="bg-white" title="Type">
                                 <option value="">&nbsp;</option>
                             </select>
@@ -21,7 +21,7 @@
                 <div class="grid lg-25 mt-0">
                     <div class="field field-sm">
                         <label>พื้นที่ประกอบกิจการ :</label>
-                        <div class="select-wrapper icon-square">
+                        <div class="select-wrapper">
                             <select class="bg-white" title="Land Type">
                                 <option value="">&nbsp;</option>
                             </select>
@@ -31,7 +31,7 @@
                 <div class="grid lg-25 mt-0">
                     <div class="field field-sm">
                         <label>ประเภทโรงงาน :</label>
-                        <div class="select-wrapper icon-square">
+                        <div class="select-wrapper">
                             <select class="bg-white" title="Asset Type">
                                 <option value="">&nbsp;</option>
                             </select>
@@ -41,7 +41,7 @@
                 <div class="grid lg-25 mt-0">
                     <div class="field field-sm">
                         <label>ประเภท ISIC :</label>
-                        <div class="select-wrapper icon-square">
+                        <div class="select-wrapper">
                             <select class="bg-white" title="ISIC Type">
                                 <option value="">&nbsp;</option>
                             </select>
@@ -71,10 +71,10 @@
         <div class="body bg-08">
             <div class="btns text-center mt-0">
                 <button type="submit" class="btn btn-action">
-                    <?php if($d == ''){?>
+                    <?php if($d==''){?>
                         <span>ค้นหา</span>
                     <?php }else{?>
-                        <span>ค้นหา<?= $d == 'นิคมอุตสาหกรรม'? 'นิคมใกล้ฉัน': 'โรงงานใกล้ฉัน'; ?></span>
+                        <span>ค้นหา<?= $d=='นิคมอุตสาหกรรม'? 'นิคมใกล้ฉัน': 'โรงงานใกล้ฉัน'; ?></span>
                     <?php }?>
                 </button>
             </div>

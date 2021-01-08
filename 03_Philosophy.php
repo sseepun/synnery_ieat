@@ -24,10 +24,10 @@
                         <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                             ปรัชญา กนอ.
                         </h3>
-                        <h4 class="h3 sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+                        <h4 class="h3 sm color-06 fw-300 xs-hide" data-aos="fade-up" data-aos-delay="150">
                             ตลอดระยะเวลากว่า 47 ปีที่ผ่านมา มุ่งมั่นสร้างฐานการผลิต
                         </h4>
-                        <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
+                        <h5 class="xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                             เพื่อรองรับการลงทุนด้านอุตสาหกรรม ผลักดันการลงทุน เพื่อพัฒนาเศรษฐกิจของประเทศ <br>
                             ให้เกิดความมั่นคงและเป็นศูนย์กลางที่สำคัญของเอเชีย
                         </h5>

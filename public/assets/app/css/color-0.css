@@ -80,6 +80,7 @@ input[type=file]:focus, select:focus, textarea:focus{
 }
 
 /* Select Input */
+.select-wrapper::after{color:#000;}
 .select-wrapper.icon-square::after{background:#000; color:#fff;}
 
 
@@ -136,6 +137,13 @@ nav.footer .tag{
 .btn-action::before{background:#6cdded;}
 .btn-action.btn-action-01::before{background:#ccc;}
 
+.btn-social-white{background:#fff; color:#fff;}
+.btn-social-white::before{background:#4b326e;}
+.btn-social-white:hover{background:#2d2d2d; color:#fff;}
+.btn-social-white.tw:hover{background:#39cbed; color:#fff;}
+.btn-social-white.fb:hover{background:#5182f2; color:#fff;}
+.btn-social-white.yt:hover{background:#ff0000; color:#fff;}
+
 
 /* Chat Container */
 .chat-container .chat > .profile-container, .chat-message > .profile-container{
@@ -150,8 +158,11 @@ nav.footer .tag{
 .content-footer .btn-social{background:#2d2d2d;}
 .content-footer .btn-social:hover{background:#000;}
 .content-footer .btn-social.tw{color:#39cbed;}
+.content-footer .btn-social.tw:hover{background:#39cbed; color:#fff;}
 .content-footer .btn-social.fb{color:#5182f2;}
+.content-footer .btn-social.fb:hover{background:#5182f2; color:#fff;}
 .content-footer .btn-social.yt{color:#ff0000;}
+.content-footer .btn-social.yt:hover{background:#ff0000; color:#fff;}
 
 
 /* Content General */
@@ -232,6 +243,7 @@ nav.footer .tag{
 .ss-img > .date .d{border-color:#c1dade;}
 .ss-img .hover-container{background-color:rgba(111,81,170,.65);}
 .ss-img .play-container .icon{border-color:#fff; color:#fff;}
+.ss-img .content-info{background: linear-gradient(90deg, rgba(82,65,137,1) 0%, rgba(114,164,197,1) 30%, rgba(193,239,244,.5) 60%, rgba(255,255,255,0) 100%);}
 
 
 /* Special List */
@@ -340,6 +352,7 @@ table.table-faq tr:nth-child(2n) > td{background:#fff;}
         rgba(21,194,201,.8), rgba(19,182,191,.8));
 }
 .about-04 .director-container-02{background:#414256;}
+.about-04 .board-card::before{background:#414256;}
 
 
 /* Breadcrumb 01 */
@@ -421,10 +434,16 @@ table.table-faq tr:nth-child(2n) > td{background:#fff;}
     background-image:linear-gradient(45deg, #955fa9, #803f97, #803f97, #803f97, #803f97);
 }
 .section-calendar .slide-container .arrows button{color:#fff;}
-.section-calendar .calendar-header .calendar-btn:hover{color:#169f96;}
 .section-calendar .calendar-tabs::before,
 .section-calendar .calendar-tabs::after{border-color:#000;}
-.section-calendar .calendar-tabs .tab.active .icon{background:#75ced2;}
+.section-calendar .calendar-tabs .tab:hover .icon,
+.section-calendar .calendar-tabs .slick-current > .tab .icon{background:#75ced2;}
+.section-calendar .calendar-contents::before{border-color:#000;}
+.section-calendar .calendar-content::before{border-color:#999; background:#ddd;}
+.section-calendar .calendar-content::after{background:#8c6ab2;}
+@media screen and (min-width:992px){
+    .section-calendar .calendar-header .calendar-btn:hover{color:#169f96;}
+}
 
 /* Calendar - Month */
 .calendar-month .fc-day-header{color:#8b8b8b;}

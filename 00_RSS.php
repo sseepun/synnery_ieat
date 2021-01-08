@@ -21,20 +21,18 @@
                 <img class="mr-2" src="public/assets/app/images/icon/rss.jpg" alt="Icon" style="width:2rem; height:2rem;" /> 
                 RSS Feed
             </h3>
-            <h4 class="h3 sm color-06 fw-400 xs-no-text" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-06 fw-300 xs-hide" data-aos="fade-up" data-aos-delay="150">
                 เพิ่มขีดความสามารถของคุณและธุรกิจ
             </h4>
-            <h5 class="xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                 ด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆเกี่ยวกับ กนอ.และ <br>
                 นิคมอุตสาหกรรมในประเทศไทย 
             </h5>
 
             <div data-aos="fade-up" id="fade-up-mobile" data-aos-delay="450">
-                <!-- <?php include('component/grid-header.php'); ?> -->
-
                 <div class="grids grid-header">
                     <div class="grid xl-20 lg-25 md-30 sm-100 mt-0">
-                        <div class="options">
+                        <div class="options jc-start">
                             <input type="text" name="search" placeholder="ค้นหา" required title="Search" />
                             <button type="submit" class="btn btn-grid">
                                 <em class="zmdi zmdi-search"></em>

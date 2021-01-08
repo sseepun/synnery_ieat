@@ -21,10 +21,10 @@
             <h3 class="h2 color-05" data-aos="fade-up" data-aos-delay="0">
                 แผนผังเว็บไซต์
             </h3>
-            <h4 class="h3 sm color-white fw-100 xs-no-text" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-white fw-200 xs-hide" data-aos="fade-up" data-aos-delay="150">
                 ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพ
             </h4>
-            <h5 class="color-white sm-no-br fw-100 xs-no-text" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="color-white sm-no-br fw-100 xs-hide" data-aos="fade-up" data-aos-delay="300">
                 เพื่อการเติบโตทางธุรกิจสังคมและสิ่งแวดล้อมอย่างยั่งยืน รางวัลแห่งความสำเร็จต่างๆ <br>
                 ที่ กนอ. ได้รับนับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดีและมีการบูรณาการ <br> 
                 อีกทั้งพัฒนาอย่างต่อเนื่อง

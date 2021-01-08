@@ -1,14 +1,23 @@
 <div class="content-footer">
     <div class="content-row">
-        <a class="btn-icon btn-hex btn-social tw" href="#">
-            <em class="zmdi zmdi-twitter"></em>
-        </a>
-        <a class="btn-icon btn-hex btn-social fb" href="#">
-            <em class="zmdi zmdi-facebook"></em>
-        </a>
-        <a class="btn-icon btn-hex btn-social yt" href="#">
-            <em class="zmdi zmdi-youtube-play"></em>
-        </a>
+        <div class="text-center">
+            <a class="btn-icon btn-hex btn-social tw" href="#">
+                <em class="zmdi zmdi-twitter"></em>
+            </a>
+            <p><strong>20</strong></p>
+        </div>
+        <div class="text-center">
+            <a class="btn-icon btn-hex btn-social fb" href="#">
+                <em class="zmdi zmdi-facebook"></em>
+            </a>
+            <p><strong>12</strong></p>
+        </div>
+        <!-- <div class="text-center">
+            <a class="btn-icon btn-hex btn-social yt" href="#">
+                <em class="zmdi zmdi-youtube-play"></em>
+            </a>
+            <p><strong>18</strong></p>
+        </div> -->
     </div>
     <div class="content-row">
         <div class="ss-tag mt-0">
@@ -37,7 +46,8 @@
                     </td>
                     <td>
                         <a class="btn-download" href="#">
-                            ดาวน์โหลดไฟล์นี้ <em class="zmdi zmdi-arrow-right"></em>
+                            <span class="xs-hide">ดาวน์โหลดไฟล์นี้</span>
+                            <em class="zmdi zmdi-arrow-right"></em>
                         </a>
                     </td>
                 </tr>

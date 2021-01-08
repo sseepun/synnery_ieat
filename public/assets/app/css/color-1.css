@@ -38,6 +38,7 @@ select:focus, textarea:focus{
 }
 
 /* Select Input */
+.select-wrapper::after{color:#fff;}
 .select-wrapper.icon-square::after{background:#fff; color:#000;}
 
 
@@ -77,6 +78,10 @@ nav.footer .tag{background:#fff; color:#000;}
     background:#000; color:#fff; border:1px solid #fff;
 }
 .btn-action::before{background:#fff;}
+
+.btn-social-white{background:#fff; color:#fff;}
+.btn-social-white:hover{color:#000;}
+.btn-social-white::before{background:#000;}
 
 
 /* Chat Container */
@@ -176,6 +181,7 @@ nav.footer .tag{background:#fff; color:#000;}
 .ss-img > .date .d{border-color:#000;}
 .ss-img .hover-container{background-color:rgba(111,81,170,.65);}
 .ss-img .play-container .icon{border-color:#fff; color:#fff;}
+.ss-img .content-info{background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,.5) 60%, rgba(0,0,0,0) 100%);}
 
 
 /* Special List */
@@ -328,7 +334,11 @@ table.table-faq td{border-color:#fff!important; border-bottom:1px solid #fff;}
 .section-calendar .slide-container .arrows button{color:#fff;}
 .section-calendar .calendar-tabs::before,
 .section-calendar .calendar-tabs::after{border-color:#fff;}
-.section-calendar .calendar-tabs .tab.active .icon{background:#fff; color:#000;}
+.section-calendar .calendar-tabs .tab:hover .icon,
+.section-calendar .calendar-tabs .slick-current > .tab .icon{background:#fff; color:#000;}
+.section-calendar .calendar-contents::before{border-color:#fff;}
+.section-calendar .calendar-content::before{border-color:#fff; background:#000;}
+.section-calendar .calendar-content::after{background:#fff;}
 
 /* Calendar - Month */
 .calendar-month .fc-day-header{color:#fff;}

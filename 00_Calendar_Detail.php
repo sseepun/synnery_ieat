@@ -21,17 +21,17 @@
             <h3 class="h2 color-white" data-aos="fade-up" data-aos-delay="0">
                 ปฏิทินกิจกรรม
             </h3>
-            <h4 class="h3 sm color-08 fw-400 xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-08 fw-300 xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="150">
                 ตลอดระยะเวลากว่า 47 ปีที่ผ่านมา มุ่งมั่น <br>
                 สร้างฐานการผลิต 
             </h4>
-            <h5 class="color-white xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="color-white xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                 เพื่อรองรับการลงทุนด้านอุตสาหกรรม ผลักดันการลงทุน เพื่อพัฒนาเศรษฐกิจของประเทศ <br>
                 ให้เกิดความมั่นคงและเป็นศูนย์กลางที่สำคัญของเอเชีย 
             </h5>
             <div class="grids grid-header mt-3" data-aos="fade-up" id="fade-up-mobile" data-aos-delay="450">
                 <div class="grid xl-20 lg-25 md-30 sm-100 mt-0">
-                    <div class="options">
+                    <div class="options jc-start">
                         <input type="text" name="search" placeholder="ค้นหา" required title="Search" />
                         <button type="submit" class="btn btn-grid">
                             <em class="zmdi zmdi-search"></em>
@@ -45,7 +45,7 @@
     <section class="section-calendar">
         <div class="top-container">
             <div class="container">
-                <div class="slide-container">
+                <div class="slide-container slide-month">
                     <div class="slides">
                         <?php
                             foreach([
@@ -68,23 +68,27 @@
 
         <div class="middle-container">
             <div class="container">
-                <div class="calendar-tabs">
-                    <?php
-                        $days = ['อา.', 'จ.', 'อ.', 'พ.', 'พฤ.', 'ศ.', 'ส.'];
-                        for($i=1; $i<=31; $i++){
-                    ?>
-                        <div class="tab <?php if($i==19)echo 'active'; ?>">
-                            <div class="d"><?= $days[$i%7] ?></div>
-                            <div class="icon btn-hex">
-                                <?= sprintf('%02d', $i) ?>
+                <div class="slide-container calendar-tabs">
+                    <div class="slides">
+                        <?php
+                            $days = ['อา.', 'จ.', 'อ.', 'พ.', 'พฤ.', 'ศ.', 'ส.'];
+                            for($i=1; $i<=31; $i++){
+                        ?>
+                            <div class="slide">
+                                <div class="tab">
+                                    <div class="d"><?= $days[$i%7] ?></div>
+                                    <div class="icon btn-hex">
+                                        <?= sprintf('%02d', $i) ?>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    <?php }?>
+                        <?php }?>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="bottom-container section-padding pt-0">
+        <div class="bottom-container section-padding pt-0 ovf-hidden">
             <div class="container">
                 <div class="grids">
 
@@ -113,7 +117,7 @@
                                             <div class="icon">
                                                 <em class="zmdi zmdi-time"></em>
                                             </div>
-                                            <p><span class="fw-500">เวลา</span> 12.45</p>
+                                            <p><span class="fw-500">เวลา</span> 12.45 น.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -161,13 +165,13 @@
                         </div>
                     </div>
 
-                    <div class="grid xl-25 lg-30 sm-100">
+                    <div class="grid xl-25 lg-30 sm-100 calendar-contents">
                         <h4 class="lg fw-400 color-01">
                             กิจกรรมถัดมา
                         </h4>
                         <div class="grids">
                             <?php for($j=0; $j<3; $j++){?>
-                                <div class="grid md-100 sm-50 mt-3">
+                                <div class="grid lg-100 md-50 sm-50 mt-3 calendar-content">
                                     <a class="ss-img mb-2" href="#">
                                         <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
                                         <div class="hover-container">
@@ -234,13 +238,13 @@
                 
             // Section Calendar
             var sectionCalendar = $('.section-calendar');
-            var slideContainer = sectionCalendar.find('.slide-container'),
-                slides = slideContainer.find('.slide');
-            slideContainer.find('> .slides').slick({
+            var slideMonth = sectionCalendar.find('.slide-container.slide-month'),
+                slides = slideMonth.find('.slide');
+            slideMonth.find('> .slides').slick({
                 centerMode: true, centerPadding: 0, slidesToShow: 8, infinite: true,
                 focusOnSelect: true, autoplay: false, speed: 600, 
                 swipe: false, touchMove: false, swipeToSlide: false,
-                dots: false, arrows: true, appendArrows: slideContainer.find('> .arrows'),
+                dots: false, arrows: true, appendArrows: slideMonth.find('> .arrows'),
                 initialSlide: slides.filter('[data-month="'+today.getMonth()+'"]').data('index'),
                 responsive: [
                     { breakpoint: 1299.98, settings: { slidesToShow: 7, } },
@@ -248,6 +252,23 @@
                     { breakpoint: 991.98, settings: { slidesToShow: 5, } },
                     { breakpoint: 767.98, settings: { slidesToShow: 4, } },
                     { breakpoint: 575.98, settings: { slidesToShow: 3, } },
+                ]
+            });
+
+            // Calendar Day Tabs
+            var dayTabs = sectionCalendar.find('.slide-container.calendar-tabs');
+            dayTabs.find('> .slides').slick({
+                centerMode: true, centerPadding: 0, slidesToShow: 27, infinite: true,
+                focusOnSelect: true, autoplay: false, speed: 600, 
+                swipe: false, touchMove: false, swipeToSlide: false,
+                dots: false, arrows: false,
+                initialSlide: today.getDate(),
+                responsive: [
+                    { breakpoint: 1299.98, settings: { slidesToShow: 25, } },
+                    { breakpoint: 1199.98, settings: { slidesToShow: 21, } },
+                    { breakpoint: 991.98, settings: { slidesToShow: 17, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 13, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 7, } },
                 ]
             });
 

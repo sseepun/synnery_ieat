@@ -3,9 +3,6 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
-<style>
-
-</style>
 </head>
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>
@@ -25,7 +22,7 @@
                 <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                     คณะผู้บริหาร
                 </h3>
-                <h4 class="h3 sm color-07 fw-400" data-aos="fade-up" data-aos-delay="150">
+                <h4 class="h3 sm color-07 fw-300" data-aos="fade-up" data-aos-delay="150">
                     การบริหารจัดการในเชิงบูรณาการ 
                 </h4>
                 <h5 class="color-black xs-no-br" data-aos="fade-up" data-aos-delay="300">
@@ -151,16 +148,18 @@
                 <div class="grids jc-space-evenly">
                     <?php for($i=0; $i<40; $i++){?>
                         <div class="grid xl-25 lg-1-3 pt-3">
-                            <h5 class="fw-500">นางสาวปราณี รัตนสุภา</h5>
-                            <p class="job-title">ผู้อำนวยการฝ่ายตรวจสอบภายใน</p>
-                            <?php if($i<12){?>
-                                <div class="icon-bullet mt-2">
-                                    <div class="icon bg-07 color-white btn-hex-02">
-                                        <em class="zmdi zmdi-phone"></em>
+                            <div class="board-card">
+                                <h5 class="fw-500">นางสาวปราณี รัตนสุภา</h5>
+                                <p class="job-title">ผู้อำนวยการฝ่ายตรวจสอบภายใน</p>
+                                <?php if($i<12){?>
+                                    <div class="icon-bullet mt-2">
+                                        <div class="icon bg-07 color-white btn-hex-02">
+                                            <em class="zmdi zmdi-phone"></em>
+                                        </div>
+                                        <p>02-253-2561 ต่อ 1410</p>
                                     </div>
-                                    <p>02-253-2561 ต่อ 1410</p>
-                                </div>
-                            <?php }?>
+                                <?php }?>
+                            </div>
                         </div>
                     <?php }?>
                 </div>

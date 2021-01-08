@@ -20,10 +20,10 @@
             <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 ดาวน์โหลดเอกสาร
             </h3>
-            <h4 class="h3 sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-06 fw-300 xs-hide" data-aos="fade-up" data-aos-delay="150">
                 แบบฟอร์มและเอกสารต่างๆ 
             </h4>
-            <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                 เพื่อการเติบโตทางธุรกิจสังคมและสิ่งแวดล้อมอย่างยั่งยืน รางวัลแห่งความสำเร็จต่างๆ <br>
                 ที่ กนอ. ได้รับนับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดีและมีการบูรณาการ <br>
                 อีกทั้งพัฒนาอย่างต่อเนื่อง
@@ -131,7 +131,7 @@
                                 </div>
                             <?php }?> 
 
-                            </div>
+                        </div>
                         <?php include('component/grid-footer.php'); ?>
                     </div>
 

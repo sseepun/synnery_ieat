@@ -21,10 +21,10 @@
             <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                 ร่วมแสดงความคิดเห็น
             </h3>
-            <h4 class="h3 sm color-07 fw-400 xs-no-text" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-07 fw-300 xs-hide" data-aos="fade-up" data-aos-delay="150">
                 เพิ่มขีดความสามารถของคุณและธุรกิจ
             </h4>
-            <h5 class="color-black xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="color-black xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                 ด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆเกี่ยวกับ กนอ.และ <br>
                 นิคมอุตสาหกรรมในประเทศไทย
             </h5>

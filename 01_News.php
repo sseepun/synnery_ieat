@@ -21,10 +21,10 @@
             <h3 class="h2 color-white" data-aos="fade-up" data-aos-delay="0">
                 ข่าวประชาสัมพันธ์
             </h3>
-            <h4 class="h3 sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-02 fw-300 xs-hide" data-aos="fade-up" data-aos-delay="150">
                 เพิ่มขีดความสามารถของคุณและธุรกิจ
             </h4>
-            <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                 ด้วยการติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆ <br>
                 เกี่ยวกับ กนอ.และนิคมอุตสาหกรรมในประเทศไทย 
             </h5>

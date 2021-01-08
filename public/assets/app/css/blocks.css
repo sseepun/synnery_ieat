@@ -101,8 +101,9 @@
 .about-03 .slick-dots button{
     display:block; position:relative; min-width:4.4375rem; text-align:center; white-space:nowrap;
     box-shadow:none; padding:.5rem .25rem .25rem .25rem; margin:0; border:0; background:none;
-    outline:none;
+    outline:none; opacity:.7; transition:opacity .3s;
 }
+.about-03 .slick-dots li.slick-active > button{opacity:1;}
 .about-03 .slick-dots button img{
     display:block; width:2.5rem; height:auto; position:absolute; opacity:0;
     top:-2.6875rem; left:calc(50% - 1.25rem); transition:opacity .3s;
@@ -111,9 +112,9 @@
 .about-03 .slick-dots button .y{
     position:relative; height:1.5rem; font-size:1.0625rem; transition:font-size .3s;
 }
-.about-03 .slick-dots li.slick-active > button .y{font-size:1.4375rem;}
-.about-03 .slick-dots button .y > span{font-size:0; transition:font-size .3s;}
-.about-03 .slick-dots li.slick-active > button .y > span{font-size:1.4375rem;}
+.about-03 .slick-dots li.slick-active > button .y{font-size:1.5625rem;}
+.about-03 .slick-dots button .y > span{transition:font-size .3s;}
+.about-03 .slick-dots li.slick-active > button .y > span{font-size:0;}
 .about-03 .slick-dots button::before{
     content:''; display:block; width:.75rem; height:.75rem; border-radius:50%;
     position:absolute; top:-.5rem; left:calc(50% - .5rem);
@@ -230,6 +231,13 @@
     width:calc(100% - 1.75rem); margin:0; font-size:1.125rem; font-weight:200;
 }
 
+.about-04 .board-card{width:auto; position:relative;}
+.about-04 .board-card::before{
+    content:''; position:absolute; top:-.75rem; bottom:-.75rem; left:-.75rem; right:-.75rem;
+    border-radius:.25rem; opacity:0; transition:opacity .25s;
+}
+.about-04 .board-card:hover::before{opacity:.08;}
+
 @media screen and (max-width:1199.98px){
     .about-04 .profile-container{height:520px; margin:-80px auto 0 auto;}
     .about-04 .profile-container .profile .text-container{margin:2rem 0 0 auto;}
@@ -302,13 +310,10 @@
 .breadcrumb-01 a{margin-right:.6875rem;}
 .breadcrumb-01 a:last-child{margin-right:0; font-weight:600;}
 .breadcrumb-01 a.icon{
-    width:1.0625rem; height:1.0625rem; 
-    /* บ้านไม่อยู่ตรงกลาง fix */
-    /* line-height:1.125rem;  */
-    line-height: 1.0625rem;
-    text-align:center; font-size:.75rem;
+    width:1.0625rem; height:1.0625rem; line-height: 1.0625rem; text-align:center; font-size:.75rem;
 }
-.breadcrumb-01 a.text i, .breadcrumb-01 a.text em{font-size:1rem; margin:0 .1875rem 0 0;}
+.breadcrumb-01 a.icon i, .breadcrumb-01 a.icon em{transform:translateY(.1875rem);}
+.breadcrumb-01 a.text i, .breadcrumb-01 a.text em{font-size:1rem; margin:0 .1875rem 0 0; }
 
 
 /* Call to Action 01 */
@@ -561,10 +566,10 @@
 .faq-01 .faq .icon + *{width:calc(100% - 3.25rem); padding:1rem 1.25rem;}
 .faq-01 .faq .icon + .content{padding-top:0;}
 .faq-01 .faq .icon > img{
-    position:absolute; top:1.0625rem; left:calc(50% - .5625rem); opacity:0;
+    position:absolute; top:1.0625rem; left:calc(50% - .5625rem); opacity:1;
     display:block; width:1.125rem; height:auto; transition:opacity .25s;
 }
-.faq-01 .faq .icon > img.inactive{width:1rem; top:1.375rem; left:calc(50% - .5rem); opacity:1;}
+.faq-01 .faq .icon > img.active{width:1rem; top:1.375rem; left:calc(50% - .5rem); opacity:0;}
 .faq-01 .faq.active .icon > img.active{opacity:1;}
 .faq-01 .faq.active .icon > img.inactive{opacity:0;}
 .faq-01 .faq .title{cursor:pointer;}
@@ -589,7 +594,7 @@
 
 
 /* Section Calendar */
-.section-calendar .slide-container{position:relative; width:100%; padding:0 2rem;}
+.section-calendar .slide-container.slide-month{position:relative; width:100%; padding:0 2rem;}
 .section-calendar .slide > .wrapper{
     position:relative; width:100%; text-align:center; padding:.8125rem 0;
 }
@@ -611,34 +616,46 @@
 .section-calendar .calendar-header .calendar-btn i,
 .section-calendar .calendar-header .calendar-btn em{font-size:1.5rem; transform:none;}
 
-.section-calendar .calendar-tabs{
-    position:relative; width:100%; display:flex; justify-content:space-between;
-    flex-wrap:wrap; padding:.5rem 0;
-}
-.section-calendar .calendar-tabs::before, .section-calendar .calendar-tabs::after{
+.section-calendar .calendar-tabs{width:100%; padding:.5rem 0;}
+.section-calendar .calendar-tabs::before{
     content:''; position:absolute; top:2.0625rem; left:calc(50% - 50vw); right:calc(50% - 50vw);
     border-top:1px dotted transparent;
 }
-.section-calendar .calendar-tabs::after{display:none; top:5.8125rem;}
 .section-calendar .calendar-tabs .tab{
     display:block; position:relative; width:1.75rem; text-align:center; padding:.3125rem 0;
-    font-size:1.0625rem; font-weight:300;
+    font-size:1.0625rem; font-weight:300; cursor:pointer;
 }
 .section-calendar .calendar-tabs .tab .icon{
     display:block; width:1.5rem; height:1.625rem; text-align:center; line-height:1.625rem;
-    font-size:1.1875rem; margin:.375rem auto 0 auto;
+    font-size:1.1875rem; margin:.375rem auto 0 auto; transition:background .25s;
 }
 
 .section-calendar .ss-box{box-shadow:none;}
 .section-calendar .scroll-wrapper{width:100%; height:auto; overflow-x:auto; overflow-y:hidden;}
 .section-calendar .calendar-wrapper{display:block; width:100%; min-width:52rem; padding:0 2px;}
 
+.section-calendar .calendar-contents{position:relative; padding-left:1.5rem;}
+.section-calendar .calendar-contents::before{
+    content:''; position:absolute; top:-2rem; bottom:-5rem; left:0; border-left:1px dotted transparent;
+}
+.section-calendar .calendar-content{position:relative;}
+.section-calendar .calendar-content::before{
+    content:''; display:block; width:.75rem; height:.75rem; border-radius:50%;
+    position:absolute; top:.5rem; left:-1.875rem; border:.0625rem solid transparent;
+}
+.section-calendar .calendar-content::after{
+    content:''; display:block; width:.4375rem; height:.4375rem; border-radius:50%;
+    position:absolute; top:.625rem; left:-1.6875rem;
+}
+
 @media screen and (max-width:991.98px){
-    .section-calendar .calendar-tabs{justify-content:center;}
-    .section-calendar .calendar-tabs::after{display:block;}
+    .section-calendar .calendar-contents{padding-left:0;}
+    .section-calendar .calendar-contents::before{border-left:0;}
+    .section-calendar .calendar-content::before,
+    .section-calendar .calendar-content::after{display:none;}
 }
 @media screen and (max-width:767.98px){
-    .section-calendar .slide-container{padding:0 1.5rem;}
+    .section-calendar .slide-container.slide-month{padding:0 1.5rem;}
     .section-calendar .padding-pull-right{padding-top:4.25rem;}
 }
 @media screen and (min-width:768px){

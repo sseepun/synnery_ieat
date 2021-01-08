@@ -21,10 +21,10 @@
             <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                 คำถามที่พบบ่อย
             </h3>
-            <h4 class="h3 sm color-07 fw-400 xs-no-text" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-07 fw-300 xs-hide" data-aos="fade-up" data-aos-delay="150">
                 ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพ 
             </h4>
-            <h5 class="color-black xs-no-br xs-no-text" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="color-black xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                 เพื่อการเติบโตทางธุรกิจสังคมและสิ่งแวดล้อมอย่างยั่งยืน รางวัลแห่งความสำเร็จต่างๆ <br>
                 ที่ กนอ. ได้รับนับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดีและมีการบูรณาการ <br>
                 อีกทั้งพัฒนาอย่างต่อเนื่อง
@@ -40,8 +40,8 @@
                                         <div class="ss-box-shadow fade-right"></div>
                                         <div class="faq-header">
                                             <div class="icon">
-                                                <img class="active" src="public/assets/app/images/icon/faq-1.png" alt="Icon" />
-                                                <img class="inactive" src="public/assets/app/images/icon/faq-2.png" alt="Icon" />
+                                                <img class="active" src="public/assets/app/images/icon/faq-2.png" alt="Icon" />
+                                                <img class="inactive" src="public/assets/app/images/icon/faq-1.png" alt="Icon" />
                                             </div>
                                             <h3 class="title xs fw-300">
                                                 ผู้ประกอบการสามารถขออนุมัติ อนุญาต ทางออนไลน์ผ่านช่องทางใด ?
@@ -55,7 +55,7 @@
                                                     </p>
                                                 </div>
                                                 <div class="content">
-                                                    <p>
+                                                    <p class="ovf-hidden">
                                                         <span class="fw-600">คำตอบ :</span> ผู้ประกอบการสามารถเข้าใช้ระบบอนุมัติ 
                                                         – อนุญาตทางอิเล็กทรอนิกส์ <span class="fw-500">(e-Permission & Privilege)</span> ได้ทาง 
                                                         <a class="fw-600 color-04 h-color-05" href="#">
@@ -69,7 +69,7 @@
                                                     <h4 class="fw-600 mt-2">
                                                         หากมีข้อสอบถามเพิ่มเติม ...
                                                     </h4>
-                                                    <p>
+                                                    <p class="ovf-hidden">
                                                         หรือพบปัญหาในการใช้งานระบบ สามารถสอบติดต่อ 
                                                         <span class="fw-500 text-lg">02 253 0561</span>
                                                         ต่อ <span class="fw-500 text-lg">4448</span> ในวัน เวลาทำการ  หรือ 
@@ -85,6 +85,7 @@
                             <?php }?>
                         </div>
                     </div>
+                    <?php include('component/grid-footer.php'); ?>
                 </div>
             </div>
 

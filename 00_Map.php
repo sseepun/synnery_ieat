@@ -92,7 +92,7 @@
                                                             <a class="title h5 fw-400" href="#">
                                                                 นิคมอุตสาหกรรมที เอฟ ดี
                                                             </a>
-                                                            <table class="table table-sm">
+                                                            <table class="table table-xs">
                                                                 <tbody>
                                                                     <tr>
                                                                         <td>เนื้อที่ทั้งหมด</td>
@@ -102,7 +102,7 @@
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
-                                                            <table class="table table-sm">
+                                                            <table class="table table-xs">
                                                                 <tbody>
                                                                     <tr>
                                                                         <td>ที่ตั้ง</td>
@@ -112,7 +112,7 @@
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
-                                                            <table class="table table-sm mt-3">
+                                                            <table class="table table-xs mt-3">
                                                                 <tbody>
                                                                     <tr>
                                                                         <td>โทรศัพท์</td>

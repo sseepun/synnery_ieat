@@ -21,10 +21,10 @@
             <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                 แจ้งเรื่องร้องเรียน
             </h3>
-            <h4 class="h3 sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-02 fw-300 xs-hide" data-aos="fade-up" data-aos-delay="150">
                 ระบบจัดการ เกี่ยวกับการใช้งาน
             </h4>
-            <h5 class="color-black xs-no-br" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="color-black xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                 จัดการเนื้อหาในเว็บไซต์และข้อมูลส่วนตัว
             </h5>
  
@@ -38,7 +38,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="grid xl-80 lg-75 md-70 sm-100 mt-0">
+                    <div class="grid xl-20 lg-25 md-30 sm-100 mt-0">
                         <div class="options">
                             <div class="select-wrapper">
                                 <select class="order" title="Order">
@@ -46,6 +46,13 @@
                                     <option value="newest">เรียงลำดับข้อมูล</option>
                                 </select>
                             </div>
+                        </div>
+                    </div>
+                    <div class="grid xl-60 lg-50 md-40 sm-100 mt-0">
+                        <div class="btns options">
+                            <a class="btn btn-action" href="#">
+                                <span>สร้างหัวข้อร้องเรียน</span>
+                            </a>
                         </div>
                     </div>
                 </div>

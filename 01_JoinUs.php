@@ -21,10 +21,10 @@
             <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                 ร่วมงานกับเรา
             </h3>
-            <h4 class="h3 sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-02 fw-300 xs-hide" data-aos="fade-up" data-aos-delay="150">
                 ทุกความสำเร็จมาจากทีมที่ยิ่งใหญ่
             </h4>
-            <h5 class="color-black xs-no-br" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="color-black xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                 มาร่วมเป็นส่วนหนึ่งกับเรา กนอ.
             </h5>
  

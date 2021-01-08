@@ -42,22 +42,32 @@
                     <div class="wrapper">
                         <div class="menu-container">
                             <div class="menu">
-                                <a href="#">เกี่ยวกับกนอ.</a>
+                                <a class="topnav-dropdown-toggle" data-dropdown="0" href="#">
+                                    เกี่ยวกับ กนอ.
+                                </a>
                             </div>
                             <div class="menu">
-                                <a href="#">ศูนย์บริการ TSC</a>
+                                <a class="topnav-dropdown-toggle" data-dropdown="1" href="#">
+                                    ศูนย์บริการ TSC
+                                </a>
                             </div>
                             <div class="menu">
-                                <a href="#">ทำเลทอง</a>
+                                <a class="topnav-dropdown-toggle" data-dropdown="2" href="#">
+                                    ทำเลทอง
+                                </a>
                             </div>
                             <div class="menu">
-                                <a href="#">ข้อมูลอุตสาหกรรม</a>
+                                <a class="topnav-dropdown-toggle" data-dropdown="3" href="#">
+                                    ข้อมูลอุตสาหกรรม
+                                </a>
                             </div>
                             <div class="menu">
-                                <a href="#">ติดต่อหน่่วยงาน</a>
+                                <a class="topnav-dropdown-toggle" data-dropdown="4" href="#">
+                                    ติดต่อหน่วยงาน
+                                </a>
                             </div>
                             <div class="menu menu-icon">
-                                <a class="topnav-dropdown-toggle" href="#">
+                                <a class="topnav-dropdown-toggle" data-dropdown="5" href="#">
                                     <em class="zmdi zmdi-more-vert"></em>
                                 </a>
                             </div>
@@ -72,7 +82,7 @@
             </div>
             <div class="mobile-container">
                 <div class="menu menu-icon">
-                    <a class="topnav-dropdown-toggle" href="#">
+                    <a class="topnav-dropdown-toggle" data-dropdown="5" href="#">
                         <em class="zmdi zmdi-more-vert"></em>
                     </a>
                 </div>
@@ -97,94 +107,130 @@
 
 <!-- Topnav Dropdown -->
 <div class="topnav-dropdown">
+    <div class="close-filter"></div>
     <div class="container">
-        <div class="dropdown-wrapper" style="background-image:url('public/assets/app/images/bg/14.jpg');">
-            <div class="grids">
-                <div class="grid xl-20 lg-25 sm-100">
-                    <h5 class="h2 color-01">
-                        เกี่ยวกับ กนอ.
-                    </h5>
-                    <img class="hero" src="public/assets/app/images/hero/01.png" alt="Hero" />
-                </div>
-                <div class="grid xl-80 lg-75 sm-100">
-                    <p>
-                        กนอ. ได้จัดตั้งสำนักบริการเบ็ดเสร็จครบวงจร (One Stop Service Center : OSS) ขึ้น 
-                        เพื่อให้บริการแบบเบ็ดเสร็จตั้งแต่ต้นจนจบกระบวนการในการทำธุรกิจกับกนอ. 
-                        ไม่ว่าจะเป็นการซื้อหรือเช่าที่ดิน การแนะนำพื้นที่ที่เหมาะสมในการตั้งโรงงาน 
-                        การอนุมัติคำขออนุญาตและการออกใบรับรองที่จำเป็นต่างๆ เพื่อการจัดตั้งโรงงานในทุกขั้นตอนโดยง่าย 
-                        หรือแม้แต่การพัฒนาจัดตั้งนิคมอุตสาหกรรมร่วมกับ กนอ.
-                    </p>
-                    <div class="ss-sep"></div>
-                    <div class="scroll-wrapper" data-simplebar>
-                        <div class="grids">
-                            <div class="grid lg-25 mt-0">
-                                <ul class="ss-list">
-                                    <li><a href="#">บทบาทหน้าที่ความรับผิดชอบขององค์กร</a></li>
-                                    <li><a href="#">ปรัชญา วิสัยทัศน์ และพันธกิจ</a></li>
-                                    <li><a href="#">ภารกิจหลักของ กนอ.</a></li>
-                                    <li><a href="#">การแถลงทิศทางและนโยบายที่สำคัญ</a></li>
-                                    <li><a href="#">การดำเนินงานตามนโยบายของรัฐบาล</a></li>
-                                </ul>
-                            </div>
-                            <div class="grid lg-30 mt-0">
-                                <ul class="ss-list ss-list-toggle">
-                                    <li><a href="#">แนวนโยบายผู้ถือหุ้นภาครัฐ</a></li>
-                                    <li><a href="#">การแสดงความรับผิดชอบต่อสังคม (CSR) ของ กนอ.</a></li>
-                                    <li><a href="#">ธรรมาภิบาล</a>
-                                        <div class="btn-icon btn-icon-xs btn-hex">
-                                            <em class="zmdi zmdi-chevron-down"></em>
-                                        </div>
-                                        <ul class="ss-list dot-dark">
-                                            <li><a href="#">นโยบาย กนอ. ใสสะอาด</a></li>
-                                            <li><a href="#">นโยบายการกำกับดูแลกิจการที่ดี</a></li>
-                                            <li><a href="#">บทบาทคณะกรรมการ กนอ.</a></li>
-                                            <li><a href="#">การบริหารความเสี้ยง</a></li>
-                                            <li><a href="#">การควบคุมภายใน</a></li>
-                                            <li><a href="#">การตรวจสอบภายใน</a></li>
-                                            <li><a href="#">การบริหารจัดการสารสนเทศ</a></li>
-                                            <li><a href="#">การบริหารทรัพยากรบุคคล</a></li>
-                                            <li><a href="#">จรรยาบรรณ กนอ.</a></li>
-                                            <li><a href="#">ส่งเสริมคุณธรรมจริยธรรม</a></li>
-                                            <li><a href="#">การเปิดเผยข้อมูลสาธารณะ (OIT)</a></li>
-                                            <li><a href="#">นโยบายการป้องกันและต่อค้านการทุจริต</a></li>
-                                            <li><a href="#">นโยบายการส่งเสริมความคิตสร้างสรรค์และการบริหารจัดการนวัตกรรม</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">ผลการตำเนินงานของ กนอ.</a></li>
-                                    <li><a href="#">รางวัลแห่งความภูมิใจ</a></li>
-                                </ul>
-                            </div>
-                            <div class="grid lg-20 mt-0">
-                                <ul class="ss-list">
-                                    <li><a href="#">ผังองค์กร</a></li>
-                                    <li><a href="#">คณะกรรมการ</a></li>
-                                    <li><a href="#">คณะผู้บริหาร</a></li>
-                                    <li><a href="#">รายงานประจำปี</a></li>
-                                </ul>
-                            </div>
-                            <div class="grid lg-25 mt-0">
-                                <ul class="ss-list ss-list-toggle">
-                                    <li><a href="#">แผนงานที่สำคัญ</a></li>
-                                    <li><a href="#">ข้อมูลโครงการลงทุนที่สำคัญ</a></li>
-                                    <li><a href="#">แผนแม่บท</a>
-                                        <div class="btn-icon btn-icon-xs btn-hex">
-                                            <em class="zmdi zmdi-chevron-down"></em>
-                                        </div>
-                                
-                                    </li>
-                                    <li><a href="#">แผนวิสาหกิจ กนอ /แผนปฏิบัติการ กนอ.</a>
-                                        <div class="btn-icon btn-icon-xs btn-hex">
-                                            <em class="zmdi zmdi-chevron-down"></em>
-                                        </div>
-                                
-                                    </li>
-                                </ul>
+        <?php
+            foreach([
+                'เกี่ยวกับ กนอ.', 'ศูนย์บริการ TSC', 'ทำเลทอง', 'ข้อมูลอุตสาหกรรม',
+                'ติดต่อหน่วยงาน', 'ข้อมูลอื่นๆ'
+            ] as $i=>$d){
+        ?>
+            <div class="dropdown-wrapper" data-dropdown="<?= $i ?>" style="background-image:url('public/assets/app/images/bg/14.jpg');">
+                <div class="grids">
+                    <div class="grid xl-20 sm-100">
+                        <h5 class="h3 sm color-01">
+                            <?= $d ?>
+                        </h5>
+                        <img class="hero" src="public/assets/app/images/hero/01.png" alt="Hero" />
+                    </div>
+                    <div class="grid xl-80 sm-100">
+                        <p>
+                            กนอ. ได้จัดตั้งสำนักบริการเบ็ดเสร็จครบวงจร (One Stop Service Center : OSS) ขึ้น 
+                            เพื่อให้บริการแบบเบ็ดเสร็จตั้งแต่ต้นจนจบกระบวนการในการทำธุรกิจกับกนอ. 
+                            ไม่ว่าจะเป็นการซื้อหรือเช่าที่ดิน การแนะนำพื้นที่ที่เหมาะสมในการตั้งโรงงาน 
+                            การอนุมัติคำขออนุญาตและการออกใบรับรองที่จำเป็นต่างๆ เพื่อการจัดตั้งโรงงานในทุกขั้นตอนโดยง่าย 
+                            หรือแม้แต่การพัฒนาจัดตั้งนิคมอุตสาหกรรมร่วมกับ กนอ.
+                        </p>
+                        <div class="ss-sep"></div>
+                        <div class="scroll-wrapper" data-simplebar>
+                            <div class="grids">
+                                <div class="grid lg-25 mt-0">
+                                    <ul class="ss-list">
+                                        <li><a href="#">บทบาทหน้าที่ความรับผิดชอบขององค์กร</a></li>
+                                        <li><a href="#">ปรัชญา วิสัยทัศน์ และพันธกิจ</a></li>
+                                        <li><a href="#">ภารกิจหลักของ กนอ.</a></li>
+                                        <li><a href="#">การแถลงทิศทางและนโยบายที่สำคัญ</a></li>
+                                        <li><a href="#">การดำเนินงานตามนโยบายของรัฐบาล</a></li>
+                                    </ul>
+                                </div>
+                                <div class="grid lg-30 mt-0">
+                                    <ul class="ss-list ss-list-toggle">
+                                        <li><a href="#">แนวนโยบายผู้ถือหุ้นภาครัฐ</a></li>
+                                        <li><a href="#">การแสดงความรับผิดชอบต่อสังคม (CSR) ของ กนอ.</a></li>
+                                        <li><a href="#">ธรรมาภิบาล</a>
+                                            <div class="btn-icon btn-icon-xs btn-hex">
+                                                <em class="zmdi zmdi-chevron-down"></em>
+                                            </div>
+                                            <ul class="ss-list dot-dark">
+                                                <li><a href="#">นโยบาย กนอ. ใสสะอาด</a></li>
+                                                <li><a href="#">นโยบายการกำกับดูแลกิจการที่ดี</a></li>
+                                                <li><a href="#">บทบาทคณะกรรมการ กนอ.</a></li>
+                                                <li><a href="#">การบริหารความเสี้ยง</a></li>
+                                                <li><a href="#">การควบคุมภายใน</a></li>
+                                                <li><a href="#">การตรวจสอบภายใน</a></li>
+                                                <li><a href="#">การบริหารจัดการสารสนเทศ</a></li>
+                                                <li><a href="#">การบริหารทรัพยากรบุคคล</a></li>
+                                                <li><a href="#">จรรยาบรรณ กนอ.</a></li>
+                                                <li><a href="#">ส่งเสริมคุณธรรมจริยธรรม</a></li>
+                                                <li><a href="#">การเปิดเผยข้อมูลสาธารณะ (OIT)</a></li>
+                                                <li><a href="#">นโยบายการป้องกันและต่อค้านการทุจริต</a></li>
+                                                <li><a href="#">นโยบายการส่งเสริมความคิตสร้างสรรค์และการบริหารจัดการนวัตกรรม</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">ผลการตำเนินงานของ กนอ.</a></li>
+                                        <li><a href="#">รางวัลแห่งความภูมิใจ</a></li>
+                                    </ul>
+                                </div>
+                                <div class="grid lg-20 mt-0">
+                                    <ul class="ss-list">
+                                        <li><a href="#">ผังองค์กร</a></li>
+                                        <li><a href="#">คณะกรรมการ</a></li>
+                                        <li><a href="#">คณะผู้บริหาร</a></li>
+                                        <li><a href="#">รายงานประจำปี</a></li>
+                                    </ul>
+                                </div>
+                                <div class="grid lg-25 mt-0">
+                                    <ul class="ss-list ss-list-toggle">
+                                        <li><a href="#">แผนงานที่สำคัญ</a></li>
+                                        <li><a href="#">ข้อมูลโครงการลงทุนที่สำคัญ</a></li>
+                                        <li><a href="#">แผนแม่บท</a>
+                                            <div class="btn-icon btn-icon-xs btn-hex">
+                                                <em class="zmdi zmdi-chevron-down"></em>
+                                            </div>
+                                            <ul class="ss-list dot-dark">
+                                                <li><a href="#">นโยบาย กนอ. ใสสะอาด</a></li>
+                                                <li><a href="#">นโยบายการกำกับดูแลกิจการที่ดี</a></li>
+                                                <li><a href="#">บทบาทคณะกรรมการ กนอ.</a></li>
+                                                <li><a href="#">การบริหารความเสี้ยง</a></li>
+                                                <li><a href="#">การควบคุมภายใน</a></li>
+                                                <li><a href="#">การตรวจสอบภายใน</a></li>
+                                                <li><a href="#">การบริหารจัดการสารสนเทศ</a></li>
+                                                <li><a href="#">การบริหารทรัพยากรบุคคล</a></li>
+                                                <li><a href="#">จรรยาบรรณ กนอ.</a></li>
+                                                <li><a href="#">ส่งเสริมคุณธรรมจริยธรรม</a></li>
+                                                <li><a href="#">การเปิดเผยข้อมูลสาธารณะ (OIT)</a></li>
+                                                <li><a href="#">นโยบายการป้องกันและต่อค้านการทุจริต</a></li>
+                                                <li><a href="#">นโยบายการส่งเสริมความคิตสร้างสรรค์และการบริหารจัดการนวัตกรรม</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">แผนวิสาหกิจ กนอ /แผนปฏิบัติการ กนอ.</a>
+                                            <div class="btn-icon btn-icon-xs btn-hex">
+                                                <em class="zmdi zmdi-chevron-down"></em>
+                                            </div>
+                                            <ul class="ss-list dot-dark">
+                                                <li><a href="#">นโยบาย กนอ. ใสสะอาด</a></li>
+                                                <li><a href="#">นโยบายการกำกับดูแลกิจการที่ดี</a></li>
+                                                <li><a href="#">บทบาทคณะกรรมการ กนอ.</a></li>
+                                                <li><a href="#">การบริหารความเสี้ยง</a></li>
+                                                <li><a href="#">การควบคุมภายใน</a></li>
+                                                <li><a href="#">การตรวจสอบภายใน</a></li>
+                                                <li><a href="#">การบริหารจัดการสารสนเทศ</a></li>
+                                                <li><a href="#">การบริหารทรัพยากรบุคคล</a></li>
+                                                <li><a href="#">จรรยาบรรณ กนอ.</a></li>
+                                                <li><a href="#">ส่งเสริมคุณธรรมจริยธรรม</a></li>
+                                                <li><a href="#">การเปิดเผยข้อมูลสาธารณะ (OIT)</a></li>
+                                                <li><a href="#">นโยบายการป้องกันและต่อค้านการทุจริต</a></li>
+                                                <li><a href="#">นโยบายการส่งเสริมความคิตสร้างสรรค์และการบริหารจัดการนวัตกรรม</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        <?php }?>
     </div>
 </div>
 <div class="topnav-dropdown-filter"></div>

@@ -3,12 +3,6 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
-
-    <style>
-        /* Tag content info */
-        .ss-img.horizontal .content-info {position:absolute; bottom:0; left:0; width:100%; background: linear-gradient(90deg, rgba(82,65,137,1) 0%, rgba(114,164,197,1) 30%, rgba(193,239,244,0.4962359943977591) 60%, rgba(255,255,255,0) 100%);}
-        .ss-img.horizontal .content-info .text-wrapper {padding: 2.25rem 0 1.75rem 2rem;}
-    </style>
 </head>
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>
@@ -25,10 +19,10 @@
             <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 คลังภาพ กนอ.
             </h3>
-            <h4 class="h3 sm color-06 fw-100" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-06 fw-200 xs-hide" data-aos="fade-up" data-aos-delay="150">
                 สัมผัสภาพความประทับใจต่างๆ
             </h4>
-            <h5 class="xs-no-br fw-100" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="xs-no-br fw-200 xs-hide" data-aos="fade-up" data-aos-delay="300">
                 จากการทำงาน และช่วยเหลืงสังคมกับการนิคมอุตสาหกรรม 
             </h5>
 
@@ -115,7 +109,7 @@
                                 ครอบคลุมพื้นที่นิคมอุตสาหกรรรม 14 แห่ง 
                                 และท่าเรืออุตสาหกรรม 1 แห่ง คาดเริ่มได้ปี’67
                             </h3>
-                            <p class="mt-3">
+                            <p class="md mt-3">
                                 น.ส.สมจิณณ์ พิลึก ผู้ว่าการการนิคมอุตสาหกรรมแห่งประเทศไทย (กนอ.) เปิดเผยว่า  
                                 กนอ.มีแนวคิดจัดระเบียบสายสื่อสารในนิคมอุตสาหกรรมลงใต้ดิน เพื่อเพิ่มความ
                                 ปลอดภัยต่อชีวิตและทรัพย์สิน รวมทั้งยังเป็นการเฝ้าระวังอุบัติเหตุที่อาจจะเกิดขึ้น 
@@ -126,7 +120,7 @@
                                 นอกจากนี้ ยังเป็นการรองรับการขยายตัว <br>
                                 ของอุตสาหกรรมโทรคมนาคมที่สูงขึ้นในอนาคต 
                             </h3>
-                            <p class="mt-3">
+                            <p class="md mt-3">
                                 โดยล่าสุดในการประชุมคณะกรรมการ กนอ.(บอร์ด กนอ.) ที่มีนายนรินทร์ กัลยาณมิตร ประธานบอร์ด 
                                 กนอ.เป็นประธานการประชุม มีมติเห็นชอบในหลักการของแนวทาง
                                 ดังกล่าวตามที่ กนอ.เสนอ โดยให้เริ่มศึกษาความเป็นไปได้ของการลงทุนฯ ในปี 2564 
@@ -135,7 +129,7 @@
                                 หรือ พีพีพ
                             </p>
                             <div class="pt-3">
-                                <p class="mt-3">
+                                <p class="md mt-3">
                                     <img class="content-img-float" src="public/assets/app/images/bg/18.jpg" alt="Image" />
                                     โดยอุตสาหกรรมดิจิทัล เป็นหนึ่งในกลุ่มอุตสาหกรรมที่ใช้เทคโนโลยีขั้นสูง และเป็นอุตสาหกรรมเป้าหมาย
                                     ของการพัฒนาในพื้นที่อีอีซี ซึ่งนักลงทุนต่างชาติโดยเฉพาะนักลงทุนจีนได้ย้ายฐานการผลิตมายังภูมิภาค

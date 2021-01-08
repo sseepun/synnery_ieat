@@ -3,19 +3,6 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
-
-     <!-- Start Fixes by Ton -->
-     <style>
-         /* Slide 1 */
-         /* สลับ active ให้ไม่มีปี พ.ศ. */
-        .about-03 .slick-dots button .y > span{font-size:1.4375rem; transition:font-size .3s;}
-        .about-03 .slick-dots li.slick-active > button .y > span{font-size:0;}
-        /* เพิ่ม contrast ของ active dot */
-        .about-03 .slick-dots li{opacity: .4;}
-        .about-03 .slick-dots li.slick-active { opacity:1;}
-    </style>
-
-    <!-- End Fixes -->
 </head>
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>
@@ -33,7 +20,7 @@
             <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
                 รางวัลแห่งความภูมิใจ
             </h3>
-            <h4 class="h3 sm color-06 fw-400" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-06 fw-300" data-aos="fade-up" data-aos-delay="150">
                 ดำเนินกิจการด้วยความมุ่งมั่นและพัฒนาศักยภาพในทุกๆด้าน 
             </h4>
             <h5 class="xs-no-br" data-aos="fade-up" data-aos-delay="300">

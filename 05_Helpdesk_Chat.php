@@ -28,10 +28,10 @@
             <h3 class="h2 color-black" data-aos="fade-up" data-aos-delay="0">
                 แจ้งเรื่องร้องเรียน
             </h3>
-            <h4 class="h3 sm color-02 fw-400" data-aos="fade-up" data-aos-delay="150">
+            <h4 class="h3 sm color-02 fw-300 xs-hide" data-aos="fade-up" data-aos-delay="150">
                 ระบบจัดการ เกี่ยวกับการใช้งาน
             </h4>
-            <h5 class="color-black xs-no-br" data-aos="fade-up" data-aos-delay="300">
+            <h5 class="color-black xs-no-br xs-hide" data-aos="fade-up" data-aos-delay="300">
                 จัดการเนื้อหาในเว็บไซต์และข้อมูลส่วนตัว
             </h5>
  
@@ -111,7 +111,7 @@
                                         <a class="stat color-white h-color-03" href="#">
                                             แชร์ 
                                             <div class="icon ml-2 mr-0">
-                                                <img src="public/assets/app/images/icon/helpdesk-3.png" alt="Icon" />
+                                                <img src="public/assets/app/images/icon/helpdesk-4.png" alt="Icon" />
                                             </div>
                                         </a>
                                     </div>
@@ -142,7 +142,7 @@
                                                 </div>
                                                 <p class="mt-2">
                                                     <span class="text-sm">
-                                                        ตอบเมื่อวันที่ 11 ธันวาคม 2563 เวลา 14.50 น.
+                                                        ตอบเมื่อวันที่ 11/12/2563 14.50 น.
                                                     </span>
                                                 </p>
                                             </div>
@@ -159,7 +159,7 @@
                                                 </div>
                                                 <p class="mt-2">
                                                     <span class="text-sm">
-                                                        ตอบเมื่อวันที่ 11 ธันวาคม 2563 เวลา 14.50 น.
+                                                        ตอบเมื่อวันที่ 11/12/2563 14.50 น.
                                                     </span>
                                                 </p>
                                             </div>
@@ -174,7 +174,7 @@
                                                 </div>
                                                 <p class="mt-2">
                                                     <span class="text-sm">
-                                                        ตอบเมื่อวันที่ 11 ธันวาคม 2563 เวลา 14.50 น.
+                                                        ตอบเมื่อวันที่ 11/12/2563 14.50 น.
                                                     </span>
                                                 </p>
                                             </div>
@@ -189,7 +189,7 @@
                                                 </div>
                                                 <p class="mt-2">
                                                     <span class="text-sm">
-                                                        ตอบเมื่อวันที่ 11 ธันวาคม 2563 เวลา 14.50 น.
+                                                        ตอบเมื่อวันที่ 11/12/2563 14.50 น.
                                                     </span>
                                                 </p>
                                             </div>
