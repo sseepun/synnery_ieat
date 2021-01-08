@@ -3,6 +3,10 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
+    <style>
+        /* Slide 117 */
+        .ss-stat .stat {margin: .25rem 1rem 0 0;}
+    </style>
 </head>
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>

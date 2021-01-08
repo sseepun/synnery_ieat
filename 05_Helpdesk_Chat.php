@@ -3,6 +3,13 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
+
+    <style>
+        /* slide 99 */
+        @media screen and (max-width:767.98px){
+            .chat-message > .text-container {width:calc(100% - 5rem);}
+        }
+    </style>
 </head>
 <body class="loading">
     <?php include_once('include/topnav.php'); ?>

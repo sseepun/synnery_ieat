@@ -302,7 +302,11 @@
 .breadcrumb-01 a{margin-right:.6875rem;}
 .breadcrumb-01 a:last-child{margin-right:0; font-weight:600;}
 .breadcrumb-01 a.icon{
-    width:1.0625rem; height:1.0625rem; line-height:1.125rem; text-align:center; font-size:.75rem;
+    width:1.0625rem; height:1.0625rem; 
+    /* บ้านไม่อยู่ตรงกลาง fix */
+    /* line-height:1.125rem;  */
+    line-height: 1.0625rem;
+    text-align:center; font-size:.75rem;
 }
 .breadcrumb-01 a.text i, .breadcrumb-01 a.text em{font-size:1rem; margin:0 .1875rem 0 0;}
 

@@ -242,7 +242,11 @@ nav.sidenav + .sidenav-filter{
 /* Chatbot */
 .chatbot{
     display:block; text-decoration:none; width:2.625rem; border-radius:0; z-index:90;
-    position:fixed; bottom:3.75rem; right:1rem; transition:opacity .3s;
+    position:fixed; 
+    /* slide 120 */
+    /* bottom:3.75rem;  */
+    bottom:4.5rem;
+    right:1rem; transition:opacity .3s;
 }
 .chatbot:hover{opacity:.85;}
 .chatbot img{display:block; width:100%; height:auto;}
