@@ -778,8 +778,9 @@
 .faq-01 .faq > .faq-header, .faq-01 .faq > .faq-body > .wrapper{width:100%; display:flex;}
 .faq-01 .faq > .faq-body{display:none;}
 .faq-01 .faq .faq-icon{position:relative; width:3.25rem; text-align:center; padding:.5rem 0;}
-.faq-01 .faq .faq-icon + *{width:calc(100% - 9.25rem); padding:1rem 1.25rem;}
-.faq-01 .faq .stat-wrapper{width:6rem; padding:0 0 0 1rem; display:flex; align-items:center;}
+.faq-01 .faq .faq-icon + *{width:calc(100% - 8.25rem); padding:1rem 1.25rem;}
+.faq-01 .faq .ss-stat, .faq-01 .faq .stat{margin:0;}
+.faq-01 .faq .stat-wrapper{width:5rem; display:flex; align-items:center;}
 .faq-01 .faq .faq-icon + .content{padding-top:0;}
 .faq-01 .faq .faq-icon > img{
     position:absolute; top:1.0625rem; left:calc(50% - .5625rem); opacity:0;
