@@ -24,6 +24,9 @@
                 <a class="tab tab-list color-black h-color-04" href="#">
                     <p>ข่าวสารจากหน่วยงานที่เกี่ยวข้อง</p>
                 </a>
+                <a class="tab tab-list color-black h-color-04" href="#">
+                    <p>ข่าวอื่นๆ</p>
+                </a>
             </div>
         <?php }?>
     <?php }?>

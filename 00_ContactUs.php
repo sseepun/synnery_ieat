@@ -39,8 +39,11 @@
                 <div class="grid lg-1-3 md-50 sm-100 mt-0">
                     <div class="contact-card" style="background-image:url('public/assets/app/images/bg/contact-btn.png');">
                         <div class="wrapper">
-                            <div class="icon">
+                            <!-- <div class="icon">
                                 <img src="public/assets/app/images/icon/contact-1.png" alt="Icon" />
+                            </div> -->
+                            <div class="dicon">
+                                <em class="zmdi zmdi-phone"></em>
                             </div>
                             <div class="text-wrapper color-white text-center">
                                 <p class="fw-200"><span class="fw-400">
@@ -56,8 +59,11 @@
                 <div class="grid lg-1-3 md-50 sm-100 mt-0">
                     <div class="contact-card" style="background-image:url('public/assets/app/images/bg/contact-btn.png');">
                         <div class="wrapper">
-                            <div class="icon">
+                            <!-- <div class="icon">
                                 <img src="public/assets/app/images/icon/contact-2.png" alt="Icon" />
+                            </div> -->
+                            <div class="dicon">
+                                <em class="zmdi zmdi-pin"></em>
                             </div>
                             <div class="text-wrapper color-white text-center">
                                 <p class="fw-200">
@@ -73,8 +79,11 @@
                 <div class="grid lg-1-3 md-50 sm-100 mt-0">
                     <div class="contact-card" style="background-image:url('public/assets/app/images/bg/contact-btn.png');">
                         <div class="wrapper">
-                            <div class="icon">
+                            <!-- <div class="icon">
                                 <img src="public/assets/app/images/icon/contact-3.png" alt="Icon" />
+                            </div> -->
+                            <div class="dicon">
+                                <em class="zmdi zmdi-email"></em>
                             </div>
                             <div class="text-wrapper color-white text-center">
                                 <p class="fw-200">

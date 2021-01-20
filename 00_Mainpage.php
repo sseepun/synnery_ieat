@@ -30,6 +30,8 @@
                     </div>
                 <?php }?>
             </div>
+            <div class="dots"></div>
+            <div class="arrows"></div>
         </div>
     </section>
 

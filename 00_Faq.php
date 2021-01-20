@@ -29,6 +29,16 @@
                 ที่ กนอ. ได้รับนับว่าเป็นเครื่องการันตีถึงการดำเนินการของบริษัทที่ดีและมีการบูรณาการ <br>
                 อีกทั้งพัฒนาอย่างต่อเนื่อง
             </h5>
+            <div class="grids grid-header mt-3" data-aos="fade-up" id="fade-up-mobile" data-aos-delay="450">
+                <div class="grid xl-20 lg-25 md-30 sm-100 mt-0">
+                    <div class="options jc-start">
+                        <input type="text" name="search" placeholder="ค้นหา" required title="Search" />
+                        <button type="submit" class="btn btn-grid">
+                            <em class="zmdi zmdi-search"></em>
+                        </button>
+                    </div>
+                </div>
+            </div>
 
             <div class="grids jc-center" id="fade-up-mobile" data-aos="fade-up" data-aos-delay="450">
                 <div class="grid lg-80 sm-100">
@@ -39,17 +49,27 @@
                                     <div class="faq bg-white">
                                         <div class="ss-box-shadow fade-right"></div>
                                         <div class="faq-header">
-                                            <div class="icon">
-                                                <img class="active" src="public/assets/app/images/icon/faq-2.png" alt="Icon" />
-                                                <img class="inactive" src="public/assets/app/images/icon/faq-1.png" alt="Icon" />
+                                            <div class="faq-icon">
+                                                <img class="inactive" src="public/assets/app/images/icon/faq-2.png" alt="Icon" />
+                                                <img class="active" src="public/assets/app/images/icon/faq-1.png" alt="Icon" />
                                             </div>
                                             <h3 class="title xs fw-300">
                                                 ผู้ประกอบการสามารถขออนุมัติ อนุญาต ทางออนไลน์ผ่านช่องทางใด ?
                                             </h3>
+                                            <div class="stat-wrapper">
+                                                <div class="ss-stat">
+                                                    <div class="stat">
+                                                        <div class="icon">
+                                                            <i class="zmdi zmdi-eye"></i>
+                                                            <!-- <img src="public/assets/app/images/icon/07.png" alt="Icon" /> -->
+                                                        </div> 112
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="faq-body">
                                             <div class="wrapper">
-                                                <div class="icon">
+                                                <div class="faq-icon">
                                                     <p class="color-white">
                                                         คำตอบ
                                                     </p>

@@ -139,7 +139,7 @@
         </div>
     </section>
 
-    <section class="content-07 section-padding img-fill lazy-bg" data-src="public/assets/app/images/bg/19.jpg">
+    <section class="content-07 section-padding img-fill lazy-bg" data-src="public/assets/app/images/bg/31.jpg">
         <div class="container text-center">
             <h5 class="h2 sm fw-300 color-06" data-aos="fade-up" data-aos-delay="0">
                 ในปี 2563 กนอ. ดำเนินงานมาครบระยะเวลา 

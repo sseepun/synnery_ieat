@@ -100,8 +100,9 @@
                                             <tr>
                                                 <th style="min-width:80px;">No.</th>
                                                 <th style="min-width:200px;">หัวข้อร้องเรียน</th>
-                                                <th style="min-width:130px;">สถานะ</th>
-                                                <th style="min-width:130px;">แก้ไขล่าสุด</th>
+                                                <th style="min-width:110px;">สถานะ</th>
+                                                <th style="min-width:110px;">วันที่สร้าง</th>
+                                                <th style="min-width:110px;">แก้ไขล่าสุด</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -131,6 +132,9 @@
                                                                 ยกเลิก
                                                             </div>
                                                         <?php }?>
+                                                    </td>
+                                                    <td>
+                                                        18/09/2563
                                                     </td>
                                                     <td>
                                                         18/09/2563

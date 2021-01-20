@@ -287,13 +287,15 @@ $(function(){ 'use strict';
     // About 03
     var about03 = $('.about-03');
     if(about03.length){
-        about03.each(function(){
-            var self = $(this),
+        // about03.each(function(){
+
+            var self = about03,
                 slideContainer = self.find('.slide-container');
             slideContainer.find('.slides').slick({
                 centerMode: true, centerPadding: 0, slidesToShow: 1, infinite: false,
                 adaptiveHeight: true, swipe: true, touchMove: true,
-                autoplay: false, speed: 600, arrows: false, 
+                autoplay: false, speed: 600, 
+                arrows: true, appendArrows: slideContainer.find('.arrows'), 
                 dots: true, appendDots: slideContainer.find('.dots'),
                 customPaging: function(slide, i){
                     return '<button data-slide="'+i+'">'
@@ -307,8 +309,9 @@ $(function(){ 'use strict';
             });
 
             var awards = self.find('.awards .award'),
-                li = slideContainer.find('.dots li'),
-                clickReady = true;
+                li = slideContainer.find('.dots li');
+            var clickReady = true,
+                activeSlide = 0;
             li.each(function(j, k){
                 if(j<5) $(k).attr('data-class', 'active');
             });
@@ -323,29 +326,33 @@ $(function(){ 'use strict';
             li.click(function(){
                 if(clickReady){
                     clickReady = false;
-                    var i = $(this).find('> button').data('slide'),
-                        start = i - 2,
-                        end = i + 2;
-                    while(start < 0){ start += 1; end += 1; }
-                    while(end > li.length-1){ start -= 1; end -= 1; }
-                    li.attr('data-class', '');
-                    li.each(function(j, k){
-                        if(start<=j && j<=end) $(k).attr('data-class', 'active');
-                    });
-                    awards.each(function(j, k){
-                        if(j<i) $(k).attr('data-pos', 'before');
-                        else if(j==i) $(k).attr('data-pos', '0');
-                        else if(j==i+1) $(k).attr('data-pos', '1');
-                        else if(j==i+2) $(k).attr('data-pos', '2');
-                        else if(j==i+3) $(k).attr('data-pos', '3');
-                        else $(k).attr('data-pos', 'after');
-                    });
+                    var i = $(this).find('> button').data('slide');
+                    award03changeSlide(i);
                     setTimeout(function(){
                         clickReady = true;
                     }, 600);
                 }
             });
             slideContainer.find('.slides').on('beforeChange', function(e, s, c, i){
+                award03changeSlide(i);
+                setTimeout(function(){
+                    clickReady = true;
+                }, 900);
+            });
+
+            li.mouseenter(function(){
+                if(clickReady){
+                    clickReady = false;
+                    var i = $(this).find('> button').data('slide');
+                    slideContainer.find('.slides').slick('slickGoTo', i)
+                    setTimeout(function(){
+                        clickReady = true;
+                    }, 600);
+                }
+            });
+
+            function award03changeSlide(i){
+                activeSlide = i;
                 var start = i - 2,
                     end = i + 2;
                 while(start < 0){ start += 1; end += 1; }
@@ -362,11 +369,9 @@ $(function(){ 'use strict';
                     else if(j==i+3) $(k).attr('data-pos', '3');
                     else $(k).attr('data-pos', 'after');
                 });
-                setTimeout(function(){
-                    clickReady = true;
-                }, 900);
-            });
-        });
+            }
+
+        // });
     }
     
     // About 04
@@ -403,7 +408,8 @@ $(function(){ 'use strict';
                 options = {
                     centerMode: true, centerPadding: 0, slidesToShow: 1, infinite: false,
                     focusOnSelect: true, autoplay: true, autoplaySpeed: 14000, speed: 900,
-                    arrows: false, dots: true, appendDots: self.find('.dots')
+                    arrows: true, appendArrows: self.find('.arrows'),
+                    dots: true, appendDots: self.find('.dots')
                 };
             if(self.hasClass('img-only')){
                 options = {

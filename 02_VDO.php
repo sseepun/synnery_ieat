@@ -39,7 +39,7 @@
                                 <div class="ss-box-shadow"></div>
                                 <a class="tab tab-main color-black h-color-04" href="#">
                                     <div class="icon">
-                                        <img src="public/assets/app/images/icon/tab-1.png" alt="Icon">
+                                        <img src="public/assets/app/images/icon/tab-4.png" alt="Icon">
                                     </div>
                                     <h6>คลังภาพ</h6>
                                 </a>

@@ -128,6 +128,8 @@
 
                                 <div class="chat-container">
                                     <div class="chat-content" data-simplebar>
+
+                                        <div class="chat-date">วันที่ 11/12/2563</div>
                                         <div class="chat chat-other">
                                             <div class="profile-container">
                                                 <div class="profile" style="background-image:url('public/assets/app/images/hero/chat-other.jpg');"></div>
@@ -142,7 +144,7 @@
                                                 </div>
                                                 <p class="mt-2">
                                                     <span class="text-sm">
-                                                        ตอบเมื่อวันที่ 11/12/2563 14.50 น.
+                                                        เวลา 14.50 น.
                                                     </span>
                                                 </p>
                                             </div>
@@ -159,7 +161,7 @@
                                                 </div>
                                                 <p class="mt-2">
                                                     <span class="text-sm">
-                                                        ตอบเมื่อวันที่ 11/12/2563 14.50 น.
+                                                        เวลา 14.50 น.
                                                     </span>
                                                 </p>
                                             </div>
@@ -174,11 +176,13 @@
                                                 </div>
                                                 <p class="mt-2">
                                                     <span class="text-sm">
-                                                        ตอบเมื่อวันที่ 11/12/2563 14.50 น.
+                                                        เวลา 14.50 น.
                                                     </span>
                                                 </p>
                                             </div>
                                         </div>
+                                        
+                                        <div class="chat-date">วันที่ 12/12/2563</div>
                                         <div class="chat chat-other">
                                             <div class="profile-container">
                                                 <div class="profile" style="background-image:url('public/assets/app/images/hero/chat-other.jpg');"></div>
@@ -189,11 +193,12 @@
                                                 </div>
                                                 <p class="mt-2">
                                                     <span class="text-sm">
-                                                        ตอบเมื่อวันที่ 11/12/2563 14.50 น.
+                                                        เวลา 14.50 น.
                                                     </span>
                                                 </p>
                                             </div>
                                         </div>
+
                                     </div>
                                 </div>
 

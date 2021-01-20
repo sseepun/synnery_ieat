@@ -240,6 +240,7 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 
 /* About 03 */
 .about-03{background:none!important;}
+.about-03 .slide-container .arrows button::before{color:#ffff00;}
 .about-03 .slick-dots::before{border-color:#ffff00;}
 .about-03 .slick-dots button{color:#ffff00;}
 .about-03 .slick-dots button::before{border-color:#ffff00; background:#ffff00;}
@@ -252,6 +253,12 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
     background:rgba(0,0,0,.75); border-top:1px solid #ffff00; border-bottom:1px solid #ffff00;
 }
 .about-04 .director-container-02{border-bottom:1px solid #ffff00;}
+
+
+/* Banner 01 */
+.banner-01 .slick-dots button{border-color:#ffff00;}
+.banner-01 .slick-dots .slick-active button{background:#ffff00;}
+.banner-01 .slide-container .arrows button{color:#ffff00;}
 
 
 /* Breadcrumb 01 */
@@ -305,8 +312,8 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 
 /* FAQ 01 */
 .faq-01 .faq{border:1px solid #ffff00;;}
-.faq-01 .faq .icon{border-right:1px solid #ffff00;}
-.faq-01 .faq > .faq-body .icon{border-top:1px solid #ffff00;}
+.faq-01 .faq .faq-icon{border-right:1px solid #ffff00;}
+.faq-01 .faq > .faq-body .faq-icon{border-top:1px solid #ffff00;}
 
 
 /* Tab Container 01 */
@@ -353,3 +360,4 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 .calendar-month .fc-unthemed .fc-popover .fc-header{
     border-bottom:1px solid #ffff00; background:#000;
 }
+.calendar-month .fc-day:hover{background:rgba(255,255,0,.2);}

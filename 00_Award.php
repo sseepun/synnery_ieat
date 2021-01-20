@@ -72,6 +72,7 @@
                             </div>
                         <?php }?>
                     </div>
+                    <div class="arrows"></div>
                 </div>
                 <div class="awards" data-aos="fade-up" data-aos-delay="600">
                     <div class="wrapper">

@@ -24,3 +24,4 @@
     transition:color .25s;
 }
 .calendar-month .fc-popover .fc-header .fc-title{font-size:1.3125rem; font-weight:400; margin:4px;}
+.calendar-month .fc-day{transition:background .25s;}
