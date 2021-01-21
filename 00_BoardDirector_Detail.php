@@ -113,10 +113,14 @@
 
                 <div class="grid xl-50 lg-40 sm-100" data-aos="fade-up" data-aos-delay="150">
                     <div class="hero-container-01">
-                        <div class="wrapper">
-                            <div class="img-wrapper">
-                                <img class="hero" src="public/assets/app/images/hero/profile.png" alt="Hero" />
+                        <div class="pattern" style="background-image:url('public/assets/app/images/hero/pattern-2.png');"></div>
+                        <div class="hero-wrapper">
+                            <div class="wrapper">
+                                <div class="img-wrapper">
+                                    <img class="hero" src="public/assets/app/images/hero/profile-2.png" alt="Hero Image" />
+                                </div>
                             </div>
+                            <img class="cut" src="public/assets/app/images/hero/cut-2.png" alt="Hero Cut Image" />
                         </div>
                     </div>
                     <div class="mt-4">

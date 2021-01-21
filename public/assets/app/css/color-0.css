@@ -369,6 +369,7 @@ table.table-faq tr:nth-child(2n) > td{background:#fff;}
 .breadcrumb-01.color-white a.icon{background:#75ced2; color:#000;}
 .breadcrumb-01.color-white a.text{color:#fff;}
 .breadcrumb-01.color-white a.text:hover{color:#169f96;}
+.breadcrumb-01 a:last-child{color:#5d4189;}
 
 
 /* Call to Action 01 */

@@ -76,7 +76,48 @@
                 </div>
 
                 <div class="slide">
-                    <img class="img" src="public/assets/app/images/bg/philosophy-2.jpg" alt="Image Banner" />
+                    <div class="slide-phil slide-phil-2" style="background-image:url('public/assets/app/images/bg/philosophy-2.jpg');">
+                        <div class="quote-container">
+                            <div class="content-quote-02">
+                                <h5 class="h6">
+                                    เป็นองค์กรหลักที่มีส่วนร่วมในการขับเคลื่อนเศรษฐกิจของประเทศ
+                                </h5>
+                                <h6 class="h3 xs fw-400">
+                                    โดยเน้นภาคอุตสาหกรรมและบริการสู่อนาคตที่ยั่งยืน
+                                </h6>
+                            </div>
+                        </div>
+                        <div class="text-container">
+                            <div class="text-wrapper text-wrapper-left" style="background-image:url('public/assets/app/images/bg/philosophy-2-bg-left.png');">
+                                <div class="text-set">
+                                    <div class="title">เป็นผู้นำ...การพัฒนานิคมอุตสาหกรรม</div>
+                                    <p>
+                                        ท่าเรืออุตสาหกรรมครบวงจรระดับภูมิภาคด้วยนวัตกรรม
+                                    </p>
+                                    <p>
+                                        โดยมุ่งเน้นการพัฒนาและการให้บริการสาธารณูปโภค สิ่งอำนวยความสะดวก
+                                        ด้วยเทคโนโลยีและนวัตกรรม ที่ครบถ้วนตามความต้องของ
+                                        ผู้ประกอบการภายในนิคมอุตสาหกรรม เพื่อเพิ่มสมรรถนะ
+                                        การแข่งขันของผู้ประกอบการ อันส่งผลให้เกิดการเพิ่มขีดความ
+                                        สามารถการแข่งขันของประเทศในภาพรวม
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text-wrapper text-wrapper-right" style="background-image:url('public/assets/app/images/bg/philosophy-2-bg-right.png');">
+                                <div class="text-set">
+                                    <div class="title">การพัฒนา...สู่ความยั่งยืน</div>
+                                    <p>
+                                        โดยสร้างสมดุลในการพัฒนานิคมอุตสาหกรรม
+                                        ท่าเรืออุตสาหกรรมบนพื้นฐานการอยู่ร่วมกัน
+                                        อย่างเกื้อหนุนของภาคอุตสาหกรรม สังคม ชุมชน และ
+                                        สิ่งแวดล้อมที่เป็นไปตามมาตรฐานสากล บนพื้นฐานของ
+                                        คุณธรรมและความโปร่งใส
+                                    </p>
+                                </div>
+                            </div>
+                            <img class="cut" src="public/assets/app/images/bg/philosophy-2-cut.png" alt="Cut Image Icon" />
+                        </div>
+                    </div>
                 </div>
                 
                 <div class="slide">
