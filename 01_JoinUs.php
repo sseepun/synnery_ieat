@@ -93,54 +93,102 @@
                                 <div class="about-tag">
                                     <h5>จำนวนที่รับสมัคร <span class="fw-500 color-03">10</span> ตำแหน่ง</h5>
                                     <div class="icon">
-                                        <em class="zmdi zmdi-plus"></em>
+                                        <em class="active zmdi zmdi-plus"></em>
+                                        <em class="inactive zmdi zmdi-minus"></em>
                                     </div>
                                 </div>
                                 <div class="about-body">
-                                    <h5 class="fw-600">
-                                        จำนวนที่รับสมัคร <span class="text-md color-04">10</span> ตำแหน่ง
-                                    </h5>
-                                    <h5 class="fw-600 mt-2">คุณสมบัติที่จำเป็น</h5>
-                                    <ul>
-                                        <li>เพศชาย อายุ 35 ปี ขึ้นไป</li>
-                                        <li>วุฒิการศึกษา ปริญญาตรี วิศวกรเครื่องกล</li>
-                                        <li>มีประสบการณ์ในการทำงานด้านเครื่องกล ไม่ต่ำกว่า 10 ปี</li>
-                                        <li>สามารถถอดแบบและประมาณราคาได้</li>
-                                        <li>มีทักษาะในการบริการโครงการและบริหารเวลาได้เป็นอย่างดี</li>
-                                        <li>สามารถแก้ไขปัญหาที่เกิดขึ้นได้อย่างมีประสิทธิภาพ</li>
-                                        <li>มีใบอนุญาตประกอบวิชาชีพ (จะได้รับพิจารณาเป็นพิเศษ)</li>
-                                        <li>สามารถควบคุมดูแลการดำเนินงานของโครงการทุกโครงการให้เป็นไปตามแผนและระยะเวลาที่กำหนด</li>
-                                        <li>ให้คำแนะนำและแก้ปัญหาอย่างสร้างสรรค์เกี่ยวกับปัญหา / ข้อบกพร่องที่เกิดขึ้น</li>
-                                        <li>ดูแลและให้คำปรึกษาพนักงานและประสานงานผู้มีส่วนร่วม</li>
-                                        <li>มีทักษาะในการติดต่อสื่อสารและมีมนุษยสัมพันธ์ที่ดี</li>
-                                    </ul>
-                                    <h5 class="fw-600 mt-4">หน้าที่และความรับผิดชอบ:</h5>
-                                    <p class="fw-200 pl-3 mt-2">
-                                        ควมคุมดูแลโครงการที่ได้รับมอบหมายให้สามสามารถปฏิบัติงานได้อย่างมีประสิทธิภาพ 
-                                        ตั้งแต่การบริหารจัดการบุคคลปรนะจำโครงการ การบริหารจัดการในงาน งบประมาณค่าใช้จ่าย 
-                                        รวมถึงวัสดุอุปกรณ์และแรงงานที่ต้องใช้ในโครงการให้เป็นไปตามแผนที่กำหนด
-                                    </p>
-                                    <div class="btns mt-4">
-                                        <a class="btn btn-action" href="#">
-                                            <span>สมัครตำแหน่งนี้</span>
-                                        </a>
-                                    </div>
-                                    <div class="about-side">
-                                        <div class="text-container">
-                                            <h5 class="fw-400 color-white">ติดต่อ</h5>
-                                            <p class="color-03 mt-1">
-                                                ฝ่ายทรัพยากรบุคคล 
-                                                <br>
-                                                <a class="color-03 h-color-04" href="#">
-                                                    02 - 1234567
-                                                </a>
-                                                <br>
-                                                <a class="color-03 h-color-04" href="#">
-                                                    Recruit@ieat.go.th
-                                                </a>
+                                    <div class="grids">
+
+                                        <div class="grid xl-75 lg-2-3 sm-100 mt-0">
+                                            <h5 class="fw-600">
+                                                จำนวนที่รับสมัคร <span class="text-md color-04">10</span> ตำแหน่ง
+                                            </h5>
+                                            <h5 class="fw-600 mt-2">คุณสมบัติที่จำเป็น</h5>
+                                            <ul>
+                                                <li>เพศชาย อายุ 35 ปี ขึ้นไป</li>
+                                                <li>วุฒิการศึกษา ปริญญาตรี วิศวกรเครื่องกล</li>
+                                                <li>มีประสบการณ์ในการทำงานด้านเครื่องกล ไม่ต่ำกว่า 10 ปี</li>
+                                                <li>สามารถถอดแบบและประมาณราคาได้</li>
+                                                <li>มีทักษาะในการบริการโครงการและบริหารเวลาได้เป็นอย่างดี</li>
+                                                <li>สามารถแก้ไขปัญหาที่เกิดขึ้นได้อย่างมีประสิทธิภาพ</li>
+                                                <li>มีใบอนุญาตประกอบวิชาชีพ (จะได้รับพิจารณาเป็นพิเศษ)</li>
+                                                <li>สามารถควบคุมดูแลการดำเนินงานของโครงการทุกโครงการให้เป็นไปตามแผนและระยะเวลาที่กำหนด</li>
+                                                <li>ให้คำแนะนำและแก้ปัญหาอย่างสร้างสรรค์เกี่ยวกับปัญหา / ข้อบกพร่องที่เกิดขึ้น</li>
+                                                <li>ดูแลและให้คำปรึกษาพนักงานและประสานงานผู้มีส่วนร่วม</li>
+                                                <li>มีทักษาะในการติดต่อสื่อสารและมีมนุษยสัมพันธ์ที่ดี</li>
+                                            </ul>
+                                            <h5 class="fw-600 mt-4">หน้าที่และความรับผิดชอบ:</h5>
+                                            <p class="fw-200 pl-3 mt-2">
+                                                ควมคุมดูแลโครงการที่ได้รับมอบหมายให้สามสามารถปฏิบัติงานได้อย่างมีประสิทธิภาพ 
+                                                ตั้งแต่การบริหารจัดการบุคคลปรนะจำโครงการ การบริหารจัดการในงาน งบประมาณค่าใช้จ่าย 
+                                                รวมถึงวัสดุอุปกรณ์และแรงงานที่ต้องใช้ในโครงการให้เป็นไปตามแผนที่กำหนด
                                             </p>
+                                            <h5 class="fw-600 mt-4 mb-2">EMBED</h5>
+                                            <div class="ss-mp4">
+                                                <div class="wrapper">
+                                                    <video controls="">
+                                                        <source src="public/assets/app/video/01.mp4" type="video/mp4">
+                                                        Your browser does not support the video tag.
+                                                    </video>
+                                                </div>
+                                            </div>
                                         </div>
+
+                                        <div class="grid xl-25 lg-1-3 sm-100">
+                                            <div class="about-side">
+                                                <div class="text-container">
+                                                    <h5 class="fw-400 color-white">ติดต่อ</h5>
+                                                    <p class="color-03 fw-300 mt-2">
+                                                        คุณศรีสมร รัศมีฤกษ์เศรษฐี <br>
+                                                        หัวหน้าฝ่ายทรัพยากรบุคคล <br>
+                                                        ฝ่ายทรัพยากรบุคคล
+                                                    </p>
+                                                    <p class="color-white fw-200 mt-2">
+                                                        โทรศัพท์ 02-1234567 <br>
+                                                        Recruit@ieat.go.th
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="btns mt-3">
+                                                <a class="btn btn-action" href="#">
+                                                    <span>สมัครตำแหน่งนี้</span>
+                                                </a>
+                                            </div>
+                                        </div>
+
                                     </div>
+
+                                    <h5 class="fw-600 mt-4 mb-2">เอกสารแนบ</h5>
+                                    <table class="table table-download type-02">
+                                        <tbody>
+                                            <?php foreach(['jpg', 'gif', 'pdf'] as $d){?>
+                                                <tr>
+                                                    <td>
+                                                        <div class="file-icon">
+                                                            <img src="public/assets/app/images/file/<?= $d ?>.png" alt="Icon" />
+                                                        </div>
+                                                    </td>
+                                                    <td class="pr-3">
+                                                        ระบบ 5G ในนิคมอุตสาหกรรม <br>
+                                                        ขนาด <span class="fw-600 mr-3">1.6 Mb.</span>
+                                                        ดาวโหลด <span class="fw-600">23 ครั้ง</span>
+                                                    </td>
+                                                    <td>
+                                                        <a class="btn-download mr-2" href="#">
+                                                            <span class="xs-hide">ดาวน์โหลด</span>
+                                                            <em class="zmdi zmdi-arrow-right"></em>
+                                                        </a>
+                                                        <a class="btn-download" href="#">
+                                                            <span class="xs-hide">แจ้งไฟล์เสีย</span>
+                                                            <em class="zmdi zmdi-alert-circle-o" style="transform:none;"></em>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            <?php }?>
+                                        </tbody>
+                                    </table>
+
                                 </div>
                             </div>
                         <?php }?>

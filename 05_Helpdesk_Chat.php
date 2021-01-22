@@ -88,28 +88,31 @@
                             <div class="header bg-07 color-white pt-1 pb-2">
                                 <div class="d-flex jc-space-between ai-center fw-wrap">
                                     <div class="d-flex ai-center pt-1">
-                                        <p class="color-white text-md mr-2">
+                                        <p class="color-white mr-2">
                                             หมายเลข :
                                         </p>
                                         <div class="p bg-white color-black px-2">
                                             <span class="text-xs">#667643</span>
                                         </div>
+                                        <p class="color-white mx-2">
+                                            แจ้งโดย : นายสรรเสริญ สมะลาภา
+                                        </p>
                                     </div>
                                     <div class="ss-stat width-auto mt-0 pt-1">
                                         <div class="stat">
                                             <div class="icon">
                                                 <img src="public/assets/app/images/icon/helpdesk-1.png" alt="Icon" />
                                             </div>
-                                            04.09.2560
+                                            <div class="p sm">04.09.2560</div>
                                         </div>
                                         <div class="stat">
                                             <div class="icon">
                                                 <img src="public/assets/app/images/icon/helpdesk-2.png" alt="Icon" />
                                             </div>
-                                            04.09.2560
+                                            <div class="p sm">04.09.2560</div>
                                         </div>
                                         <a class="stat color-white h-color-03" href="#">
-                                            แชร์ 
+                                            <div class="p">แชร์</div>
                                             <div class="icon ml-2 mr-0">
                                                 <img src="public/assets/app/images/icon/helpdesk-4.png" alt="Icon" />
                                             </div>
@@ -117,14 +120,60 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="header bg-02 color-white">
-                                <h6 class="fw-200">
-                                    กรณีที่ระบบเดิมมีการขอมอบอำนาจ เพื่อขอสิทธิ์ผู้ใช้งานเพิ่มเติมมากกว่า 1 User User 
-                                    ที่เป็นรูปแบบของการมอบอำนาจสามารถใช้งานในระบบใหม่ได้หรือไม่ 
-                                    ถ้าไม่ได้ ต้องยื่นเรื่องขอมอบอำนาจใหม่หรือไม่
-                                </h6>
+                            <div class="header bg-06 color-white">
+                                <div class="py-2">
+                                    <h6 class="fw-200">
+                                        กรณีที่ระบบเดิมมีการขอมอบอำนาจ เพื่อขอสิทธิ์ผู้ใช้งานเพิ่มเติมมากกว่า 1 User User 
+                                        ที่เป็นรูปแบบของการมอบอำนาจสามารถใช้งานในระบบใหม่ได้หรือไม่ 
+                                        ถ้าไม่ได้ ต้องยื่นเรื่องขอมอบอำนาจใหม่หรือไม่
+                                    </h6>
+                                    <p class="sm mt-2">
+                                        กรณีที่ระบบเดิมมีการขอมอบอำนาจ เพื่อขอสิทธิ์ผู้ใช้งานเพิ่มเติมมากกว่า 1 User User 
+                                        ที่เป็นรูปแบบของการมอบอำนาจสามารถใช้งานในระบบใหม่ได้หรือไม่ 
+                                        ถ้าไม่ได้ ต้องยื่นเรื่องขอมอบอำนาจใหม่หรือไม่
+                                    </p>
+                                </div>
                             </div>
-                            <div class="body bg-gradient-gray">
+                            <div class="header bg-02 color-white">
+                                <div class="btns text-center mt-0">
+                                    <a class="btn btn-action" href="#">
+                                        <span>ปิดเรื่องร้องเรียน</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="body bg-gradient-gray-03">
+
+                                <div class="mt-1 mb-4">
+                                    <p class="fw-600 mb-2">ไฟล์แนบ</p>
+                                    <table class="table table-download type-02">
+                                        <tbody>
+                                            <?php foreach(['pdf', 'ppt', 'xls'] as $d){?>
+                                                <tr>
+                                                    <td>
+                                                        <div class="file-icon">
+                                                            <img src="public/assets/app/images/file/<?= $d ?>.png" alt="Icon" />
+                                                        </div>
+                                                    </td>
+                                                    <td class="pr-3">
+                                                        ระบบ 5G ในนิคมอุตสาหกรรม <br>
+                                                        ขนาด <span class="fw-600 mr-3">1.6 Mb.</span>
+                                                        ดาวโหลด <span class="fw-600">23 ครั้ง</span>
+                                                    </td>
+                                                    <td>
+                                                        <a class="btn-download mr-2" href="#">
+                                                            <span class="xs-hide">ดาวน์โหลด</span>
+                                                            <em class="zmdi zmdi-arrow-right"></em>
+                                                        </a>
+                                                        <a class="btn-download" href="#">
+                                                            <span class="xs-hide">แจ้งไฟล์เสีย</span>
+                                                            <em class="zmdi zmdi-alert-circle-o" style="transform:none;"></em>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            <?php }?>
+                                        </tbody>
+                                    </table>
+                                </div>
 
                                 <div class="chat-container">
                                     <div class="chat-content" data-simplebar>

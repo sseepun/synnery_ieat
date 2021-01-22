@@ -214,6 +214,14 @@ table.table-download .btn-download > i, table.table-download .btn-download > em{
 table.table-download .btn-download:hover > i, table.table-download .btn-download:hover > em{
     background:#fff; color:#000;
 }
+table.table-download.type-02 td{background:#000; border-color:#fff!important;}
+table.table-download-02 td{border-color:#fff;}
+table.table-download-02 tr.row-title td{border-color:#fff;}
+table.table-download-02 .row-header:hover .text-wrapper{color:#000;}
+table.table-download-02 .row-header::before{background:#fff;}
+table.table-download-02 .btn{color:#fff;}
+table.table-download-02 .btn > em{border-color:#fff; background:#000; color:#fff;}
+table.table-estate > tbody > tr > td:nth-child(1){background:#5d4289; color:#fff;}
 table.table-estate > tbody > tr > td{border:1px solid #fff;}
 table.table-helpdesk th{border:1px solid #fff;}
 table.table-helpdesk td{border:1px solid #fff;}

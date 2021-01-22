@@ -198,6 +198,20 @@
                                         <div class="map-wrapper">
                                             <div class="img-fill fit lazy-bg" data-src="public/assets/app/images/bg/map-3.jpg"></div>
                                         </div>
+                                        <div class="icon-sets">
+                                            <a class="icon-set btn-hex" href="#">
+                                                <em class="zmdi zmdi-filter-center-focus"></em>
+                                            </a>
+                                            <a class="icon-set btn-hex" href="#">
+                                                <em class="zmdi zmdi-zoom-in"></em>
+                                            </a>
+                                            <a class="icon-set btn-hex" href="#">
+                                                <em class="zmdi zmdi-zoom-out"></em>
+                                            </a>
+                                            <a class="icon-set btn-hex" href="#">
+                                                <em class="zmdi zmdi-account"></em>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
 

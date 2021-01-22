@@ -74,63 +74,61 @@
                         </div>
                     </div>
 
-                    <div class="grid xl-80 lg-75 sm-100 mt-0" data-aos="fade-up" data-aos-delay="750">
-                        <div class="grids">
-
-                            <?php for($j=0; $j<9; $j++){?>
-                                <div class="grid sm-100">
-                                    <div class="ss-card ss-card-05">
-                                        <div class="text-container">
-                                            <h5 class="h3 xs color-05">
-                                                0<?= $j+1 ?>
-                                            </h5>
-                                            <div class="text-wrapper">
-                                                <h5 class="title fw-600">
-                                                    ผลแผนปฏิบัติการ-ไตรมาส2 (070463)
-                                                </h5>
-                                                <p class="desc mt-1">
-                                                    รายงานผลการดำเนินงานภายใต้แผนปฏิบัติการ กนอ. ปีงบประมาณ 2563 
-                                                    ประจำไตรมาส 2/2563(ตุลาคม 2562 – มีนาคม 2563)
+                    <div class="grid xl-80 lg-75 sm-100" data-aos="fade-up" data-aos-delay="750">
+                        <div class="table-wrapper">
+                            <table class="table table-download-02">
+                                <?php for($i=0; $i<4; $i++){?>
+                                    <tr class="row-sep">
+                                        <td colspan="4"></td>
+                                    </tr>
+                                    <tr class="row-title">
+                                        <td colspan="4">
+                                            <div class="row-header">
+                                                <div class="ss-date bg-04">
+                                                    <div class="date">
+                                                        <div class="d">04</div>
+                                                        <div class="m-y">09.2563</div>
+                                                    </div>
+                                                </div>
+                                                <div class="text-wrapper">
+                                                    <div class="h4">
+                                                        ผลแผนปฏิบัติการ-ไตรมาส 2 (070463)
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <?php foreach(['pdf', 'xls', 'doc', 'ppt'] as $d){?>
+                                        <tr>
+                                            <td>
+                                                <img class="file-icon" src="public/assets/app/images/file/<?= $d ?>.png" alt="File Icon Image" />
+                                            </td>
+                                            <td>
+                                                <p class="sm">
+                                                    รายงานผลการดำเนินงานภายใต้แผนปฏิบัติการ กนอ. <br>
+                                                    ปีงบประมาณ 2563 ประจำไตรมาส 2/2563(ตุลาคม 2562 – มีนาคม 2563)
                                                 </p>
-                                            </div>
-                                        </div>
-                                        <div class="stat-container fw-200">
-                                            <div class="wrapper">
-                                                <table class="table table-download color-white">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>
-                                                                <div class="file-icon">
-                                                                    <img src="public/assets/app/images/icon/pdf.png" alt="Icon" />
-                                                                </div>
-                                                            </td>
-                                                            <td class="pr-3">
-                                                                ขนาดไฟล์ <br>
-                                                                จำนวนการดาวน์โหลด
-                                                            </td>
-                                                            <td class="text-left">
-                                                                <span class="color-05 fw-500">1.6</span> Mb. <br>
-                                                                <span class="color-05 fw-500">23</span> ครั้ง
-                                                            </td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                            <div class="btns">
+                                                <p class="sm">
+                                                    ขนาด <span class="fw-600 mr-3">1.6 Mb.</span>
+                                                    จำนวนดาวโหลด <span class="fw-600">23 ครั้ง</span>
+                                                </p>
+                                            </td>
+                                            <td>
                                                 <a class="btn" href="#">
-                                                    <em class="zmdi zmdi-download"></em> 
-                                                    ดาวน์โหลดไฟล์นี้
+                                                    ดาวน์โหลด
+                                                    <em class="zmdi zmdi-download"></em>
                                                 </a>
+                                            </td>
+                                            <td>
                                                 <a class="btn" href="#">
-                                                    <em class="zmdi zmdi-alert-circle-o"></em> 
-                                                    แจ้งไฟล์เสีย
+                                                    แจ้งไฟล์เสีย 
+                                                    <em class="zmdi zmdi-alert-circle-o"></em>
                                                 </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            <?php }?> 
-
+                                            </td>
+                                        </tr>
+                                    <?php }?>
+                                <?php }?>
+                            </table>
                         </div>
                         <?php include('component/grid-footer.php'); ?>
                     </div>

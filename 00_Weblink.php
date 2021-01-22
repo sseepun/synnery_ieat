@@ -39,10 +39,10 @@
                         <div class="grids">
                             <?php for($j=0; $j<9; $j++){?>
                                 <div class="grid xl-50 lg-100 md-50 sm-100 mt-2 mb-2 pb-4">
-                                    <a class="d-flex jc-space-between ai-center color-black" href="#">
-                                        <div class="icon" style="width:5.5rem;">
+                                    <div class="d-flex jc-space-between color-black">
+                                        <a class="icon" href="#" style="width:5.5rem;">
                                             <img class="img" src="public/assets/app/images/icon/weblink-<?= $j+1 ?>.png" alt="Icon" />
-                                        </div>
+                                        </a>
                                         <div class="text-wrapper" style="width:calc(100% - 6.5rem);">
                                             <h4>ช่องทางร้องเรียน</h4>
                                             <div class="p">
@@ -50,13 +50,18 @@
                                                     สะดวกทุกช่องทาง ง่ายต่อการเข้าถึง <br>
                                                     <span class="fw-600 text-lg">7</span> 
                                                     ช่องทางการติดต่อและขั้นตอนการร้องเรียน 
-                                                    <span class="fw-600 color-black h-color-04">
+                                                    <!-- <span class="fw-600 color-black h-color-04">
                                                         คลิกที่นี่
-                                                    </span>
+                                                    </span> -->
                                                 </div>
                                             </div>
+                                            <div class="btns width-full mt-3">
+                                                <a class="btn btn-action" href="#">
+                                                    <span>ดูเพิ่มเติม</span>
+                                                </a>
+                                            </div>
                                         </div>
-                                    </a>
+                                    </div>
                                 </div>
                             <?php }?>
                         </div>

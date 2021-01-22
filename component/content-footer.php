@@ -42,12 +42,17 @@
                     </td>
                     <td class="pr-3">
                         ระบบ 5G ในนิคมอุตสาหกรรม <br>
-                        <span class="fw-500">150 Kb.</span>
+                        ขนาด <span class="fw-600 mr-3">1.6 Mb.</span>
+                        ดาวโหลด <span class="fw-600">23 ครั้ง</span>
                     </td>
                     <td>
-                        <a class="btn-download" href="#">
-                            <span class="xs-hide">ดาวน์โหลดไฟล์นี้</span>
+                        <a class="btn-download mr-2" href="#">
+                            <span class="xs-hide">ดาวน์โหลด</span>
                             <em class="zmdi zmdi-arrow-right"></em>
+                        </a>
+                        <a class="btn-download" href="#">
+                            <span class="xs-hide">แจ้งไฟล์เสีย</span>
+                            <em class="zmdi zmdi-alert-circle-o" style="transform:none;"></em>
                         </a>
                     </td>
                 </tr>

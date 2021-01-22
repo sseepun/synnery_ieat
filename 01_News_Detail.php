@@ -112,6 +112,51 @@
                         <div class="mt-5 pt-1" data-aos="fade-up" data-aos-delay="0">
                             <?php include('component/content-footer.php'); ?>
                         </div>
+
+                        <div data-aos="fade-up" data-aos-delay="0">
+                            <h5 class="fw-600 mt-4 mb-2">EMBED</h5>
+                            <div class="ss-mp4">
+                                <div class="wrapper">
+                                    <video controls="">
+                                        <source src="public/assets/app/video/01.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-delay="0">
+                            <h5 class="fw-600 mt-4 mb-2">เอกสารแนบ</h5>
+                            <table class="table table-download type-03">
+                                <tbody>
+                                    <?php foreach(['jpg', 'gif', 'pdf', 'xls'] as $d){?>
+                                        <tr>
+                                            <td>
+                                                <div class="file-icon">
+                                                    <img src="public/assets/app/images/file/<?= $d ?>.png" alt="Icon" />
+                                                </div>
+                                            </td>
+                                            <td class="pr-3">
+                                                รายงานผลการดำเนินงานภายใต้แผนปฏิบัติการ กนอ. <br>
+                                                ปีงบประมาณ 2563 ประจำไตรมาส 2/2563(ตุลาคม 2562 – มีนาคม 2563) <br>
+                                                ขนาด <span class="fw-600 mr-3">1.6 Mb.</span>
+                                                ดาวโหลด <span class="fw-600">23 ครั้ง</span>
+                                            </td>
+                                            <td>
+                                                <a class="btn-download mr-2" href="#">
+                                                    <span class="xs-hide">ดาวน์โหลด</span>
+                                                    <em class="zmdi zmdi-arrow-right"></em>
+                                                </a>
+                                                <a class="btn-download" href="#">
+                                                    <span class="xs-hide">แจ้งไฟล์เสีย</span>
+                                                    <em class="zmdi zmdi-alert-circle-o" style="transform:none;"></em>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    <?php }?>
+                                </tbody>
+                            </table>
+                        </div>
+
                         <div class="btns text-center" data-aos="fade-up" data-aos-delay="0">
                             <a class="btn btn-action" href="#">
                                 <span>ข่าวต่อไป</span>
@@ -169,6 +214,59 @@
                                 <?php }?> 
                             </div>
                         </div>
+                        
+                        <div class="mt-4 pt-4" data-aos="fade-up" data-aos-delay="0">
+                            <h3 class="xs content-grid-title">
+                                ข่าวอื่นๆ
+                            </h3>
+                            <div class="grids">
+                                <?php for($j=0; $j<3; $j++){?>
+                                    <div class="grid md-1-3 sm-50">
+                                        <div class="ss-card ss-card-01">
+                                            <a class="ss-img" href="#">
+                                                <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
+                                                <div class="hover-container">
+                                                    <div class="icon">
+                                                        <img src="public/assets/app/images/icon/06.png" alt="Icon" />
+                                                    </div>
+                                                </div>
+                                                <div class="date">
+                                                    <div class="d">04</div>
+                                                    <div class="m-y">09.2563</div>
+                                                </div>
+                                            </a>
+                                            <div class="text-container">
+                                                <div class="ss-box-shadow"></div>
+                                                <div class="text-wrapper">
+                                                    <a class="title h6 fw-600" href="#">
+                                                        กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบ
+                                                        สายสื่อสารลงดิน วางระบบ 5G
+                                                    </a>
+                                                    <p class="desc mt-1">
+                                                        บอร์ดกนอ.ไฟเขียวลงทุนนำสายสื่อสารในนิคมอุตสาหกรรมลงใต้ดิน 
+                                                        รองรับ Smart City เตรียมวางระบบ 5 G ครอบคลุมพื้นที่นิคมอุตสาห
+                                                        กรรรม 14 แห่ง และท่าเรืออุตสาหกรรม 1 แห่ง คาดเริ่มได้ปี’67  
+                                                    </p>
+                                                    <div class="ss-stat">
+                                                        <div class="stat">
+                                                            <div class="icon">
+                                                                <img src="public/assets/app/images/icon/07.png" alt="Icon" />
+                                                            </div> 112
+                                                        </div>
+                                                        <div class="stat">
+                                                            <div class="icon">
+                                                                <em class="zmdi zmdi-share"></em>
+                                                            </div> 20
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <?php }?> 
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
