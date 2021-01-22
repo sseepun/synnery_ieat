@@ -737,7 +737,11 @@
     position:relative; display:block; width:100%; max-width:50rem; margin:0 auto;
     padding:.5rem; box-shadow:0 0 20px 10px rgba(0,0,0,.1);
 }
-.content-04 .slide-container .arrows button{padding:.25rem .9375rem;}
+.content-04 .slide-container .arrows button{
+    padding:.25rem .9375rem; opacity:.4; transition:opacity .25s;
+}
+.content-04 .slide-container .arrows button:hover{opacity:.8;}
+.content-04 .slide-container .arrows button::before{font-size:3.5rem;}
 .content-04 .slide-nav{width:100%; margin:1.25rem 0 0 0;}
 .content-04 .slide-nav .slides{width:100%;}
 .content-04 .slide-nav .slide{padding:.75rem .1875rem;}
@@ -755,12 +759,12 @@
 }
 @media screen and (max-width:767.98px){
     .content-04 .slide-container .arrows button{padding:.125rem .625rem;}
-    .content-04 .slide-container .arrows button::before{font-size:2.5rem;}
+    .content-04 .slide-container .arrows button::before{font-size:3rem;}
 }
 @media screen and (max-width:575.98px){
     .content-04 .slide-container .arrows{left:-.75rem; right:-.75rem;}
     .content-04 .slide-container .arrows button{padding:.0625rem .5rem;}
-    .content-04 .slide-container .arrows button::before{font-size:2.25rem;}
+    .content-04 .slide-container .arrows button::before{font-size:2.5rem;}
 }
 
 

@@ -455,18 +455,26 @@
                                             <table class="table table-download">
                                                 <tbody>
                                                     <tr>
-                                                        <td>
+                                                        <td class="pr-3">
                                                             <div class="file-icon">
-                                                                <img src="public/assets/app/images/icon/pdf.png" alt="Icon" />
+                                                                <img src="public/assets/app/images/file/pdf.png" alt="Icon" />
                                                             </div>
                                                         </td>
                                                         <td class="pr-3">
-                                                            รายชื่อผู้ใช้ที่ดิน <br>
-                                                            <span class="fw-500">150 Kb.</span>
+                                                            รายงานผลการดำเนินงานภายใต้แผนปฏิบัติการ กนอ. <br>
+                                                            ปีงบประมาณ 2563 ประจำไตรมาส 2/2563(ตุลาคม 2562 – มีนาคม 2563)
+                                                            <br>
+                                                            ขนาด <span class="fw-600 mr-3">1.6 Mb.</span>
+                                                            จำนวนดาวโหลด <span class="fw-600">23 ครั้ง</span>
                                                         </td>
                                                         <td>
+                                                            <a class="btn-download mr-2" href="#">
+                                                                <span class="xs-hide">ดาวน์โหลด</span>
+                                                                <em class="zmdi zmdi-arrow-right"></em>
+                                                            </a>
                                                             <a class="btn-download" href="#">
-                                                                ดาวน์โหลดไฟล์นี้ <em class="zmdi zmdi-arrow-right"></em>
+                                                                <span class="xs-hide">แจ้งไฟล์เสีย</span>
+                                                                <em class="zmdi zmdi-alert-circle-o" style="transform:none;"></em>
                                                             </a>
                                                         </td>
                                                     </tr>

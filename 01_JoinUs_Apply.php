@@ -85,7 +85,7 @@
                             <div data-aos="fade-up" data-aos-delay="450">
                                 <div class="ss-box-header">
                                     <div class="ss-box-shadow"></div>
-                                    <div class="header bg-07 color-white">
+                                    <div class="header bg-09 color-white">
                                         <div class="h5 fw-400">
                                             ใบสมัครสำหรับบุคคลทั่วไป
                                         </div>
@@ -95,7 +95,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid xl-60 lg-2-3 md-70 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive">
+                                                <div class="field field-sm field-adaptive-02">
                                                     <label class="fw-400">จังหวัด</label>
                                                     <div class="control">
                                                         <div class="select-wrapper icon-square">
@@ -119,7 +119,7 @@
                                     </div>
 
                                     <div class="body border-bottom bcolor-sgray">
-                                        <div class="field field-sm field-adaptive">
+                                        <div class="field field-sm field-adaptive-02">
                                             <label class="fw-400">คำนำหน้า</label>
                                             <div class="control">
                                                 <fieldset>
@@ -144,7 +144,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive">
+                                                <div class="field field-sm field-adaptive-02">
                                                     <label class="fw-400">ชื่อ (ภาษาไทย)</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="First Name" />
@@ -152,7 +152,7 @@
                                                 </div>
                                             </div>
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive">
+                                                <div class="field field-sm field-adaptive-02">
                                                     <label class="fw-400">นามสกุล (ภาษาไทย)</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="Last Name" />
@@ -162,7 +162,7 @@
                                         </div>
                                     </div>
                                     <div class="body border-bottom bcolor-sgray">
-                                        <div class="field field-sm field-adaptive">
+                                        <div class="field field-sm field-adaptive-02">
                                             <label class="fw-400">เพศ</label>
                                             <div class="control">
                                                 <fieldset>
@@ -181,7 +181,7 @@
                                         </div>
                                     </div>
                                     <div class="body border-bottom bcolor-sgray">
-                                        <div class="field field-sm field-adaptive">
+                                        <div class="field field-sm field-adaptive-02">
                                             <label class="fw-400">วันเกิด</label>
                                             <div class="control">
                                                 <div class="gallery-grids">
@@ -214,8 +214,8 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive ai-center">
-                                                    <label class="fw-400">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
+                                                    <label class="fw-400 sm-no-br">
                                                         เลขที่บัตรประชาชน <br>
                                                         <span class="color-gray text-sm">
                                                             (ไม่ต้องเว้นวรรค)
@@ -227,7 +227,7 @@
                                                 </div>
                                             </div>
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive">
+                                                <div class="field field-sm field-adaptive-02">
                                                     <label class="fw-400">ออกให้ที่</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="Thai Issued Location" />
@@ -239,7 +239,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid lg-2-3 md-70 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive">
+                                                <div class="field field-sm field-adaptive-02">
                                                     <label class="fw-400">รูปถ่าย</label>
                                                     <div class="control">
                                                         <input type="file" class="bg-white" title="User Profile" />
@@ -256,7 +256,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive ai-center">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
                                                     <label class="fw-400">เชื้อชาคิ</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -264,7 +264,7 @@
                                                 </div>
                                             </div>
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive">
+                                                <div class="field field-sm field-adaptive-02">
                                                     <label class="fw-400">สัญชาติ</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -276,7 +276,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive ai-center">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
                                                     <label class="fw-400">ศาสนา</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -286,7 +286,7 @@
                                         </div>
                                     </div>
                                     <div class="body border-bottom bcolor-sgray">
-                                        <div class="field field-sm field-adaptive">
+                                        <div class="field field-sm field-adaptive-02">
                                             <label class="fw-400">สถานภาพการสมรส</label>
                                             <div class="control">
                                                 <fieldset>
@@ -316,7 +316,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive ai-center">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
                                                     <label class="fw-400">หมายเลขติดต่อ</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -324,7 +324,7 @@
                                                 </div>
                                             </div>
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive">
+                                                <div class="field field-sm field-adaptive-02">
                                                     <label class="fw-400">อีเมล</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -336,7 +336,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive ai-center">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
                                                     <label class="fw-400">บ้านเลขที่</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -344,7 +344,7 @@
                                                 </div>
                                             </div>
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive">
+                                                <div class="field field-sm field-adaptive-02">
                                                     <label class="fw-400">หมู่ที่</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -356,7 +356,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive ai-center">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
                                                     <label class="fw-400">ซอย</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -364,7 +364,7 @@
                                                 </div>
                                             </div>
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive">
+                                                <div class="field field-sm field-adaptive-02">
                                                     <label class="fw-400">ถนน</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -376,7 +376,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive ai-center">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
                                                     <label class="fw-400">ตำบล/แขวง</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -384,7 +384,7 @@
                                                 </div>
                                             </div>
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive">
+                                                <div class="field field-sm field-adaptive-02">
                                                     <label class="fw-400">อำเภอ/เขต</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -396,7 +396,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive ai-center">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
                                                     <label class="fw-400">จังหวัด</label>
                                                     <div class="control">
                                                         <div class="select-wrapper icon-square">
@@ -408,7 +408,7 @@
                                                 </div>
                                             </div>
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive">
+                                                <div class="field field-sm field-adaptive-02">
                                                     <label class="fw-400">รหัสไปรษณีย์</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -421,7 +421,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive ai-center">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
                                                     <label class="fw-400">ชื่อบิดา</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -429,7 +429,7 @@
                                                 </div>
                                             </div>
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive">
+                                                <div class="field field-sm field-adaptive-02">
                                                     <label class="fw-400">นามสกุลบิดา</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -441,7 +441,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive ai-center">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
                                                     <label class="fw-400">อาชีพ</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -453,7 +453,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive ai-center">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
                                                     <label class="fw-400">ชื่อมารดา</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -461,7 +461,7 @@
                                                 </div>
                                             </div>
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive">
+                                                <div class="field field-sm field-adaptive-02">
                                                     <label class="fw-400">นามสกุลมารดา</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -473,7 +473,7 @@
                                     <div class="body border-bottom bcolor-sgray">
                                         <div class="grids ai-center">
                                             <div class="grid md-50 sm-100 mt-0">
-                                                <div class="field field-sm field-adaptive ai-center">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
                                                     <label class="fw-400">อาชีพ</label>
                                                     <div class="control">
                                                         <input type="text" class="bg-white" title="General Text Input" />
@@ -498,7 +498,7 @@
                                             </h6>
                                         </div>
                                         <div class="body border-bottom bcolor-sgray">
-                                            <div class="field field-sm field-adaptive">
+                                            <div class="field field-sm field-adaptive-02">
                                                 <label class="fw-400">ระดับการศึกษา</label>
                                                 <div class="control">
                                                     <fieldset>
@@ -526,7 +526,7 @@
                                         <div class="body border-bottom bcolor-sgray">
                                             <div class="grids ai-center">
                                                 <div class="grid md-50 sm-100 mt-0">
-                                                    <div class="field field-sm field-adaptive ai-center">
+                                                    <div class="field field-sm field-adaptive-02 ai-center">
                                                         <label class="fw-400">สถาบันการศึกษา</label>
                                                         <div class="control">
                                                             <input type="text" class="bg-white" title="General Text Input" />
@@ -534,7 +534,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="grid md-50 sm-100 mt-0">
-                                                    <div class="field field-sm field-adaptive">
+                                                    <div class="field field-sm field-adaptive-02">
                                                         <label class="fw-400">คะแนนสะสมเฉลี่ย</label>
                                                         <div class="control">
                                                             <input type="text" class="bg-white" title="General Text Input" />
@@ -546,7 +546,7 @@
                                         <div class="body border-bottom bcolor-sgray">
                                             <div class="grids ai-center">
                                                 <div class="grid md-50 sm-100 mt-0">
-                                                    <div class="field field-sm field-adaptive ai-center">
+                                                    <div class="field field-sm field-adaptive-02 ai-center">
                                                         <label class="fw-400">คณะ</label>
                                                         <div class="control">
                                                             <input type="text" class="bg-white" title="General Text Input" />
@@ -554,7 +554,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="grid md-50 sm-100 mt-0">
-                                                    <div class="field field-sm field-adaptive">
+                                                    <div class="field field-sm field-adaptive-02">
                                                         <label class="fw-400">สาขา</label>
                                                         <div class="control">
                                                             <input type="text" class="bg-white" title="General Text Input" />
@@ -566,7 +566,7 @@
                                         <div class="body border-bottom bcolor-sgray">
                                             <div class="grids ai-center">
                                                 <div class="grid md-50 sm-100 mt-0">
-                                                    <div class="field field-sm field-adaptive ai-center">
+                                                    <div class="field field-sm field-adaptive-02 ai-center">
                                                         <label class="fw-400">ปีที่เข้ารับการศึกษา</label>
                                                         <div class="control">
                                                             <input type="text" class="bg-white" placeholder="พ.ศ." title="General Text Input" />
@@ -574,7 +574,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="grid md-50 sm-100 mt-0">
-                                                    <div class="field field-sm field-adaptive">
+                                                    <div class="field field-sm field-adaptive-02">
                                                         <label class="fw-400">ปีที่จบการศึกษา</label>
                                                         <div class="control">
                                                             <input type="text" class="bg-white" placeholder="พ.ศ." title="General Text Input" />
@@ -602,7 +602,7 @@
                                         <div class="body border-bottom bcolor-sgray">
                                             <div class="grids ai-center">
                                                 <div class="grid md-50 sm-100 mt-0">
-                                                    <div class="field field-sm field-adaptive ai-center">
+                                                    <div class="field field-sm field-adaptive-02 ai-center">
                                                         <label class="fw-400">ชื่อนายจ้าง/ บริษัท</label>
                                                         <div class="control">
                                                             <input type="text" class="bg-white" title="General Text Input" />
@@ -610,7 +610,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="grid md-50 sm-100 mt-0">
-                                                    <div class="field field-sm field-adaptive">
+                                                    <div class="field field-sm field-adaptive-02">
                                                         <label class="fw-400">ตำแหน่งงาน</label>
                                                         <div class="control">
                                                             <input type="text" class="bg-white" title="General Text Input" />
@@ -622,18 +622,22 @@
                                         <div class="body border-bottom bcolor-sgray">
                                             <div class="grids ai-center">
                                                 <div class="grid md-50 sm-100 mt-0">
-                                                    <div class="field field-sm field-adaptive ai-center">
+                                                    <div class="field field-sm field-adaptive-02 ai-center">
                                                         <label class="fw-400">วันที่เริ่มงาน</label>
                                                         <div class="control">
-                                                            <input type="text" class="bg-white" title="General Text Input" />
+                                                            <div class="input-date-wrapper">
+                                                                <input type="text" class="bg-white date-picker" title="General Text Input" />
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="grid md-50 sm-100 mt-0">
-                                                    <div class="field field-sm field-adaptive">
+                                                    <div class="field field-sm field-adaptive-02">
                                                         <label class="fw-400">วันที่สิ้นสุด</label>
                                                         <div class="control">
-                                                            <input type="text" class="bg-white" title="General Text Input" />
+                                                            <div class="input-date-wrapper">
+                                                                <input type="text" class="bg-white date-picker" title="General Text Input" />
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -642,15 +646,140 @@
                                     <?php }?>
                                 </div>
                             </div>
-
-                            <div class="btns text-center mt-3" data-aos="fade-up" data-aos-delay="0">
-                                <button type="submit" class="btn btn-action mr-1">
-                                    <span>บันทึก</span>
-                                </button>
-                                <button type="reset" class="btn btn-action btn-action-01">
-                                    ล้างข้อมูล
-                                </button>
+                            
+                            <div data-aos="fade-up" data-aos-delay="0">
+                                <div class="ss-box-header bg-fgray">
+                                    <div class="ss-box-shadow"></div>
+                                    <div class="header bg-05 color-white">
+                                        <h5 class="fw-200">04. ใบอนุญาติขับขี่</h5>
+                                    </div>
+                                    <div class="body border-bottom bcolor-sgray">
+                                        <div class="grids ai-center">
+                                            <div class="grid md-50 sm-100 mt-0">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
+                                                    <label class="fw-400 sm-no-br">
+                                                        ใบอนุญาติขับขี่<br>รถจักรยานยนต์
+                                                    </label>
+                                                    <div class="control">
+                                                        <fieldset>
+                                                            <div class="d-flex ai-center fw-wrap mt-1">
+                                                                <div class="mr-3">
+                                                                    <input class="mr-2" type="radio" name="license_0" 
+                                                                        id="license_0_0" value="0" title="General Radio Input" />
+                                                                    <label class="fw-300" for="license_0_0">มี</label>
+                                                                </div>
+                                                                <div class="mr-3">
+                                                                    <input class="mr-2" type="radio" name="license_0" 
+                                                                        id="license_0_1" value="1" title="General Radio Input" />
+                                                                    <label class="fw-300" for="license_0_1">ไม่มี</label>
+                                                                </div>
+                                                            </div>
+                                                        </fieldset>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid md-50 sm-100 mt-0">
+                                                <div class="field field-sm field-adaptive-02">
+                                                    <label class="fw-400">วันที่หมดอายุ</label>
+                                                    <div class="control">
+                                                        <div class="input-date-wrapper">
+                                                            <input type="text" class="bg-white date-picker" title="General Text Input" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="body border-bottom bcolor-sgray">
+                                        <div class="grids ai-center">
+                                            <div class="grid md-50 sm-100 mt-0">
+                                                <div class="field field-sm field-adaptive-02 ai-center">
+                                                    <label class="fw-400 sm-no-br">
+                                                        ใบอนุญาติขับขี่<br>รถยนต์
+                                                    </label>
+                                                    <div class="control">
+                                                        <fieldset>
+                                                            <div class="d-flex ai-center fw-wrap mt-1">
+                                                                <div class="mr-3">
+                                                                    <input class="mr-2" type="radio" name="license_1" 
+                                                                        id="license_0_0" value="0" title="General Radio Input" />
+                                                                    <label class="fw-300" for="license_0_0">มี</label>
+                                                                </div>
+                                                                <div class="mr-3">
+                                                                    <input class="mr-2" type="radio" name="license_1" 
+                                                                        id="license_0_1" value="1" title="General Radio Input" />
+                                                                    <label class="fw-300" for="license_0_1">ไม่มี</label>
+                                                                </div>
+                                                            </div>
+                                                        </fieldset>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid md-50 sm-100 mt-0">
+                                                <div class="field field-sm field-adaptive-02">
+                                                    <label class="fw-400">วันที่หมดอายุ</label>
+                                                    <div class="control">
+                                                        <div class="input-date-wrapper">
+                                                            <input type="text" class="bg-white date-picker" title="General Text Input" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            
+                            <div data-aos="fade-up" data-aos-delay="0">
+                                <div class="ss-box-header bg-fgray">
+                                    <div class="ss-box-shadow"></div>
+                                    <div class="header bg-05 color-white">
+                                        <h5 class="fw-200">05. ท่านได้รับข่าวประกาศรับสมัครงานจากสื่อข้อใด</h5>
+                                    </div>
+                                    <div class="body border-bottom bcolor-sgray">
+                                        <div class="field field-sm field-adaptive-02">
+                                            <label class="fw-400">รับทราบประกาศจาก</label>
+                                            <div class="control">
+                                                <fieldset>
+                                                    <div class="d-flex ai-center fw-wrap mt-1">
+                                                        <?php
+                                                            foreach([
+                                                                'อินเตอร์เน็ต', 'เว็บไซต์ กนอ.', 'วารสารสมัครงาน', 'เพื่อนหรือคนรู้จัก'
+                                                            ] as $j=>$d){
+                                                        ?>
+                                                            <div class="mr-3">
+                                                                <input class="mr-2" type="radio" name="source" 
+                                                                    id="source_<?= $j ?>" value="<?= $j ?>" 
+                                                                    title="General Radio Input" />
+                                                                <label class="fw-300" for="source_<?= $j ?>">
+                                                                    <?= $d ?>
+                                                                </label>
+                                                            </div>
+                                                        <?php }?>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="body border-bottom bcolor-sgray">
+                                        <div class="d-flex ai-center jc-space-evenly fw-wrap">
+                                            <div class="capcha-container mx-2">
+                                                <img src="public/assets/app/images/icon/capcha.png" alt="Capcha" />
+                                            </div>
+                                            <div class="btns width-auto mt-3 mb-3">
+                                                <button type="submit" class="btn btn-action mr-1">
+                                                    <span>สมัครตำแหน่งนี้</span>
+                                                </button>
+                                                <button type="reset" class="btn btn-action btn-action-01">
+                                                    ล้างข้อมูล
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </form>
                     </div>
 

@@ -11,17 +11,18 @@ html, body{background:#000; color:#ffff00;}
 .color-white, .color-black, .color-gray, .color-sgray, .color-fgray,
 .color-01, .h-color-01:hover, .color-02, .h-color-02:hover, .color-03, .h-color-03:hover,
 .color-04, .h-color-04:hover, .color-05, .h-color-05:hover, .color-06, .h-color-06:hover, 
-.color-07, .h-color-07:hover, .color-08, .h-color-08:hover{
+.color-07, .h-color-07:hover, .color-08, .h-color-08:hover, .color-09, .h-color-09:hover{
     color:#ffff00!important;
 }
 
 .bg-white, .bg-black, .bg-gray, .bg-sgray, .bg-fgray,
-.bg-01, .bg-02, .bg-03, .bg-04, .bg-05, .bg-06, .bg-07, .bg-08{
+.bg-01, .bg-02, .bg-03, .bg-04, .bg-05, .bg-06, .bg-07, .bg-08, .bg-09{
     background:#000!important;
 }
 
 .bcolor-white, .bcolor-black, .bcolor-gray, .bcolor-sgray, .bcolor-fgray,
-.bcolor-01, .bcolor-02, .bcolor-03, .bcolor-04, .bcolor-05, .bcolor-06, .bcolor-07, .bcolor-08{
+.bcolor-01, .bcolor-02, .bcolor-03, .bcolor-04, .bcolor-05, .bcolor-06, .bcolor-07, .bcolor-08,
+.bcolor-09{
     border-color:#ffff00!important;
 }
 
@@ -37,9 +38,10 @@ select:focus, textarea:focus{
     border-color:#ffff00;
 }
 
-/* Select Input */
+/* Input Wrappers */
 .select-wrapper::after{color:#ffff00;}
 .select-wrapper.icon-square::after{background:#ffff00; color:#000;}
+.input-date-wrapper::after{color:#ffff00;}
 
 
 /* Topnav */
@@ -299,9 +301,7 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 /* Content 04 */
 .content-04{background:none!important;}
 .content-04 .slide-container, .content-04 .video-container{background:#ffff00;}
-.content-04 .slide-container .arrows button{
-    background:#000; color:#ffff00; border:1px solid #ffff00;
-}
+.content-04 .slide-container .arrows button{color:#000;}
 .content-04 .slide-nav .slide > .wrapper{border:1px solid #ffff00;}
 .content-04 .slide-nav .slide.slick-current > .wrapper{background:#ffff00;}
 

@@ -108,7 +108,8 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
     width:12rem; margin:.25rem 1rem .25rem 0; font-size:1.375rem; text-align:right;
 }
 .field.field-adaptive > .control{width:calc(100% - 13rem); margin:0;}
-.field.field-adaptive > .control > .select-wrapper{width:100%;}
+.field.field-adaptive > .control > .select-wrapper,
+.field.field-adaptive > .control > .input-date-wrapper{width:100%;}
 @media screen and (max-width:1199.98px){
     .field.field-adaptive > label{width:8rem;}
     .field.field-adaptive > .control{width:calc(100% - 9rem);}
@@ -120,7 +121,21 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 }
 
 
-/* Select Input */
+.field.field-adaptive-02{display:flex; margin:0;}
+.field.field-adaptive-02 > label{
+    width:8rem; margin:.25rem 1rem .25rem 0; font-size:1.375rem; text-align:right;
+}
+.field.field-adaptive-02 > .control{width:calc(100% - 9rem); margin:0;}
+.field.field-adaptive-02 > .control > .select-wrapper,
+.field.field-adaptive-02 > .control > .input-date-wrapper{width:100%;}
+@media screen and (max-width:767.98px){
+    .field.field-adaptive-02{flex-wrap:wrap; margin:.3125rem 0;}
+    .field.field-adaptive-02 > label{width:100%; margin:0 0 .25rem 0; text-align:left;}
+    .field.field-adaptive-02 > .control{width:100%;}
+}
+
+
+/* Input Wrappers */
 .select-wrapper{display:inline-block; position:relative;}
 .select-wrapper::after{
     content:'\f2f9'; font:normal normal normal 14px/1 'Material-Design-Iconic-Font';
@@ -133,6 +148,13 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 }
 .select-wrapper.icon-square::after{
     top:.3125rem; bottom:.3125rem; right:.3125rem; width:1.6875rem; font-size:1.25rem;
+}
+
+.input-date-wrapper{display:inline-block; position:relative;}
+.input-date-wrapper::after{
+    content:'\f332'; font:normal normal normal 20px/1 'Material-Design-Iconic-Font';
+    position:absolute; top:0; bottom:0; right:0; width:2rem; pointer-events:none;
+    display:flex; align-items:center; justify-content:center;
 }
 
 
