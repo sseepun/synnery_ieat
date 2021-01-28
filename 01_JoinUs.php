@@ -85,9 +85,11 @@
                                     <h6 class="title h3 xs color-04">
                                         Mechanical Project Manager / ผู้จัดการโครงการเครื่องกล 2 อัตรา
                                     </h6>
-                                    <div class="date">
-                                        <div class="d">04</div>
-                                        <div class="m-y">09.2563</div>
+                                    <div class="ss-date">
+                                        <div class="date">
+                                            <div class="d border-bottom bcolor-white">04</div>
+                                            <div class="m-y">09.2563</div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="about-tag">

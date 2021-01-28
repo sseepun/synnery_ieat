@@ -12,6 +12,7 @@
     <?php include_once('include/topnav.php'); ?>
 
     <?php
+        $breadcrumbClass = 'color-white';
         $breadcrumb = [
             [ 'url' => '#', 'display' => 'คลังภาพ กนอ.' ],
         ];

@@ -181,6 +181,20 @@ $(function(){ 'use strict';
     $('input.date-picker').each(function(){
         new Datepicker($(this)[0], {});
     });
+
+    // Dropzone
+    $('.input-dropzone').each(function(){
+        $(this).dropzone({
+            url: 'writable',
+            acceptedFiles: 'image/*,application/pdf',
+            autoProcessQueue: false,
+            uploadMultiple: true,
+            parallelUploads: 5,
+            maxFiles: 5,
+            maxFilesize: 5,
+            addRemoveLinks: true,
+        });
+    });
     
 
     // Button Popup

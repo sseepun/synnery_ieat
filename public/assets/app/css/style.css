@@ -157,6 +157,13 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
     display:flex; align-items:center; justify-content:center;
 }
 
+.input-dropzone{
+    border-radius:.25rem; cursor:pointer; border:1.4px dotted transparent;
+    padding:1.75rem 1rem 2rem 1rem;
+}
+.input-dropzone > *{pointer-events:none!important;}
+.input-dropzone .dz-preview{display:none!important;}
+
 
 
 /* Typography */
@@ -1044,6 +1051,61 @@ table.table-faq td{
     border:0; padding-top:.875rem; padding-bottom:.875rem; border-right:1px solid transparent;
 }
 table.table-faq tr:last-child > td{border-bottom:3px solid transparent;}
+
+
+/* Vote Block */
+.vote-blocks{width:100%;}
+.vote-blocks .vote-block{
+    width:100%; position:relative; border:1px solid transparent; border-bottom:0;
+    display:flex; justify-content:space-between; padding:0;
+}
+.vote-blocks .vote-block:last-child{border-bottom:1px solid transparent;}
+.vote-blocks .vote-block .ss-date{position:absolute;}
+.vote-blocks .vote-block .date{top:0; left:0;}
+.vote-blocks .vote-block .question-container{
+    width:calc(100% - 12rem); padding:1.5rem 1.25rem 1.75rem 5rem;
+}
+.vote-blocks .vote-block .field.field-sm label{font-size:1.25rem; font-weight:500;}
+.vote-blocks .vote-block .info-container{width:12rem; text-align:center;}
+.vote-blocks .vote-block .icon-container{
+    width:100%; display:flex; align-items:center; padding:1.25rem; font-size:1.3125rem;
+    font-weight:500;
+}
+.vote-blocks .vote-block .icon-container em{transform:none; margin:0 .5rem 0 0;}
+.vote-blocks .vote-block .chart-container{
+    display:flex; align-items:center; justify-content:space-between;
+    width:100%; max-width:32rem; margin:.75rem auto 0 auto;
+}
+.vote-blocks .vote-block .chart-container .chart{width:calc(100% - 14rem);}
+.vote-blocks .vote-block .chart-container .labels{width:14rem;}
+.vote-blocks .vote-block .chart-container .label{
+    width:100%; display:flex; align-items:center; margin:.3125rem 0;
+}
+.vote-blocks .vote-block .chart-container .label > .dot{
+    width:2.5rem; height:2rem; line-height:2rem; font-size:1.5rem; font-weight:500;
+    color:#fff; text-align:center; margin:0 .5rem 0 0;
+}
+.vote-blocks .vote-block .chart-container .label > p{
+    font-size:1.125rem; font-weight:500; opacity:.6; line-height:1;
+}
+@media screen and (max-width:991.98px){
+    .vote-blocks .vote-block .question-container{padding:1.25rem 1rem 1.5rem 4.5rem;}
+}
+@media screen and (max-width:767.98px){
+    .vote-blocks .vote-block{flex-wrap:wrap;}
+    .vote-blocks .vote-block .question-container,
+    .vote-blocks .vote-block .info-container{width:100%;}
+    .vote-blocks .vote-block .question-container{padding:1rem 1rem 1.25rem 4rem;}
+    .vote-blocks .vote-block .info-container{padding:0 0 1.25rem 4rem;}
+    .vote-blocks .vote-block .icon-container{padding:1rem;}
+}
+@media screen and (max-width:575.98px){
+    .vote-blocks .vote-block .chart-container{
+        max-width:18rem; flex-wrap:wrap; justify-content:center;
+    }
+    .vote-blocks .vote-block .chart-container .chart{width:100%;}
+    .vote-blocks .vote-block .chart-container .labels{width:auto;}
+}
 
 
 /* Utility */
