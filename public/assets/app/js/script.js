@@ -541,10 +541,14 @@ $(function(){ 'use strict';
     var tabContainers = $('.tab-container');
     if(tabContainers.length){
         tabContainers.each(function(){
-            var self = $(this),
-                tabs = self.find('.tabs .tab'),
+            var self = $(this);
+            var tabs = self.find('.tabs .tab'),
                 tabChildren = self.find('.tabs .tab-children'),
                 tabContents = self.find('.tab-contents .tab-content');
+            if(self.hasClass('tab-global')){
+                var temp = $('.tab-container.tab-global-target');
+                tabContents = temp.find('.tab-contents .tab-content');
+            }
             tabs.click(function(e){
                 var temp = $(this),
                     tabId = temp.data('tab');
@@ -552,15 +556,23 @@ $(function(){ 'use strict';
                     var target = tabContents.filter('[data-tab="'+tabId+'"]');
                     if(target.length){
                         e.preventDefault();
+
                         tabChildren.stop().slideUp();
                         var children = temp.next();
                         if(children.hasClass('tab-children')){
                             children.stop().slideDown();
                         }
+
                         tabs.removeClass('active');
                         temp.addClass('active');
                         tabContents.removeClass('active');
                         target.addClass('active');
+
+                        var slides = target.find('.slide-container > .slides');
+                        if(slides.length){
+                            slides.slick('setPosition');
+                        }
+
                         AOS.refresh();
                     }
                 }

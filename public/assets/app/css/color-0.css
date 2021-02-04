@@ -452,6 +452,13 @@ table.table-faq tr:nth-child(2n) > td{background:#fff;}
 }
 .tab-container-03 .tab.active{color:#fff!important;}
 
+/* Tab Container 04 */
+.tab-container-04 .tab{background:#fff; border-color:#959595!important;}
+.tab-container-04 .tab.active{color:#fff!important;}
+.tab-container-04 .tab::before{
+    background-image:linear-gradient(to right, #169f96, #1a9693, #2c6d88);
+}
+
 
 /* Section Calendar */
 .section-calendar > .top-container{background:#8968ae;}

@@ -339,6 +339,11 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 .tab-container-03 .tab.active{color:#000!important;}
 .tab-container-03 .tab::before{background:#ffff00;}
 
+/* Tab Container 04 */
+.tab-container-04 .tab{background:#000; border-color:#ffff00!important;}
+.tab-container-04 .tab.active{color:#000!important;}
+.tab-container-04 .tab::before{background:#ffff00}
+
 
 /* Section Calendar */
 .section-calendar > .top-container,

@@ -52,7 +52,7 @@
                     </div>
                     <div class="grid xl-80 lg-75 md-70 sm-100 mt-0" data-aos="fade-up" data-aos-delay="450">
                         <div class="tab-contents">
-                            <?php for($i=0; $i<6; $i++){?>
+                            <?php for($i=0; $i<7; $i++){?>
                                 <div class="tab-content <?php if($i==0)echo 'active'; ?>" data-tab="<?= $i ?>">
                                     <div class="grids">
                                         <div class="grid xl-40 sm-100">

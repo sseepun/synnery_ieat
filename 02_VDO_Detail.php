@@ -50,7 +50,8 @@
                     <div class="grid xl-80 lg-75 sm-100" data-aos="fade-up" data-aos-delay="750">
                         <div class="video-container">
                             <div class="video-wrapper">
-                                <iframe src="https://www.youtube.com/embed/u3VFzuUiTGw"></iframe>
+                                <video src="public/assets/app/video/01.mp4" controls></video>
+                                <!-- <iframe src="https://www.youtube.com/embed/u3VFzuUiTGw"></iframe> -->
                             </div>
                         </div>
                     </div>
