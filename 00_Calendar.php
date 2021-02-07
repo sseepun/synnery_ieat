@@ -473,15 +473,11 @@
             var prevMonthBtn = $('#prev-month-btn');
             var nextMonthBtn = $('#next-month-btn');
             
-            function htmlToElement(html){
-                var template = document.createElement('template');
-                html = html.trim();
-                template.innerHTML = html;
-                return template.content.firstChild;
-            }
-            function updateCalendarHeader(month, year, updateSlick){
-                var prevMonth = 0;
-                var nextMonth = 0;
+            function updateCalendarHeaderMonth(date, updateSlick){
+                var month = date.getMonth(), 
+                    year = date.getFullYear();
+                var prevMonth = 0,
+                    nextMonth = 0;
 
                 if(months[month - 1]) prevMonth = months[month - 1];
                 else prevMonth = months[months.length - 1];
@@ -509,61 +505,63 @@
                 contentHeight: 'auto',
                 eventLimit: true,
                 eventLimitText: 'กิจกรรม',
-                views: {dayGrid: {eventLimit: 2}},
+                views: {
+                    dayGrid: {eventLimit: 2}
+                },
                 events: [
                     {
                         title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
-                        start: '2020-12-19',
+                        start: '2021-02-09',
                         customStartTime: '12:45 น.',
-                        end: '2020-12-19',
+                        end: '2021-02-09',
                         customEndTime: '15:00 น.',
                         url: '#',
                     },
                     {
                         title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
-                        start: '2020-12-19',
+                        start: '2021-02-09',
                         customStartTime: '12:45 น.',
-                        end: '2020-12-19',
+                        end: '2021-02-09',
                         customEndTime: '15:00 น.',
                         url: '#',
                     },
                     {
                         title: 'วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสาร',
-                        start: '2020-12-19',
+                        start: '2021-02-09',
                         customStartTime: '12:45 น.',
-                        end: '2020-12-19',
+                        end: '2021-02-09',
                         customEndTime: '15:00 น.',
                         url: '#',
                     },
                     {
                         title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
-                        start: '2020-12-24',
+                        start: '2021-02-09',
                         customStartTime: '09:00 น.',
-                        end: '2020-12-24',
+                        end: '2021-02-09',
                         customEndTime: '20:00 น.',
                         url: '#',
                     },
                     {
                         title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
-                        start: '2020-12-29',
+                        start: '2021-02-21',
                         customStartTime: '09:00 น.',
-                        end: '2020-12-24',
+                        end: '2021-02-21',
                         customEndTime: '20:00 น.',
                         url: '#',
                     },
                     {
                         title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
-                        start: '2020-12-29',
+                        start: '2021-02-21',
                         customStartTime: '09:00 น.',
-                        end: '2020-12-24',
+                        end: '2021-02-21',
                         customEndTime: '20:00 น.',
                         url: '#',
                     },
                     {
                         title: 'บอร์ด กนอ.เคาะศึกษาจัดระเบียบสายสื่อสารลงดินปรับสู่ 5G ปักหมุด 14 มกราคม 2564',
-                        start: '2020-12-29',
+                        start: '2021-02-21',
                         customStartTime: '09:00 น.',
-                        end: '2020-12-24',
+                        end: '2021-02-21',
                         customEndTime: '20:00 น.',
                         url: '#',
                     },
@@ -573,7 +571,7 @@
                 },
                 datesRender: function(info){
                     var date = new Date(info.view.currentStart);
-                    updateCalendarHeader(date.getMonth(), date.getFullYear(), true);
+                    updateCalendarHeaderMonth(date, true);
                 },
                 eventRender: function(info, d){
                     var event = info.event,
@@ -584,14 +582,68 @@
                     && date.getDate()===today.getDate()){
                         classer = 'today';
                     }
-                    info.el.innerHTML = '<div class="custom-event '+classer+'">'
-                            +'<div class="time">'
-                                +event.extendedProps.customStartTime
-                                +' - '
-                                +event.extendedProps.customEndTime
-                            +'</div>'
-                            +'<div class="title">'+event.title+'</div>'
-                        +'</div>';
+                    info.el.innerHTML = `
+                        <div class="custom-event ${classer}">
+                            <div class="event-main">
+                                <div class="time">
+                                    ${event.extendedProps.customStartTime} - 
+                                    ${event.extendedProps.customEndTime}
+                                </div>
+                                <div class="title">${event.title}</div>
+                            </div>
+                            <div class="event-popup">
+                                <div class="ss-card ss-card-07">
+                                    <div class="ss-img">
+                                        <div class="img-bg" style="background-image:url('public/assets/app/images/bg/17.jpg');"></div>
+                                    </div>
+                                    <div class="text-container">
+                                        <div class="wrapper">
+                                            <div class="text-wrapper">
+                                                <div class="h6 fw-500">${event.title}</div>
+                                                <div class="grids mt-2">
+                                                    <div class="grid sm-40 mt-0">
+                                                        <div class="ss-stat mt-0">
+                                                            <div class="stat icon-only fit-text mt-0">
+                                                                <div class="icon">
+                                                                    <em class="zmdi zmdi-calendar"></em>
+                                                                </div>
+                                                                <p class="sm">
+                                                                    <span class="fw-500">วันที่</span> 12/09/2563
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="ss-stat mt-0">
+                                                            <div class="stat icon-only fit-text mt-0">
+                                                                <div class="icon">
+                                                                    <em class="zmdi zmdi-time"></em>
+                                                                </div>
+                                                                <p class="sm">
+                                                                    <span class="fw-500">เวลา</span> 12.45 น.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="grid sm-60 mt-0">
+                                                        <div class="ss-stat mt-0">
+                                                            <div class="stat icon-only fit-text ai-start mt-0">
+                                                                <div class="icon">
+                                                                    <em class="zmdi zmdi-pin"></em>
+                                                                </div>
+                                                                <p class="sm ws-normal">
+                                                                    <span class="fw-500">สถานที่</span>
+                                                                    618 ถนนนิคมมักกะสัน เเขวงมักกะสัน เขตราชเทวี กรุงเทพมหานคร
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
                     return true;
                 }
             });
@@ -609,7 +661,7 @@
             slideMonth.find('.slides').on('beforeChange', function(e, s, c, i){
                 var year = slidesMonth.filter('[data-index="'+i+'"]').data('year'),
                     date = calendarMonth.getDate(),
-                    gotoDate = new Date(year+'-'+(date.getMonth()+1)+'-'+'14');
+                    gotoDate = new Date(year+'-'+pad(date.getMonth()+1)+'-'+'14');
                 calendarMonth.gotoDate(gotoDate);
             });
             
@@ -619,6 +671,7 @@
             // -----------------------------------------------------------------------
             
             // Section Calendar Week
+            var readyWeek = true;
             var sectionCalendarWeek = $('.section-calendar.week');
             var slideWeek = sectionCalendarWeek.find('.slide-container.slide-week'),
                 slidesWeek = slideWeek.find('.slide');
@@ -639,6 +692,20 @@
                     { breakpoint: 575.98, settings: { slidesToShow: 3, } },
                 ]
             });
+            
+            function updateCalendarHeaderWeek(date, updateSlick){
+                if(updateSlick){
+                    var month = date.getMonth(), 
+                        year = date.getFullYear();
+                    var slickIndex = slidesWeek
+                        .filter('[data-month="'+month+'"]')
+                        .filter('[data-year="'+year+'"]')
+                        .data('index');
+                    if(slickIndex!==undefined){
+                        slideWeek.find('> .slides').slick('slickGoTo', slickIndex);
+                    }
+                }
+            }
 
             // Calendar Week
             const calendarWeek = new FullCalendar.Calendar($('#calendar-week')[0], {
@@ -670,6 +737,11 @@
                 eventSourceSuccess: function(content, xhr){
                     return content.eventArray;
                 },
+                datesRender: function(info){
+                    readyWeek = false;
+                    var date = new Date(info.view.currentStart);
+                    updateCalendarHeaderWeek(date, true);
+                },
                 dayRender: function(info){
                     if(!($(info.el).closest('.fc-scroller').length)){
                         const date = new Date(info.date);
@@ -695,6 +767,18 @@
                 },
             });
             // calendarWeek.render();
+
+            // Events
+            slideWeek.find('.slides').on('beforeChange', function(e, s, c, i){
+                if(readyWeek){
+                    var self = slidesWeek.filter('[data-index="'+i+'"]'),
+                        month = self.data('month'),
+                        year = self.data('year'),
+                        gotoDate = new Date(year+'-'+pad(month+1)+'-'+'01');
+                    calendarWeek.gotoDate(gotoDate);
+                }
+                readyWeek = true;
+            });
             
             
             // -----------------------------------------------------------------------
@@ -702,15 +786,16 @@
             // -----------------------------------------------------------------------
 
             // Section Calendar Day
+            var readyDay = true;
             var sectionCalendarDay = $('.section-calendar.day');
             var slideDayMonth = sectionCalendarDay.find('.slide-container.slide-month'),
-                daySlides = slideDayMonth.find('.slide');
+                slidesDay = slideDayMonth.find('.slide');
             slideDayMonth.find('> .slides').slick({
                 centerMode: true, centerPadding: 0, slidesToShow: 8, infinite: true,
                 focusOnSelect: true, autoplay: false, speed: 600, 
                 swipe: false, touchMove: false, swipeToSlide: false,
                 dots: false, arrows: true, appendArrows: slideDayMonth.find('> .arrows'),
-                initialSlide: daySlides.filter('[data-month="'+today.getMonth()+'"]').data('index'),
+                initialSlide: slidesDay.filter('[data-month="'+today.getMonth()+'"]').data('index'),
                 responsive: [
                     { breakpoint: 1299.98, settings: { slidesToShow: 7, } },
                     { breakpoint: 1199.98, settings: { slidesToShow: 6, } },
@@ -736,6 +821,20 @@
                     { breakpoint: 575.98, settings: { slidesToShow: 7, } },
                 ]
             });
+            
+            function updateCalendarHeaderDay(date, updateSlick){
+                if(updateSlick){
+                    var day = date.getDate(),
+                        month = date.getMonth(), 
+                        year = date.getFullYear();
+                    var slickIndex = slidesDay
+                        .filter('[data-month="'+month+'"]')
+                        .data('index');
+                    if(slickIndex!==undefined){
+                        slideDayMonth.find('> .slides').slick('slickGoTo', slickIndex);
+                    }
+                }
+            }
 
             // Calendar Day
             const calendarDay = new FullCalendar.Calendar($('#calendar-day')[0], {
@@ -764,8 +863,25 @@
                         url: '#',
                     },
                 ],
+                datesRender: function(info){
+                    readyDay = false;
+                    var date = new Date(info.view.currentStart);
+                    updateCalendarHeaderDay(date, true);
+                },
             });
             // calendarDay.render();
+
+            // Events
+            slideDayMonth.find('> .slides').on('beforeChange', function(e, s, c, i){
+                if(readyDay){
+                    var self = slidesDay.filter('[data-index="'+i+'"]'),
+                        month = self.data('month'),
+                        date = calendarDay.getDate(),
+                        gotoDate = new Date(date.getYear()+'-'+pad(month+1)+'-'+'01');
+                    calendarDay.gotoDate(gotoDate);
+                }
+                readyDay = true;
+            });
             
             
             // -----------------------------------------------------------------------
@@ -816,11 +932,7 @@
             var tabs = $('.tab-container.tab-local .tabs > .tab'),
                 tabContents = $('.tab-container.tab-local-target .tab-contents > .tab-content'),
                 activeTabId = tabs.filter('.active').data('tab');
-
-            if(activeTabId==0) calendarMonth.render();
-            else if(activeTabId==1) calendarWeek.render();
-            else if(activeTabId==2) calendarDay.render();
-
+            calendarRenderer(activeTabId);
             tabs.click(function(e){
                 var temp = $(this),
                     tabId = temp.data('tab');
@@ -840,12 +952,32 @@
                             slides.slick('setPosition');
                         }
                         
-                        calendarMonth.render();
-                        calendarWeek.render();
-                        calendarDay.render();
+                        calendarRenderer(tabId);
                     }
                 }
             });
+
+            function calendarRenderer(id){
+                if(id==0){
+                    calendarMonth.render();
+                    calendarMonth.rerenderEvents();
+                }else if(id==1){
+                    calendarWeek.render();
+                }else if(id==2){
+                    calendarDay.render();
+                }
+            }
+
+            
+            // -----------------------------------------------------------------------
+            // Utility Functions -----------------------------------------------------
+            // -----------------------------------------------------------------------
+
+            function pad(num, size){
+                num = num.toString();
+                while(num.length < size) num = '0' + num;
+                return num;
+            }
 
         });
     </script>

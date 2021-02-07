@@ -245,6 +245,10 @@ nav.footer .tag{
 .ss-card-06:hover .text-container{color:#000; background:#fff;}
 .ss-card-06:hover a.title{color:#000;}
 
+/* Special Card 07 */
+.ss-card-07 .text-container{background:#fff;}
+.ss-card-07:hover .ss-stat .stat > .icon{color:#fff;}
+
 
 /* Special Date */
 .ss-date > .date{background:#169f96; color:#fff;}
@@ -495,6 +499,7 @@ table.table-faq tr:nth-child(2n) > td{background:#fff;}
 .calendar-month a.fc-more{color:#999; border-color:#ccc;}
 .calendar-month a.fc-more:hover{color:#169f96;}
 .calendar-month .fc-day:hover{background:rgba(140,106,178,.25);}
+.calendar-month .fc-event-container{background:#f5f5f5;}
 
 /* Calendar - Week */
 .calendar-week .custom-date .date-tag{background:#0f9684; color:#fff;}
