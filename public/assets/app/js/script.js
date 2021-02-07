@@ -59,8 +59,22 @@ $(function(){ 'use strict';
 
         // Generate sidenav
         sidenavMenus.html( topnav.find('.menu-container').html() );
-        sidenavMenus.find('.menu.menu-icon').remove();
-
+        sidenavMenus.find('.menu.menu-icon').last().remove();
+        sidenavMenus.find('.menu.menu-icon').last().find('> a').html('อื่นๆ');
+        sidenavMenus.find('.menu > a').each(function(){
+            var self = $(this),
+                target = topnavDropdownWrappers
+                    .filter('[data-dropdown="'+self.data('dropdown')+'"]');
+            if(target.length){
+                var parent = self.parent(),
+                    html = '';
+                parent.append('<em class="zmdi zmdi-chevron-down"></em>');
+                target.find('.ss-list').each(function(){
+                    html += $(this).html();
+                });
+                parent.append('<ul class="ss-list">'+html+'</ul>');
+            }
+        });
     }
 
     // Footer

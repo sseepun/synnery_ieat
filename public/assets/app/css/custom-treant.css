@@ -1,72 +1,69 @@
 
 /* Tree */
-.tree .node{
-    width:180px; padding:20px 8px; min-height:56px; display:flex!important; align-items:center;
-    border-radius:0; box-shadow:rgba(58,45,45,.1) 0px 10px 20px;
+.tree .node{width:200px; padding:0; text-align:center;}
+.tree .node > p:first-child{
+    position:relative; width:100%; padding:9px 5px; font-size:20px; overflow:hidden;
+    border-radius:3px; background:#32256b; color:#fff;
 }
-.tree .node > p{
-    margin:0; font-size:16px; font-weight:100; color:#fff; width:100%; text-align:center;
+.tree .node > p:first-child::before{
+    content:''; position:absolute; top:0; left:0; width:29px; height:29px; background:#4b3e84;
+    transform-origin:top left; transform:rotate(45deg);
+    box-shadow:rgba(0,0,0,.8) 0px 25px 50px;
 }
-.tree .node.root{background:#2a2859; width:260px; padding:30px 15px;}
-.tree .node.root > p{position:relative; font-size:22px; font-weight:400; color:#fff;}
-.tree .node.node-1{background:#331131;}
-.tree .node.node-2{background:#591e56;}
-.tree .node.node-3{background:#a638a0;}
+.tree .node.node-1 > p:first-child{background:#94b530;}
+.tree .node.node-1 > p:first-child::before{background:#aab332;}
+.tree .node.node-2 > p:first-child{background:#5e4297;}
+.tree .node.node-2 > p:first-child::before{background:#7859b4;}
+.tree .node.node-3 > p:first-child{background:#2896b7;}
+.tree .node.node-3 > p:first-child::before{background:#45a6b6;}
+.tree .node.node-4 > p:first-child{background:#6bb9c3;}
+.tree .node.node-4 > p:first-child::before{background:#8abfc5;}
+.tree .node.node-5 > p:first-child{background:#812886;}
+.tree .node.node-5 > p:first-child::before{background:#844b8f;}
+.tree .node.node-6 > p:first-child{
+    background:transparent; border:2px solid #d6d6d8; color:#1b1b1b;
+}
+.tree .node.node-6 > p:first-child::before{background:#ebebeb; box-shadow:none; z-index:-1;}
 
-.tree .node.h-root{
-    width:340px; background:#2a2859; color:#fff; justify-content:center;
-    padding:0 10px; font-size:1.25rem; font-weight:500; line-height:1; min-height:42px;
-    box-shadow:rgba(58,45,45,.15) 0px 10px 20px;
+.tree .node.node-list{background:none!important;}
+.tree .node.node-list > p:first-child{
+    padding:0 0 0 10px; font-size:18px; color:#000; white-space:normal; text-align:left;
 }
-.tree .node.h-root.h-root-2{font-size:1.125rem; font-weight:300;}
-.tree .node.h-root.h-root-3{
-    width:300px; padding:20px; background:#a64299; font-size:.8125rem; font-weight:300;
-    color:#fff; line-height:1.6;
+.tree .node.node-list > p:first-child::before{display:none!important;}
+
+.tree .node ul{
+    display:block; position:relative; padding:5px 0 0 0; margin:0; list-style:none;
+    text-align:left; font-size:18px;
+}
+.tree .node ul::before{
+    content:''; position:absolute; top:0; bottom:0; left:5px; width:1px; background:#d6d6d8;
+}
+.tree .node ul > li{position:relative; width:100%; padding:5px 0 0 30px; color:#777;}
+.tree .node ul > li::before{
+    content:''; position:absolute; top:15px; left:5px; width:15px; height:1px;
+    background:#d6d6d8;
+}
+.tree .node ul > li:last-child::after{
+    content:''; position:absolute; top:16px; bottom:0; left:0; width:10px; background:#fff;
 }
 
-.tree .node.d-node{
-    flex-wrap:wrap; width:260px; padding:0; box-shadow:rgba(58,45,45,.05) 0px 10px 20px;
-}
-.tree .node.d-node > *{width:100%; display:block; font-size:.875rem; font-weight:300;}
-.tree .node.d-node .wrapper{width:100%; text-align:center;}
-.tree .node.d-node > .title, .tree .node.d-node > .subtitle{
-    display:flex; align-items:center; justify-content:center; background:#6b2468;
-    padding:5px 10px; color:#fff; font-size:.9375rem; min-height:55px;
-}
-.tree .node.d-node > .subtitle{
-    background:#382138; padding:6px 10px; font-size:.8125rem; min-height:50px; font-weight:100;
-}
-.tree .node.d-node > .title ol, .tree .node.d-node > .subtitle ol{
-    width:100%; text-align:left; font-size:.8125rem; margin:.0625rem 0 0 0; padding:0 0 0 1.5rem;
-}
-.tree .node.d-node > .desc{
-    width:100%; background:#e5e4e4; color:#6c6c6c; padding:8px 10px;
-    font-size:.8125rem; font-weight:200;
-}
-.tree .node.d-node > .desc ul{width:100%; text-align:left; margin:0; padding:0 0 0 1.5rem;}
-.tree .node.d-node.d-node-2 > .title{background:#61accf;}
-.tree .node.d-node.d-node-2 > .subtitle{background:#3c5964;}
+.tree .node.node-5 > p:first-child{padding:5px 5px;}
+.tree .node.node-5 > p:first-child::before{width:37px; height:37px;}
+.tree .node.node-5 > p:first-child > span{font-size:16px;}
+.tree .node.node-6 > p:first-child > span{font-size:17px; color:#777;}
 
-.tree .node.m-node{
-    display:block!important; width:180px; background:#fff; color:#000;
-    border:1px solid #ddd; border-radius:4px; box-shadow:none; cursor:pointer;
-    padding:10px 10px 5px 10px; transition:background .25s;
+.tree .node.node-6{width:100%;}
+.tree .node-wrapper{position:relative; width:100%; padding:15px 0 0 20px;}
+.tree .node-wrapper::before{
+    content:''; position:absolute; top:0; bottom:0; left:10px; width:1px; background:#000;
 }
-.tree .node.m-node:hover{background:#481b79;}
-.tree .node.m-node > .img-container{
-    width:100%; padding:100% 0 0 0; border-radius:4px; background-size:cover;
-    background-position:center;
+.tree .node-wrapper .node{position:relative; margin:20px 0 0 0;}
+.tree .node-wrapper .node:first-child{margin:0;}
+.tree .node-wrapper .node::before{
+    content:''; position:absolute; top:20px; right:100%; width:10px;
+    height:1px; background:#000;
 }
-.tree .node.m-node > .title{
-    width:100%; text-align:center; margin:5px 0 0 0; font-size:18px; font-weight:600;
-    color:#000; transition:color .25s;
-}
-.tree .node.m-node:hover > .title{color:#fff;}
-
-.tree .node.m-node.m-node-2{display:flex!important; align-items:center; padding:10px;}
-.tree .node.m-node.m-node-2 > .img-container{
-    width:35px; height:35px; padding:0; margin:0 10px 0 0;
-}
-.tree .node.m-node.m-node-2 > .title{
-    width:calc(100% - 45px); text-align:left; margin:0; font-size:16px; font-weight:300;
+.tree .node-wrapper .node:last-child::after{
+    content:''; position:absolute; top:21px; bottom:0; right:100%; width:15px;
+    background:#fff;
 }

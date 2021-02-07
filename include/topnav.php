@@ -82,11 +82,6 @@
             </div>
             <div class="mobile-container">
                 <div class="menu menu-icon">
-                    <a class="topnav-dropdown-toggle" data-dropdown="5" href="#">
-                        <em class="zmdi zmdi-more-vert"></em>
-                    </a>
-                </div>
-                <div class="menu menu-icon">
                     <a class="global-search-toggle" href="#">
                         <em class="zmdi zmdi-search"></em>
                     </a>

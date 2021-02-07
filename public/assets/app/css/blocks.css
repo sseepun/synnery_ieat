@@ -881,6 +881,7 @@
 .section-calendar .slide > .wrapper{
     position:relative; width:100%; text-align:center; padding:.8125rem 0;
 }
+.section-calendar.week .slide > .wrapper{padding:.6875rem 0;}
 .section-calendar .slide > .wrapper::before{
     content:''; position:absolute; top:0; bottom:0; left:0; right:0; opacity:0;
     transition:opacity .25s, color .25s;
