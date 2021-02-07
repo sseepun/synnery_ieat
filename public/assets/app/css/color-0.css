@@ -505,3 +505,11 @@ table.table-faq tr:nth-child(2n) > td{background:#fff;}
 .calendar-week .fc-time-grid .fc-event:hover{background:#5d4189;}
 .calendar-week .fc-time-grid .fc-event .fc-time{background:#4b326e;}
 .calendar-week .fc-toolbar.fc-header-toolbar .fc-button{color:#999;}
+
+/* Calendar - Day */
+.calendar-day .fc-toolbar.fc-header-toolbar{border-color:#ddd!important;}
+.calendar-day .fc-toolbar.fc-header-toolbar .fc-button{color:#999;}
+.calendar-day .fc-axis.fc-time.fc-widget-content{background:#eee; color:#000;}
+.calendar-day .fc-time-grid .fc-event{background:#8c6ab2; color:#fff; border-color:#fff;}
+.calendar-day .fc-time-grid .fc-event:hover{background:#5d4189;}
+.calendar-day .fc-time-grid .fc-event .fc-time{background:#4b326e;}

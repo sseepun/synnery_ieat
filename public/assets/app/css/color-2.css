@@ -383,3 +383,12 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 .calendar-week .fc-time-grid .fc-event{background:#ffff00; color:#000;}
 .calendar-week .fc-time-grid .fc-event .fc-time{border-bottom:2px solid #000;}
 .calendar-week .fc-toolbar.fc-header-toolbar .fc-button{color:#ffff00;}
+
+/* Calendar - Day */
+.calendar-day .fc-toolbar.fc-header-toolbar{border-color:#ffff00!important; color:#ffff00;}
+.calendar-day .fc-toolbar.fc-header-toolbar .fc-button{color:#ffff00;}
+.calendar-day .fc-axis.fc-time.fc-widget-content{background:#ffff00; color:#000;}
+.calendar-day .fc-time-grid .fc-event{
+    background:#ffff00; color:#000; border-color:#000!important;
+}
+.calendar-day .fc-time-grid .fc-event .fc-time{border-bottom:2px solid #000;}

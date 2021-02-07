@@ -741,8 +741,8 @@
             const calendarDay = new FullCalendar.Calendar($('#calendar-day')[0], {
                 plugins: [ 'interaction', 'timeGrid'],
                 header: {
-                    left: 'title',
-                    center: 'prev',
+                    left: 'prev',
+                    center: 'title',
                     right: 'next'
                 },
                 defaultView: 'timeGridDay',
