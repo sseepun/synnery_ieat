@@ -495,3 +495,13 @@ table.table-faq tr:nth-child(2n) > td{background:#fff;}
 .calendar-month a.fc-more{color:#999; border-color:#ccc;}
 .calendar-month a.fc-more:hover{color:#169f96;}
 .calendar-month .fc-day:hover{background:rgba(140,106,178,.25);}
+
+/* Calendar - Week */
+.calendar-week .custom-date .date-tag{background:#0f9684; color:#fff;}
+.calendar-week .custom-date.active .date-tag{background:#4b326e;}
+.calendar-week .fc-day-grid td.fc-widget-content{border-color:#ddd!important;}
+.calendar-week .fc-axis.fc-time.fc-widget-content{background:#eee; color:#000;}
+.calendar-week .fc-time-grid .fc-event{background:#8c6ab2; color:#fff;}
+.calendar-week .fc-time-grid .fc-event:hover{background:#5d4189;}
+.calendar-week .fc-time-grid .fc-event .fc-time{background:#4b326e;}
+.calendar-week .fc-toolbar.fc-header-toolbar .fc-button{color:#999;}

@@ -375,3 +375,11 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
     border-bottom:1px solid #ffff00; background:#000;
 }
 .calendar-month .fc-day:hover{background:rgba(255,255,0,.2);}
+
+/* Calendar - Week */
+.calendar-week .custom-date .date-tag{background:#ffff00; color:#000;}
+.calendar-week .fc-day-grid td.fc-widget-content{border-color:#ffff00!important;}
+.calendar-week .fc-axis.fc-time.fc-widget-content{background:#ffff00; color:#000;}
+.calendar-week .fc-time-grid .fc-event{background:#ffff00; color:#000;}
+.calendar-week .fc-time-grid .fc-event .fc-time{border-bottom:2px solid #000;}
+.calendar-week .fc-toolbar.fc-header-toolbar .fc-button{color:#ffff00;}

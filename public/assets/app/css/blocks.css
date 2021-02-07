@@ -912,6 +912,9 @@
     display:block; position:relative; width:1.75rem; text-align:center; padding:.3125rem 0;
     font-size:1.0625rem; font-weight:300; cursor:pointer;
 }
+.section-calendar.day .calendar-tabs .tab, .section-calendar.detail .calendar-tabs .tab{
+    background:transparent!important; border:0;
+}
 .section-calendar .calendar-tabs .tab .icon{
     display:block; width:1.5rem; height:1.625rem; text-align:center; line-height:1.625rem;
     font-size:1.1875rem; margin:.375rem auto 0 auto; transition:background .25s;
