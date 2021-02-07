@@ -75,6 +75,22 @@ $(function(){ 'use strict';
                 parent.append('<ul class="ss-list">'+html+'</ul>');
             }
         });
+
+        sidenavMenus.find('.menu > a').click(function(e){
+            var self = $(this);
+            if(self.attr('href')=='#'){
+                e.preventDefault();
+                self.closest('.menu').find('> ul.ss-list').slideToggle(900);
+            }
+        });
+        sidenavMenus.find('.menu > em').click(function(e){
+            e.preventDefault();
+            $(this).next().slideToggle(900);
+        });
+        sidenavMenus.find('.btn-icon').click(function(e){
+            e.preventDefault();
+            $(this).next().slideToggle(900);
+        });
     }
 
     // Footer

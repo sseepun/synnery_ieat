@@ -56,10 +56,12 @@ nav.topnav .hamburger > *{background:#fff;}
 .topnav-dropdown .dropdown-wrapper{background:#000!important; border:1px solid #fff;}
 
 /* Sidenav */
-nav.sidenav{background:#000;}
+nav.sidenav{background:#000; border-left:1px solid #fff;}
 nav.sidenav .hamburger > *{background:#fff;}
 nav.sidenav .scroll-wrapper, nav.sidenav .menu > a, nav.sidenav .item{border-color:#fff;}
 nav.sidenav .menu > a, nav.sidenav .item, nav.sidenav .item > a{color:#fff;}
+nav.sidenav .menu ul.ss-list > li > a{border-color:#fff;}
+nav.sidenav .menu ul.ss-list > li > a + .btn-icon{color:#fff;}
 
 /* Global Search Container */
 .global-search-container .hamburger > *{background:#fff;}

@@ -121,6 +121,9 @@ nav.sidenav .hamburger > *{background:#000;}
 nav.sidenav .scroll-wrapper, nav.sidenav .menu > a, nav.sidenav .item{border-color:#ddd;}
 nav.sidenav .menu > a, nav.sidenav .item, nav.sidenav .item > a{color:#000;}
 nav.sidenav .menu:hover > a, nav.sidenav .item:hover > a{color:#0f9684;}
+nav.sidenav .menu > em:hover{color:#0f9684;}
+nav.sidenav .menu ul.ss-list > li > a{border-color:#ddd;}
+nav.sidenav .menu ul.ss-list > li > a + .btn-icon{color:#000;}
 
 /* Global Search Container */
 .global-search-container .hamburger > *{background:#fff;}
