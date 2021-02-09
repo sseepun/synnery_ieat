@@ -38,6 +38,8 @@ select:focus, textarea:focus{
     border-color:#fff;
 }
 
+.field label.error{border-color:#ff0000!important; color:red; background:rgba(255,0,0,.15);}
+
 /* Input Wrappers */
 .select-wrapper::after{color:#fff;}
 .select-wrapper.icon-square::after{background:#fff; color:#000;}

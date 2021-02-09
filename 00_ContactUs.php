@@ -121,9 +121,12 @@
                                     </div>
                                 </div>
                                 <div class="grid lg-40 md-2-3 sm-90 mt-0">
-                                    <div class="field select-wrapper w-100">
-                                        <select class="sm bg-white w-100" required>
-                                            <option value="">เลือกหน่วยงาน</option>
+                                    <div class="field select-wrapper w-100 position-relative">
+                                        <select name="department" class="sm bg-white w-100" required>
+                                            <option value="">&nbsp;</option>
+                                            <option value="1">หน่วยงานที่ 1</option>
+                                            <option value="2">หน่วยงานที่ 2</option>
+                                            <option value="3">หน่วยงานที่ 3</option>
                                         </select>
                                     </div>
                                 </div>
@@ -139,8 +142,8 @@
                                     </div>
                                 </div>
                                 <div class="grid lg-40 md-2-3 sm-90 mt-0">
-                                    <div class="field">
-                                        <input type="text" class="sm bg-white" required title="Name" />
+                                    <div class="field position-relative">
+                                        <input type="text" name="fullname" class="sm bg-white" required title="Name" />
                                     </div>
                                 </div>
                                 <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0"></div>
@@ -155,8 +158,8 @@
                                     </div>
                                 </div>
                                 <div class="grid lg-40 md-2-3 sm-90 mt-0">
-                                    <div class="field">
-                                        <input type="email" class="sm bg-white" required title="Email" />
+                                    <div class="field position-relative">
+                                        <input type="email" name="email" class="sm bg-white" required title="Email" />
                                     </div>
                                 </div>
                                 <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0"></div>
@@ -171,8 +174,8 @@
                                     </div>
                                 </div>
                                 <div class="grid lg-40 md-2-3 sm-90 mt-0">
-                                    <div class="field">
-                                        <input type="text" class="sm bg-white" required title="Subject" />
+                                    <div class="field position-relative">
+                                        <input type="text" name="subject" class="sm bg-white" required title="Subject" />
                                     </div>
                                 </div>
                                 <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0"></div>
@@ -187,8 +190,8 @@
                                     </div>
                                 </div>
                                 <div class="grid lg-40 md-2-3 sm-90 mt-0">
-                                    <div class="field">
-                                        <textarea class="sm bg-white" rows="7" required title="Message"></textarea>
+                                    <div class="field position-relative">
+                                        <textarea name="message" class="sm bg-white" rows="7" required title="Message"></textarea>
                                     </div>
                                 </div>
                                 <div class="grid xl-15 lg-15 md-2-3 sm-90 mt-0"></div>
@@ -230,5 +233,55 @@
 
     <?php include_once('include/footer-inside.php'); ?>
     <?php include_once('include/script.php'); ?>
+
+    <script src="public/assets/lib/jquery-validation-1.19.3/jquery.validate.min.js"></script>
+    <script>
+        $('form.contact-form').validate({
+			rules: {
+				department: {
+                    required: true
+                },
+				fullname: {
+					required: true,
+					minlength: 3,
+                    maxlength: 64
+				},
+				email: {
+					required: true,
+					email: true
+				},
+				subject: {
+					required: true,
+                    maxlength: 256
+				},
+				message: {
+					required: true,
+					maxlength: 512
+				},
+			},
+			messages: {
+				department: {
+                    required: 'กรุณาเลือกหน่วยงาน'
+                },
+				fullname: {
+					required: 'กรุณาใส่ชื่อ-นามสกุล',
+					minlength: 'ชื่อ-นามสกุลขั้นต่ำ 3 ตัวอักษร',
+					maxlength: 'ชื่อ-นามสกุลสูงสุด 64 ตัวอักษร'
+				},
+				email: {
+					required: 'กรุณาใส่อีเมล',
+                    email: 'กรุณาใส่อีเมลที่ถูกต้อง'
+				},
+				subject: {
+					required: 'กรุณาใส่หัวข้อ',
+					maxlength: 'หัวข้อสูงสุด 256 ตัวอักษร'
+				},
+				message: {
+					required: 'กรุณาใส่ข้อความ',
+					maxlength: 'ข้อความสูงสุด 512 ตัวอักษร'
+				},
+			}
+		});
+    </script>
 </body>
 </html>

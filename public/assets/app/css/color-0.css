@@ -88,6 +88,8 @@ input[type=file]:focus, select:focus, textarea:focus{
     border-color:#59236e;
 }
 
+.field label.error{border-color:#ff0000!important; color:red; background:rgba(255,0,0,.15);}
+
 /* Input Wrappers */
 .select-wrapper::after{color:#000;}
 .select-wrapper.icon-square::after{background:#000; color:#fff;}
