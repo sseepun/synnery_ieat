@@ -300,14 +300,28 @@
 <!-- Quick Tab -->
 <div class="quick-tab">
     <div class="wrapper">
+
         <div class="tabs">
             <a class="tab btn-hover" href="#" data-tab="0">
-                <img src="public/assets/app/images/icon/access.png" alt="Icon" />
+                <img src="public/assets/app/images/icon/hex-4.png" alt="Icon" />
+                <div class="wrapper">
+                    <div class="inner-wrapper">
+                        <img class="tab-icon" src="public/assets/app/images/icon/icon-user.png" alt="Tab Icon" />
+                        <div class="p">การช่วย<br>การเข้าถึง</div>
+                    </div>
+                </div>
             </a>
             <a class="tab btn-hover" href="#" data-tab="1">
-                <img src="public/assets/app/images/icon/quicklink.png" alt="Icon" />
+                <img src="public/assets/app/images/icon/hex-5.png" alt="Icon" />
+                <div class="wrapper">
+                    <div class="inner-wrapper">
+                        <img class="tab-icon" src="public/assets/app/images/icon/icon-chain.png" alt="Tab Icon" />
+                        <div class="p">ลิงค์ด่วน</div>
+                    </div>
+                </div>
             </a>
         </div>
+
         <div class="tab-bar" data-tab="0">
             <div class="wrapper">
                 <div class="panel">
@@ -348,32 +362,86 @@
                 </div>
             </div>
         </div>
+
         <div class="tab-bar" data-tab="1" style="padding-top:.5rem;">
             <div class="wrapper">
                 <div class="bubbles">
                     <a class="bubble btn-hover pos pos-0" href="#">
-                        <img src="public/assets/app/images/icon/quicklink-ieat.png" alt="Bubble" />
+                        <img src="public/assets/app/images/icon/hex-1.png" alt="Bubble" />
+                        <div class="wrapper">
+                            <div class="inner-wrapper">
+                                <img class="bubble-icon" src="public/assets/app/images/client/07.png" alt="Bubble Icon" />
+                                <div class="h6">I-EA-T</div>
+                                <div class="p">Operation Center</div>
+                            </div>
+                        </div>
                     </a>
                     <a class="bubble btn-hover pos pos-1" href="#">
-                        <img src="public/assets/app/images/icon/quicklink-tsc.png" alt="Bubble" />
+                        <img src="public/assets/app/images/icon/hex-2.png" alt="Bubble" />
+                        <div class="wrapper">
+                            <div class="inner-wrapper">
+                                <img class="bubble-icon" src="public/assets/app/images/client/08.png" alt="Bubble Icon" />
+                                <div class="h6">TSC</div>
+                            </div>
+                        </div>
                     </a>
                     <a class="bubble btn-hover pos pos-2" href="#">
-                        <img src="public/assets/app/images/icon/quicklink-ieat.png" alt="Bubble" />
+                        <img src="public/assets/app/images/icon/hex-1.png" alt="Bubble" />
+                        <div class="wrapper">
+                            <div class="inner-wrapper">
+                                <img class="bubble-icon" src="public/assets/app/images/client/07.png" alt="Bubble Icon" />
+                                <div class="h6">I-EA-T</div>
+                                <div class="p">Operation Center</div>
+                            </div>
+                        </div>
                     </a>
                     <a class="bubble btn-hover pos pos-3" href="#">
-                        <img src="public/assets/app/images/icon/quicklink-tsc.png" alt="Bubble" />
+                        <img src="public/assets/app/images/icon/hex-2.png" alt="Bubble" />
+                        <div class="wrapper">
+                            <div class="inner-wrapper">
+                                <img class="bubble-icon" src="public/assets/app/images/client/08.png" alt="Bubble Icon" />
+                                <div class="h6">TSC</div>
+                            </div>
+                        </div>
                     </a>
                     <a class="bubble btn-hover pos pos-4" href="#">
-                        <img src="public/assets/app/images/icon/quicklink-ieat.png" alt="Bubble" />
+                        <img src="public/assets/app/images/icon/hex-1.png" alt="Bubble" />
+                        <div class="wrapper">
+                            <div class="inner-wrapper">
+                                <img class="bubble-icon" src="public/assets/app/images/client/07.png" alt="Bubble Icon" />
+                                <div class="h6">I-EA-T</div>
+                                <div class="p">Operation Center</div>
+                            </div>
+                        </div>
                     </a>
                     <a class="bubble btn-hover pos pos-5" href="#">
-                        <img src="public/assets/app/images/icon/quicklink-tsc.png" alt="Bubble" />
+                        <img src="public/assets/app/images/icon/hex-2.png" alt="Bubble" />
+                        <div class="wrapper">
+                            <div class="inner-wrapper">
+                                <img class="bubble-icon" src="public/assets/app/images/client/08.png" alt="Bubble Icon" />
+                                <div class="h6">TSC</div>
+                            </div>
+                        </div>
                     </a>
                     <a class="bubble btn-hover pos pos-6" href="#">
-                        <img src="public/assets/app/images/icon/quicklink-eco.png" alt="Bubble" />
+                        <img src="public/assets/app/images/icon/hex-3.png" alt="Bubble" />
+                        <div class="wrapper">
+                            <div class="inner-wrapper">
+                                <img class="bubble-icon" src="public/assets/app/images/client/09.png" alt="Bubble Icon" />
+                                <div class="h6">Eco</div>
+                                <div class="p">Challenge</div>
+                            </div>
+                        </div>
                     </a>
                     <a class="bubble btn-hover" href="#">
-                        <img src="public/assets/app/images/icon/quicklink-eco.png" alt="Bubble" />
+                        <img src="public/assets/app/images/icon/hex-3.png" alt="Bubble" />
+                        <div class="wrapper">
+                            <div class="inner-wrapper">
+                                <img class="bubble-icon" src="public/assets/app/images/client/09.png" alt="Bubble Icon" />
+                                <div class="h6">Eco</div>
+                                <div class="p">Challenge</div>
+                            </div>
+                        </div>
                     </a>
                 </div>
                 <div class="bar">
@@ -386,5 +454,6 @@
                 </div>
             </div>
         </div>
+
     </div>
 </div>
