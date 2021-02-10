@@ -59,8 +59,38 @@ $(function(){ 'use strict';
 
         // Generate sidenav
         sidenavMenus.html( topnav.find('.menu-container').html() );
-        sidenavMenus.find('.menu.menu-icon').remove();
+        sidenavMenus.find('.menu.menu-icon').last().remove();
+        sidenavMenus.find('.menu.menu-icon').last().find('> a').html('อื่นๆ');
+        sidenavMenus.find('.menu > a').each(function(){
+            var self = $(this),
+                target = topnavDropdownWrappers
+                    .filter('[data-dropdown="'+self.data('dropdown')+'"]');
+            if(target.length){
+                var parent = self.parent(),
+                    html = '';
+                parent.append('<em class="zmdi zmdi-chevron-down"></em>');
+                target.find('.ss-list').each(function(){
+                    html += $(this).html();
+                });
+                parent.append('<ul class="ss-list">'+html+'</ul>');
+            }
+        });
 
+        sidenavMenus.find('.menu > a').click(function(e){
+            var self = $(this);
+            if(self.attr('href')=='#'){
+                e.preventDefault();
+                self.closest('.menu').find('> ul.ss-list').slideToggle(900);
+            }
+        });
+        sidenavMenus.find('.menu > em').click(function(e){
+            e.preventDefault();
+            $(this).next().slideToggle(900);
+        });
+        sidenavMenus.find('.btn-icon').click(function(e){
+            e.preventDefault();
+            $(this).next().slideToggle(900);
+        });
     }
 
     // Footer
@@ -542,41 +572,39 @@ $(function(){ 'use strict';
     if(tabContainers.length){
         tabContainers.each(function(){
             var self = $(this);
-            var tabs = self.find('.tabs .tab'),
-                tabChildren = self.find('.tabs .tab-children'),
-                tabContents = self.find('.tab-contents .tab-content');
-            if(self.hasClass('tab-global')){
-                var temp = $('.tab-container.tab-global-target');
-                tabContents = temp.find('.tab-contents .tab-content');
-            }
-            tabs.click(function(e){
-                var temp = $(this),
-                    tabId = temp.data('tab');
-                if(tabId!==undefined){
-                    var target = tabContents.filter('[data-tab="'+tabId+'"]');
-                    if(target.length){
-                        e.preventDefault();
+            if(!self.hasClass('tab-local') && !self.hasClass('tab-local-target')){
+                var tabs = self.find('.tabs .tab'),
+                    tabChildren = self.find('.tabs .tab-children'),
+                    tabContents = self.find('.tab-contents .tab-content');
+                tabs.click(function(e){
+                    var temp = $(this),
+                        tabId = temp.data('tab');
+                    if(tabId!==undefined){
+                        var target = tabContents.filter('[data-tab="'+tabId+'"]');
+                        if(target.length){
+                            e.preventDefault();
 
-                        tabChildren.stop().slideUp();
-                        var children = temp.next();
-                        if(children.hasClass('tab-children')){
-                            children.stop().slideDown();
+                            tabChildren.stop().slideUp();
+                            var children = temp.next();
+                            if(children.hasClass('tab-children')){
+                                children.stop().slideDown();
+                            }
+
+                            tabs.removeClass('active');
+                            temp.addClass('active');
+                            tabContents.removeClass('active');
+                            target.addClass('active');
+
+                            var slides = target.find('.slide-container > .slides');
+                            if(slides.length){
+                                slides.slick('setPosition');
+                            }
+
+                            AOS.refresh();
                         }
-
-                        tabs.removeClass('active');
-                        temp.addClass('active');
-                        tabContents.removeClass('active');
-                        target.addClass('active');
-
-                        var slides = target.find('.slide-container > .slides');
-                        if(slides.length){
-                            slides.slick('setPosition');
-                        }
-
-                        AOS.refresh();
                     }
-                }
-            });
+                });
+            }
         });
     }
 

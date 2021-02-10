@@ -38,6 +38,8 @@ select:focus, textarea:focus{
     border-color:#fff;
 }
 
+.field label.error{border-color:#ff0000!important; color:red; background:rgba(255,0,0,.15);}
+
 /* Input Wrappers */
 .select-wrapper::after{color:#fff;}
 .select-wrapper.icon-square::after{background:#fff; color:#000;}
@@ -56,10 +58,12 @@ nav.topnav .hamburger > *{background:#fff;}
 .topnav-dropdown .dropdown-wrapper{background:#000!important; border:1px solid #fff;}
 
 /* Sidenav */
-nav.sidenav{background:#000;}
+nav.sidenav{background:#000; border-left:1px solid #fff;}
 nav.sidenav .hamburger > *{background:#fff;}
 nav.sidenav .scroll-wrapper, nav.sidenav .menu > a, nav.sidenav .item{border-color:#fff;}
 nav.sidenav .menu > a, nav.sidenav .item, nav.sidenav .item > a{color:#fff;}
+nav.sidenav .menu ul.ss-list > li > a{border-color:#fff;}
+nav.sidenav .menu ul.ss-list > li > a + .btn-icon{color:#fff;}
 
 /* Global Search Container */
 .global-search-container .hamburger > *{background:#fff;}
@@ -171,6 +175,9 @@ nav.footer .tag{background:#fff; color:#000;}
 .ss-card-06 .text-container{border:0;}
 .ss-card-06:hover .text-container{color:#fff; background:#000;}
 .ss-card-06:hover a.title{color:#fff;}
+
+/* Special Card 07 */
+.ss-card-07:hover .ss-stat .stat > .icon{color:#000;}
 
 
 /* Special Date */
@@ -372,3 +379,20 @@ table.table-faq td{border-color:#fff!important; border-bottom:1px solid #fff;}
     border-bottom:1px solid #fff; background:#000;
 }
 .calendar-month .fc-day:hover{background:rgba(255,255,255,.2);}
+
+/* Calendar - Week */
+.calendar-week .custom-date .date-tag{background:#fff; color:#000;}
+.calendar-week .fc-day-grid td.fc-widget-content{border-color:#fff!important;}
+.calendar-week .fc-axis.fc-time.fc-widget-content{background:#fff; color:#000;}
+.calendar-week .fc-time-grid .fc-event{background:#fff; color:#000;}
+.calendar-week .fc-time-grid .fc-event .fc-time{border-bottom:2px solid #000;}
+.calendar-week .fc-toolbar.fc-header-toolbar .fc-button{color:#fff;}
+
+/* Calendar - Day */
+.calendar-day .fc-toolbar.fc-header-toolbar{border-color:#fff!important; color:#fff;}
+.calendar-day .fc-toolbar.fc-header-toolbar .fc-button{color:#fff;}
+.calendar-day .fc-axis.fc-time.fc-widget-content{background:#fff; color:#000;}
+.calendar-day .fc-time-grid .fc-event{
+    background:#fff; color:#000; border-color:#000!important;
+}
+.calendar-day .fc-time-grid .fc-event .fc-time{border-bottom:2px solid #000;}

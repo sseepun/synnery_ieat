@@ -451,7 +451,7 @@
                                 <td>
                                     <div class="content-footer">
                                         <div class="content-row no-border px-0 py-0">
-                                            <h6 class="fw-500">เอกสารแนบ</h6>
+                                            <!-- <h6 class="fw-500">เอกสารแนบ</h6> -->
                                             <table class="table table-download">
                                                 <tbody>
                                                     <tr>

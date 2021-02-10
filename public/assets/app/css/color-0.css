@@ -88,6 +88,8 @@ input[type=file]:focus, select:focus, textarea:focus{
     border-color:#59236e;
 }
 
+.field label.error{border-color:#ff0000!important; color:red; background:rgba(255,0,0,.15);}
+
 /* Input Wrappers */
 .select-wrapper::after{color:#000;}
 .select-wrapper.icon-square::after{background:#000; color:#fff;}
@@ -121,6 +123,9 @@ nav.sidenav .hamburger > *{background:#000;}
 nav.sidenav .scroll-wrapper, nav.sidenav .menu > a, nav.sidenav .item{border-color:#ddd;}
 nav.sidenav .menu > a, nav.sidenav .item, nav.sidenav .item > a{color:#000;}
 nav.sidenav .menu:hover > a, nav.sidenav .item:hover > a{color:#0f9684;}
+nav.sidenav .menu > em:hover{color:#0f9684;}
+nav.sidenav .menu ul.ss-list > li > a{border-color:#ddd;}
+nav.sidenav .menu ul.ss-list > li > a + .btn-icon{color:#000;}
 
 /* Global Search Container */
 .global-search-container .hamburger > *{background:#fff;}
@@ -241,6 +246,10 @@ nav.footer .tag{
 /* Special Card 06 */
 .ss-card-06:hover .text-container{color:#000; background:#fff;}
 .ss-card-06:hover a.title{color:#000;}
+
+/* Special Card 07 */
+.ss-card-07 .text-container{background:#fff;}
+.ss-card-07:hover .ss-stat .stat > .icon{color:#fff;}
 
 
 /* Special Date */
@@ -492,3 +501,22 @@ table.table-faq tr:nth-child(2n) > td{background:#fff;}
 .calendar-month a.fc-more{color:#999; border-color:#ccc;}
 .calendar-month a.fc-more:hover{color:#169f96;}
 .calendar-month .fc-day:hover{background:rgba(140,106,178,.25);}
+.calendar-month .fc-event-container{background:#f5f5f5;}
+
+/* Calendar - Week */
+.calendar-week .custom-date .date-tag{background:#0f9684; color:#fff;}
+.calendar-week .custom-date.active .date-tag{background:#4b326e;}
+.calendar-week .fc-day-grid td.fc-widget-content{border-color:#ddd!important;}
+.calendar-week .fc-axis.fc-time.fc-widget-content{background:#eee; color:#000;}
+.calendar-week .fc-time-grid .fc-event{background:#8c6ab2; color:#fff;}
+.calendar-week .fc-time-grid .fc-event:hover{background:#5d4189;}
+.calendar-week .fc-time-grid .fc-event .fc-time{background:#4b326e;}
+.calendar-week .fc-toolbar.fc-header-toolbar .fc-button{color:#999;}
+
+/* Calendar - Day */
+.calendar-day .fc-toolbar.fc-header-toolbar{border-color:#ddd!important;}
+.calendar-day .fc-toolbar.fc-header-toolbar .fc-button{color:#999;}
+.calendar-day .fc-axis.fc-time.fc-widget-content{background:#eee; color:#000;}
+.calendar-day .fc-time-grid .fc-event{background:#8c6ab2; color:#fff; border-color:#fff;}
+.calendar-day .fc-time-grid .fc-event:hover{background:#5d4189;}
+.calendar-day .fc-time-grid .fc-event .fc-time{background:#4b326e;}
