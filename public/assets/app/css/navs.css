@@ -236,9 +236,13 @@ nav.sidenav .menu ul.ss-list > li > a + .btn-icon{
 .quick-tab .top-panel{background:#803f97; color:#fff;}
 .quick-tab .bottom-panel{background:#5c2576; color:#fff;}
 .quick-tab .btn-font-size, .quick-tab .btn-theme{
-    display:block; width:1.5625rem; margin:0 0 0 .1875rem;
+    display:block; position:relative; width:1.5625rem; margin:0 0 0 .1875rem;
 }
 .quick-tab .btn-font-size:nth-child(1), .quick-tab .btn-theme:nth-child(1){margin-left:.75rem;}
+.quick-tab .btn-font-size > .wrapper, .quick-tab .btn-theme > .wrapper{
+    position:absolute; top:0; bottom:0; left:0; right:0; display:flex; align-items:center;
+    justify-content:center; font-size:1.375rem; font-weight:300; color:#6ff5fb;
+}
 .quick-tab .bubbles{position:relative; transform:translate(-7.4375rem, 2.4375rem);}
 .quick-tab .bubble{position:relative; display:block; width:5.5rem;}
 .quick-tab .bubble.pos{

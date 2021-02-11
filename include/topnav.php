@@ -327,7 +327,8 @@
                                 <img src="public/assets/app/images/icon/font-0.png" alt="Icon" />
                             </a>
                             <a class="btn-font-size btn-hover" href="#" data-size="0">
-                                <img src="public/assets/app/images/icon/font-1.png" alt="Icon" />
+                                <img src="public/assets/app/images/icon/hex-6.png" alt="Icon" />
+                                <div class="wrapper" style="color:#fff;">ก</div>
                             </a>
                             <a class="btn-font-size btn-hover" href="#" data-size="1">
                                 <img src="public/assets/app/images/icon/font-2.png" alt="Icon" />
@@ -336,13 +337,16 @@
                         <div class="bottom-panel">
                             ความตัดกันของสี
                             <a class="btn-theme btn-hover" href="#" data-theme="0">
-                                <img src="public/assets/app/images/icon/theme-0.png" alt="Icon" />
+                                <img src="public/assets/app/images/icon/hex-6.png" alt="Icon" />
+                                <div class="wrapper">ก</div>
                             </a>
                             <a class="btn-theme btn-hover" href="#" data-theme="1">
-                                <img src="public/assets/app/images/icon/theme-1.png" alt="Icon" />
+                                <img src="public/assets/app/images/icon/hex-7.png" alt="Icon" />
+                                <div class="wrapper">น</div>
                             </a>
                             <a class="btn-theme btn-hover" href="#" data-theme="2">
-                                <img src="public/assets/app/images/icon/theme-2.png" alt="Icon" />
+                                <img src="public/assets/app/images/icon/hex-8.png" alt="Icon" />
+                                <div class="wrapper" style="color:#000;">อ</div>
                             </a>
                         </div>
                     </div>
