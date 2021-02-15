@@ -160,6 +160,12 @@ nav.footer .tag{background:#fff; color:#000;}
 .ss-card a.title{color:#fff;}
 .ss-card:hover a.title, .ss-card:hover table td{color:#000;}
 
+/* Special Card 01 */
+.ss-card-01:hover .ss-stat .stat > .icon{color:#000;}
+
+/* Special Card 03 */
+.ss-card-03:hover .ss-stat .stat > .icon{color:#000;}
+
 /* Special Card 05 */
 .ss-card-05 .text-container{background:#000; border-color:#fff;}
 .ss-card-05:hover .text-container h3{color:#000!important;}
@@ -178,6 +184,9 @@ nav.footer .tag{background:#fff; color:#000;}
 
 /* Special Card 07 */
 .ss-card-07:hover .ss-stat .stat > .icon{color:#000;}
+
+/* Special Card 08 */
+.ss-card-08:hover .text-container > .options *{color:#000!important;}
 
 
 /* Special Date */

@@ -244,11 +244,16 @@
                         <div class="container">
                             <div class="slide-container slide-month">
                                 <div class="slides">
-                                    <?php for($i=30; $i>=0; $i--){?>
-                                        <div class="slide" data-year="<?= 2579-$i-543 ?>" data-index="<?= 30-$i ?>">
+                                    <?php
+                                        foreach([
+                                            'ม.ก.', 'ก.พ.', 'มี.ค.', 'เม.ย.', 'พ.ค.', 'มิ.ย.', 
+                                            'ก.ค.', 'ส.ค.', 'ก.ย.', 'ต.ค.', 'พ.ย.', 'ธ.ค.'
+                                        ] as $i=>$d){
+                                    ?>
+                                        <div class="slide" data-month="<?= $i ?>" data-index="<?= $i ?>">
                                             <div class="wrapper">
-                                                <div class="p">พ.ศ.</div>
-                                                <div class="h5"><?= 2579-$i ?></div>
+                                                <p>เดือน</p>
+                                                <h5><?= $d ?></h5>
                                             </div>
                                         </div>
                                     <?php }?>
@@ -258,172 +263,156 @@
                         </div>
                     </div>
 
+                    <div class="middle-container">
+                        <div class="container">
+                            <div class="slide-container calendar-tabs">
+                                <div class="slides">
+                                    <?php
+                                        $days = ['อา.', 'จ.', 'อ.', 'พ.', 'พฤ.', 'ศ.', 'ส.'];
+                                        for($i=1; $i<=31; $i++){
+                                    ?>
+                                        <div class="slide">
+                                            <div class="tab">
+                                                <div class="d"><?= $days[$i%7] ?></div>
+                                                <div class="icon btn-hex">
+                                                    <?= sprintf('%02d', $i) ?>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php }?>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="bottom-container section-padding pt-0 ovf-hidden">
                         <div class="container">
-                            <?php include('component/grid-header.php'); ?>
-                            <div class="tab-container tab-container-01">
-                                <div class="grids">
+                            <div class="grids">
 
-                                    <div class="grid xl-20 lg-25 sm-100">
-                                        <div class="tabs mt-0">
-                                            <div class="ss-box-shadow"></div>
-                                            <a class="tab tab-main color-black h-color-04 no-border active" href="#">
-                                                <div class="icon">
-                                                    <img src="public/assets/app/images/icon/tab-4.png" alt="Icon" />
-                                                </div>
-                                                <h6>กิจกรรมประชาสัมพันธ์</h6>
-                                            </a>
-                                            <a class="tab tab-main color-black h-color-04 no-border" href="#">
-                                                <div class="icon">
-                                                    <img src="public/assets/app/images/icon/tab-8.png" alt="Icon" />
-                                                </div>
-                                                <h6>สัมนาเเละประชุม</h6>
-                                            </a>
+                                <div class="grid xl-75 lg-70 sm-100">
+                                    <div class="ss-box padding-pull-right">
+                                        <div class="content-float-date">
+                                            <div class="d">04</div>
+                                            <div class="m-y">09.2563</div>
                                         </div>
-                                    </div>
-
-                                    <div class="grid xl-80 lg-75 sm-100 mt-0" data-aos="fade-up" data-aos-delay="750">
-                                        <div class="grids">
-                                            <div class="grid sm-100">
-
-                                                <div class="ss-card ss-card-03">
-                                                    <a class="ss-img" href="#">
-                                                        <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
-                                                        <div class="hover-container">
-                                                            <div class="icon">
-                                                                <img src="public/assets/app/images/icon/06.png" alt="Icon" />
-                                                            </div>
+                                        <h5 class="h4 fw-500">
+                                            วาระการประชุม ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสารลงดิน วางระบบ 5G ในนิคมอุตสาหกรรม
+                                        </h5>
+                                        
+                                        <div class="grids mt-3">
+                                            <div class="grid sm-40 mt-0">
+                                                <div class="ss-stat mt-0">
+                                                    <div class="stat icon-only fit-text mt-0">
+                                                        <div class="icon">
+                                                            <em class="zmdi zmdi-calendar"></em>
                                                         </div>
-                                                        <div class="date bg-05">
-                                                            <div class="d">04</div>
-                                                            <div class="m-y">09.2563</div>
-                                                        </div>
-                                                        <div class="tag-star">
-                                                            <img src="public/assets/app/images/icon/star.png" alt="Icon" />
-                                                        </div>
-                                                    </a>
-                                                    <div class="text-container">
-                                                        <div class="wrapper">
-                                                            <div class="ss-box-shadow fade-right"></div>
-                                                            <div class="text-wrapper">
-                                                                <a class="title h4" href="#">
-                                                                    กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบ
-                                                                    สายสื่อสารลงดิน วางระบบ 5G
-                                                                </a>
-                                                                <p class="desc mt-1" style="-webkit-line-clamp:2;">
-                                                                    บอร์ดกนอ.ไฟเขียวลงทุนนำสายสื่อสารในนิคมอุตสาหกรรมลงใต้ดิน 
-                                                                    รองรับ Smart City เตรียมวางระบบ 5 G ครอบคลุมพื้นที่นิคมอุตสาห
-                                                                    กรรรม 14 แห่ง และท่าเรืออุตสาหกรรม 1 แห่ง คาดเริ่มได้ปี’67  
-                                                                </p>
-                                                                <div class="grids mt-1">
-                                                                    <div class="grid sm-50 mt-0">
-                                                                        <div class="ss-stat mt-0">
-                                                                            <div class="stat icon-only fit-text mt-0">
-                                                                                <div class="icon">
-                                                                                    <em class="zmdi zmdi-calendar"></em>
-                                                                                </div>
-                                                                                <p><span class="fw-600">วันที่</span> 12/09/2563</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="grid sm-50 mt-0">
-                                                                        <div class="ss-stat mt-0">
-                                                                            <div class="stat icon-only fit-text mt-0">
-                                                                                <div class="icon">
-                                                                                    <em class="zmdi zmdi-time"></em>
-                                                                                </div>
-                                                                                <p><span class="fw-600">เวลา</span> 12.45 น.</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="grid sm-100 mt-0">
-                                                                        <div class="ss-stat mt-0">
-                                                                            <div class="stat icon-only fit-text ai-start mt-0">
-                                                                                <div class="icon">
-                                                                                    <em class="zmdi zmdi-pin"></em>
-                                                                                </div>
-                                                                                <p class="ws-normal">
-                                                                                    <span class="fw-600">สถานที่</span> <br>
-                                                                                    618 ถนนนิคมมักกะสัน เเขวงมักกะสัน เขตราชเทวี กรุงเทพมหานคร
-                                                                                </p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="ss-tag mt-3">
-                                                                    <div class="text">TAG :</div> 
-                                                                    <div class="tags">
-                                                                        <a class="tag" href="#">นิคมอุตสาหกรรม</a>
-                                                                        <a class="tag" href="#">กนอ.</a>
-                                                                        <a class="tag" href="#">5G</a>
-                                                                        <a class="tag" href="#">สายสื่อสาร</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
+                                                        <p><span class="fw-500">วันที่</span> 12/09/2563</p>
                                                     </div>
                                                 </div>
-
-                                            </div>
-                                            <div class="grid sm-100 mt-0">
-                                                <div class="grids">
-                                                    <?php for($j=0; $j<9; $j++){?>
-                                                        <div class="grid md-1-3 sm-50">
-                                                            <div class="ss-card ss-card-01">
-                                                                <a class="ss-img" href="#">
-                                                                    <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
-                                                                    <div class="hover-container">
-                                                                        <div class="icon">
-                                                                            <img src="public/assets/app/images/icon/06.png" alt="Icon" />
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="date">
-                                                                        <div class="d">04</div>
-                                                                        <div class="m-y">09.2563</div>
-                                                                    </div>
-                                                                </a>
-                                                                <div class="text-container">
-                                                                    <div class="ss-box-shadow"></div>
-                                                                    <div class="text-wrapper">
-                                                                        <a class="title h6 fw-600" href="#">
-                                                                            กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบ
-                                                                            สายสื่อสารลงดิน วางระบบ 5G
-                                                                        </a>
-                                                                        <div class="ss-stat mt-1">
-                                                                            <div class="stat icon-only fit-text width-full">
-                                                                                <div class="icon">
-                                                                                    <em class="zmdi zmdi-calendar"></em>
-                                                                                </div>
-                                                                                <p><span class="fw-600">วันที่</span> 12/09/2563</p>
-                                                                            </div>
-                                                                            <div class="stat icon-only fit-text width-full">
-                                                                                <div class="icon">
-                                                                                    <em class="zmdi zmdi-time"></em>
-                                                                                </div>
-                                                                                <p><span class="fw-600">เวลา</span> 12.45</p>
-                                                                            </div>
-                                                                            <div class="stat icon-only fit-text width-full ai-start">
-                                                                                <div class="icon">
-                                                                                    <em class="zmdi zmdi-pin"></em>
-                                                                                </div>
-                                                                                <p class="ws-normal">
-                                                                                    <span class="fw-600">สถานที่</span> <br>
-                                                                                    618 ถนนนิคมมักกะสัน เเขวงมักกะสัน เขตราชเทวี กรุงเทพมหานคร
-                                                                                </p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                                <div class="ss-stat mt-0">
+                                                    <div class="stat icon-only fit-text mt-0">
+                                                        <div class="icon">
+                                                            <em class="zmdi zmdi-time"></em>
                                                         </div>
-                                                    <?php }?> 
+                                                        <p><span class="fw-500">เวลา</span> 12.45 น.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="grid sm-60 mt-0">
+                                                <div class="ss-stat mt-0">
+                                                    <div class="stat icon-only fit-text ai-start mt-0">
+                                                        <div class="icon">
+                                                            <em class="zmdi zmdi-pin"></em>
+                                                        </div>
+                                                        <p class="ws-normal">
+                                                            <span class="fw-500">สถานที่</span>
+                                                            618 ถนนนิคมมักกะสัน เเขวงมักกะสัน เขตราชเทวี กรุงเทพมหานคร
+                                                        </p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <?php include('component/grid-footer.php'); ?>
-                                    </div>
 
+                                        <div class="content-banner mt-3">
+                                            <div class="ss-img">
+                                                <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
+                                            </div>
+                                        </div>
+                                        
+                                        <h6 class="fw-500 mt-4">
+                                            รายละเอียด : 
+                                        </h6>
+                                        <p class="mt-3">
+                                            กนอ.ดำเนินธุรกิจจัดตั้งนิคมอุตสาหกรรมพร้อมให้บริการระบบสาธารณูปโภคอย่างครบวงจร 
+                                            และสร้างมูลค่าเพิ่มให้กับนิคมอุตสาหกรรมที่ กนอ. ดำเนินงานเอง 
+                                            รวมทั้งส่งสริมภาคเอกชนเป็นผู้จัดตั้งนิคมอุตสาหกรรมเพื่อรองรับการประกอบกิจการโรงงานอุตสาหกรรมให้อยู่รวมกัน 
+                                            โดย กนอ.จะสามารถให้บริการระบบสาธารณูปโภค และบริหารจัดการนิคมอุตสาหกรรมได้อย่างเป็นระบบและรวมถึงการบริหารจัดการด้าน
+                                            สิ่งแวดล้อม ก่อให้เกิดการกระจายความเจริญทางเศรษฐกิจและอุตสาหกรรมไปสู่ภูมิภาคของประเทศอย่างสมดุลและยั่งยืน
+                                        </p>
+                                        <p class="mt-3">
+                                            โดยอุตสาหกรรมดิจิทัล เป็นหนึ่งในกลุ่มอุตสาหกรรมที่ใช้เทคโนโลยีขั้นสูง และเป็นอุตสาหกรรมเป้าหมายของการพัฒนาในพื้นที่อีอีซี 
+                                            ซึ่งนักลงทุนต่างชาติโดยเฉพาะนักลงทุนจีนได้ย้ายฐานการผลิตมายังภูมิภาคอาเซียนจนยอดการลงทุนโดยตรงจากจากต่างประเทศ 
+                                            (Foreign Direct Investment : FDI) เพิ่มมากขึ้นถึงแม้ว่าในช่วงไตรมาส 2 จะชะลอตัวลงเล็กน้อยจากสถานการณ์โควิด-19 
+                                            แต่หลังจากที่รัฐบาลได้ประกาศผ่อนปรนมาตรการต่างๆ ทำให้บรรยากาศการลงทุนเริ่มกลับมาคึกคักอีกครั้ง
+                                        </p>
+                                        
+                                        <div class="mt-5 pt-1">
+                                            <?php include('component/content-footer.php'); ?>
+                                        </div>
+                                    </div>
                                 </div>
+
+                                <div class="grid xl-25 lg-30 sm-100 calendar-contents">
+                                    <h4 class="lg fw-400 color-01">
+                                        กิจกรรมถัดมา
+                                    </h4>
+                                    <div class="grids">
+                                        <?php for($j=0; $j<3; $j++){?>
+                                            <div class="grid lg-100 md-50 sm-50 mt-3 calendar-content">
+                                                <a class="ss-img mb-2" href="#">
+                                                    <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/17.jpg"></div>
+                                                    <div class="hover-container">
+                                                        <div class="icon">
+                                                            <img src="public/assets/app/images/icon/06.png" alt="Icon" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="date">
+                                                        <div class="d">04</div>
+                                                        <div class="m-y">09.2563</div>
+                                                    </div>
+                                                </a>
+                                                <a class="h6 fw-600 color-black h-color-04" href="#">
+                                                    กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบ
+                                                    สายสื่อสารลงดิน วางระบบ 5G
+                                                </a>
+                                                <div class="ss-stat mt-1">
+                                                    <div class="stat icon-only fit-text width-full">
+                                                        <div class="icon">
+                                                            <em class="zmdi zmdi-calendar"></em>
+                                                        </div>
+                                                        <p><span class="fw-500">วันที่</span> 12/09/2563</p>
+                                                    </div>
+                                                    <div class="stat icon-only fit-text width-full">
+                                                        <div class="icon">
+                                                            <em class="zmdi zmdi-time"></em>
+                                                        </div>
+                                                        <p><span class="fw-500">เวลา</span> 12.45</p>
+                                                    </div>
+                                                    <div class="stat icon-only fit-text width-full ai-start">
+                                                        <div class="icon">
+                                                            <em class="zmdi zmdi-pin"></em>
+                                                        </div>
+                                                        <p class="ws-normal">
+                                                            <span class="fw-500">สถานที่</span>
+                                                            618 ถนนนิคมมักกะสัน เเขวงมักกะสัน เขตราชเทวี กรุงเทพมหานคร
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <?php }?>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -908,15 +897,30 @@
                 focusOnSelect: true, autoplay: false, speed: 600, 
                 swipe: false, touchMove: false, swipeToSlide: false,
                 dots: false, arrows: true, appendArrows: slideDetailMonth.find('> .arrows'),
-                initialSlide: detailSlides
-                    .filter('[data-year="'+today.getFullYear()+'"]')
-                    .data('index'),
+                initialSlide: detailSlides.filter('[data-month="'+today.getMonth()+'"]').data('index'),
                 responsive: [
                     { breakpoint: 1299.98, settings: { slidesToShow: 7, } },
                     { breakpoint: 1199.98, settings: { slidesToShow: 6, } },
                     { breakpoint: 991.98, settings: { slidesToShow: 5, } },
                     { breakpoint: 767.98, settings: { slidesToShow: 4, } },
                     { breakpoint: 575.98, settings: { slidesToShow: 3, } },
+                ]
+            });
+
+            // Calendar Day Tabs
+            var detailDayTabs = sectionCalendarDetail.find('.slide-container.calendar-tabs');
+            detailDayTabs.find('> .slides').slick({
+                centerMode: true, centerPadding: 0, slidesToShow: 27, infinite: true,
+                focusOnSelect: true, autoplay: false, speed: 600, 
+                swipe: false, touchMove: false, swipeToSlide: false,
+                dots: false, arrows: false,
+                initialSlide: today.getDate(),
+                responsive: [
+                    { breakpoint: 1299.98, settings: { slidesToShow: 25, } },
+                    { breakpoint: 1199.98, settings: { slidesToShow: 21, } },
+                    { breakpoint: 991.98, settings: { slidesToShow: 17, } },
+                    { breakpoint: 767.98, settings: { slidesToShow: 13, } },
+                    { breakpoint: 575.98, settings: { slidesToShow: 7, } },
                 ]
             });
             

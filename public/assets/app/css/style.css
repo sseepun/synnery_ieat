@@ -802,6 +802,42 @@ img.content-img-float.left{float:left; margin:0 3rem 1.5rem 0;}
     }
 }
 
+/* Special Card 08 */
+.ss-card-08{position:relative; padding:0 calc(100% - 21rem) 0 0;}
+.ss-card-08 .text-container{
+    position:absolute; top:.75rem; bottom:.75rem; right:0; width:calc(100% - 19.75rem);
+    display:flex; transition:color .25s, background .25s;
+}
+.ss-card-08 .text-container > .wrapper{
+    position:relative; height:100%; padding:.75rem 2rem 1rem 2rem; 
+    display:flex; align-items:center; width:calc(100% - 12rem);
+}
+.ss-card-08 .text-container > .options{width:12rem;}
+.ss-card-08 .text-container > .options > .option{
+    display:flex; align-items:center; flex-wrap:wrap; width:100%; height:50%;
+    padding:1rem 1.5rem; font-size:1.3125rem; font-weight:300;
+}
+.ss-card-08 .text-container > .options .icon > img{
+    display:block; width:auto; max-width:1rem; height:auto; max-height:.875rem;
+}
+.ss-card-08 .title{-webkit-line-clamp:1;}
+@media screen and (max-width:991.98px){
+    .ss-card-08{padding:0;}
+    .ss-card-08 .text-container{
+        position:relative; width:calc(100% - 1.375rem); top:auto; bottom:auto;
+        margin:-1.125rem .6875rem 0 .6875rem;
+    }
+}
+@media screen and (max-width:767.98px){
+    .ss-card-08 .text-container{flex-wrap:wrap; height:auto;}
+    .ss-card-08 .text-container > .wrapper{width:100%; padding:1rem 1.25rem 1.25rem 1.25rem;}
+    .ss-card-08 .text-container > .options{width:100%; display:flex;}
+    .ss-card-08 .text-container > .options > .option{
+        width:50%; height:100%; padding:1rem 1.25rem; font-size:1.25rem;
+    }
+    .ss-card-08 .title{-webkit-line-clamp:unset;}
+}
+
 
 /* Special Date */
 .ss-date{width:100%; position:relative;}
@@ -866,6 +902,15 @@ img.content-img-float.left{float:left; margin:0 3rem 1.5rem 0;}
 
 .ss-img .content-info{position:absolute; bottom:0; left:0; width:100%;}
 .ss-img .content-info .text-wrapper{padding:1.5rem 3rem 1.5rem 1.5rem;}
+
+.ss-img > .ss-options{
+    position:absolute; bottom:.75rem; left:.5rem; right:.5rem; text-align:center;
+    font-size:1.25rem; font-weight:400;
+}
+.ss-img > .ss-options a{margin:0 1rem 0 0; transition:opacity .25s;}
+.ss-img > .ss-options a:last-child{margin:0;}
+.ss-img > .ss-options a:hover{opacity:.7;}
+.ss-img > .ss-options a > img{display:inline-block; height:1.25rem; width:auto; margin:0 .25rem 0 0;}
 
 @media screen and (max-width:767.98px){
     .ss-img .content-info .text-wrapper{padding:1rem 4rem 1rem 1rem;}

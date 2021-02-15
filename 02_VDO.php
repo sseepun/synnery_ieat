@@ -39,13 +39,13 @@
                                 <div class="ss-box-shadow"></div>
                                 <a class="tab tab-main color-black h-color-04" href="#">
                                     <div class="icon">
-                                        <img src="public/assets/app/images/icon/tab-4.png" alt="Icon">
+                                        <img src="public/assets/app/images/icon/tab-4.png" alt="Icon" />
                                     </div>
                                     <h6>คลังภาพ</h6>
                                 </a>
                                 <a class="tab tab-main color-black h-color-04 active" href="#">
                                     <div class="icon">
-                                        <img src="public/assets/app/images/icon/tab-8.png" alt="Icon">
+                                        <img src="public/assets/app/images/icon/tab-8.png" alt="Icon" />
                                     </div>
                                     <h6>วิดีโอ</h6>
                                 </a>
@@ -146,8 +146,7 @@
                                                                 </div>
                                                                 <div class="stat">
                                                                     <div class="icon">
-                                                                    <i class="zmdi zmdi-eye"></i>
-                                                                        <!-- <img src="public/assets/app/images/icon/07.png" alt="Icon" /> -->
+                                                                    <em class="zmdi zmdi-eye"></em>
                                                                     </div> 112
                                                                 </div>
                                                                 <div class="stat">
