@@ -22,7 +22,7 @@
                 ผลการค้นหา
             </h3>
             <h4 class="h3 sm color-02 fw-300" data-aos="fade-up" data-aos-delay="150">
-                "เขตอุตสาหกรรมทำเลทอง"
+                fdfdf
             </h4>
             <h5 data-aos="fade-up" data-aos-delay="300">
                 ผลลัพธ์การค้นหา 
