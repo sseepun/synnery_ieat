@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="th">
 <head>
-<link rel="stylesheet" href= url(http://ieat-web-html.jigsawgroups.work/public/assets/app/fonts/includes.css)>
+<link rel="stylesheet" href= url(http://ieat-web-html.jigsawgroups.work/include/style.php)>
 </head>
 <body style="max-width:768px;margin:auto;overflow-x: hidden;overflow-y: auto;font-size: 16px;font-weight: 300;line-height: 1.1;font-family: 'DB HEAVENT', sans-serif;">
    <!-- Topnav -->
