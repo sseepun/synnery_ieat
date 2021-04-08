@@ -38,6 +38,7 @@ input[type=number], input[type=phone], input[type=submit], select, textarea, but
     position:absolute; top:0; bottom:0; left:0; right:0; background-size:100% auto;
     background-repeat:no-repeat; background-position:top center;
 }
+.section-bg-hero > .bg-hero.lg{background-size:120% auto;}
 .section-bg-hero > .container{position:relative;}
 @media screen and (max-width:1199.98px){
     .section-bg-hero > .bg-hero{left:calc(50vw - 700px); right:calc(50vw - 700px);}
@@ -245,8 +246,12 @@ ul > li, ol > li{margin:.125rem 0;}
 }
 .btn-icon.inactive{filter:grayscale(100%); opacity:.6;}
 .btn-icon.inactive:hover{filter:grayscale(0%); opacity:1;}
-.btn-icon.btn-icon-xs{width:1.125rem; height:1.25rem; line-height:1.5625rem;}
+.btn-icon.btn-icon-lg{
+    width:2.375rem; height:2.5rem; line-height:2.5rem; font-size:1.125rem;
+    padding:.1875rem 0 0 0;
+}
 .btn-icon.btn-icon-sm{width:1.3125rem; height:1.4375rem; line-height:1.4375rem;}
+.btn-icon.btn-icon-xs{width:1.125rem; height:1.25rem; line-height:1.5625rem;}
 
 .btn-action, .btn-action:focus, .btn-action:hover, .btn-action:active{
     display:inline-block; position:relative; border:0; border-radius:0;
@@ -997,8 +1002,9 @@ ul.ss-list.dot-h3-xs > li:first-child::before{top:.875rem;}
 .ss-tag > .tags{display:block;}
 .ss-tag > .text + .tags{width:calc(100% - 2.25rem);}
 .ss-tag .tag{
-    display:inline-block; padding:.125rem .3125rem .0625rem .3125rem; border:1px solid transparent;
-    margin:.125rem .0625rem .0625rem 0; font-size:1.125rem; transition:all .25s;
+    display:inline-block; padding:.125rem .3125rem .0625rem .3125rem;
+    border:1px solid transparent; margin:.125rem .0625rem .0625rem 0;
+    font-size:1.125rem; white-space:nowrap; transition:all .25s;
 }
 
 
