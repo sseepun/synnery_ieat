@@ -8,6 +8,27 @@
         .breadcrumb-01{
             position:relative; width: auto; margin:0 auto;
         }
+        
+        .title-mini {
+            position: relative; overflow:hidden;
+        }
+        .title-mini .line{
+            position:absolute; top: calc(50% - .0625rem / 2);
+            width:100%; height:.0625rem; margin-left: .5rem;
+        }
+        table.table-download td{
+            vertical-align:top;
+        }
+        table.table-download .file-icon{
+            margin: 0 auto;
+        }
+        .slide-container .arrows{
+            left: -2rem; right: -2rem;
+        }
+        .content-04 .slide-container .arrows button{
+            background: #000;
+            color: #fff;
+        }
     </style>
 </head>
 <body class="loading">
@@ -16,11 +37,11 @@
     
 
     <section class="content-04 section-bpadding section-bg-hero">
-        <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/03.jpg"></div>
+        <div class="bg-hero lazy-bg" data-src="public/assets/app/images/hero/16.jpg"></div>
         <div class="container">
             <h3 class="h2 color-white text-center" data-aos="fade-up" data-aos-delay="0">
                 ลงนามในสัญญาจองเช่าที่ดินในนิคม <br />
-                อุตสาหกรรมสงขา (ระยะที่ 1)
+                อุตสาหกรรมสงขลา (ระยะที่ 1)
             </h3>
             <div class="d-flex jc-center" data-aos="fade-up" data-aos-delay="150">
                 <?php
@@ -75,17 +96,16 @@
     <section class="section-padding">
         <div class="container">
             <div class="tab-container tab-container-01">
-                <div class="grids">
-                    <div class="grid xl-20 lg-25 sm-100 mt-0"></div>
-                    <div class="grid xl-80 lg-75 sm-100 mt-0">
-                        <h3 class="sm color-01" data-aos="fade-up" data-aos-delay="0">
+                <div class="gallery-grids">
+                    <div class="grid sm-100 mt-0">
+                        <h3 class="sm color-04" data-aos="fade-up" data-aos-delay="0">
                             ดึงเอกชนร่วมพีพีพีจัดระเบียบสายสื่อสารลงดิน วางระบบ 5G ในนิคมฯ
                         </h3>
 
                         <div data-aos="fade-up" data-aos-delay="0">
                             <h3 class="xs fw-200 mt-4 pt-1" style="max-width:44rem;">
                                 บอร์ดกนอ.ไฟเขียวลงทุนนำสายสื่อสารในนิคมอุตสาหกรรมลงใต้ดิน 
-                                <span class="fw-600 color-06">
+                                <span class="fw-600 color-04">
                                     รองรับ Smart City เตรียมวางระบบ 5 G
                                 </span>
                                 ครอบคลุมพื้นที่นิคมอุตสาหกรรรม 14 แห่ง 
@@ -98,7 +118,7 @@
                                 และจัดเตรียมระบบสาธารณูปโภค สิ่งอำนวยความสะดวกและการบริการให้กับผู้ประกอบ
                                 การในนิคมอุตสาหกรรม เพื่อให้สามารถใช้ประโยชน์ร่วมกันได้
                             </p>
-                            <h3 class="xs fw-500 color-06 xs-no-br mt-4 pt-2">
+                            <h3 class="xs fw-500 color-04 xs-no-br mt-4 pt-2">
                                 นอกจากนี้ ยังเป็นการรองรับการขยายตัว <br>
                                 ของอุตสาหกรรมโทรคมนาคมที่สูงขึ้นในอนาคต 
                             </h3>
@@ -111,46 +131,97 @@
                                 หรือ พีพีพ
                             </p>
                             <div class="pt-3">
+                                <img class="content-img-float" style="float:left; margin:0 3rem 1.5rem 0;" src="public/assets/app/images/bg/18.jpg" alt="Image" />
+
+                                <h4 class="xs-no-br mt-4">
+                                    โดยเฉพาะในกลุ่มอุตสาหกรรม <br>
+                                    เป้าหมายเช่น อุตสาหกรรมดิจิทัล เพื่อพัฒนาระบบ 5G <br>
+                                    และนวัตกรรมด้านดิจิทัลสมัยใหม่
+                                </h4>
                                 <p class="md mt-3">
-                                    <img class="content-img-float" src="public/assets/app/images/bg/18.jpg" alt="Image" />
                                     โดยอุตสาหกรรมดิจิทัล เป็นหนึ่งในกลุ่มอุตสาหกรรมที่ใช้เทคโนโลยีขั้นสูง และเป็นอุตสาหกรรมเป้าหมาย
                                     ของการพัฒนาในพื้นที่อีอีซี ซึ่งนักลงทุนต่างชาติโดยเฉพาะนักลงทุนจีนได้ย้ายฐานการผลิตมายังภูมิภาค
                                     อาเซียนจนยอดการลงทุนโดยตรงจากจากต่างประเทศ (Foreign Direct Investment : FDI) เพิ่มมากขึ้น
                                     ถึงแม้ว่าในช่วงไตรมาส 2 จะชะลอตัวลงเล็กน้อยจากสถานการณ์โควิด-19 แต่หลังจากที่รัฐบาลได้ประกาศ
                                     ผ่อนปรนมาตรการต่างๆ ทำให้บรรยากาศการลงทุนเริ่มกลับมาคึกคักอีกครั้ง
                                 </p>
-                                <h4 class="xs-no-br mt-4">
-                                    โดยเฉพาะในกลุ่มอุตสาหกรรม <br>
-                                    เป้าหมายเช่น อุตสาหกรรมดิจิทัล เพื่อพัฒนาระบบ 5G <br>
-                                    และนวัตกรรมด้านดิจิทัลสมัยใหม่
-                                </h4>
                             </div>
                         </div>
                         
                         <div class="clear-both"></div>
-                        <div class="content-quote mt-4 pt-2" data-aos="fade-up" data-aos-delay="0">
-                            <h4 class="h3 xs text-center fw-200 md-no-br">
-                                สำหรับพื้นที่เป้าหมายของการวางท่อร้อยสายสื่อสารใต้ดินในนิคมอุตสาหกรรม <br> 
-                                เพื่อให้บริการโทรคมนาคมประกอบด้วย นิคมอุตสาหกรรม 14 แห่ง <br>
-                                และท่าเรืออุตสาหกรรม 1 แห่งที่ กนอ.บริหารจัดการเอง
-                            </h4>
-                            <h5 class="h4 text-center mt-2">
-                                เนื้อที่ประมาณ 
-                                <span class="text-2xl color-05">33,855.72</span>
-                                ไร่ มีผู้ประกอบกิจการในพื้นที่รวมทั้งสิ้น 
-                                <span class="text-2xl color-05">2,142</span>
-                                ราย
-                            </h5>
-                        </div>
                         
-                        <div class="mt-5 pt-1" data-aos="fade-up" data-aos-delay="0">
-                            <?php
-                                $rowEmbed = true;
-                                include('component/content-footer.php');
-                            ?>
+                        <div class="title-mini mt-5">
+                            <p class="md fw-400">
+                                วิดิโอที่เกี่ยวข้อง
+                                <span class="line bg-07"></span>
+                            </p>
+                        </div>
+
+                        <p class="md fw-400 color-04">การส่งเสริมนโยบายเชิงนิเวศในนิคมอุตสาหกรรม</p>
+
+                        <div class="video-container my-2">
+                            <div class="video-wrapper">
+                                <video src="public/assets/app/video/01.mp4" controls></video>
+                            </div>
+                        </div>
+
+                        <div class="no-border-bottom">
+                            <div class="shortcode-container my-3">
+                                <div class="icon">
+                                    <img src="public/assets/app/images/icon/code.png" alt="Icon" />
+                                </div>
+                                <textarea data-copy="0" title="Copy Area">Temporary code test temporary code test temporary code test</textarea>
+                                <a class="btn-code-copy color-01 h-color-04" data-copy="0" href="#">
+                                    [คัดลอก]
+                                </a>
+                            </div>
+                        </div>
+
+                         
+                        <div class="title-mini mt-5">
+                            <p class="md fw-400">
+                                เอกสารที่เกี่ยวข้อง
+                                <span class="line bg-07"></span>
+                            </p>
+                        </div>
+
+                        <div class="gallery-grids mt-2">
+                            <?php for($i=0; $i<4; $i++){?>
+
+                                <div class="grid xl-50 sm-100 mt-2">
+                                    <table class="table table-download bg-sgray">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="file-icon">
+                                                        <img src="public/assets/app/images/icon/pdf.png" alt="Icon" />
+                                                    </div>
+                                                </td>
+                                                <td class="pr-3 pl-2 text-left">
+                                                    รายงานผลการดำเนินงานภายใต้แผนปฏิบัติการ กนอ. <br>
+                                                    ปีงบประมาณ 2563 ประจำไตรมาส 2/2563(ตุลาคม 2562 – มีนาคม 2563)<br>
+                                                    ขนาด <span class="fw-600 mr-3">1.6 Mb.</span>
+                                                    ดาวโหลด <span class="fw-600">23 ครั้ง</span>
+                                                    <div class="mt-1">
+                                                        <a class="btn-download mr-2" href="#">
+                                                            <span class="xs-hide">ดาวน์โหลด</span>
+                                                            <em class="zmdi zmdi-arrow-right"></em>
+                                                        </a>
+                                                        <a class="btn-download" href="#">
+                                                            <span class="xs-hide">แจ้งไฟล์เสีย</span>
+                                                            <em class="zmdi zmdi-alert-circle-o" style="transform:none;"></em>
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            <?php }?>
+                            
                             <div class="btns text-center">
                                 <a class="btn btn-action" href="#">
-                                    <span>คลังภาพต่อไป</span>
+                                    <span>บทความต่อไป</span>
                                 </a>
                             </div>
                         </div>
@@ -160,7 +231,40 @@
         </div>
     </section>
 
-    
+
+    <section class="mt-4 client-01 img-fill" style="background-image:url('public/assets/app/images/bg/15.jpg');">
+        <div class="container">
+            <h2 class="d-none">Client 01</h2>
+            <h3 class="d-none">Client 01 Description</h3>
+            <div class="slide-container">
+                <div class="slides">
+                    <?php
+                        for($j=0; $j<2; $j++){
+                            foreach([
+                                'สำนักงานส่งเสริมวิสาหกิจ<br>ขนาดกลางและขนาดย่อม(สสว.)',
+                                'สำนักงานคณะกรรมการ<br>ข้อมูลข่าวสารของราชการ',
+                                'สำนักงานคณะกรรมการพัฒนา<br>ระบบราชการ',
+                                'ฐานข้อมูลหน่วยงานของรัฐ',
+                                'กระทรวงอุตสาหกรรม',
+                                'กรมส่งเสริมอุตสาหกรรม'
+                            ] as $i=>$d){
+                    ?>
+                        <div class="slide">
+                            <a class="wrapper" href="#">
+                                <div class="img-container">
+                                    <div class="img-wrapper">
+                                        <img src="public/assets/app/images/client/0<?= $i+1 ?>.png" alt="Client" />
+                                    </div>
+                                </div>
+                                <p><?= $d ?></p>
+                            </a>
+                        </div>
+                    <?php }}?>
+                </div>
+                <div class="arrows"></div>
+            </div>
+        </div>
+    </section>
 
     <?php include_once('include/footer-inside.php'); ?>
     <?php include_once('include/script.php'); ?>
