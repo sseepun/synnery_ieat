@@ -29,6 +29,26 @@
             background: #000;
             color: #fff;
         }
+        .float-info {
+            position:absolute; width: calc(100% + 24.5rem); margin-left: -6.5rem;
+        }
+        @media screen and (max-width: 1199.98px){
+            .float-info {
+                position: relative; width:100%; margin: 0 0 1.5rem 0;
+                display: flex; flex-wrap: wrap;
+            }
+            .float-info .left-info .wrapper, .float-info .right-info .wrapper {
+                display:flex; justify-content: space-between; align-items: center;
+            }
+            .float-info .left-info .wrapper .info, .float-info .right-info .wrapper > * { 
+                margin: 0 .5rem 0 0 !important;
+            }
+        }
+        @media screen and (max-width: 767.98px){
+            .float-info .right-info{
+                margin-top: .75rem;
+            }
+        }
     </style>
 </head>
 <body class="loading">
@@ -95,7 +115,46 @@
 
     <section class="section-padding">
         <div class="container">
-            <div class="tab-container tab-container-01">
+            <div class="tab-container tab-container-01 position-relative">
+                <div class="float-info d-flex jc-space-between" data-aos="fade-up" data-aos-delay="0">
+                    <div class="left-info">
+                        <div class="wrapper">
+                            <div class="info bcolor-sgray px-3 py-1 fw-600" style="border: 1px solid transparent;">
+                                <img class="mr-1" src="public/assets/app/images/icon/08.png" alt="">
+                                112
+                            </div>
+                            <div class="info text-center mt-4">
+                                <a class="btn-icon btn-hex bg-dark color-04 tw" href="#">
+                                    <em class="zmdi zmdi-facebook"></em>
+                                </a>
+                            </div>
+                            <div class="info text-center mt-2">
+                                <a class="btn-icon btn-hex bg-dark color-04 tw" href="#">
+                                    <em class="zmdi zmdi-twitter"></em>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-info">
+                        <div class="wrapper">
+                            <a class="btn btn-action" href="#">
+                                <span>ดาวน์โหลดเอกสาร</span>
+                            </a>
+                            <div class="ss-tag">
+                                <div class="text d-block">TAG :</div>
+                                <div class="tags">
+                                    <a class="tag" href="#">นิคมอุตสาหกรรม</a>
+                                    <a class="tag" href="#">กนอ.</a>
+                                    <a class="tag" href="#">5G</a>
+                                    <a class="tag" href="#">สายสื่อสาร</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- style="position: absolute; top:.5rem; left: -7rem;" -->
+                <!-- style="position: absolute; top:.5rem; left: calc(100% + 2rem);"  -->
+                
                 <div class="gallery-grids">
                     <div class="grid sm-100 mt-0">
                         <h3 class="sm color-04" data-aos="fade-up" data-aos-delay="0">
