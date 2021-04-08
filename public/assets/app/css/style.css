@@ -1259,6 +1259,9 @@ table.table-faq tr:last-child > td{border-bottom:3px solid transparent;}
 .ovf-hidden{overflow:hidden;}
 .clear-both{clear:both;}
 
+.lh-sm{line-height:1!important;}
+.lh-xs{line-height:.7!important;}
+
 @media screen and (max-width:1199.98px){
     .lg-no-br > br{display:none;}
 }

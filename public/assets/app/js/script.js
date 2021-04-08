@@ -145,10 +145,17 @@ $(function(){ 'use strict';
     if(backToTop.length){
         
         // On Scroll
-        checkOnScroll( $(window).scrollTop() );
-        $(window).scroll(function(){
-            checkOnScroll( $(this).scrollTop() );
-        });
+        if(topnav.hasClass('style-demo')){
+            checkOnScrollDemo( $(window).scrollTop(), $(window).width() );
+            $(window).scroll(function(){
+                checkOnScrollDemo( $(this).scrollTop(), $(this).width() );
+            });
+        }else{
+            checkOnScroll( $(window).scrollTop() );
+            $(window).scroll(function(){
+                checkOnScroll( $(this).scrollTop() );
+            });
+        }
 
         backToTop.click(function(e){
             e.preventDefault();
@@ -161,6 +168,18 @@ $(function(){ 'use strict';
             backToTop.addClass('active');
         }else{
             backToTop.removeClass('active');
+        }
+    }
+    function checkOnScrollDemo(st, w){
+        checkOnScroll(st);
+        var t = 130;
+        if(w < 576) t = 64;
+        else if(w < 992) t = 116;
+        else if(w < 1200) t = 123;
+        if(st > t){
+            topnav.addClass('sticky');
+        }else{
+            topnav.removeClass('sticky');
         }
     }
     
