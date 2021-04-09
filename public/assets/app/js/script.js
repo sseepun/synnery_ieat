@@ -627,6 +627,27 @@ $(function(){ 'use strict';
         });
     }
 
+    // Tab Container 04
+    var tabContainer04 = $('.tab-container-04');
+    if(tabContainer04.length){
+        tabContainer04.each(function(){
+            var self = $(this),
+                slideContainer = self.find('.slide-container-01');
+            if(slideContainer.length){
+                slideContainer.find('> .slides').slick({
+                    centerMode: true, centerPadding: 0, slidesToShow: 4, infinite: true,
+                    focusOnSelect: true, autoplay: false, speed: 900,
+                    arrows: true, prevArrow: slideContainer.find('.arrows .prev-arrow'), nextArrow: slideContainer.find('.arrows .next-arrow'), dots: false,
+                    responsive: [
+                        { breakpoint: 991.98, settings: { slidesToShow: 3, } },
+                        { breakpoint: 767.98, settings: { slidesToShow: 2, } },
+                        { breakpoint: 575.98, settings: { slidesToShow: 1, } },
+                    ]
+                });
+            }
+        });
+    }
+
 
     // Page Loader
     var pageLoader = $('.page-loader');
