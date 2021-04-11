@@ -4,7 +4,7 @@
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
 </head>
-<body class="loading">
+<body class="loading bg-11">
     <?php include_once('include/topnav-demo.php'); ?>
 
     <section class="content-04 style-demo section-bpadding section-bg-hero pb-2">
@@ -21,7 +21,7 @@
                         [ 'url' => '#', 'display' => 'กนอ.อัพเดท' ],
                         [ 'url' => '#', 'display' => 'ข่าวประชาสัมพันธ์' ],
                     ];
-                    include('component/breadcrumb.php');
+                    include('component/breadcrumb-demo.php');
                 ?>
             </div>
             <div class="tab-container tab-container-01">
@@ -193,11 +193,15 @@
                                                 <div class="mt-1">
                                                     <a class="btn-download mr-2" href="#">
                                                         <span class="xs-hide">ดาวน์โหลด</span>
-                                                        <em class="zmdi zmdi-arrow-right"></em>
+                                                        <span class="icon-container">
+                                                            <img src="public/assets/app/images/icon/arrow-down.png" alt="Image Icon" />
+                                                        </span>
                                                     </a>
                                                     <a class="btn-download" href="#">
                                                         <span class="xs-hide">แจ้งไฟล์เสีย</span>
-                                                        <em class="zmdi zmdi-alert-circle-o" style="transform:none;"></em>
+                                                        <span class="icon-container">
+                                                            <img src="public/assets/app/images/icon/alert.svg" alt="Image Icon" />
+                                                        </span>
                                                     </a>
                                                 </div>
                                             </td>

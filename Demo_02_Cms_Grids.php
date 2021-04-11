@@ -4,7 +4,7 @@
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
 </head>
-<body class="loading">
+<body class="loading bg-11">
     <?php include_once('include/topnav.php'); ?>
 
     <section class="section-bpadding section-bg-hero">
@@ -24,7 +24,7 @@
                         [ 'url' => '#', 'display' => 'กนอ.อัพเดท' ],
                         [ 'url' => '#', 'display' => 'ข่าวประชาสัมพันธ์' ],
                     ];
-                    include('component/breadcrumb.php');
+                    include('component/breadcrumb-demo.php');
                 ?>
             </div>
 
@@ -78,11 +78,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="btn-cards" style="transform:translateX(3rem);">
-                                    <a class="btn-icon btn-icon-01 bg-04 btn-hex-02" href="#">
+                                <div class="btn-cards" style="transform:translateX(3.25rem);">
+                                    <a class="btn-icon btn-icon-01 bg-04 btn-hex-03" href="#">
                                         <em class="zmdi zmdi-chevron-right"></em>
                                     </a>
-                                    <a class="btn-icon btn-icon-01 bg-04 btn-hex-02" href="#">
+                                    <a class="btn-icon btn-icon-01 bg-04 btn-hex-03" href="#">
                                         <em class="zmdi zmdi-chevron-left"></em>
                                     </a>
                                 </div>
@@ -136,7 +136,7 @@
                                                                     <div class="ss-stat">
                                                                         <div class="stat">
                                                                             <div class="icon">
-                                                                                <em class="zmdi zmdi-eye"></em>
+                                                                                <img class="img-inner" src="public/assets/app/images/icon/read.svg" alt="Image Icon" />
                                                                             </div> 112
                                                                         </div>
                                                                         <div class="stat">

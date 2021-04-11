@@ -506,7 +506,7 @@ $(function(){ 'use strict';
         client01.find('.slide-container').each(function(){
             var self = $(this);
             self.find('> .slides').slick({
-                centerMode: true, centerPadding: 0, slidesToShow: 6, swipeToSlide: true, 
+                centerMode: false, centerPadding: 0, slidesToShow: 6, swipeToSlide: true, 
                 focusOnSelect: true, autoplay: false, autoplaySpeed: 4000, speed: 600,
                 arrows: true, appendArrows: self.find('.arrows'), dots: false,
                 responsive: [
@@ -632,19 +632,23 @@ $(function(){ 'use strict';
     if(tabContainer04.length){
         tabContainer04.each(function(){
             var self = $(this),
-                slideContainer = self.find('.slide-container-01');
-            if(slideContainer.length){
+                slideContainers = self.find('.slide-container');
+            slideContainers.each(function(){
+                var slideContainer = $(this);
                 slideContainer.find('> .slides').slick({
-                    centerMode: true, centerPadding: 0, slidesToShow: 4, infinite: true,
-                    focusOnSelect: true, autoplay: false, speed: 900,
-                    arrows: true, prevArrow: slideContainer.find('.arrows .prev-arrow'), nextArrow: slideContainer.find('.arrows .next-arrow'), dots: false,
+                    centerMode: true, centerPadding: '70px', slidesToShow: 5, infinite: true,
+                    focusOnSelect: true, autoplay: false, speed: 600, swipeToSlide: true,
+                    dots: false, arrows: true, 
+                    prevArrow: slideContainer.find('.arrows .prev-arrow'),
+                    nextArrow: slideContainer.find('.arrows .next-arrow'),
                     responsive: [
-                        { breakpoint: 991.98, settings: { slidesToShow: 3, } },
-                        { breakpoint: 767.98, settings: { slidesToShow: 2, } },
-                        { breakpoint: 575.98, settings: { slidesToShow: 1, } },
+                        { breakpoint: 1299.98, settings: { slidesToShow: 4, centerPadding: '70px' } },
+                        { breakpoint: 1199.98, settings: { slidesToShow: 3, centerPadding: '60px' } },
+                        { breakpoint: 767.98, settings: { slidesToShow: 2, centerPadding: '50px' } },
+                        { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '40px' } },
                     ]
                 });
-            }
+            });
         });
     }
 

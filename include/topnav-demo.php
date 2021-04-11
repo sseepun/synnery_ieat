@@ -11,7 +11,7 @@
                 </div>
                 <div class="block">
                     <a class="option" href="#">
-                        <em class="fas fa-comment-alt"></em>
+                        <img src="public/assets/app/images/icon/chat.svg" alt="Image ICon" />
                         แจ้งเรื่องร้องเรียน
                     </a>
                     <div class="option">
@@ -68,7 +68,7 @@
             <div class="blocks">
                 <div class="block">
                     <a class="option" href="#">
-                        <em class="zmdi zmdi-home"></em>
+                        <img src="public/assets/app/images/icon/home.svg" alt="Image Icon" />
                     </a>
                 </div>
                 <div class="menu-container">
@@ -112,7 +112,7 @@
             <div class="blocks">
                 <div class="block">
                     <a class="option" href="#">
-                        <em class="zmdi zmdi-home"></em>
+                        <img src="public/assets/app/images/icon/home.svg" alt="Image Icon" />
                     </a>
                 </div>
                 <div class="block">

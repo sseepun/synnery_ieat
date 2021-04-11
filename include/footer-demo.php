@@ -1,4 +1,4 @@
-<section class="client-01 img-fill" style="background-image:url('public/assets/app/images/bg/15.jpg');">
+<section class="client-01 img-fill style-demo" style="background-image:url('public/assets/app/images/bg/15.jpg');">
     <div class="container">
         <h2 class="d-none">Client 01</h2>
         <h3 class="d-none">Client 01 Description</h3>
@@ -19,7 +19,7 @@
                         <a class="wrapper" href="#">
                             <div class="img-container">
                                 <div class="img-wrapper">
-                                    <img src="public/assets/app/images/client/0<?= $i+1 ?>.png" alt="Client" />
+                                    <img src="public/assets/app/images/client/demo-0<?= $i+1 ?>.png" alt="Client" />
                                 </div>
                             </div>
                             <p><?= $d ?></p>
@@ -32,20 +32,20 @@
     </div>
 </section>
 
-<section class="call-01">
+<section class="call-01 style-demo">
     <div class="container">
         <div class="contents">
             <div class="content">
                 <h4>
                     ลงทะเบียนรับข้อมูลข่าวสาร
                 </h4>
-                <p>
+                <p class="fw-200">
                     ติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทต่างๆ
                 </p>
             </div>
             <div class="content">
                 <div class="btns mt-0">
-                    <a class="btn btn-action" href="#">
+                    <a class="btn btn-action border bcolor-white" href="#">
                         <span>สมัครรับข่าวสาร</span>
                     </a>
                 </div>
@@ -79,7 +79,7 @@
             <div class="text-container">
                 <div class="grids">
                     <div class="grid xl-60 lg-50 sm-100 mt-0">
-                        <h3 class="title color-03">
+                        <h3 class="title color-12">
                             การนิคมอุตสาหกรรมจังหวัดนครศรีธรรมราช
                         </h3>
                         <p class="desc">
@@ -88,55 +88,58 @@
                         <div class="d-flex fw-wrap jc-space-between">
                             <div class="footer-link">
                                 <em class="zmdi zmdi-smartphone-iphone"></em>
-                                <span class="color-03 fw-600">โทรศัพท์</span>
-                                <a class="fw-500 color-white h-color-03" href="#">
+                                <span class="color-12 fw-500">โทรศัพท์</span>
+                                <a class="fw-500 color-white h-color-12" href="#">
                                     02 2530561
                                 </a>
                             </div>
                             <div class="footer-link">
                                 <em class="zmdi zmdi-print"></em>
-                                <span class="color-03 fw-600">โทรสาร</span>
-                                <a class="fw-500 color-white h-color-03" href="#">
+                                <span class="color-12 fw-500">โทรสาร</span>
+                                <a class="fw-500 color-white h-color-12" href="#">
                                     02 2526582</a>, 
-                                <a class="fw-500 color-white h-color-03" href="#">
+                                <a class="fw-500 color-white h-color-12" href="#">
                                     02 2534086
                                 </a>
                             </div>
                             <div class="footer-link">
                                 <em class="zmdi zmdi-email"></em>
-                                <span class="color-03 fw-600">อีเมล</span>
-                                <a class="fw-500 color-white h-color-03" href="#">
+                                <span class="color-12 fw-500">อีเมล</span>
+                                <a class="fw-500 color-white h-color-12" href="#">
                                     contact@ieat.mail.go.th
                                 </a>
                             </div>
                         </div>
                         <div class="btns">
-                            <a class="btn-social-white in" href="#">
+                            <a class="btn-social-white" href="#">
+                                <img src="public/assets/app/images/icon/social-hw.svg" alt="Image Icon" />
+                            </a>
+                            <a class="btn-social-white in sm" href="#">
                                 <em class="zmdi zmdi-linkedin"></em>
                             </a>
                             <a class="btn-social-white tw" href="#">
                                 <em class="zmdi zmdi-twitter"></em>
                             </a>
-                            <a class="btn-social-white fb" href="#">
-                                <em class="zmdi zmdi-facebook"></em>
-                            </a>
                             <a class="btn-social-white yt" href="#">
                                 <em class="zmdi zmdi-youtube-play"></em>
+                            </a>
+                            <a class="btn-social-white fb" href="#">
+                                <em class="zmdi zmdi-facebook"></em>
                             </a>
                         </div>
                     </div>
                     <div class="grid xl-40 lg-50 sm-100 mt-0">
                         <div class="pull-right">
                             <div class="content">
-                                <a class="color-white h-color-03" href="#">
+                                <a class="color-white h-color-12" href="#">
                                     เงื่อนไขการใช้งานเว็บไซต์
                                 </a> 
                                 <span class="mx-2">|</span> 
-                                <a class="color-white h-color-03" href="#">
+                                <a class="color-white h-color-12" href="#">
                                     ข้อตกลงด้านสิทธิ์ใช้งาน
                                 </a> 
                                 <span class="mx-2">|</span> 
-                                <a class="color-white h-color-03" href="#">
+                                <a class="color-white h-color-12" href="#">
                                     นโยบายความเป็นส่วนตัว
                                 </a>  
                             </div>
@@ -144,7 +147,7 @@
                                 <div class="count-container">
                                     จำนวนผู้เข้าชม 
                                     <div class="count" style="background-image:url('public/assets/app/images/bg/16.jpg');">
-                                        000<span class="color-03">72700</span>
+                                        000<span class="color-12">72700</span>
                                     </div>
                                 </div>
                             </div>
