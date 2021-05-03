@@ -11,18 +11,19 @@ html, body{background:#000; color:#ffff00;}
 .color-white, .color-black, .color-gray, .color-sgray, .color-fgray,
 .color-01, .h-color-01:hover, .color-02, .h-color-02:hover, .color-03, .h-color-03:hover,
 .color-04, .h-color-04:hover, .color-05, .h-color-05:hover, .color-06, .h-color-06:hover, 
-.color-07, .h-color-07:hover, .color-08, .h-color-08:hover, .color-09, .h-color-09:hover{
+.color-07, .h-color-07:hover, .color-08, .h-color-08:hover, .color-09, .h-color-09:hover, 
+.color-10, .h-color-10:hover, .color-11, .h-color-11:hover, .color-12, .h-color-12:hover{
     color:#ffff00!important;
 }
 
 .bg-white, .bg-black, .bg-gray, .bg-sgray, .bg-fgray,
-.bg-01, .bg-02, .bg-03, .bg-04, .bg-05, .bg-06, .bg-07, .bg-08, .bg-09{
+.bg-01, .bg-02, .bg-03, .bg-04, .bg-05, .bg-06, .bg-07, .bg-08, .bg-09, .bg-10, .bg-11, .bg-12{
     background:#000!important;
 }
 
 .bcolor-white, .bcolor-black, .bcolor-gray, .bcolor-sgray, .bcolor-fgray,
 .bcolor-01, .bcolor-02, .bcolor-03, .bcolor-04, .bcolor-05, .bcolor-06, .bcolor-07, .bcolor-08,
-.bcolor-09{
+.bcolor-09, .bcolor-10, .bcolor-11, .bcolor-12{
     border-color:#ffff00!important;
 }
 
@@ -46,6 +47,11 @@ select:focus, textarea:focus{
 .input-date-wrapper::after{color:#ffff00;}
 
 
+/* Super Topnav */
+nav.stopnav{background:#000; border-bottom:1px solid #ffff00;}
+nav.stopnav > .top-container, nav.stopnav .option{border-color:#ffff00;}
+nav.stopnav .option{color:#ffff00;}
+
 /* Topnav */
 nav.topnav{
     background:#000; border-color:#ffff00;
@@ -55,6 +61,11 @@ nav.topnav .top-container .item, nav.topnav .top-container .item a{color:#ffff00
 nav.topnav .menu > a{color:#ffff00;}
 nav.topnav .mobile-container .menu > a{color:#ffff00;}
 nav.topnav .hamburger > *{background:#ffff00;}
+nav.topnav.style-demo{background:#000000; border-bottom:1px solid #ffff00;}
+nav.topnav.style-demo .menu:hover > a,
+nav.topnav.style-demo .menu.active > a{background:#ffff00; color:#000;}
+nav.topnav.style-demo .option{background:#ffff00; color:#000;}
+nav.topnav.style-demo .hamburger > *{background:#000;}
 .topnav-dropdown .dropdown-wrapper{background:#000!important; border:1px solid #ffff00;}
 
 /* Sidenav */
@@ -74,6 +85,7 @@ nav.sidenav .menu ul.ss-list > li > a + .btn-icon{color:#ffff00;}
 /* Footer */
 nav.footer{color:#ffff00; border-top:1px solid #ffff00;}
 nav.footer .tag{background:#ffff00; color:#000;}
+nav.footer.style-demo .hero-container > .logo{background:#ffff00;}
 
 
 /* Buttons */
@@ -228,10 +240,10 @@ ul.ss-list > li::before{background:#ffff00;}
 /* Table */
 table.table{color:#ffff00;}
 table.table-download .btn-download{color:#ffff00;}
-table.table-download .btn-download > i, table.table-download .btn-download > em{border-color:#ffff00;}
-table.table-download .btn-download:hover > i, table.table-download .btn-download:hover > em{
-    background:#ffff00; color:#000;
-}
+table.table-download .btn-download > i, table.table-download .btn-download > em, 
+table.table-download .btn-download > .icon-container{border-color:#ffff00;}
+table.table-download .btn-download:hover > i, table.table-download .btn-download:hover > em, 
+table.table-download .btn-download:hover > .icon-container{background:#ffff00; color:#000;}
 table.table-download.type-02 td{background:#000; border-color:#ffff00!important;}
 table.table-download-02 td{border-color:#ffff00;}
 table.table-download-02 tr.row-title td{border-color:#ffff00;}
@@ -284,6 +296,11 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 .banner-01 .slick-dots button{border-color:#ffff00;}
 .banner-01 .slick-dots .slick-active button{background:#ffff00;}
 .banner-01 .slide-container .arrows button{color:#ffff00;}
+.banner-01.style-demo .slick-dots button{
+    border-color:#000; background-color:#000; color:#ffff00;
+}
+.tab-container-04.style-demo .tabs{background:#000; border-color:#ffff00;}
+.tab-container-04.style-demo .tab{border-color:#ffff00;}
 
 
 /* Breadcrumb 01 */
@@ -294,6 +311,15 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 /* Call to Action 01 */
 .call-01{background:#000; border-top:1px solid #ffff00;}
 .call-01 .contents{color:#ffff00;}
+
+
+/* Call to Action 04 */
+.call-04{border-top:1px solid #ffff00;}
+.call-04 .img-bg{background:none!important;}
+.call-04 .item{background:#000;}
+.call-04 .item > *:not(.ss-date){border-color:#ffff00!important;}
+.call-04 .item .option{color:#ffff00;}
+.call-04 .item .option > .icon-container{border-color:#ffff00; background:#ffff00;}
 
 
 /* Client 01 */
@@ -320,6 +346,7 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 .content-04 .slide-container .arrows button{color:#000;}
 .content-04 .slide-nav .slide > .wrapper{border:1px solid #ffff00;}
 .content-04 .slide-nav .slide.slick-current > .wrapper{background:#ffff00;}
+.content-04.style-demo .slide-container .arrows button{background:#ffff00; color:#000;}
 
 
 /* Content 06 */
@@ -331,6 +358,10 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 
 /* Content 07 */
 .content-07{background:none!important; border-top:1px solid #ffff00;}
+
+
+/* Content 08 */
+.content-08 .content-title > *:first-child::after{background:#ffff00;}
 
 
 /* FAQ 01 */
@@ -359,6 +390,10 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 .tab-container-04 .tab{background:#000; border-color:#ffff00!important;}
 .tab-container-04 .tab.active{color:#000!important;}
 .tab-container-04 .tab::before{background:#ffff00}
+
+/* Tab COntainer - Tabs 01 */
+.tab-container .tabs.tabs-01{background:#000!important;}
+.tab-container .tabs.tabs-01 .tab.active{background:#ffff00; color:#000;}
 
 
 /* Section Calendar */

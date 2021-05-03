@@ -145,10 +145,17 @@ $(function(){ 'use strict';
     if(backToTop.length){
         
         // On Scroll
-        checkOnScroll( $(window).scrollTop() );
-        $(window).scroll(function(){
-            checkOnScroll( $(this).scrollTop() );
-        });
+        if(topnav.hasClass('style-demo')){
+            checkOnScrollDemo( $(window).scrollTop(), $(window).width() );
+            $(window).scroll(function(){
+                checkOnScrollDemo( $(this).scrollTop(), $(this).width() );
+            });
+        }else{
+            checkOnScroll( $(window).scrollTop() );
+            $(window).scroll(function(){
+                checkOnScroll( $(this).scrollTop() );
+            });
+        }
 
         backToTop.click(function(e){
             e.preventDefault();
@@ -161,6 +168,18 @@ $(function(){ 'use strict';
             backToTop.addClass('active');
         }else{
             backToTop.removeClass('active');
+        }
+    }
+    function checkOnScrollDemo(st, w){
+        checkOnScroll(st);
+        var t = 130;
+        if(w < 576) t = 64;
+        else if(w < 992) t = 116;
+        else if(w < 1200) t = 123;
+        if(st > t){
+            topnav.addClass('sticky');
+        }else{
+            topnav.removeClass('sticky');
         }
     }
     
@@ -487,7 +506,7 @@ $(function(){ 'use strict';
         client01.find('.slide-container').each(function(){
             var self = $(this);
             self.find('> .slides').slick({
-                centerMode: true, centerPadding: 0, slidesToShow: 6, swipeToSlide: true, 
+                centerMode: false, centerPadding: 0, slidesToShow: 6, swipeToSlide: true, 
                 focusOnSelect: true, autoplay: false, autoplaySpeed: 4000, speed: 600,
                 arrows: true, appendArrows: self.find('.arrows'), dots: false,
                 responsive: [
@@ -605,6 +624,31 @@ $(function(){ 'use strict';
                     }
                 });
             }
+        });
+    }
+
+    // Tab Container 04
+    var tabContainer04 = $('.tab-container-04');
+    if(tabContainer04.length){
+        tabContainer04.each(function(){
+            var self = $(this),
+                slideContainers = self.find('.slide-container');
+            slideContainers.each(function(){
+                var slideContainer = $(this);
+                slideContainer.find('> .slides').slick({
+                    centerMode: true, centerPadding: '70px', slidesToShow: 5, infinite: true,
+                    focusOnSelect: true, autoplay: false, speed: 600, swipeToSlide: true,
+                    dots: false, arrows: true, 
+                    prevArrow: slideContainer.find('.arrows .prev-arrow'),
+                    nextArrow: slideContainer.find('.arrows .next-arrow'),
+                    responsive: [
+                        { breakpoint: 1299.98, settings: { slidesToShow: 4, centerPadding: '70px' } },
+                        { breakpoint: 1199.98, settings: { slidesToShow: 3, centerPadding: '60px' } },
+                        { breakpoint: 767.98, settings: { slidesToShow: 2, centerPadding: '50px' } },
+                        { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '40px' } },
+                    ]
+                });
+            });
         });
     }
 
