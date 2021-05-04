@@ -72,7 +72,6 @@
                 </h5>
 
             <div class="tab-container tab-container-01 mt-4">
-
                 <div class="grids">
                     <div class="grid xl-20 lg-25 sm-100" data-aos="fade-up" data-aos-delay="600">
                         <div class="tabs">
@@ -81,88 +80,94 @@
                         </div>
                     </div>
                     <div class="grid xl-80 lg-75 sm-100" data-aos="fade-up" data-aos-delay="750">
-                        <h4 class="mb-3">ประกาศรายชื่อผู้ผ่านการตรวจสอบผู้ไม่มีผลประโยชน์ร่วมกัน</h4>
-                        <?php for($i=0; $i<5; $i++){?>
-                            <div class="about-container <?php if($i==0)echo 'active'; ?>">
-                                <div class="about-header">
-                                    <h6 class="title xs color-04" >
-                                    ประกาศจัดซื้อจัดจ้าง และผู้ชนะราคา ซ่อมบำรุงครุภัณฑ์คอมพิวเตอร์ ศภ.7 013-001-051/58 จำนวน 2 รายการ วงเงินงบประมาณ 2,490.00 บาท
-                                    </h6>
-                                    <div class="ss-date">
-                                        <div class="date">
-                                            <div class="d border-bottom bcolor-white">04</div>
-                                            <div class="m-y">09.2563</div>
+                    <div class="tab-contents">
+                        <div class="tab-contents">
+                            <?php for($i=0; $i<07; $i++){?>
+                                <div class="tab-content <?php if($i==0)echo 'active'; ?>" data-tab="<?= $i ?>">
+                                <h4 class="mb-3">ประกาศรายชื่อผู้ผ่านการตรวจสอบผู้ไม่มีผลประโยชน์ร่วมกัน</h4>
+                                    <div class="about-container <?php if($i==0)echo 'active'; ?> ">
+                                        <div class="about-header">
+                                            <h6 class="title xs color-04" >
+                                            ประกาศจัดซื้อจัดจ้าง และผู้ชนะราคา ซ่อมบำรุงครุภัณฑ์คอมพิวเตอร์ ศภ.7 013-001-051/58 จำนวน 2 รายการ วงเงินงบประมาณ 2,490.00 บาท
+                                            </h6>
+                                            <div class="ss-date">
+                                                <div class="date">
+                                                    <div class="d border-bottom bcolor-white">04</div>
+                                                    <div class="m-y">09.2563</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="about-tag">
+                                            <div class="new">มาใหม่</div>
+                                            <div class="icon">
+                                                <em class="active zmdi zmdi-chevron-down"></em>
+                                                <em class="inactive zmdi zmdi-chevron-up"></em>
+                                            </div>
+                                        </div>
+                                        <div class="about-body">
+                                            <div class="grids">
+
+                                                <div class="grid xl-100 lg-3-3 sm-100 mt-0">
+                                            <table class="table table-download type-02">
+                                                <tbody>
+                                                    <?php foreach(['pdf', 'doc', 'ppt'] as $d){?>
+                                                        <tr>
+                                                            <td>
+                                                                <div class="file-icon">
+                                                                    <img src="public/assets/app/images/file/<?= $d ?>.png" alt="Icon" />
+                                                                </div>
+                                                            </td>
+                                                            <td class="pr-3">
+                                                            รายงานผลการดำเนินงานภายใต้แผนปฏิบัติการ กนอ.
+                                                            ปีงบประมาณ 2563 ประจำไตรมาส 2/2563(ตุลาคม 2562 – มีนาคม 2563) <br>
+                                                                ขนาด <span class="fw-600 mr-3">1.6 Mb.</span>
+                                                                ดาวโหลด <span class="fw-600">23 ครั้ง</span>
+                                                            </td>
+                                                            <td>
+                                                                <a class="btn-download mr-2" href="#">
+                                                                    <span class="xs-hide">ดาวน์โหลด</span>
+                                                                    <em class="zmdi zmdi-arrow-right"></em>
+                                                                </a>
+                                                                <a class="btn-download" href="#">
+                                                                    <span class="xs-hide">แจ้งไฟล์เสีย</span>
+                                                                    <em class="zmdi zmdi-alert-circle-o" style="transform:none;"></em>
+                                                                </a>
+                                                            </td>
+                                                        </tr>
+                                                    <?php }?>
+                                                </tbody>
+                                            </table>                                            
+                                                    
+                                                </div>
+
+                                            </div>
+
                                         </div>
                                     </div>
-                                </div>
-                                <div class="about-tag">
-                                    <div class="new">มาใหม่</div>
-                                    <div class="icon">
-                                        <em class="active zmdi zmdi-chevron-down"></em>
-                                        <em class="inactive zmdi zmdi-chevron-up"></em>
-                                    </div>
-                                </div>
-                                <div class="about-body">
-                                    <div class="grids">
-
-                                        <div class="grid xl-100 lg-3-3 sm-100 mt-0">
-                                    <table class="table table-download type-02">
-                                        <tbody>
-                                            <?php foreach(['pdf', 'doc', 'ppt'] as $d){?>
-                                                <tr>
-                                                    <td>
-                                                        <div class="file-icon">
-                                                            <img src="public/assets/app/images/file/<?= $d ?>.png" alt="Icon" />
-                                                        </div>
-                                                    </td>
-                                                    <td class="pr-3">
-                                                    รายงานผลการดำเนินงานภายใต้แผนปฏิบัติการ กนอ.
-                                                    ปีงบประมาณ 2563 ประจำไตรมาส 2/2563(ตุลาคม 2562 – มีนาคม 2563) <br>
-                                                        ขนาด <span class="fw-600 mr-3">1.6 Mb.</span>
-                                                        ดาวโหลด <span class="fw-600">23 ครั้ง</span>
-                                                    </td>
-                                                    <td>
-                                                        <a class="btn-download mr-2" href="#">
-                                                            <span class="xs-hide">ดาวน์โหลด</span>
-                                                            <em class="zmdi zmdi-arrow-right"></em>
-                                                        </a>
-                                                        <a class="btn-download" href="#">
-                                                            <span class="xs-hide">แจ้งไฟล์เสีย</span>
-                                                            <em class="zmdi zmdi-alert-circle-o" style="transform:none;"></em>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                            <?php }?>
-                                        </tbody>
-                                    </table>                                            
-                                            
+                                    <div class="about-container">
+                                        <div class="about-header">
+                                            <h6 class="title xs color-04" >
+                                            ประกาศจัดซื้อจัดจ้าง และผู้ชนะราคา ซ่อมบำรุงครุภัณฑ์คอมพิวเตอร์ ศภ.7 013-001-051/58 จำนวน 2 รายการ วงเงินงบประมาณ 2,490.00 บาท
+                                            </h6>
+                                            <div class="ss-date">
+                                                <div class="date">
+                                                    <div class="d border-bottom bcolor-white">04</div>
+                                                    <div class="m-y">09.2563</div>
+                                                </div>
+                                            </div>
                                         </div>
-
-                                    </div>
-
+                                        <div class="about-tag">
+                                            <div></div>
+                                            <div class="icon-file">
+                                            <img style="width:2rem;" src="public/assets/app/images/file/pdf.png" alt="Icon" />                                                
+                                            </div>
+                                        </div> 
+                                    </div>                                                                    
                                 </div>
-                            </div>
-                            <div class="about-container">
-                                <div class="about-header">
-                                    <h6 class="title xs color-04" >
-                                    ประกาศจัดซื้อจัดจ้าง และผู้ชนะราคา ซ่อมบำรุงครุภัณฑ์คอมพิวเตอร์ ศภ.7 013-001-051/58 จำนวน 2 รายการ วงเงินงบประมาณ 2,490.00 บาท
-                                    </h6>
-                                    <div class="ss-date">
-                                        <div class="date">
-                                            <div class="d border-bottom bcolor-white">04</div>
-                                            <div class="m-y">09.2563</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="about-tag">
-                                    <div></div>
-                                     <div class="icon-file">
-                                     <img style="width:2rem;" src="public/assets/app/images/file/pdf.png" alt="Icon" />                                                
-                                    </div>
-                                </div> 
-                            </div>
-                        <?php }?>
-                    </div>
+                            <?php }?>
+                        </div>    
+                        </div>
+                     </div>
 
                 </div>
 
