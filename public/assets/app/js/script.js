@@ -10,7 +10,7 @@ $(function(){ 'use strict';
         sidenavToggles = $('nav.topnav .sidenav-toggle, nav.sidenav .sidenav-toggle');
     if(topnav.length){
 
-        // Topnav Dropdown Toggle
+        // // Topnav Dropdown Toggle
         topnavDropdownToggles.click(function(e){
             e.preventDefault();
             var self = $(this),
@@ -145,17 +145,10 @@ $(function(){ 'use strict';
     if(backToTop.length){
         
         // On Scroll
-        if(topnav.hasClass('style-demo')){
-            checkOnScrollDemo( $(window).scrollTop(), $(window).width() );
-            $(window).scroll(function(){
-                checkOnScrollDemo( $(this).scrollTop(), $(this).width() );
-            });
-        }else{
-            checkOnScroll( $(window).scrollTop() );
-            $(window).scroll(function(){
-                checkOnScroll( $(this).scrollTop() );
-            });
-        }
+        checkOnScroll( $(window).scrollTop() );
+        $(window).scroll(function(){
+            checkOnScroll( $(this).scrollTop() );
+        });
 
         backToTop.click(function(e){
             e.preventDefault();
@@ -168,18 +161,6 @@ $(function(){ 'use strict';
             backToTop.addClass('active');
         }else{
             backToTop.removeClass('active');
-        }
-    }
-    function checkOnScrollDemo(st, w){
-        checkOnScroll(st);
-        var t = 130;
-        if(w < 576) t = 64;
-        else if(w < 992) t = 116;
-        else if(w < 1200) t = 123;
-        if(st > t){
-            topnav.addClass('sticky');
-        }else{
-            topnav.removeClass('sticky');
         }
     }
     
@@ -506,7 +487,7 @@ $(function(){ 'use strict';
         client01.find('.slide-container').each(function(){
             var self = $(this);
             self.find('> .slides').slick({
-                centerMode: false, centerPadding: 0, slidesToShow: 6, swipeToSlide: true, 
+                centerMode: true, centerPadding: 0, slidesToShow: 6, swipeToSlide: true, 
                 focusOnSelect: true, autoplay: false, autoplaySpeed: 4000, speed: 600,
                 arrows: true, appendArrows: self.find('.arrows'), dots: false,
                 responsive: [
@@ -584,6 +565,20 @@ $(function(){ 'use strict';
             });
         });
     }
+        // FAQ 02
+        var faq02 = $('.faq-02');
+        if(faq02.length){
+            faq02.each(function(){
+                var self = $(this);
+                self.find('.faq > .faq-header .title').click(function(e){
+                    e.preventDefault();
+                    var parent = $(this).closest('.faq');
+                    parent.toggleClass('active');
+                    parent.find('> .faq-body').slideToggle();
+                });
+            });
+        }
+    
 
     
     // Tab Container
@@ -627,31 +622,6 @@ $(function(){ 'use strict';
         });
     }
 
-    // Tab Container 04
-    var tabContainer04 = $('.tab-container-04');
-    if(tabContainer04.length){
-        tabContainer04.each(function(){
-            var self = $(this),
-                slideContainers = self.find('.slide-container');
-            slideContainers.each(function(){
-                var slideContainer = $(this);
-                slideContainer.find('> .slides').slick({
-                    centerMode: true, centerPadding: '70px', slidesToShow: 5, infinite: true,
-                    focusOnSelect: true, autoplay: false, speed: 600, swipeToSlide: true,
-                    dots: false, arrows: true, 
-                    prevArrow: slideContainer.find('.arrows .prev-arrow'),
-                    nextArrow: slideContainer.find('.arrows .next-arrow'),
-                    responsive: [
-                        { breakpoint: 1299.98, settings: { slidesToShow: 4, centerPadding: '70px' } },
-                        { breakpoint: 1199.98, settings: { slidesToShow: 3, centerPadding: '60px' } },
-                        { breakpoint: 767.98, settings: { slidesToShow: 2, centerPadding: '50px' } },
-                        { breakpoint: 575.98, settings: { slidesToShow: 1, centerPadding: '40px' } },
-                    ]
-                });
-            });
-        });
-    }
-
 
     // Page Loader
     var pageLoader = $('.page-loader');
@@ -675,3 +645,42 @@ $(function(){ 'use strict';
     });
 
 });
+
+    // Ehia Accordion
+
+        var ehia02 = $('.ehia-accordion-02');
+        if(ehia02.length){
+            ehia02.each(function(){
+                var self = $(this),
+                ehiaContainers = self.find('.ehia-accordion-container');
+                ehiaContainers.not('.active').find('> .ehia-accordion-body').hide();
+                ehiaContainers.find('> .ehia-accordion-header').click(function(e){
+                    e.preventDefault();
+                    var parent = $(this).parent();
+                    parent.toggleClass('active');
+                    if(parent.hasClass('active')) parent.find('> .ehia-accordion-body').slideDown();
+                    else parent.find('> .ehia-accordion-body').slideUp();
+                    AOS.refresh();
+                });
+            });
+        }
+
+
+            // Ehia Accordion 03
+
+            var ehia03 = $('.ehia-accordion-03');
+            if(ehia03.length){
+                ehia03.each(function(){
+                    var self = $(this),
+                    ehiaContainers = self.find('.ehia-accordion-container');
+                    ehiaContainers.not('.active').find('> .ehia-accordion-body').hide();
+                    ehiaContainers.find('> .ehia-accordion-header').click(function(e){
+                        e.preventDefault();
+                        var parent = $(this).parent();
+                        parent.toggleClass('active');
+                        if(parent.hasClass('active')) parent.find('> .ehia-accordion-body').slideDown();
+                        else parent.find('> .ehia-accordion-body').slideUp();
+                        AOS.refresh();
+                    });
+                });
+            }
