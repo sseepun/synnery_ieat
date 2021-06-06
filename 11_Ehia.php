@@ -439,7 +439,7 @@
 
 
 
-    <?php include_once('include/footer-inside.php'); ?>
+    <?php include_once('include/footer-ehia.php'); ?>
     <?php include_once('include/script.php'); ?>
 </body>
 
