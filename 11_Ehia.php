@@ -62,7 +62,7 @@
         <div class="container">
             <div class="mt--10">
                 <div class="grids">
-                    <div class="grid xl-100 lg-100 sm-100 m-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="grid xl-100 lg-100 sm-100 m-0" data-aos="fade-up" data-aos-delay="400">
                         <div class="tab-contents">
                             <div class="tab-contents">
                             <div class="ehia-box-shadow"></div>
@@ -389,7 +389,7 @@
                     </div>
                 </a>                
             </div>
-            <div class="btns text-right mt-5" data-aos="fade-up" data-aos-delay="0">
+            <div class="btns text-right mt-5" data-aos="fade-up" data-aos-delay="400">
                 <a class="btn btn-action2" href="#">
                     <span>ดูทั้งหมด</span>
                 </a>
