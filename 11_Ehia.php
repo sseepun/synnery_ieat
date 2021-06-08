@@ -63,11 +63,10 @@
             <div class="mt--10">
                 <div class="grids">
                     <div class="grid xl-100 lg-100 sm-100 m-0" data-aos="fade-up" data-aos-delay="400">
-                        <div class="tab-contents">
-                            <div class="tab-contents">
-                            <div class="ehia-box-shadow"></div>
+                            <div class="tab-contents <?php if($i==0)echo 'active'; ?>" data-tab="<?= $i ?>">
                                 <div class="top-accordion"></div>
                                 <div class="ehia-accordion-container active <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                             <div class="h3 sm fw-400">โครงการหรือกิจการที่อาจมีผลกระทบอย่างรุนแรง
@@ -179,6 +178,7 @@
                                     </div>
                                 </div>
                                 <div class="ehia-accordion-container mt-3 <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                             <div class="h3 sm fw-400">การจัดรับฟังความคิดเห็นต่อโครงการหรือกิจการที่อาจมีผลกระทบอย่างรุนแรง (EHIA)</div>
@@ -211,6 +211,7 @@
                                     </div>
                                 </div>
                                 <div class="ehia-accordion-container mt-3 <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                             <div class="h3 sm fw-400">การพิจารณาอนุญาตโครงการหรือกิจการที่อาจมีผลกระทบอย่างรุนแรง (EHIA)</div>
@@ -246,7 +247,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
 

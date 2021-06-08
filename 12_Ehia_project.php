@@ -56,9 +56,6 @@
             <div class="slides">
                 <div class="slide">
                     <div class="wrapper">
-                    <h3 class="h2" data-aos="fade-up" data-aos-delay="0">
-                รางวัลแห่งความภูมิใจ
-            </h3>
                         <div class="fit img-fill"
                             style="background-image:url('public/assets/app/images/ehia/Ehia-hero-project.jpg');background-position:top center;
                             background-size:cover;">
@@ -76,8 +73,8 @@
                     <div class="grid xl-100 lg-100 sm-100 m-0" data-aos="fade-up" data-aos-delay="300">
                         <div class="tab-contents">
                             <div class="tab-contents">
-                            <div class="ehia-box-shadow"></div>
                                 <div class="ehia-accordion-container active <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                         <div class=" title h3 sm fw-400 color-02 ">โครงการกำจัดกากอุตสาหกรรมและหน่วยผลิตไฟฟ้า<br>
@@ -110,6 +107,7 @@
                                 </div>
 
                                 <div class="ehia-accordion-container <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                         <div class=" title h3 sm fw-400 color-02 ">ประกาศการจัดรับฟังความคิดเห็น 
@@ -136,6 +134,7 @@
                                 </div>
 
                                 <div class="ehia-accordion-container <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                         <div class=" title h3 sm fw-400 color-02 ">สรุปรายละเอียดโครงการ 
@@ -162,6 +161,7 @@
                                 </div>
                                 
                                 <div class="ehia-accordion-container <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                         <div class=" title h3 sm fw-400 color-02 ">รายงานการประเมินผลกระทบสิ่งแวดล้อม 
@@ -188,6 +188,7 @@
                                 </div>
 
                                 <div class="ehia-accordion-container <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                         <div class=" title h3 sm fw-400 color-02 ">คณะกรรมการรับฟังความคิดเห็น 
@@ -214,6 +215,8 @@
                                 </div>
                                 
                                 <div class="ehia-accordion-container <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
+
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                         <div class=" title h3 sm fw-400 color-02 ">กำหนดการรับฟังความคิดเห็น 
@@ -240,6 +243,7 @@
                                 </div>
                                 
                                 <div class="ehia-accordion-container active <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                         <div class=" title h3 sm fw-400 color-02 ">การลงทะเบียนรับฟังความคิดเห็น 
@@ -274,6 +278,7 @@
                                 </div>
                                 
                                 <div class="ehia-accordion-container <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                         <div class=" title h3 sm fw-400 color-02 ">การตรวจสอบรายชื่อผู้ลงทะเบียนล่วงหน้า 
@@ -300,6 +305,7 @@
                                 </div>
                                 
                                 <div class="ehia-accordion-container <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                         <div class=" title h3 sm fw-400 color-02 ">การแสดงความเห็นออนไลน์ 
@@ -326,6 +332,7 @@
                                 </div>
                                 
                                 <div class="ehia-accordion-container <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                         <div class=" title h3 sm fw-400 color-02 ">รายงานการรับฟังความคิดเห็น 
@@ -352,6 +359,7 @@
                                 </div>
                                 
                                 <div class="ehia-accordion-container <?php if($i==0)echo 'active'; ?> ">
+                                <div class="ehia-box-shadow"></div>
                                     <div class="ehia-accordion-header">
                                         <div class="text-center">
                                         <div class=" title h3 sm fw-400 color-02 ">ผลการพิจารณาโครงการ 
