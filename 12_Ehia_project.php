@@ -14,11 +14,19 @@
     }
     a:hover{color:#fff;}
 
-    hr {
+    /* hr {
     margin-top: 2rem;
     margin-bottom: 2rem;
     border: 0;
     border-top: 1px solid rgba(0,0,0,.1);
+} */
+
+.content-footer .content-row {
+    border-color: #000!important;
+}
+
+.content-footer .content-row:last-child {
+    border-bottom: 5px solid transparent;
 }
 
     .btn-download{color:#3DB9B2;}
@@ -36,6 +44,14 @@
 }
 .btn-download > em {
     border-color: #3DB9B2;
+}
+
+.content-footer .content-row:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: .5625rem 1rem 2rem 1rem;
+    border-top: 1px solid transparent;
 }
 </style>
 
