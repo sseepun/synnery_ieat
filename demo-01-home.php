@@ -3,24 +3,7 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
-    <style>
-
-        /* 
-       
-        table.table-download-02 td {background:#fff; border:none; }
-
-        
-        .content-01{ height: 45rem;}
-        @media screen and (max-width: 991.98px){
-            .ss-date{padding: 0 0 0 3rem;}
-        }
-        @media screen and (max-width: 575.98px){
-            .content-01{ height: 37.5rem;}
-        } */
-    </style>
-<style>
-
-</style>
+    <link rel="stylesheet" href="public/assets/app/css/style-demo.css" />
 </head>
 <body class="loading bg-11">
     <?php include_once('include/topnav-demo.php'); ?>

@@ -3,6 +3,7 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
+    <link rel="stylesheet" href="public/assets/app/css/style-demo.css" />
 </head>
 <body class="loading bg-11">
     <?php include_once('include/topnav-demo.php'); ?>

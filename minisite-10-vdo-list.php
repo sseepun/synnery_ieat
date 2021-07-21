@@ -3,10 +3,10 @@
 <head>
     <?php include_once('include/header.php'); ?>
     <?php include_once('include/style.php'); ?>
-    <link rel="stylesheet" href="public/assets/app/css/style-demo.css" />
+    <link rel="stylesheet" href="public/assets/app/css/style-minisite.css" />
 </head>
-<body class="loading bg-11">
-    <?php include_once('include/topnav-demo.php'); ?>
+<body class="loading minisite">
+    <?php include_once('include/topnav-minisite.php'); ?>
 
     <section class="section-bpadding section-bg-hero">
         <div class="bg-hero lg lazy-bg" data-src="public/assets/app/images/hero/16.png"></div>
