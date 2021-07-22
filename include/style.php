@@ -2,7 +2,6 @@
 
 <link rel="stylesheet" href="public/assets/node_modules/bootstrap/dist/css/bootstrap.min.css" />
 <link rel="stylesheet" href="public/assets/node_modules/slick-carousel/slick/slick.css" />
-<link rel="stylesheet" href="public/assets/node_modules/@fortawesome/fontawesome-free/css/all.css" />
 
 <link rel="stylesheet" href="public/assets/lib/material-design-iconic-font-2.2.0/css/material-design-iconic-font.min.css" />
 <link rel="stylesheet" href="public/assets/lib/fancybox-3.5.7/dist/jquery.fancybox.min.css" />
@@ -16,3 +15,7 @@
 <link rel="stylesheet" href="public/assets/app/css/blocks.css" />
 <link rel="stylesheet" id="css-theme" href="public/assets/app/css/color-0.css" />
 <link rel="stylesheet" href="public/assets/app/css/ie-fix.css" />
+
+<link rel="stylesheet" href="public/assets/app/css/custom-ehia.css" />
+
+ 

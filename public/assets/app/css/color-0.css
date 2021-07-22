@@ -18,9 +18,6 @@ html, body{color:#000;}
 .color-07, .h-color-07:hover{color:#8c6ab2!important;}
 .color-08, .h-color-08:hover{color:#33bbc6!important;}
 .color-09, .h-color-09:hover{color:#6593b7!important;}
-.color-10, .h-color-10:hover{color:#803f97!important;}
-.color-11, .h-color-11:hover{color:#f8f8f8!important;}
-.color-12, .h-color-12:hover{color:#0cc5b9!important;}
 
 .bg-white{background:#fff!important;}
 .bg-black{background:#000!important;}
@@ -36,9 +33,6 @@ html, body{color:#000;}
 .bg-07{background:#8c6ab2!important;}
 .bg-08{background:#33bbc6!important;}
 .bg-09{background:#6593b7!important;}
-.bg-10{background:#803f97!important;}
-.bg-11{background:#f8f8f8!important;}
-.bg-12{background:#0cc5b9!important;}
 
 .bcolor-white{border-color:#fff!important;}
 .bcolor-black{border-color:#000!important;}
@@ -54,9 +48,6 @@ html, body{color:#000;}
 .bcolor-07{border-color:#8c6ab2!important;}
 .bcolor-08{border-color:#33bbc6!important;}
 .bcolor-09{border-color:#6593b7!important;}
-.bcolor-10{border-color:#803f97!important;}
-.bcolor-11{border-color:#f8f8f8!important;}
-.bcolor-12{border-color:#0cc5b9!important;}
 
 .color-gradient-01{
     background-image:linear-gradient(to bottom, #9057b0, #56237b);
@@ -477,8 +468,6 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 /* Client 01 */
 .client-01 .slide:first-child::before, .client-01 .slide::after{background:#cecece;}
 .client-01 p{color:#000;}
-.client-01.style-demo{background:#fff!important; border-color:#e7e7e7;}
-.client-01.style-demo .slide:first-child::before, .client-01 .slide::after{background:#e7e7e7;}
 
 
 /* Content 01 */
@@ -498,15 +487,17 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 .content-06 .slide-container .slide > .wrapper{background:#ffffff;}
 
 
-/* Content 08 */
-.content-08 .content-title > *:first-child::after{background:#7c3e94;}
-
-
 /* FAQ 01 */
 .faq-01 .faq{border-color:#ddd;}
 .faq-01 .faq .faq-icon{background:#5d4189;}
 .faq-01 .faq > .faq-body .faq-icon{background:#169f96;}
 .faq-01 .faq .title:hover{color:#5d4189;}
+
+/* FAQ 02 */
+.faq-02 .faq{border-color:#ddd;}
+.faq-02 .faq .faq-icon{background:#5d4189;}
+.faq-02.faq > .faq-body .faq-icon{background:#169f96;}
+.faq-02 .faq .title:hover{color:#5d4189;}
 
 
 /* Tab Container 01 */
@@ -604,3 +595,48 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 .calendar-day .fc-time-grid .fc-event{background:#8c6ab2; color:#ffffff; border-color:#ffffff;}
 .calendar-day .fc-time-grid .fc-event:hover{background:#5d4189;}
 .calendar-day .fc-time-grid .fc-event .fc-time{background:#4b326e;}
+
+/* Ehia Custom*/
+
+/* Ehia Accordion 02*/
+.ehia-accordion-02 .ehia-accordion-container{background:#fff;}
+.ehia-accordion-02 .ehia-accordion-container:nth-child(2n){background:#ffffff;}
+.ehia-accordion-02 .ehia-accordion-container .date{background-color:#75ced2; color:#fff;}
+.ehia-accordion-02 .ehia-accordion-container:nth-child(2n) .date{background-color:#1a849e;}
+.ehia-accordion-02 .ehia-accordion-container:not(.active) .title{color:#3DB9B2!important;}
+.ehia-accordion-02 .ehia-accordion-container .ehia-accordion-header > .ehia-accordion-tag{background-color:#3DB9B2 ;}
+.ehia-accordion-02 .ehia-accordion-container .ehia-accordion-header > .ehia-accordion-tag .icon{color:#fff; border-color:#76ced2;}
+.ehia-accordion-02 .ehia-accordion-container .ehia-accordion-side{background-color:#573f77;}
+.ehia-accordion-02 .ehia-accordion-container .ehia-accordion-header>.ehia-accordion-tag .icon{color:#fff;}
+
+/* Ehia Accordion 03*/
+.ehia-accordion-03 .ehia-accordion-container{background:#fff;}
+.ehia-accordion-03 .ehia-accordion-container:nth-child(2n){background:#ffffff;}
+.ehia-accordion-03 .ehia-accordion-container .date{background-color:#75ced2; color:#fff;}
+.ehia-accordion-03 .ehia-accordion-container:nth-child(2n) .date{background-color:#1a849e;}
+.ehia-accordion-03 .ehia-accordion-container:not(.active) .title{color:#000!important;}
+.ehia-accordion-03 .ehia-accordion-container .ehia-accordion-header > .ehia-accordion-tag{background-color:#3DB9B2 ;}
+.ehia-accordion-03 .ehia-accordion-container .ehia-accordion-header > .ehia-accordion-tag .icon{color:#fff; border-color:#76ced2;}
+.ehia-accordion-03 .ehia-accordion-container .ehia-accordion-side{background-color:#573f77;}
+.ehia-accordion-03 .ehia-accordion-container .ehia-accordion-header>.ehia-accordion-tag .icon{color:#fff;}
+
+/* Buttons 2*/
+.btn-icon2.btn-icon-01{background:#4b326e; color:#fff;}
+.btn-icon2.btn-icon-01:hover{background:#169f96; color:#fff;}
+
+.btn-action2, .btn-action2:focus, .btn-action2:hover, .btn-action2:active{
+    background:#1EA9A6; color:#fff;
+}
+.btn-action2.btn-action2-01::before{background:#ccc;}
+
+
+/* Buttons 3*/
+.btn-icon3.btn-icon-01{background:#4b326e; color:#fff;}
+.btn-icon3.btn-icon-01:hover{background:#000202; color:#fff;}
+
+.btn-action3, .btn-action3:focus, .btn-action3:hover, .btn-action3:active{
+    background: rgb(79,48,110);
+background: linear-gradient(87deg, rgba(79,48,110,1) 0%, rgba(102,38,110,1) 100%); color:#fff;
+}
+.btn-action3.btn-action3-01::before{background:#ccc;}
+
