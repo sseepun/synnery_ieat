@@ -155,7 +155,7 @@ nav.sidenav .menu ul.ss-list > li > a + .btn-icon{color:#000;}
 .back-to-top i, .back-to-top em{color:#5a407c;}
 
 /* Footer */
-nav.footer{color:#ffffff;}
+nav.footer{color:#ffffff; background:#5a407c;}
 nav.footer .tag{
     background-image:linear-gradient(to bottom, #2ea9a1, #0c8981, #0f8f87, #18a097,
         #1aa198, #1aa198, #1aa198, #1aa198);

@@ -7,6 +7,17 @@
 </head>
 <body class="loading minisite">
     <?php include_once('include/topnav-minisite.php'); ?>
+    <?php
+        $breadcrumb = [
+            'bg' => 'public/assets/app/images/bg/breadcrumb-minisite-01.png',
+            'title' => 'ข่าวประชาสัมพันธ์',
+            'structure' => [
+                [ 'url' => '#', 'display' => 'กนอ.อัพเดท' ],
+                [ 'url' => '#', 'display' => 'ข่าวประชาสัมพันธ์' ]
+            ]
+        ];
+        include('component/breadcrumb-minisite.php');
+    ?>
 
     <section class="section-bpadding section-bg-hero">
         <div class="bg-hero lg lazy-bg" data-src="public/assets/app/images/hero/16.png"></div>
