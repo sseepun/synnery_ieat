@@ -10,7 +10,7 @@
     <?php
         $breadcrumb = [
             'bg' => 'public/assets/app/images/bg/breadcrumb-minisite-01.png',
-            'title' => 'ข่าวประชาสัมพันธ์',
+            'title' => 'วิดีทัศน์',
             'structure' => [
                 [ 'url' => '#', 'display' => 'กนอ.อัพเดท' ],
                 [ 'url' => '#', 'display' => 'ข่าวประชาสัมพันธ์' ]
@@ -19,27 +19,8 @@
         include('component/breadcrumb-minisite.php');
     ?>
 
-    <section class="section-bpadding section-bg-hero">
-        <div class="bg-hero lg lazy-bg" data-src="public/assets/app/images/hero/16.png"></div>
+    <section>
         <div class="container">
-            <h6 class="h1 color-white text-center" data-aos="fade-up" data-aos-delay="0">
-                ข่าวประชาสัมพันธ์
-            </h6>
-            <p class="h4 fw-200 color-white xs-hide text-center" data-aos="fade-up" data-aos-delay="150">
-                ติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทจต่างๆ <br>
-                เกี่ยวกับ กนอ.และนิคมอุตสาหกรรมในประเทศไทย
-            </p>
-            <div class="d-flex jc-center" data-aos="fade-up" data-aos-delay="300">
-                <?php
-                    $breadcrumbClass = 'style-demo';
-                    $breadcrumb = [
-                        [ 'url' => '#', 'display' => 'กนอ.อัพเดท' ],
-                        [ 'url' => '#', 'display' => 'ข่าวประชาสัมพันธ์' ],
-                    ];
-                    include('component/breadcrumb-demo.php');
-                ?>
-            </div>
-
             <div class="grids" data-aos="fade-up" data-aos-delay="0">
                 <div class="grid xl-80 lg-75 sm-100">
                     <div class="ss-card ss-card-03">
