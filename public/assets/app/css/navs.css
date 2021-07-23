@@ -248,7 +248,7 @@ nav.sidenav .menu ul.ss-list > li > a + .btn-icon{
 .quick-tab{position:fixed;}
 .quick-tab img{display:block; width:100%; height:auto;}
 .quick-tab .btn-hover{transition:opacity .25s;}
-.quick-tab .btn-hover:hover{opacity:.8;}
+.quick-tab .btn-hover:hover{opacity:.9;}
 .quick-tab > .wrapper{position:relative;}
 .quick-tab .tabs{transition:opacity .25s;}
 .quick-tab .tabs.inactive{opacity:0; pointer-events:none;}

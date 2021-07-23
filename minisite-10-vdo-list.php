@@ -19,7 +19,7 @@
         include('component/breadcrumb-minisite.php');
     ?>
 
-    <section>
+    <section class="section-padding">
         <div class="container">
             <div class="grids" data-aos="fade-up" data-aos-delay="0">
                 <div class="grid xl-80 lg-75 sm-100">
@@ -164,7 +164,7 @@
         </div>
     </section>
 
-    <?php include_once('include/footer-demo.php'); ?>
+    <?php include_once('include/footer-minisite.php'); ?>
     <?php include_once('include/script.php'); ?>
 </body>
 </html>

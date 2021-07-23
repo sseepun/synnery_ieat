@@ -4,13 +4,13 @@
         <div class="container">
             <div class="blocks">
                 <div class="block">
-                    <a class="option" href="#">
+                    <a class="option color-black h-color-04" href="#">
                         <em class="fas fa-sitemap"></em>
                         แผนผังเว็บไซต์
                     </a>
                 </div>
                 <div class="block">
-                    <a class="option" href="#">
+                    <a class="option color-black h-color-04" href="#">
                         <img src="public/assets/app/images/icon/chat.svg" alt="Image ICon" />
                         แจ้งเรื่องร้องเรียน
                     </a>

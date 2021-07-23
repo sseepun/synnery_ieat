@@ -199,8 +199,8 @@ $(function(){ 'use strict';
     function checkOnScrollMinisite(st, w){
         checkOnScroll(st);
         var t = 7.125 * bodySize;
-        if(w < 576) t = 3.75 * bodySize;
-        else if(w < 992) t = 6.75 * bodySize;
+        if(w < 576) t = 3.5 * bodySize;
+        else if(w < 992) t = 6.5 * bodySize;
         else if(w < 1200) t = 6.8125 * bodySize;
         if(st > t){
             topnav.addClass('sticky');
@@ -601,21 +601,38 @@ $(function(){ 'use strict';
             });
         });
     }
-        // FAQ 02
-        var faq02 = $('.faq-02');
-        if(faq02.length){
-            faq02.each(function(){
-                var self = $(this);
-                self.find('.faq > .faq-header .title').click(function(e){
-                    e.preventDefault();
-                    var parent = $(this).closest('.faq');
-                    parent.toggleClass('active');
-                    parent.find('> .faq-body').slideToggle();
-                });
-            });
-        }
-    
 
+    // FAQ 02
+    var faq02 = $('.faq-02');
+    if(faq02.length){
+        faq02.each(function(){
+            var self = $(this);
+            self.find('.faq > .faq-header .title').click(function(e){
+                e.preventDefault();
+                var parent = $(this).closest('.faq');
+                parent.toggleClass('active');
+                parent.find('> .faq-body').slideToggle();
+            });
+        });
+    }
+
+
+    // Slide COntainer 01
+    var slideContainer01 = $('.slide-container-01');
+    if(slideContainer01.length){
+        slideContainer01.each(function(){
+            var self = $(this),
+                slides = self.find('> .slides'),
+                arrows = self.find('> .arrows .arrow');
+            slides.slick({
+                centerMode: true, centerPadding: 0, slidesToShow: 1, infinite: true,
+                autoplay: true, autoplaySpeed: 14000, speed: 900, dots: false,
+                arrows: true, prevArrow: arrows.eq(0), nextArrow: arrows.eq(1),
+                swipe: true, touchMove: true, swipeToSlide: true
+            });
+        });
+    }
+    
     
     // Tab Container
     var tabContainers = $('.tab-container');
@@ -682,41 +699,39 @@ $(function(){ 'use strict';
 
 });
 
-    // Ehia Accordion
 
-        var ehia02 = $('.ehia-accordion-02');
-        if(ehia02.length){
-            ehia02.each(function(){
-                var self = $(this),
-                ehiaContainers = self.find('.ehia-accordion-container');
-                ehiaContainers.not('.active').find('> .ehia-accordion-body').hide();
-                ehiaContainers.find('> .ehia-accordion-header').click(function(e){
-                    e.preventDefault();
-                    var parent = $(this).parent();
-                    parent.toggleClass('active');
-                    if(parent.hasClass('active')) parent.find('> .ehia-accordion-body').slideDown();
-                    else parent.find('> .ehia-accordion-body').slideUp();
-                    AOS.refresh();
-                });
-            });
-        }
+// Ehia Accordion
+var ehia02 = $('.ehia-accordion-02');
+if(ehia02.length){
+    ehia02.each(function(){
+        var self = $(this),
+        ehiaContainers = self.find('.ehia-accordion-container');
+        ehiaContainers.not('.active').find('> .ehia-accordion-body').hide();
+        ehiaContainers.find('> .ehia-accordion-header').click(function(e){
+            e.preventDefault();
+            var parent = $(this).parent();
+            parent.toggleClass('active');
+            if(parent.hasClass('active')) parent.find('> .ehia-accordion-body').slideDown();
+            else parent.find('> .ehia-accordion-body').slideUp();
+            AOS.refresh();
+        });
+    });
+}
 
-
-            // Ehia Accordion 03
-
-            var ehia03 = $('.ehia-accordion-03');
-            if(ehia03.length){
-                ehia03.each(function(){
-                    var self = $(this),
-                    ehiaContainers = self.find('.ehia-accordion-container');
-                    ehiaContainers.not('.active').find('> .ehia-accordion-body').hide();
-                    ehiaContainers.find('> .ehia-accordion-header').click(function(e){
-                        e.preventDefault();
-                        var parent = $(this).parent();
-                        parent.toggleClass('active');
-                        if(parent.hasClass('active')) parent.find('> .ehia-accordion-body').slideDown();
-                        else parent.find('> .ehia-accordion-body').slideUp();
-                        AOS.refresh();
-                    });
-                });
-            }
+// Ehia Accordion 03
+var ehia03 = $('.ehia-accordion-03');
+if(ehia03.length){
+    ehia03.each(function(){
+        var self = $(this),
+        ehiaContainers = self.find('.ehia-accordion-container');
+        ehiaContainers.not('.active').find('> .ehia-accordion-body').hide();
+        ehiaContainers.find('> .ehia-accordion-header').click(function(e){
+            e.preventDefault();
+            var parent = $(this).parent();
+            parent.toggleClass('active');
+            if(parent.hasClass('active')) parent.find('> .ehia-accordion-body').slideDown();
+            else parent.find('> .ehia-accordion-body').slideUp();
+            AOS.refresh();
+        });
+    });
+}
