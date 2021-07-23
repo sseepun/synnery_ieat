@@ -102,7 +102,7 @@
                     <div class="grid lg-25 sm-100" data-aos="fade-up" data-aos-delay="0">
                         <?php 
                             $categoryTab = [
-                                'bg' => 'public/assets/app/images/bg/34.jpg',
+                                'bg' => 'public/assets/app/images/bg/minisite-01.jpg',
                                 'structure' => [
                                     [ 'name' => 'ข่าวสารประชาสัมพันธ์', 'icon' => 'globe.svg', 'active' => true ],
                                     [ 'name' => 'ข่าวสารการลงทุน', 'icon' => 'money.svg' ],

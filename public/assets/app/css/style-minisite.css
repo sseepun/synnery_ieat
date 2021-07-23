@@ -99,7 +99,7 @@ nav.footer.minisite img.hero{width:7.5rem;}
 
 /* Tabs Minisite */
 .tab-container .tabs.tabs-minisite{
-    position:relative; width:100%; padding:0 0 25rem 0; overflow:hidden;
+    position:relative; width:100%; padding:0; min-height:38rem; overflow:hidden;
 }
 .tab-container .tabs.tabs-minisite > .img-hero{
     display:block; position:absolute; bottom:0; left:0; right:0; width:100%; height:auto;
@@ -120,9 +120,9 @@ nav.footer.minisite img.hero{width:7.5rem;}
 }
 .tab-container .tabs.tabs-minisite .tab:last-child::before{display:none;}
 @media screen and (max-width:1199.98px){
-    .tab-container .tabs.tabs-minisite{padding:0 0 20rem 0;}
+    .tab-container .tabs.tabs-minisite{min-height:31rem;}
 }
 @media screen and (max-width:991.98px){
-    .tab-container .tabs.tabs-minisite{padding:0;}
+    .tab-container .tabs.tabs-minisite{min-height:0;}
     .tab-container .tabs.tabs-minisite > .img-hero{display:none;}
 }

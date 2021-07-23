@@ -10,11 +10,11 @@
     <?php
         $breadcrumb = [
             'bg' => 'public/assets/app/images/bg/breadcrumb-minisite-01.png',
-            'title' => 'ข่าวประชาสัมพันธ์',
+            'title' => 'วิดีทัศน์',
             'desc' => 'ติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทจต่างๆ <br> เกี่ยวกับ กนอ.และนิคมอุตสาหกรรมในประเทศไทย',
             'structure' => [
                 [ 'url' => '#', 'display' => 'กนอ.อัพเดท' ],
-                [ 'url' => '#', 'display' => 'ข่าวประชาสัมพันธ์' ]
+                [ 'url' => '#', 'display' => 'วิดีทัศน์' ]
             ]
         ];
         include('component/breadcrumb-minisite.php');
@@ -32,9 +32,9 @@
                                     <div class="ss-card ss-card-03">
                                         <a class="ss-img" href="#">
                                             <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/35.jpg"></div>
-                                            <div class="hover-container">
+                                            <div class="hover-container op-100 bg-transparent">
                                                 <div class="icon">
-                                                    <img src="public/assets/app/images/icon/06.png" alt="Icon" />
+                                                    <img src="public/assets/app/images/icon/play.svg" alt="Icon" />
                                                 </div>
                                             </div>
                                             <div class="date bg-04">
@@ -102,24 +102,24 @@
                     <div class="grid lg-25 sm-100" data-aos="fade-up" data-aos-delay="0">
                         <?php 
                             $categoryTab = [
-                                'bg' => 'public/assets/app/images/bg/minisite-01.jpg',
+                                'bg' => 'public/assets/app/images/bg/minisite-02.jpg',
                                 'structure' => [
-                                    [ 'name' => 'ข่าวสารประชาสัมพันธ์', 'icon' => 'globe.svg', 'active' => true ],
-                                    [ 'name' => 'ข่าวสารการลงทุน', 'icon' => 'money.svg' ],
-                                    [ 'name' => 'ประกาศจัดซื้อจัดจ้าง', 'icon' => 'paper.svg' ],
-                                    [ 'name' => 'ร่วมงานกับเรา', 'icon' => 'case.svg' ],
+                                    [ 'name' => 'ภาพกิจกรรมทั้งหมด', 'icon' => 'videos.svg' ],
+                                    [ 'name' => 'วิดีทัศน์', 'icon' => 'video.svg', 'active' => true ],
+                                    [ 'name' => 'วิดีทัศน์ประชาสัมพันธ์' ],
+                                    [ 'name' => 'การประชุม งานสัมนา' ],
                                 ]
                             ];
                             include('component/category-tab-minisite.php');
                         ?>
                         <div class="ss-title full mt-4">
-                            <span class="h3 fw-600 color-04">ข่าวที่น่าสนใจ</span>
+                            <span class="h3 fw-600 color-04">วิดีทัศน์ที่น่าสนใจ</span>
                         </div>
                         <div class="grids">
                             <?php for($j=0; $j<2; $j++){?>
                                 <div class="grid lg-100 md-1-3 sm-50">
                                     <?php
-                                        $cardType = 'CMS';
+                                        $cardType = 'Video';
                                         include('component/minisite-card-grid.php');
                                     ?>
                                 </div>
@@ -134,11 +134,11 @@
                                         <?php include('component/grid-header-minisite.php'); ?>
                                         <div class="grid sm-100 mt-0">
                                             <div class="grids">
-                                                <?php for($j=0; $j<10; $j++){?>
-                                                    <div class="grid sm-100">
+                                                <?php for($j=0; $j<12; $j++){?>
+                                                    <div class="grid md-1-3 sm-50">
                                                         <?php
-                                                            $cardType = 'CMS';
-                                                            include('component/minisite-card-list.php');
+                                                            $cardType = 'Video';
+                                                            include('component/minisite-card-grid.php');
                                                         ?>
                                                     </div>
                                                 <?php }?>
@@ -162,13 +162,13 @@
                 <div class="grid lg-25 sm-100 mt-0"></div>
                 <div class="grid lg-75 sm-100 mt-0" data-aos="fade-up" data-aos-delay="0">
                     <div class="ss-title">
-                        <span class="h3 fw-600 color-04">ข่าวที่เกี่ยวข้อง</span>
+                        <span class="h3 fw-600 color-04">วิดีทัศน์ที่เกี่ยวข้อง</span>
                     </div>
                     <div class="grids">
                         <?php for($j=0; $j<3; $j++){?>
                             <div class="grid md-1-3 sm-50">
                                 <?php
-                                    $cardType = 'CMS';
+                                    $cardType = 'Video';
                                     include('component/minisite-card-grid.php');
                                 ?>
                             </div>

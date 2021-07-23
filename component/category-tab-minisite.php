@@ -10,7 +10,9 @@
                 data-tab="<?= $i ?>" href="javascript:" 
             >
                 <div class="icon">
-                    <img src="public/assets/app/images/icon/<?= $d['icon'] ?>" alt="Icon">
+                    <?php if(!empty($d['icon'])){?>
+                        <img src="public/assets/app/images/icon/<?= $d['icon'] ?>" alt="Icon">
+                    <?php }?>
                 </div>
                 <h6><?= $d['name'] ?></h6>
             </a>
