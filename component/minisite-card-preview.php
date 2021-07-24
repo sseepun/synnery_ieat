@@ -1,8 +1,8 @@
 
 <?php if(empty($cardType) || $cardType == 'CMS'){?>
-    <div class="ss-card ss-card-04">
+    <div class="ss-card ss-card-03">
         <a class="ss-img" href="#">
-            <div class="img-bg lazy-bg" data-src="public/assets/app/images/content/0<?= $j%6+1 ?>.jpg"></div>
+            <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/35.jpg"></div>
             <div class="hover-container">
                 <div class="icon">
                     <img src="public/assets/app/images/icon/06.png" alt="Icon" />
@@ -17,7 +17,7 @@
             <div class="wrapper">
                 <div class="ss-box-shadow fade-right"></div>
                 <div class="text-wrapper">
-                    <a class="title h6 fw-600" href="#">
+                    <a class="title h4" href="#">
                         กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบ
                         สายสื่อสารลงดิน วางระบบ 5G
                     </a>
@@ -38,14 +38,23 @@
                             </div> 20
                         </div>
                     </div>
+                    <div class="ss-tag">
+                        <div class="text">TAG :</div> 
+                        <div class="tags">
+                            <a class="tag" href="#">นิคมอุตสาหกรรม</a>
+                            <a class="tag" href="#">กนอ.</a>
+                            <a class="tag" href="#">5G</a>
+                            <a class="tag" href="#">สายสื่อสาร</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 <?php }else if($cardType == 'Video'){?>
-    <div class="ss-card ss-card-04">
+    <div class="ss-card ss-card-03">
         <a class="ss-img" href="#">
-            <div class="img-bg lazy-bg" data-src="public/assets/app/images/content/0<?= $j%6+1 ?>.jpg"></div>
+            <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/35.jpg"></div>
             <div class="hover-container op-100 bg-transparent">
                 <div class="icon">
                     <img src="public/assets/app/images/icon/play.svg" alt="Icon" />
@@ -60,7 +69,7 @@
             <div class="wrapper">
                 <div class="ss-box-shadow fade-right"></div>
                 <div class="text-wrapper">
-                    <a class="title h6 fw-600" href="#">
+                    <a class="title h4" href="#">
                         กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบ
                         สายสื่อสารลงดิน วางระบบ 5G
                     </a>
@@ -81,14 +90,23 @@
                             </div> 20
                         </div>
                     </div>
+                    <div class="ss-tag">
+                        <div class="text">TAG :</div> 
+                        <div class="tags">
+                            <a class="tag" href="#">นิคมอุตสาหกรรม</a>
+                            <a class="tag" href="#">กนอ.</a>
+                            <a class="tag" href="#">5G</a>
+                            <a class="tag" href="#">สายสื่อสาร</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 <?php }else if($cardType == 'Photo'){?>
-    <div class="ss-card ss-card-04">
+    <div class="ss-card ss-card-03">
         <a class="ss-img" href="#">
-            <div class="img-bg lazy-bg" data-src="public/assets/app/images/content/0<?= $j%6+1 ?>.jpg"></div>
+            <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/35.jpg"></div>
             <div class="hover-container">
                 <div class="icon">
                     <img src="public/assets/app/images/icon/06.png" alt="Icon" />
@@ -103,7 +121,7 @@
             <div class="wrapper">
                 <div class="ss-box-shadow fade-right"></div>
                 <div class="text-wrapper">
-                    <a class="title h6 fw-600" href="#">
+                    <a class="title h4" href="#">
                         กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบ
                         สายสื่อสารลงดิน วางระบบ 5G
                     </a>
@@ -129,8 +147,18 @@
                             </div> 20
                         </div>
                     </div>
+                    <div class="ss-tag">
+                        <div class="text">TAG :</div> 
+                        <div class="tags">
+                            <a class="tag" href="#">นิคมอุตสาหกรรม</a>
+                            <a class="tag" href="#">กนอ.</a>
+                            <a class="tag" href="#">5G</a>
+                            <a class="tag" href="#">สายสื่อสาร</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 <?php }?>
+

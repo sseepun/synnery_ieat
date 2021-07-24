@@ -118,11 +118,49 @@ nav.footer.minisite img.hero{width:7.5rem;}
 .tab-container .tabs.tabs-minisite .tab::before{
     content:''; position:absolute; bottom:0; left:0; right:0; height:1px; opacity:.25;
 }
-.tab-container .tabs.tabs-minisite .tab:last-child::before{display:none;}
+.tab-container .tabs.tabs-minisite .tab.tab-main:last-child::before{display:none;}
+.tab-container .tabs.tabs-minisite .tab-children{display:none;}
+.tab-container .tabs.tabs-minisite .tab > .chev{
+    position:absolute; top:0; bottom:0; right:.625rem; display:flex; align-items:center;
+    font-size:1.5rem; transition:transform .25s;
+}
+.tab-container .tabs.tabs-minisite .tab.toggled > .chev{transform:rotate(-180deg);}
 @media screen and (max-width:1199.98px){
     .tab-container .tabs.tabs-minisite{min-height:31rem;}
 }
 @media screen and (max-width:991.98px){
     .tab-container .tabs.tabs-minisite{min-height:0;}
     .tab-container .tabs.tabs-minisite > .img-hero{display:none;}
+}
+
+
+/* Tab Container 04 */
+.tab-container-04.minisite .tabs{
+    justify-content:center; border-top:1px solid transparent; border-bottom:1px solid transparent;
+}
+.tab-container-04.minisite .tab{border:1px solid transparent; border-left:0; margin:-1px 0;}
+.tab-container-04.minisite .tab:last-child{border-right:0;}
+.tab-container-04.minisite .slide > .wrapper{padding:.625rem;}
+.tab-container-04.minisite .slide .ss-card{transition:transform .45s;}
+.tab-container-04.minisite .slide.slick-center .ss-card{transform:scale(1.05);}
+.tab-container-04.minisite .bottom-container{position:relative; width:100%; text-align:center;}
+.tab-container-04.minisite .arrows{
+    position:absolute; top:0; bottom:0; right:0; display:flex; align-items:center;
+    justify-content:flex-end;
+}
+.tab-container-04.minisite .arrows .arrow{
+    display:flex; align-items:center; justify-content:center; pointer-events:all;
+    width:2.5rem; height:2.1875rem; margin:0 0 0 .5rem; font-size:1.625rem;
+    padding:0 0 .125rem 0;
+}
+@media screen and (max-width:991.98px){
+    .tab-container-04.minisite .tab{margin:0;}
+}
+@media screen and (max-width:575.98px){
+    .tab-container-04.minisite .bottom-container{
+        display:flex; align-items:center; justify-content:space-between;
+    }
+    .tab-container-04.minisite .arrows{
+        position:relative; top:unset; bottom:unset; right:unset;
+    }
 }

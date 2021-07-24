@@ -29,57 +29,10 @@
                         <div class="slides">
                             <?php for($j=0; $j<4; $j++){?>
                                 <div class="slide">
-                                    <div class="ss-card ss-card-03">
-                                        <a class="ss-img" href="#">
-                                            <div class="img-bg lazy-bg" data-src="public/assets/app/images/bg/35.jpg"></div>
-                                            <div class="hover-container op-100 bg-transparent">
-                                                <div class="icon">
-                                                    <img src="public/assets/app/images/icon/play.svg" alt="Icon" />
-                                                </div>
-                                            </div>
-                                            <div class="date bg-04">
-                                                <div class="d">04</div>
-                                                <div class="m-y">09.2563</div>
-                                            </div>
-                                        </a>
-                                        <div class="text-container">
-                                            <div class="wrapper">
-                                                <div class="ss-box-shadow fade-right"></div>
-                                                <div class="text-wrapper">
-                                                    <a class="title h4" href="#">
-                                                        กนอ.ดึงเอกชนร่วมพีพีพีจัดระเบียบ
-                                                        สายสื่อสารลงดิน วางระบบ 5G
-                                                    </a>
-                                                    <p class="desc mt-1">
-                                                        บอร์ดกนอ.ไฟเขียวลงทุนนำสายสื่อสารในนิคมอุตสาหกรรมลงใต้ดิน 
-                                                        รองรับ Smart City เตรียมวางระบบ 5 G ครอบคลุมพื้นที่นิคมอุตสาห
-                                                        กรรรม 14 แห่ง และท่าเรืออุตสาหกรรม 1 แห่ง คาดเริ่มได้ปี’67  
-                                                    </p>
-                                                    <div class="ss-stat">
-                                                        <div class="stat">
-                                                            <div class="icon">
-                                                                <em class="zmdi zmdi-eye"></em>
-                                                            </div> 112
-                                                        </div>
-                                                        <div class="stat">
-                                                            <div class="icon">
-                                                                <em class="zmdi zmdi-share"></em>
-                                                            </div> 20
-                                                        </div>
-                                                    </div>
-                                                    <div class="ss-tag">
-                                                        <div class="text">TAG :</div> 
-                                                        <div class="tags">
-                                                            <a class="tag" href="#">นิคมอุตสาหกรรม</a>
-                                                            <a class="tag" href="#">กนอ.</a>
-                                                            <a class="tag" href="#">5G</a>
-                                                            <a class="tag" href="#">สายสื่อสาร</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <?php
+                                        $cardType = 'Video';
+                                        include('component/minisite-card-preview.php');
+                                    ?>
                                 </div>
                             <?php }?>
                         </div>
@@ -104,10 +57,20 @@
                             $categoryTab = [
                                 'bg' => 'public/assets/app/images/bg/minisite-02.jpg',
                                 'structure' => [
-                                    [ 'name' => 'ภาพกิจกรรมทั้งหมด', 'icon' => 'videos.svg' ],
-                                    [ 'name' => 'วิดีทัศน์', 'icon' => 'video.svg', 'active' => true ],
-                                    [ 'name' => 'วิดีทัศน์ประชาสัมพันธ์' ],
-                                    [ 'name' => 'การประชุม งานสัมนา' ],
+                                    [ 
+                                        'name' => 'ภาพกิจกรรมทั้งหมด', 'icon' => 'videos.svg',
+                                        'children' => [
+                                            [ 'name' => 'กิจกรรมประชาสัมพันธ์' ],
+                                            [ 'name' => 'ภายในหน่วยงาน' ]
+                                        ]
+                                    ],
+                                    [ 
+                                        'name' => 'วิดีทัศน์', 'icon' => 'video.svg', 'active' => true,
+                                        'children' => [
+                                            [ 'name' => 'วิดีทัศน์ประชาสัมพันธ์' ],
+                                            [ 'name' => 'การประชุม งานสัมนา' ],
+                                        ]
+                                    ],
                                 ]
                             ];
                             include('component/category-tab-minisite.php');

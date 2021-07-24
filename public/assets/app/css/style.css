@@ -1014,6 +1014,8 @@ ul.ss-list.dot-h3-xs > li:first-child::before{top:.875rem;}
     text-align:center; font-size:1.0625rem;
 }
 .ss-stat .stat > .icon > img{display:block; width:100%; height:100%;}
+.ss-stat .stat > .icon.icon-img{display:flex; align-items:center; justify-content:center;}
+.ss-stat .stat > .icon.icon-img > img{width:auto; max-width:65%; height:auto; max-height:65%;}
 .ss-stat .stat.fit-text{margin-right:0;}
 .ss-stat .stat.fit-text > .icon + *{width:calc(100% - 2rem);}
 
