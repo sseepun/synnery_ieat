@@ -644,6 +644,20 @@ $(function(){ 'use strict';
         });
     }
 
+    // FAQ 03
+    var faq03 = $('.faq-03');
+    if(faq03.length){
+        faq03.each(function(){
+            var self = $(this);
+            self.find('.faq > .faq-header .title').click(function(e){
+                e.preventDefault();
+                var parent = $(this).closest('.faq');
+                parent.toggleClass('active');
+                parent.find('> .faq-body').slideToggle();
+            });
+        });
+    }
+
 
     // Slide Container 01
     var slideContainer01 = $('.slide-container-01');

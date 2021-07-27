@@ -382,8 +382,14 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 .faq-02 .faq .faq-icon{border-right:1px solid #ffff00;}
 .faq-02 .faq > .faq-body .faq-icon{border-top:1px solid #ffff00;}
 
+/* FAQ 03 */
+.faq-03 .faq{border-color:#ffff00; background:#000000;}
+.faq-03 .faq .faq-icon > .icon::before, .faq-03 .faq .faq-icon > .icon::after{background:#ffff00;}
+
+
 /* Slide Container 01 */
 .slide-container-01 > .arrows .arrow{background:#ffff00!important; color:#000000!important;}
+
 
 /* Tab Container 01 */
 .tab-container-01 .tabs{background:#000; border:1px solid #ffff00;}
@@ -414,6 +420,13 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 .tab-container .tabs.tabs-minisite .tab{color:#ffff00;}
 .tab-container .tabs.tabs-minisite .tab.active{background:#ffff00; color:#000000!important;}
 .tab-container .tabs.tabs-minisite .tab::before{background:#ffff00;}
+
+
+/* Table Vote 01 */
+table.table-vote-01 tr.winning td > .percent{border-color:#ffff00;}
+table.table-vote-01 td > .progress{background:#000000; border:1px solid #ffff00;}
+table.table-vote-01 td > .progress::before{background:#ffff00; opacity:.5;}
+table.table-vote-01 tr.winning td > .progress::before{background:#ffff00; opacity:1;}
 
 
 /* Section Calendar */

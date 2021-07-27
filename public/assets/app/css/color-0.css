@@ -544,6 +544,11 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 .faq-02.faq > .faq-body .faq-icon{background:#169f96;}
 .faq-02 .faq .title:hover{color:#5d4189;}
 
+/* FAQ 03 */
+.faq-03 .faq{border-color:#eaeaea; border-top-color:#43afa1; background:#ffffff;}
+.faq-03 .faq .faq-icon > .icon::before, .faq-03 .faq .faq-icon > .icon::after{background:#43afa1;}
+.faq-03 .faq .stat > .icon{background:transparent;}
+
 
 /* Tab Container 01 */
 .tab-container-01 .tabs{background:#ffffff;}
@@ -598,6 +603,13 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 .tab-container .tabs.tabs-minisite .tab::before{
     background-image:linear-gradient(to right, #ffffff, #ffffff, rgba(255,255,255,0));
 }
+
+
+/* Table Vote 01 */
+table.table-vote-01 tr.winning td > .percent{color:#803f97; border-color:#803f97;}
+table.table-vote-01 td > .progress{background:#f8f8f8;}
+table.table-vote-01 td > .progress::before{background:#169f96;}
+table.table-vote-01 tr.winning td > .progress::before{background:#803f97;}
 
 
 /* Section Calendar */
