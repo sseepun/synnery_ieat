@@ -468,6 +468,7 @@ img.content-img-float.left{float:left; margin:0 3rem 1.5rem 0;}
     border-radius:0; padding:.2rem .75rem; font-size:1.375rem;
 }
 .grid-header input[type=text]{width:calc(100% - 2.5rem); max-width:15rem;}
+.grid-header input[type=text].w-md{max-width:17rem; width:17rem;}
 .grid-header input[type=text] + .btn-grid{margin:0 0 0 .25rem;}
 .grid-header select{padding-right:1.75rem; width:9.625rem;}
 @media screen and (max-width:991.98px){
@@ -1120,6 +1121,10 @@ table.table-download-02 tr.row-sep td{
     padding:.75rem!important; background:transparent!important; border:0!important;
 }
 table.table-download-02 tr.row-sep:first-child td{padding:0!important;}
+table.table-download-02 .line-1{
+    display:block; display:-webkit-box; text-overflow:ellipsis; overflow:hidden;
+    -webkit-box-orient:vertical; -webkit-line-clamp:1;
+}
 table.table-download-02 .btn{
     display:flex; font-size:1.25rem; font-weight:500; white-space:nowrap; padding:0;
 }
@@ -1127,6 +1132,8 @@ table.table-download-02 .btn > em{
     display:block; width:1.5rem; height:1.5rem; text-align:center; line-height:1.1875rem;
     border:2px solid transparent; margin:0 0 0 .5rem; font-size:1rem;
 }
+table.table-download-02 .btn.btn-img{align-items:center;}
+table.table-download-02 .btn.btn-img > img{display:block; height:1.5rem; width:auto;}
 
 table.table-sm td{
     border:0; padding:.125rem 0; font-size:1.25rem; font-weight:200; transition:color .25s;

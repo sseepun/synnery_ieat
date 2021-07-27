@@ -20,11 +20,11 @@
         include('component/breadcrumb-minisite.php');
     ?>
 
-    <section class="section-padding">
+    <section class="section-padding mt-0">
         <div class="container">
 
-            <div class="grids jc-center" id="fade-up-mobile" data-aos="fade-up" data-aos-delay="450">
-                <div class="grid lg-90 sm-100">
+            <div class="grids jc-center" data-aos="fade-up" data-aos-delay="450">
+                <div class="grid lg-90 sm-100 mt-0">
 
                     <div class="grids grid-header sm-break mt-0">
                         <div class="grid sm-100 mt-0">
@@ -38,7 +38,7 @@
                                     </div>
                                 </div>
                                 <div class="options w-auto">
-                                    <input type="text" name="search" placeholder="ค้นหา" required title="Search" />
+                                    <input type="text" class="w-md" name="search" placeholder="ค้นหา" required title="Search" />
                                     <button type="submit" class="btn btn-grid">
                                         <em class="zmdi zmdi-search"></em>
                                     </button>

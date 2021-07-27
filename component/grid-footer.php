@@ -1,4 +1,4 @@
-<div class="grid-footer">
+<div class="grid-footer <?php if(!empty($gridFooterClass))echo $gridFooterClass; ?>">
     <div class="block">
         <div class="text-wrapper">
             จำนวนทั้งหมด 

@@ -20,6 +20,7 @@ html, body{color:#000000;}
 .color-08, .h-color-08:hover{color:#33bbc6!important;}
 .color-09, .h-color-09:hover{color:#6593b7!important;}
 .color-10, .h-color-10:hover{color:#804097!important;}
+.color-11, .h-color-11:hover{color:#0cc5b9!important;}
 
 .bg-white{background:#fff!important;}
 .bg-black{background:#000!important;}
@@ -37,6 +38,7 @@ html, body{color:#000000;}
 .bg-08{background:#33bbc6!important;}
 .bg-09{background:#6593b7!important;}
 .bg-10{background:#804097!important;}
+.bg-11{background:#0cc5b9!important;}
 
 .bcolor-white{border-color:#fff!important;}
 .bcolor-black{border-color:#000!important;}
@@ -54,6 +56,7 @@ html, body{color:#000000;}
 .bcolor-08{border-color:#33bbc6!important;}
 .bcolor-09{border-color:#6593b7!important;}
 .bcolor-10{border-color:#804097!important;}
+.bcolor-11{border-color:#0cc5b9!important;}
 
 .color-gradient-01{
     background-image:linear-gradient(to bottom, #9057b0, #56237b);
@@ -380,8 +383,8 @@ table.table-download.type-02 td{background:#ffffff; border-color:#f0eef1!importa
 table.table-download.type-03 td{background:#f0eef1; border-color:#fff!important;}
 table.table-download-02 td{background:#f0eef1; border-color:#ffffff;}
 table.table-download-02 tr.row-title td{background:#ffffff; border-color:#f0eef1;}
-table.table-download-02 .row-header:hover .text-wrapper{color:#ffffff;}
-table.table-download-02 .row-header::before{
+table.table-download-02 .row-header:not(.no-hover):hover .text-wrapper{color:#ffffff;}
+table.table-download-02 .row-header:not(.no-hover)::before{
     background-image:linear-gradient(to right, #9f77cd, #8564aa, #77569d);
 }
 table.table-download-02 .btn > em{border-color:#000000; background:#ffffff;}
@@ -548,6 +551,7 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 .faq-03 .faq{border-color:#eaeaea; border-top-color:#43afa1; background:#ffffff;}
 .faq-03 .faq .faq-icon > .icon::before, .faq-03 .faq .faq-icon > .icon::after{background:#43afa1;}
 .faq-03 .faq .stat > .icon{background:transparent;}
+.faq-03 .faq .stripe-container:first-child{border-color:#000000;}
 
 
 /* Tab Container 01 */

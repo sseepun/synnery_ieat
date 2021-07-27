@@ -12,18 +12,18 @@ html, body{background:#000; color:#ffff00;}
 .color-01, .h-color-01:hover, .color-02, .h-color-02:hover, .color-03, .h-color-03:hover,
 .color-04, .h-color-04:hover, .color-05, .h-color-05:hover, .color-06, .h-color-06:hover, 
 .color-07, .h-color-07:hover, .color-08, .h-color-08:hover, .color-09, .h-color-09:hover, 
-.color-10, .h-color-10:hover{
+.color-10, .h-color-10:hover, .color-11, .h-color-11:hover{
     color:#ffff00!important;
 }
 
 .bg-white, .bg-black, .bg-gray, .bg-sgray, .bg-fgray, .bg-ffgray,
-.bg-01, .bg-02, .bg-03, .bg-04, .bg-05, .bg-06, .bg-07, .bg-08, .bg-09, .bg-10{
+.bg-01, .bg-02, .bg-03, .bg-04, .bg-05, .bg-06, .bg-07, .bg-08, .bg-09, .bg-10, .bg-11{
     background:#000!important;
 }
 
 .bcolor-white, .bcolor-black, .bcolor-gray, .bcolor-sgray, .bcolor-fgray, .bcolor-ffgray,
 .bcolor-01, .bcolor-02, .bcolor-03, .bcolor-04, .bcolor-05, .bcolor-06, .bcolor-07, .bcolor-08,
-.bcolor-09, .bcolor-10{
+.bcolor-09, .bcolor-10, .bcolor-11{
     border-color:#ffff00!important;
 }
 
@@ -257,8 +257,8 @@ table.table-download .btn-download:hover > i, table.table-download .btn-download
 table.table-download.type-02 td{background:#000; border-color:#ffff00!important;}
 table.table-download-02 td{border-color:#ffff00;}
 table.table-download-02 tr.row-title td{border-color:#ffff00;}
-table.table-download-02 .row-header:hover .text-wrapper{color:#000;}
-table.table-download-02 .row-header::before{background:#ffff00;}
+table.table-download-02 .row-header:not(.no-hover):hover .text-wrapper{color:#000;}
+table.table-download-02 .row-header:not(.no-hover)::before{background:#ffff00;}
 table.table-download-02 .btn{color:#ffff00;}
 table.table-download-02 .btn > em{border-color:#ffff00; background:#000; color:#ffff00;}
 table.table-estate > tbody > tr > td{border:1px solid #ffff00;}
@@ -385,6 +385,7 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 /* FAQ 03 */
 .faq-03 .faq{border-color:#ffff00; background:#000000;}
 .faq-03 .faq .faq-icon > .icon::before, .faq-03 .faq .faq-icon > .icon::after{background:#ffff00;}
+.faq-03 .faq .stripe-container:first-child{border-color:#ffff00;}
 
 
 /* Slide Container 01 */
