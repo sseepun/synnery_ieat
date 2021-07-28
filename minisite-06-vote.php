@@ -20,9 +20,8 @@
         include('component/breadcrumb-minisite.php');
     ?>
 
-    <section class="section-padding mt-0">
+    <section class="section-padding pt-0">
         <div class="container">
-
             <div class="grids jc-center" data-aos="fade-up" data-aos-delay="450">
                 <div class="grid lg-90 sm-100 mt-0">
 

@@ -20,7 +20,7 @@
         include('component/breadcrumb-minisite.php');
     ?>
 
-    <section class="section-padding mt-0" data-aos="fade-up" data-aos-delay="450">
+    <section class="section-padding pt-0" data-aos="fade-up" data-aos-delay="450">
         <div class="container">
             
             <div class="grids grid-header sm-break mt-0">
@@ -89,7 +89,7 @@
                                         <table class="table table-download-02">
                                             <?php for($i=0; $i<4; $i++){?>
                                                 <tr class="row-title">
-                                                    <td colspan="4">
+                                                    <td colspan="2" class="no-border">
                                                         <div class="row-header no-hover">
                                                             <div class="ss-date">
                                                                 <div class="date bg-04">
@@ -104,9 +104,17 @@
                                                             </div>
                                                         </div>
                                                     </td>
+                                                    <td colspan="2" class="no-border val-middle">
+                                                        <div class="d-flex jc-end pr-3">
+                                                            <a class="btn btn-img" href="#">
+                                                                ลิงก์
+                                                                <img src="public/assets/app/images/icon/exit.svg" alt="Image Icon" />
+                                                            </a>
+                                                        </div>
+                                                    </td>
                                                 </tr>
                                                 <tr class="row-title">
-                                                    <td colspan="4">
+                                                    <td colspan="2" class="no-border">
                                                         <div class="row-header no-hover">
                                                             <div class="ss-date">
                                                                 <div class="date bg-11">
@@ -119,6 +127,14 @@
                                                                     ผลแผนปฏิบัติการ-ไตรมาส 2 (070463)
                                                                 </div>
                                                             </div>
+                                                        </div>
+                                                    </td>
+                                                    <td colspan="2" class="no-border val-middle">
+                                                        <div class="d-flex jc-end pr-3">
+                                                            <a class="btn btn-img" href="#">
+                                                                ดาวน์โหลดทั้ง (3 ไฟล์)
+                                                                <img src="public/assets/app/images/icon/download.png" alt="Image Icon" />
+                                                            </a>
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -138,16 +154,20 @@
                                                             </p>
                                                         </td>
                                                         <td>
-                                                            <a class="btn btn-img" href="#">
-                                                                ดาวน์โหลด
-                                                                <img class="ml-2" src="public/assets/app/images/icon/download.png" alt="Image Icon" />
-                                                            </a>
+                                                            <div class="d-flex jc-end">
+                                                                <a class="btn btn-img" href="#">
+                                                                    ดาวน์โหลด
+                                                                    <img class="ml-2" src="public/assets/app/images/icon/download.png" alt="Image Icon" />
+                                                                </a>
+                                                            </div>
                                                         </td>
                                                         <td>
-                                                            <a class="btn btn-img" href="#">
-                                                                แจ้งไฟล์เสีย 
-                                                                <img class="ml-2" src="public/assets/app/images/icon/error.png" alt="Image Icon" />
-                                                            </a>
+                                                            <div class="d-flex jc-end">
+                                                                <a class="btn btn-img" href="#">
+                                                                    แจ้งไฟล์เสีย 
+                                                                    <img class="ml-2" src="public/assets/app/images/icon/error.png" alt="Image Icon" />
+                                                                </a>
+                                                            </div>
                                                         </td>
                                                     </tr>
                                                 <?php }?>

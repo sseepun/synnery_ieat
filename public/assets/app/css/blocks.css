@@ -1099,6 +1099,31 @@
 }
 
 
+/* RSS 01 */
+.rss-01{width:100%;}
+.rss-01 > .rss{position:relative; width:100%; display:flex; align-items:center;}
+.rss-01 > .rss .ss-date{position:unset; width:unset; padding:0;}
+.rss-01 > .rss .ss-date > .date{top:0; left:0;}
+.rss-01 > .rss .title{
+    width:calc(100% - 3rem); position:relative; display:flex; align-items:center;
+    margin:0 0 0 3rem; min-height:3.6875rem; padding:1rem 4rem 1rem 1rem;
+    border-top:.0625rem solid transparent; border-right:.0625rem solid transparent;
+}
+.rss-01 > .rss:last-child .title{border-bottom:.0625rem solid transparent;}
+.rss-01 > .rss .icon-rss{
+    position:absolute; top:.375rem; bottom:.375rem; right:.375rem;
+    display:flex; align-items:center;
+}
+.rss-01 > .rss .icon-rss img{display:block; height:2.9375rem; width:auto;}
+@media screen and (max-width:767.98px){
+    .rss-01 > .rss .title{padding:.75rem 3.5rem .75rem .75rem;}
+    .rss-01 > .rss .icon-rss img{height:2.5rem;}
+}
+/* RSS 01 */
+.rss-01 > .rss{background:#ffffff;}
+.rss-01 > .rss .title{border-color:#f0eef1!important;}
+
+
 /* Section Calendar */
 .section-calendar .slide-container.slide-month{position:relative; width:100%; padding:0 2rem;}
 .section-calendar .slide > .wrapper{

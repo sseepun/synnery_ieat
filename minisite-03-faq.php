@@ -22,7 +22,6 @@
 
     <section class="section-padding pt-0">
         <div class="container">
-
             <div class="grid-header mt-0" data-aos="fade-up" data-aos-delay="300">
                 <p class="fw-600 text-center">
                     พิมพ์คำค้นหาของคำถามหรือคำตอบ
@@ -36,7 +35,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="grids jc-center" data-aos="fade-up" data-aos-delay="450">
                 <div class="grid lg-90 sm-100">
 

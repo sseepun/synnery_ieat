@@ -217,7 +217,11 @@ nav.footer .tag{background:#ffff00; color:#000;}
 .ss-img > .date .d{border-color:#000;}
 .ss-img .hover-container{background-color:rgba(111,81,170,.65);}
 .ss-img .play-container .icon{border-color:#ffff00; color:#ffff00;}
-.ss-img .content-info{background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,.5) 60%, rgba(0,0,0,0) 100%);}
+.ss-img .content-info{
+    background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, 
+        rgba(0,0,0,.5) 60%, rgba(0,0,0,0) 100%);
+}
+.ss-img > .img-bg-container{background:#f7f7f7;}
 
 
 /* Special List */

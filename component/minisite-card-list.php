@@ -133,4 +133,52 @@
             </div>
         </div>
     </div>
+<?php }else if($cardType == 'Weblink'){?>
+    <div class="ss-card ss-card-07">
+        <a class="ss-img vertical-sm" href="#">
+            <div class="img-bg-container">
+                <?php
+                    $img = 'public/assets/app/images/icon/book-cog-purple.svg';
+                    if($j%4==1) $img = 'public/assets/app/images/icon/case-purple.svg';
+                    else if($j%4==2) $img = 'public/assets/app/images/icon/client-01.png';
+                    else if($j%4==3) $img = 'public/assets/app/images/icon/client-02.png';
+                ?>
+                <img src="<?= $img ?>" alt="Image Icon" />
+            </div>
+            <div class="hover-container">
+                <div class="wrapper">
+                    <div class="icon">
+                        <img src="public/assets/app/images/icon/share-circle.svg" alt="Icon" />
+                    </div>
+                    <p class="color-white text-center">แชร์ลิงก์</p>
+                </div>
+            </div>
+        </a>
+        <div class="text-container">
+            <div class="wrapper">
+                <div class="ss-box-shadow fade-right"></div>
+                <div class="text-wrapper">
+                    <a class="title h6 fw-600 color-04" href="#">
+                        สำนักงานส่งเสริมวิสาหกิจขนาดกลางและขนาดย่อม(สสว.)
+                    </a>
+                    <p class="desc line-2 mt-1">
+                        หน่วยงานที่ทำหน้าจัดทำรายงานสถานการณ์วิสาหกิจขนาดกลาง 
+                        และขนาดย่อมของประเทศรวมถึงส่งเสริมความสามารถในการแข่งขัน  
+                    </p>
+                    <div class="ss-stat">
+                        <div class="stat">
+                            <div class="icon icon-img">
+                                <img src="public/assets/app/images/icon/read.svg" alt="Image Icon" />
+                            </div> 112
+                        </div>
+                        <div class="stat">
+                            <div class="icon icon-img">
+                                <img src="public/assets/app/images/icon/share.svg" alt="Image Icon" />
+                            </div> 20
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <?php }?>

@@ -314,7 +314,11 @@ nav.footer.minisite .btn-social-white::before{background:#804097;}
 .ss-img > .date .d{border-color:#c1dade;}
 .ss-img .hover-container{background-color:rgba(111,81,170,.65);}
 .ss-img .play-container .icon{border-color:#ffffff; color:#ffffff;}
-.ss-img .content-info{background: linear-gradient(90deg, rgba(82,65,137,1) 0%, rgba(114,164,197,1) 30%, rgba(193,239,244,.5) 60%, rgba(255,255,255,0) 100%);}
+.ss-img .content-info{
+    background:linear-gradient(90deg, rgba(82,65,137,1) 0%, rgba(114,164,197,1) 30%, 
+        rgba(193,239,244,.5) 60%, rgba(255,255,255,0) 100%);
+}
+.ss-img > .img-bg-container{background:#f7f7f7;}
 
 
 /* Special List */

@@ -471,8 +471,11 @@ img.content-img-float.left{float:left; margin:0 3rem 1.5rem 0;}
 .grid-header input[type=text].w-md{max-width:17rem; width:17rem;}
 .grid-header input[type=text] + .btn-grid{margin:0 0 0 .25rem;}
 .grid-header select{padding-right:1.75rem; width:9.625rem;}
+.grid-header.header-float{float:right;}
 @media screen and (max-width:991.98px){
     .grid-header{margin:3.875rem 0 0 0;}
+    .grid-header.header-float{float:unset; margin-bottom:.5rem;}
+    .grid-header.header-float .d-flex{justify-content:center!important;}
 }
 @media screen and (max-width:767.98px){
     .grid-header{margin:2.5rem 0 0 0;}
@@ -485,7 +488,7 @@ img.content-img-float.left{float:left; margin:0 3rem 1.5rem 0;}
 .grid-footer{
     width:100%; display:flex; align-items:center; justify-content:space-between;
     border-top:1px solid transparent; border-bottom:1px solid transparent;
-    padding:.125rem 0; margin:3rem 0 0 0; font-size:1.25rem;
+    padding:.125rem 0; margin:1.75rem 0 0 0; font-size:1.25rem;
 }
 .grid-footer > .block{display:flex; align-items:center;}
 .grid-footer .pagination{margin:0;}
@@ -497,7 +500,7 @@ img.content-img-float.left{float:left; margin:0 3rem 1.5rem 0;}
 .grid-footer select.pp{font-size:1.4375rem; font-weight:500; padding:0 .75rem 0 0; border:0;}
 .grid-footer .select-wrapper::after{width:.75rem; font-size:.9375rem;}
 @media screen and (max-width:991.98px){
-    .grid-footer{flex-wrap:wrap; justify-content:center; margin:2.25rem 0 0 0;}
+    .grid-footer{flex-wrap:wrap; justify-content:center; margin:1.5rem 0 0 0;}
     .grid-footer > .block{width:100%;}
     .grid-footer .text-wrapper{width:100%;}
 }
@@ -831,6 +834,7 @@ img.content-img-float.left{float:left; margin:0 3rem 1.5rem 0;}
 .ss-card-07 .text-container > .wrapper{
     position:relative; width:100%; height:100%; padding:.75rem 1rem;
 }
+.ss-card-07 .desc{-webkit-line-clamp:2;}
 @media screen and (max-width:1199.98px){
     .ss-card-07{padding:0 35% 0 0;}
     .ss-card-07 .text-container{top:1.25rem; bottom:1.25rem; width:50%;}
@@ -958,6 +962,14 @@ img.content-img-float.left{float:left; margin:0 3rem 1.5rem 0;}
 .ss-img > .ss-options a:last-child{margin:0;}
 .ss-img > .ss-options a:hover{opacity:.7;}
 .ss-img > .ss-options a > img{display:inline-block; height:1.25rem; width:auto; margin:0 .25rem 0 0;}
+
+.ss-img > .img-bg-container{
+    position:absolute; top:0; bottom:0; left:0; right:0; display:flex; align-items:center;
+    justify-content:center;
+}
+.ss-img > .img-bg-container img{
+    display:block; width:auto; max-width:8rem; height:auto; max-height:6.25rem;
+}
 
 @media screen and (max-width:767.98px){
     .ss-img .content-info .text-wrapper{padding:1rem 4rem 1rem 1rem;}
@@ -1315,9 +1327,12 @@ table.table-faq tr:last-child > td{border-bottom:3px solid transparent;}
 .no-bradius{border-radius:0!important;}
 .no-padding{padding:0!important;}
 .box-shadow{box-shadow:0px 5px 20px 10px rgba(0,0,0,.1);}
+.box-shadow-top{box-shadow:0px -4px 8px 2px rgba(0,0,0,.08);}
 
 .ovf-hidden{overflow:hidden;}
 .clear-both{clear:both;}
+
+.val-middle{vertical-align:middle!important;}
 
 @media screen and (max-width:1199.98px){
     .lg-no-br > br{display:none;}
