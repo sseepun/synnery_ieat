@@ -21,34 +21,37 @@
     ?>
 
     <section class="section-padding">
-        <div class="container bg-white">
-            <h5>เขตอุสาหกรรมทำเลทอง</h5>
-            <h2>ค้นหา</h2>
+        <div class="container">
+            <div class="bg-white p-3">
+                <h6>เขตอุสาหกรรมทำเลทอง</h6>
+            </div>
+            
+            <h4 style="text-align: center;" class="h4 fw-500 color-white bg-04 py-2">ค้นหาขั้นสูง</h3>
             
                 <form action="/" method="POST">
                     <div class="ss-box-header shadow position-relative" style="z-index:1;">
-                        <div class="header bg-white pt-2">
+                        <div class="header bg-white p-4">
                             <div class="grids">
-                                <div class="grid md-30">
-                                    <p>ระยะเวลาจาก</p>
-                                        <div class="input-date-wrapper">
-                                            <input type="text" class="bg-white date-picker" title="General Text Input" />
-                                        </div>
-                                        <span>ถึง</span>
-                                        <div class="input-date-wrapper">
-                                            <input type="text" class="bg-white date-picker" title="General Text Input" />
-                                        </div>
+                                <div class="grid lg-30">
+                                    <p class="mb-1 fw-600">ระยะเวลาจาก:</p>
+                                    <div class="input-date-wrapper">
+                                        <input type="text" class="bg-white date-picker" title="General Text Input" />
+                                    </div>
+                                    <span class="px-1 fw-300">ถึง</span>
+                                    <div class="input-date-wrapper">
+                                        <input type="text" class="bg-white date-picker" title="General Text Input" />
+                                    </div>
                                 </div>
-                                <div class="grid md-20">
-                                    <p>เรียงลำดับ</p>
-                                    <div class="select-wrapper">
-                                        <select class="bg-white" title="Type">
+                                <div class="grid lg-20">
+                                    <p class="mb-1 fw-600">เรียงลำดับ:</p>
+                                    <div class="select-wrapper" style="width:100%">
+                                        <select class="bg-white" style="width:100%" title="Type">
                                             <option value="">&nbsp;</option>
                                         </select>
                                     </div>
                                 </div>
                             </div>
-                            <p>ประเภทข้อมูล :</p>
+                            <p class="mt-3 mb-1 fw-600">ประเภทข้อมูล:</p>
                             <fieldset>
                                 <div class="grids">
                                     <div class="grid md-20 mt-0">
@@ -88,47 +91,17 @@
 
                                 </div>
                             </fieldset>
-
-
-                                    
-<!--                                         <div class="d-flex ai-center fw-wrap">
-                                            <div class="mr-4">
-
-                                            </div>
-                                            <div class="mr-4">
-
-                                            </div>
-                                            <div class="mr-4">
-
-                                            </div>
-                                            <div class="mr-4">
-
-                                            </div>
-                                            <div class="mr-4">
-
-                                            </div>
-                                            <div class="mr-4">
-
-                                            </div>
-                                            <div>
-                                                <input class="mr-2" type="checkbox" name="checkbox_0" id="checkbox_0_6" value="6" title="General Checkbox" />
-                                                <label class="fw-300" for="checkbox_0_6">ถามตอบ</label>
-                                            </div>
-                                        </div>
-
-                                </div>
-
-                            </div> -->
+                            <div class="btns text-center mt-4">
+                                <button type="submit" class="btn btn-action mr-1">
+                                    <span>ค้นหา</span>
+                                </button>
+                                <button type="reset" class="btn btn-action btn-action-01">
+                                    <span>ล้างข้อมูล</span>
+                                </button>
+                            </div>
                         </div>
 
-                        <div class="btns text-center mt-0">
-                            <button type="submit" class="btn btn-action mr-1">
-                                <span>ค้นหา</span>
-                            </button>
-                            <button type="reset" class="btn btn-action btn-action-01">
-                                <span>ล้างข้อมูล</span>
-                            </button>
-                        </div>
+
 
                     </div>
                 </form>
@@ -137,8 +110,8 @@
 
         </div>
         <div class="container">
-                <h1>“เขตอุตสาหกรรมทำเลทอง”</h1>
-                <h2>ผลลัพธ์การค้นหา 44 รายการ</h2>
+                <h3 style="text-align: center;" class="h3 fw-600 color-04 mt-5">“เขตอุตสาหกรรมทำเลทอง”</h3>
+                <h4 style="text-align: center;" class="mb-5">ผลลัพธ์การค้นหา 44 รายการ</h4>
             <div class="grids">
                 <?php for($j=0; $j<10; $j++){?>
                     <div class="grid sm-100">
@@ -154,29 +127,6 @@
             <?php include('component/grid-footer.php'); ?>
                                
 
-        </div>
-    </section>
-
-    <section class="section-padding bg-fgray">
-        <div class="container">
-            <div class="grids">
-                <div class="grid lg-25 sm-100 mt-0"></div>
-                <div class="grid lg-75 sm-100 mt-0" data-aos="fade-up" data-aos-delay="0">
-                    <div class="ss-title">
-                        <span class="h3 fw-600 color-04">วิดีทัศน์ที่เกี่ยวข้อง</span>
-                    </div>
-                    <div class="grids">
-                        <?php for($j=0; $j<3; $j++){?>
-                            <div class="grid md-1-3 sm-50">
-                                <?php
-                                    $cardType = 'Video';
-                                    include('component/minisite-card-grid.php');
-                                ?>
-                            </div>
-                        <?php }?>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
