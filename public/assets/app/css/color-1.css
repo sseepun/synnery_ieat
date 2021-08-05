@@ -306,7 +306,7 @@ table.table-faq td{border-color:#fff!important; border-bottom:1px solid #ffffff;
 
 
 /* About 06 */
-.about-06 .about-banner *{color:#ffffff};
+.about-06 .about-banner .text-cntainer *:not(.btn){color:#ffffff};
 
 
 /* Banner 01 */
@@ -396,6 +396,7 @@ table.table-faq td{border-color:#fff!important; border-bottom:1px solid #ffffff;
 
 
 /* Sitemap 01 */
+.sitemap-01 > .img-bg{display:none;}
 .sitemap-01 > .container{border:1px solid #ffffff;}
 .sitemap-01 .sitemap-section{background:#000000;}
 .sitemap-01 .grid::after{background:#ffffff;}

@@ -451,7 +451,7 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 
 
 /* About 06 */
-.about-06 .about-banner *{color:#ffffff};
+.about-06 .about-banner .text-cntainer *:not(.btn){color:#ffffff};
 
 
 /* Banner 01 */
