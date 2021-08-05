@@ -450,6 +450,10 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 .about-04 .board-card::before{background:#414256;}
 
 
+/* About 06 */
+.about-06 .about-banner *{color:#ffffff};
+
+
 /* Banner 01 */
 .banner-01 .slick-dots button{border-color:#4b326e;}
 .banner-01 .slick-dots .slick-active button{background:#4b326e;}

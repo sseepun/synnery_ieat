@@ -305,6 +305,10 @@ table.table-faq td{border-color:#fff!important; border-bottom:1px solid #ffffff;
 .about-04 .director-container-02{border-bottom:1px solid #ffffff;}
 
 
+/* About 06 */
+.about-06 .about-banner *{color:#ffffff};
+
+
 /* Banner 01 */
 .banner-01 .slick-dots button{border-color:#ffffff;}
 .banner-01 .slick-dots .slick-active button{background:#ffffff;}

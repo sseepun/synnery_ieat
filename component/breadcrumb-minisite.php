@@ -1,5 +1,5 @@
 <?php if(!empty($breadcrumb)){?>
-    <div class="breadcrumb-02">
+    <div class="breadcrumb-02 <?php if($breadcrumb['class'])echo $breadcrumb['class']; ?>">
         <div class="img-bg" style="background-image:url('<?= $breadcrumb['bg'] ?>');"></div>
         <div class="container">
             <h6 class="h2 lh-xs color-10 text-center sm-no-br" data-aos="fade-up" data-aos-delay="0">
