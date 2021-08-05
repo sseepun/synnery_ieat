@@ -19,39 +19,9 @@
         ];
         include('component/breadcrumb-minisite.php');
     ?>
-<style>
-/* Sitemap 01 */
-.sitemap-01{padding:0 0 10rem 0;}
-.sitemap-01 .sitemap-section:last-child{padding-bottom:4rem!important;}
-.sitemap-01 .grids{--gs:1.5rem;}
-.sitemap-01 .grid{position:relative; padding-bottom:1rem;}
-.sitemap-01 .grid::after{
-    content:''; position:absolute; top:0; bottom:0; right:-.75rem; width:1px;
-}
-.sitemap-01 .list-title{font-weight:400; margin-top:1.5rem;}
-.sitemap-01 .list-title:first-child{margin-top:0;}
-@media screen and (max-width:991.98px){
-    .sitemap-01 .grid{padding-bottom:0;}
-    .sitemap-01 .grid:nth-child(3n)::after{display:none;}
-    .sitemap-01 .grid::after{top:-1.5rem;}
-    .sitemap-01 .grid:nth-child(1)::after, .sitemap-01 .grid:nth-child(2)::after,
-    .sitemap-01 .grid:nth-child(3)::after{top:0;}
-}
-@media screen and (max-width:767.98px){
-    .sitemap-01 .grid{padding-bottom:0;}
-    .sitemap-01 .grid:nth-child(3n)::after{display:block;}
-    .sitemap-01 .grid:nth-child(2n)::after{display:none;}
-    .sitemap-01 .grid:nth-child(3)::after{top:-1.5rem;}
-}
-@media screen and (max-width:575.98px){
-    .sitemap-01 .grid::after{display:none!important;}
-}
-.sitemap-01 .grid:last-child::after{display:none;}
-</style>
 
     <section class="sitemap-01">
-        <img src="" alt="" />
-        <div class="img-bg"></div>
+        <img class="img-bg" src="public/assets/app/images/bg/minisite-sitemap.png" alt="Image Background" />
         <div class="container position-relative" data-aos="fade-up" data-aos-delay="300">
 
             <div class="sitemap-section p-4">
@@ -363,7 +333,7 @@
 
         </div>
     </section>
-    <img style="margin-top:-850px;" src="public/assets/app/images/bg/site-map.png">
+
     <?php include_once('include/footer-minisite.php'); ?>
     <?php include_once('include/script.php'); ?>
 </body>
