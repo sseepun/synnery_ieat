@@ -363,7 +363,7 @@
 
         </div>
     </section>
-
+    <img style="margin-top:-850px;" src="public/assets/app/images/bg/site-map.png">
     <?php include_once('include/footer-minisite.php'); ?>
     <?php include_once('include/script.php'); ?>
 </body>
