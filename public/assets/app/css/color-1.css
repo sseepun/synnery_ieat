@@ -391,6 +391,12 @@ table.table-faq td{border-color:#fff!important; border-bottom:1px solid #ffffff;
 .faq-03 .faq .stripe-container:first-child{border-color:#ffffff;}
 
 
+/* Sitemap 01 */
+.sitemap-01 > .container{border:1px solid #ffffff;}
+.sitemap-01 .sitemap-section{background:#000000;}
+.sitemap-01 .grid::after{background:#ffffff;}
+
+
 /* Slide Container 01 */
 .slide-container-01 > .arrows .arrow{background:#ffffff!important; color:#000000!important;}
 

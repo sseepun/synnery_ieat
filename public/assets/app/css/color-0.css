@@ -329,6 +329,7 @@ ul.ss-list.color-white > li > a{color:#ffffff;}
 ul.ss-list.color-white > li:hover > a{color:#6ddeee;}
 ul.ss-list > li::before{background:#6ddeee;}
 ul.ss-list.dot-dark > li::before{background:#282828;}
+ul.ss-list.dot-purple > li::before{background:#7c3e94;}
 
 
 /* Special Separation */
@@ -556,6 +557,11 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 .faq-03 .faq .faq-icon > .icon::before, .faq-03 .faq .faq-icon > .icon::after{background:#43afa1;}
 .faq-03 .faq .stat > .icon{background:transparent;}
 .faq-03 .faq .stripe-container:first-child{border-color:#000000;}
+
+
+/* Sitemap 01 */
+.sitemap-01 .sitemap-section{background:#ffffff;}
+.sitemap-01 .grid::after{background:#d4d4d4;}
 
 
 /* Tab Container 01 */

@@ -107,7 +107,7 @@
                                                     <td colspan="2" class="no-border val-middle">
                                                         <div class="d-flex jc-end pr-3">
                                                             <a class="btn btn-img" href="#">
-                                                                ลิงก์
+                                                                <span class="mr-2">ลิงก์</span>
                                                                 <img src="public/assets/app/images/icon/exit.svg" alt="Image Icon" />
                                                             </a>
                                                         </div>
@@ -132,7 +132,7 @@
                                                     <td colspan="2" class="no-border val-middle">
                                                         <div class="d-flex jc-end pr-3">
                                                             <a class="btn btn-img" href="#">
-                                                                ดาวน์โหลดทั้ง (3 ไฟล์)
+                                                                <span class="mr-2">ดาวน์โหลดทั้ง (3 ไฟล์)</span>
                                                                 <img src="public/assets/app/images/icon/download.png" alt="Image Icon" />
                                                             </a>
                                                         </div>
