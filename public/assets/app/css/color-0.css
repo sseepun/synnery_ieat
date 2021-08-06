@@ -451,7 +451,7 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 
 
 /* About 06 */
-.about-06 .about-banner .text-cntainer *:not(.btn){color:#ffffff};
+.about-06 .about-banner .text-container *:not(.btn){color:#ffffff};
 
 
 /* Banner 01 */
@@ -527,6 +527,11 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 /* Content 06 */
 .content-06 .slide-container .arrows button{background:#2c2e2f; color:#ffffff;}
 .content-06 .slide-container .slide > .wrapper{background:#ffffff;}
+
+
+/* Content 07 */
+.content-07 .info-grid::after{background:#e8e8e8;}
+.content-07.minisite{background:#ffffff;}
 
 
 /* Content 08 */

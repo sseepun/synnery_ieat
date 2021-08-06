@@ -307,7 +307,7 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 
 
 /* About 06 */
-.about-06 .about-banner .text-cntainer *:not(.btn){color:#ffff00};
+.about-06 .about-banner .text-container *:not(.btn){color:#ffff00};
 
 
 /* Banner 01 */
@@ -371,6 +371,8 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 
 /* Content 07 */
 .content-07{background:none!important; border-top:1px solid #ffff00;}
+.content-07 .info-grid::after{background:#ffff00;}
+.content-07.minisite > .img-bg{display:none;}
 
 
 /* Content 08 */

@@ -22,39 +22,41 @@
     ?>
 
     <section class="about-06">
-        <div class="about-banner" style="background-image:url('public/assets/app/images/hero/pattern-4.jpg');">
-            <div class="container">
-                <div class="banner-wrapper">
-                    <div class="text-container" data-aos="fade-up" data-aos-delay="300">
-                        <div class="wrapper">
-                            <h6 class="h3 lg fw-500 lh-sm">นายอัฐพล จิรวัฒน์จรรยา</h6>
-                            <p class="h6 fw-200">ผู้ว่าการการนิคมอุตสาหกรรมแห่งประเทศไทย</p>
-                            <div class="avatar-text-01 mt-2">
-                                <div class="avatar-info d-flex ai-center fw-wrap">
-                                    <div class="d-flex ai-center ws-nowrap mr-3">
-                                        <img src="public/assets/app/images/icon/phone.png" alt="Image Icon" />
-                                        <p class="sm">02-253-2561 ต่อ 1194</p>
-                                    </div>
-                                    <div class="d-flex ai-center ws-nowrap">
-                                        <img src="public/assets/app/images/icon/email.png" alt="Image Icon" />
-                                        <p class="sm">atthapol@ieat.go.th</p>
+        <div class="about-banner">
+            <div class="section-bg" style="background-image:url('public/assets/app/images/hero/pattern-4.jpg');">
+                <div class="container">
+                    <div class="banner-wrapper">
+                        <div class="text-container" data-aos="fade-up" data-aos-delay="300">
+                            <div class="wrapper">
+                                <h6 class="h3 lg fw-500 lh-sm">นายอัฐพล จิรวัฒน์จรรยา</h6>
+                                <p class="h6 fw-200">ผู้ว่าการการนิคมอุตสาหกรรมแห่งประเทศไทย</p>
+                                <div class="avatar-text-01 mt-2">
+                                    <div class="avatar-info d-flex ai-center fw-wrap">
+                                        <div class="d-flex ai-center ws-nowrap mr-3">
+                                            <img src="public/assets/app/images/icon/phone.png" alt="Image Icon" />
+                                            <p class="sm">02-253-2561 ต่อ 1194</p>
+                                        </div>
+                                        <div class="d-flex ai-center ws-nowrap">
+                                            <img src="public/assets/app/images/icon/email.png" alt="Image Icon" />
+                                            <p class="sm">atthapol@ieat.go.th</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="btns">
-                                <a class="btn btn-action border bcolor-white" href="#">
-                                    <span>ดูประวัติ</span>
-                                </a>
+                                <div class="btns">
+                                    <a class="btn btn-action border bcolor-white" href="#">
+                                        <span>ดูประวัติ</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="profile-container">
-                        <div class="wrapper">
-                            <img class="pattern" src="public/assets/app/images/hero/pattern-3.png" alt="Image Pattern" />
-                            <img 
-                                class="profile" src="public/assets/app/images/hero/minisite-00.png" alt="Image Profile" 
-                                data-aos="fade-left" data-aos-delay="450" 
-                            />
+                        <div class="profile-container">
+                            <div class="wrapper">
+                                <img class="pattern" src="public/assets/app/images/hero/pattern-3.png" alt="Image Pattern" />
+                                <img 
+                                    class="profile" src="public/assets/app/images/hero/minisite-00.png" alt="Image Profile" 
+                                    data-aos="fade-left" data-aos-delay="450" 
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -152,6 +154,50 @@
                         </div>
                     <?php }?>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-07 minisite">
+        <div class="img-bg" style="background-image:url('public/assets/app/images/bg/minisite-profile.png');"></div>
+        <div class="container position-relative">
+            <div data-aos="fade-up" data-aos-delay="0">
+                <h6 class="h3 xs fw-600 text-center">
+                    ผู้อำนวยการ
+                </h6>
+                <div class="bg-04 mt-2" style="height:3px;"></div>
+                <div class="grids info-grids">
+                    <?php for($i=0; $i<12; $i++){?>
+                        <div class="grid lg-1-3 md-50 sm-100 info-grid">
+                            <div class="wrapper">
+                                <div class="text-container">
+                                    <p class="sm fw-600">นางสาวปราณี รัตนสุภา</p>
+                                    <p class="sm">ผู้อำนวยการฝ่ายตรวจสอบภายใน</p>
+                                </div>
+                                <div class="info-container">
+                                    <div class="avatar-text-01">
+                                        <div class="avatar-info d-flex ai-center ws-nowrap">
+                                            <img src="public/assets/app/images/icon/phone.png" alt="Image Icon" />
+                                            <p class="sm">02-253-2561</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php }?>
+                </div>
+            </div>
+            <div class="text-center" data-aos="fade-up" data-aos-delay="150">
+                <div class="content-quote-02">
+                    <h5 class="h3 sm text-center fw-300 color-06 md-no-br">
+                        เป็นองค์กรหลักที่มีส่วนร่วมในการขับเคลื่อนเศรษฐกิจของประเทศ
+                        <br> โดยเน้นภาคอุตสาหกรรม และบริการสู่อนาคตที่ยั่งยืน
+                    </h5>
+                </div>
+                <h5 class="h4 lg fw-300 mt-3">
+                    ภายใต้การดำเนินงานที่พร้อมรับมือกับสถานการณ์ที่
+                    <br> เปลี่ยนแปลงตลอดเวลา กนอ. จึงมั่นใจว่าจะยังคงเติบโตไปอย่างยั่งยืน
+                </h5>
             </div>
         </div>
     </section>
