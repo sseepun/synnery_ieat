@@ -20,13 +20,21 @@
         include('component/breadcrumb-minisite.php');
     ?>
 <style>
-    .contract-mini{display:flex;justify-content:center;}
+    .contract-mini{display:flex;justify-content:center;margin-top:2rem;}
     .contract-mini .cardd{width:25%;margin-right:3rem;}
     .contract-mini .cardd:last-child{margin-right:0;}
     .contract-form-mini{display:flex;}
     .contract-form-mini .people-bg{width:50%;background-position: center;background-size:cover;
      background-image: url("public/assets/app/images/bg/contract-people.jpg");height:550px;}
     .contract-form-mini .form{width:30%;padding:2rem;}
+
+    .icon-contract{display:block; width:5rem; height:5.5rem; margin:2rem auto; text-align:center;
+    line-height:6rem; font-size:2.125rem;
+    box-shadow:7px 7px 14px rgba(0,0,0,.25); color:#fff; background:#1fa39a;
+    clip-path:polygon(50% 0%, 100% 26%, 100% 74%, 50% 100%, 0% 74%, 0% 26%);
+    -webkit-clip-path:polygon(50% 0%, 100% 26%, 100% 74%, 50% 100%, 0% 74%, 0% 26%);
+    transition:color .25s, background .25s;}
+
     @media screen and (max-width:1199.98px){
         .contract-form-mini .form{width:45%;padding:2rem;}
     }
@@ -42,21 +50,23 @@
     .contract-form-mini .form .half:last-child{margin-left:1rem}
 
     @media screen and (max-width:575.98px){
-        .contract-mini .cardd{width:100%;margin:2rem 0;}
+        .contract-mini .cardd{width:100%;margin:0 0 2rem 0;}
+        .contract-mini .cardd:last-child{margin:0;}
         .contract-mini{flex-wrap:wrap;}
+
     }
 
 </style>
     <!-- Content goes here -->
     <section class="section bg-ffgray" style="padding: 2rem 0 6rem 0;">
         <div class="container">
-            <div class="contact-01" style="padding:2rem 0 0 0;">
+            <div class="" style="padding:2rem 0 0 0;">
                 <h4 style="text-align:center;">การนิคมอุตสาหกรรมแห่งประเทศไทย (กนอ.)</h4>
                 <h2 style="text-align:center;">จังหวัดนครศรีธรรมราช</h2>
                 <h4 style="text-align:center;">ช่องทางแจ้งเรื่องร้องเรียนการทุจริต /  ช่องทางรับฟังความคิดเห็น</h4>
-                <div class="contact-card contract-mini">
+                <div class="contract-mini">
                     <div class="cardd bg-white">
-                        <div class="dicon">
+                        <div class="icon-contract">
                             <em class="zmdi zmdi-phone"></em>
                         </div>
                         <p style="text-align:center;"><span class="fw-600 mr-4">โทรศัพท์:</span>075 356069</p>
@@ -64,7 +74,7 @@
                         <p style="text-align:center;"><span class="fw-600 mr-4">คอลเซ็นเตอร์:</span>02 2072700</p>
                     </div>
                     <div class="cardd bg-white">
-                        <div class="dicon">
+                        <div class="icon-contract">
                             <em class="zmdi zmdi-pin"></em>
                         </div>
                         <p class="h4 color-04" style="text-align:center;">ที่ตั้งสำนักงาน</p>
@@ -75,7 +85,7 @@
                         <p class="color-04" style="text-align:center;"><a href="#">แผนที่ Google Map</a></p>
                     </div>
                     <div class="cardd bg-white">
-                        <div class="dicon">
+                        <div class="icon-contract">
                             <em class="zmdi zmdi-email"></em>
                         </div>
                         <p class="h4 color-04" style="text-align:center;">อีเมล์</p>
