@@ -397,6 +397,14 @@ table.table-faq td{border-color:#fff!important; border-bottom:1px solid #ffffff;
 .faq-03 .faq .stripe-container:first-child{border-color:#ffffff;}
 
 
+/* Intro 01 */
+.intro-01{background:#4b326e;}
+.intro-01 .logo{color:#000000;}
+.intro-01 .logo h6{color:#4b326e;}
+.intro-01 .cover-1{background:#4b326e;}
+.intro-01 .cover-2{background:#18a097;}
+
+
 /* Sitemap 01 */
 .sitemap-01 > .img-bg{display:none;}
 .sitemap-01 > .container{border:1px solid #ffffff;}

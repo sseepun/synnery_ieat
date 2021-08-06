@@ -568,6 +568,14 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 .faq-03 .faq .stripe-container:first-child{border-color:#000000;}
 
 
+/* Intro 01 */
+.intro-01{background:#4b326e;}
+.intro-01 .logo{color:#000000;}
+.intro-01 .logo h6{color:#4b326e;}
+.intro-01 .cover-1{background:#4b326e;}
+.intro-01 .cover-2{background:#18a097;}
+
+
 /* Sitemap 01 */
 .sitemap-01 .sitemap-section{background:#ffffff;}
 .sitemap-01 .grid::after{background:#d4d4d4;}
