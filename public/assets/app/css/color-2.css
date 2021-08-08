@@ -109,6 +109,10 @@ nav.footer .tag{background:#ffff00; color:#000;}
 .chat-container .chat .text-wrapper{background:#ffff00; color:#000;}
 
 
+/* Contact 02 */
+.contact-02 .contact-card{background:#000000; border:1px solid #ffff00;}
+
+
 /* Content Footer */
 .content-footer .content-row{border-color:#ffff00!important;}
 .content-footer .btn-social{background:#ffff00; color:#000;}
@@ -205,6 +209,10 @@ nav.footer .tag{background:#ffff00; color:#000;}
 
 /* Special Card 08 */
 .ss-card-08:hover .text-container > .options *{color:#000!important;}
+
+/* Special Card 09 */
+.ss-card-09 .info-wrapper, 
+.ss-card-09 .info-wrapper .ss-stat{border-color:#ffff00!important;}
 
 
 /* Special Date */
@@ -406,6 +414,14 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 .intro-01 .cover-2{background:#18a097;}
 
 
+/* Search Panel 01 */
+.search-panel-01{border:1px solid #ffff00;}
+.search-panel-01 > .subtitle,
+.search-panel-01 > .title{border:0; border-bottom:1px solid #ffff00;}
+.search-panel-01 > .title .btn-close,
+.search-panel-01 > .subtitle .btn-toggle{background:#ffff00; color:#000000;}
+
+
 /* Sitemap 01 */
 .sitemap-01 > .img-bg{display:none;}
 .sitemap-01 > .container{border:1px solid #ffff00;}
@@ -437,7 +453,7 @@ table.table-faq td{border-color:#ffff00!important; border-bottom:1px solid #ffff
 .tab-container-04 .tab{background:#000; border-color:#ffff00!important;}
 .tab-container-04 .tab.active{color:#000!important;}
 .tab-container-04 .tab::before{background:#ffff00;}
-.tab-container-04.minisite .tabs{background:#000000; border-color:#ffff00;}
+.tab-container-04.minisite .tabs{background:#000000; border-color:#ffff00!important;}
 .tab-container-04.minisite .tab{border-color:#ffff00!important;}
 
 /* Tabs Minisite */

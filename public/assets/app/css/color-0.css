@@ -94,7 +94,7 @@ input[type=number], input[type=phone], input[type=submit], input[type=file], sel
 input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, input[type=date]:focus, 
 input[type=tel]:focus, input[type=number]:focus, input[type=phone]:focus, input[type=submit]:focus, 
 input[type=file]:focus, select:focus, textarea:focus{
-    border-color:#59236e;
+    border-color:#18a097;
 }
 
 .field label.error{border-color:#ff0000!important; color:red; background:rgba(255,0,0,.15);}
@@ -197,6 +197,10 @@ nav.footer.minisite .btn-social-white::before{background:#804097;}
 }
 .chat-container .chat .text-wrapper{background:#8c6ab2; color:#ffffff;}
 .chat-container .chat.chat-other .text-wrapper{background:#eaeaea; color:#000000;}
+
+
+/* Contact 02 */
+.contact-02 .contact-card{background:#ffffff;}
 
 
 /* Content Footer */
@@ -302,6 +306,10 @@ nav.footer.minisite .btn-social-white::before{background:#804097;}
 /* Special Card 08 */
 .ss-card-08 .text-container > .options{background:#8b8b8b;}
 .ss-card-08 .text-container > .options > .option:last-child{background:#e3e3e3;}
+
+/* Special Card 09 */
+.ss-card-09 .info-wrapper, 
+.ss-card-09 .info-wrapper .ss-stat{border-color:#f2f2f2!important;}
 
 
 /* Special Date */
@@ -576,6 +584,14 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 .intro-01 .cover-2{background:#18a097;}
 
 
+/* Search Panel 01 */
+.search-panel-01 > .title{border-color:#dddddd;}
+.search-panel-01 > .title .btn-close{background:#000000; color:#ffffff;}
+.search-panel-01 > .subtitle{background:#43afa1; color:#ffffff;}
+.search-panel-01 > .subtitle .btn-toggle{background:#0f8172; color:#ffffff;}
+.search-panel-01 .input-date-wrapper::after{color:#0f8172;}
+
+
 /* Sitemap 01 */
 .sitemap-01 .sitemap-section{background:#ffffff;}
 .sitemap-01 .grid::after{background:#d4d4d4;}
@@ -620,7 +636,7 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 .tab-container-04.style-demo .tab::before{
     background-image:linear-gradient(to bottom, #169f96, #1a9693, #2c6d88);
 }
-.tab-container-04.minisite .tabs{background:#ffffff; border-color:#e0e0e0;}
+.tab-container-04.minisite .tabs{background:#ffffff; border-color:#e0e0e0!important;}
 .tab-container-04.minisite .tab{border-color:#e0e0e0!important;}
 
 /* Tab Container - Tabs 01 */

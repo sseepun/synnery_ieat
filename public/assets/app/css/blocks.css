@@ -742,7 +742,7 @@
 }
 .breadcrumb-02 .structure .text:last-child{font-weight:600!important;}
 .breadcrumb-02 .structure .text em{margin:0 .4375rem 0 .75rem; transform:translateY(-.0625rem);}
-.breadcrumb-02 + *{padding-top:0!important;}
+.breadcrumb-02:not(.rect) + *{padding-top:0!important;}
 @media screen and (max-width:1199.98px){
     .breadcrumb-02{padding:2.5rem 0 3.25rem 0;}
     .breadcrumb-02 > .img-bg{bottom:-11.5rem;}
@@ -873,6 +873,39 @@
 @media screen and (max-width:767.98px){
     .contact-01 .contact-card{background-position:1.25rem center;}
     .contact-01 .contact-card > .wrapper{width:calc(100% - 1rem);}
+}
+
+
+/* Contact 02 */
+.contact-02 .grids{--gs:0rem;}
+.contact-02 .contact-card{width:100%; height:100%; padding:1.5rem 1rem; text-align:center;}
+.contact-02 .contact-card .icon > img{
+    display:block; height:6rem; width:auto; margin:0 auto .5rem auto;
+}
+.contact-02 .contact-card table{width:auto; margin:0 auto; padding:0;}
+.contact-02 .contact-card table td{font-size:1.375rem; padding:0 .75rem 0 0;}
+.contact-02 .contact-card table td:first-child{text-align:right; font-weight:500;}
+.contact-02 .contact-card table td:last-child{padding:0;}
+@media screen and (max-width:991.98px){
+    .contact-02 .contact-card{padding:1.25rem 1rem;}
+}
+
+
+/* Contact 03 */
+.contact-03{position:relative; width:100%;}
+.contact-03 > .img-bg{
+    position:absolute; top:0; bottom:0; left:0; width:calc(50vw - 3.5rem);
+    background-size:cover; background-position:right center;
+}
+@media screen and (max-width:767.98px){
+    .contact-03{padding-top:0;}
+    .contact-03 > .img-bg{
+        position:relative; top:unset; bottom:unset; left:unset; width:100%; height:340px;
+        display:block; margin:0 0 2rem 0;
+    }
+}
+@media screen and (max-width:575.98px){
+    .contact-03 > .img-bg{height:300px;}
 }
 
 
@@ -1304,6 +1337,37 @@
 /* RSS 01 */
 .rss-01 > .rss{background:#ffffff;}
 .rss-01 > .rss .title{border-color:#f0eef1!important;}
+
+
+/* Search Panel 01 */
+.search-panel-01{width:100%;}
+.search-panel-01 > .title{
+    position:relative; display:block; width:100%; padding:.75rem 1.5rem;
+    border:1px solid transparent;
+}
+.search-panel-01 > .title .btn-close{
+    position:absolute; top:.625rem; bottom:.625rem; right:.625rem; width:2rem; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; font-size:1.75rem;
+}
+.search-panel-01 > .title .btn-close em{transform:none;}
+.search-panel-01 > .subtitle{
+    position:relative; display:block; width:100%; padding:.75rem 1.5rem;
+}
+.search-panel-01 > .subtitle .btn-toggle{
+    position:absolute; top:0; bottom:0; right:0; width:3.25rem; cursor:pointer;
+    display:flex; align-items:center; justify-content:center; font-size:2rem;
+}
+.search-panel-01 > .subtitle .btn-toggle em{transform:none; transition:transform .3s;}
+.search-panel-01 > .subtitle .btn-toggle.active em{transform:rotate(180deg);}
+.search-panel-01 .search-container{width:100%; padding:0 1.5rem 1.75rem 1.5rem;}
+@media screen and (max-width:991.98px){
+    .search-panel-01 > .title, .search-panel-01 > .subtitle,
+    .search-panel-01 .search-container{padding-left:1.25rem; padding-right:1.25rem;}
+}
+@media screen and (max-width:767.98px){
+    .search-panel-01 > .title, .search-panel-01 > .subtitle,
+    .search-panel-01 .search-container{padding-left:1rem; padding-right:1rem;}
+}
 
 
 /* Section Calendar */

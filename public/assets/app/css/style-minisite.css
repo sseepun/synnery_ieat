@@ -94,6 +94,74 @@ nav.footer.minisite img.hero{width:7.5rem;}
 }
 
 
+/* Quick Tab Minisite */
+.quick-tab-minisite{position:fixed; top:13.5rem; right:1rem; z-index:90;}
+.quick-tab-minisite img{display:block; width:100%; height:auto;}
+.quick-tab-minisite > .wrapper{position:relative;}
+.quick-tab-minisite .tab{position:relative; width:4.375rem;}
+.quick-tab-minisite .tab.active{z-index:91;}
+.quick-tab-minisite .tab-btn{
+    display:block; position:relative; width:100%; margin:.125rem 0; transition:opacity .25s;
+}
+.quick-tab-minisite .tab-btn:hover{opacity:.95;}
+.quick-tab-minisite .tab-btn > .wrapper{
+    position:absolute; top:.375rem; bottom:.375rem; left:0; right:0;
+    display:flex; align-items:center; flex-wrap:wrap;
+}
+.quick-tab-minisite .tab-btn .inner-wrapper{width:100%; text-align:center; color:#fff;}
+.quick-tab-minisite .tab-btn .tab-icon{
+    display:block; height:1.5rem; width:auto; margin:0 auto .25rem auto;
+    transition:transform .25s; transform-origin:top center;
+}
+.quick-tab-minisite .tab.active > .tab-btn .tab-icon{transform:translateY(.5rem)scale(1.5);}
+.quick-tab-minisite .tab:nth-child(2).active > .tab-btn .tab-icon{
+    transform:translateY(.1875rem)scale(1.5);
+}
+.quick-tab-minisite .tab-btn .p{
+    font-size:.8125rem; font-weight:300; line-height:.9; transition:opacity .25s;
+}
+.quick-tab-minisite .tab.active > .tab-btn .p{opacity:0;}
+.quick-tab-minisite .tab > .track{
+    position:absolute; top:0; bottom:0; right:-1rem; max-width:calc(100vw - 5rem);
+    pointer-events:none; opacity:0; transition:opacity .25s, right .25s;
+}
+.quick-tab-minisite .tab.active > .track{right:0; opacity:1; pointer-events:auto;}
+.quick-tab-minisite .track > .wrapper{
+    position:relative; width:100%; height:100%; padding:0 4rem 0 1rem; display:flex;
+}
+.quick-tab-minisite .track > .wrapper::before{
+    content:''; position:absolute; top:-.1875rem; bottom:-.1875rem; left:-.1875rem;
+    right:-.1875rem; background:rgba(0,0,0,.7);
+    clip-path:polygon(1.1875rem 0%, calc(100% - 1.1875rem) 0%, 100% 50%, 
+        calc(100% - 1.1875rem) 100%, 1.1875rem 100%, 0% 50%);
+}
+.quick-tab-minisite .track .btn-close{
+    position:absolute; top:-.375rem; left:-1.5rem; cursor:pointer; transition:opacity .25s;
+}
+.quick-tab-minisite .track .btn-close:hover{opacity:.95;}
+.quick-tab-minisite .track .btn-close > img{display:block; height:1.625rem; width:auto;}
+.quick-tab-minisite .quick{
+    position:relative; display:block; width:4.5rem; padding:0 .25rem;
+    margin:0; transform:translateY(-1rem);
+}
+.quick-tab-minisite .quick .icon img{display:block; width:3.25rem; height:auto; margin:0 auto;}
+.quick-tab-minisite .quick p{
+    width:100%; font-size:1rem; font-weight:400; line-height:.9; color:#ffffff;
+    text-align:center; margin:.25rem 0 0 0;
+}
+@media screen and (max-width:767.98px){
+    .quick-tab-minisite .tab > .track{
+        width:calc(100vw - 3.5rem); bottom:unset; max-width:unset;
+    }
+    .quick-tab-minisite .track > .wrapper{flex-wrap:wrap; justify-content:center;}
+    .quick-tab-minisite .track > .wrapper::before{
+        clip-path:polygon(1.1875rem 0%, calc(100% - 1.1875rem) 0%, 100% 2.0625rem,
+            100% calc(100% - 2.0625rem), calc(100% - 1.1875rem) 100%, 
+            1.1875rem 100%, 0% calc(100% - 2.0625rem), 0% 2.0625rem);
+    }
+}
+
+
 /* Tabs Minisite */
 .tab-container .tabs.tabs-minisite{
     position:relative; width:100%; padding:0; min-height:38rem; overflow:hidden;
@@ -135,7 +203,9 @@ nav.footer.minisite img.hero{width:7.5rem;}
 .tab-container-04.minisite .tabs{
     justify-content:center; border-top:1px solid transparent; border-bottom:1px solid transparent;
 }
-.tab-container-04.minisite .tab{border:1px solid transparent; border-left:0; margin:-1px 0;}
+.tab-container-04.minisite .tab{
+    border:1px solid transparent; border-top:0; border-left:0; margin:0 0 -1px 0;
+}
 .tab-container-04.minisite .tab:last-child{border-right:0;}
 .tab-container-04.minisite .slide > .wrapper{padding:.625rem;}
 .tab-container-04.minisite .slide .ss-card{transition:transform .45s;}

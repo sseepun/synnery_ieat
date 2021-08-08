@@ -296,166 +296,64 @@
 
 
 <!-- Quick Tab -->
-<div class="quick-tab minisite">
+<div class="quick-tab-minisite">
     <div class="wrapper">
-
         <div class="tabs">
-            <a class="tab btn-hover" href="#" data-tab="0">
-                <img src="public/assets/app/images/icon/hex-4.png" alt="Icon" />
-                <div class="wrapper">
-                    <div class="inner-wrapper">
-                        <img class="tab-icon" src="public/assets/app/images/icon/icon-user.png" alt="Tab Icon" />
-                        <div class="p">การช่วย<br>การเข้าถึง</div>
-                    </div>
-                </div>
-            </a>
-            <a class="tab btn-hover" href="#" data-tab="1">
-                <img src="public/assets/app/images/icon/hex-5.png" alt="Icon" />
-                <div class="wrapper">
-                    <div class="inner-wrapper">
-                        <img class="tab-icon" src="public/assets/app/images/icon/icon-chain.png" alt="Tab Icon" />
-                        <div class="p">ลิงค์ด่วน</div>
-                    </div>
-                </div>
-            </a>
-        </div>
 
-        <div class="tab-bar" data-tab="0">
-            <div class="wrapper">
-                <div class="panel">
+            <div class="tab">
+                <div class="track">
                     <div class="wrapper">
-                        <div class="top-panel">
-                            ขนาดตัวอักษร 
-                            <a class="btn-font-size btn-hover" href="#" data-size="-1">
-                                <img src="public/assets/app/images/icon/font-0.png" alt="Icon" />
+                        <?php foreach(['E-PR', 'Handbook', 'I-EA-T Touch', 'Eco-challenge', 'Operation Center', 'e-Library', 'Old website'] as $i=>$d){?>
+                            <a class="quick" href="#">
+                                <div class="icon">
+                                    <img src="public/assets/app/images/icon/quick-0<?= $i+1 ?>.png" alt="Image Icon" />
+                                </div>
+                                <p><?= $d ?></p>
                             </a>
-                            <a class="btn-font-size btn-hover" href="#" data-size="0">
-                                <img src="public/assets/app/images/icon/hex-6.png" alt="Icon" />
-                                <div class="wrapper" style="color:#fff;">ก</div>
-                            </a>
-                            <a class="btn-font-size btn-hover" href="#" data-size="1">
-                                <img src="public/assets/app/images/icon/font-2.png" alt="Icon" />
-                            </a>
-                        </div>
-                        <div class="bottom-panel">
-                            ความตัดกันของสี
-                            <a class="btn-theme btn-hover" href="#" data-theme="0">
-                                <img src="public/assets/app/images/icon/hex-6.png" alt="Icon" />
-                                <div class="wrapper">ก</div>
-                            </a>
-                            <a class="btn-theme btn-hover" href="#" data-theme="1">
-                                <img src="public/assets/app/images/icon/hex-7.png" alt="Icon" />
-                                <div class="wrapper">น</div>
-                            </a>
-                            <a class="btn-theme btn-hover" href="#" data-theme="2">
-                                <img src="public/assets/app/images/icon/hex-8.png" alt="Icon" />
-                                <div class="wrapper" style="color:#000;">อ</div>
-                            </a>
-                        </div>
+                        <?php }?>
+                    </div>
+                    <div class="btn-close">
+                        <img src="public/assets/app/images/icon/hex-close.png" alt="Image Icon" />
                     </div>
                 </div>
-                <div class="bar">
-                    <div class="icon">
-                        <img src="public/assets/app/images/icon/access-2.png" alt="Icon" />
+                <a class="tab-btn" href="#">
+                    <img src="public/assets/app/images/icon/hex-4.png" alt="Icon" />
+                    <div class="wrapper">
+                        <div class="inner-wrapper">
+                            <img class="tab-icon" src="public/assets/app/images/icon/icon-user.png" alt="Tab Icon" />
+                            <div class="p">การช่วย<br>การเข้าถึง</div>
+                        </div>
                     </div>
-                    <a class="btn-close btn-hover" href="#">
-                        <img src="public/assets/app/images/icon/close.png" alt="Icon" />
-                    </a>
-                </div>
+                </a>
             </div>
-        </div>
 
-        <div class="tab-bar" data-tab="1" style="padding-top:.5rem;">
-            <div class="wrapper">
-                <div class="bubbles">
-                    <a class="bubble btn-hover pos pos-0" href="#">
-                        <img src="public/assets/app/images/icon/hex-1.png" alt="Bubble" />
-                        <div class="wrapper">
-                            <div class="inner-wrapper">
-                                <img class="bubble-icon" src="public/assets/app/images/client/07.png" alt="Bubble Icon" />
-                                <div class="h6">I-EA-T</div>
-                                <div class="p">Operation Center</div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="bubble btn-hover pos pos-1" href="#">
-                        <img src="public/assets/app/images/icon/hex-2.png" alt="Bubble" />
-                        <div class="wrapper">
-                            <div class="inner-wrapper">
-                                <img class="bubble-icon" src="public/assets/app/images/client/08.png" alt="Bubble Icon" />
-                                <div class="h6">TSC</div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="bubble btn-hover pos pos-2" href="#">
-                        <img src="public/assets/app/images/icon/hex-1.png" alt="Bubble" />
-                        <div class="wrapper">
-                            <div class="inner-wrapper">
-                                <img class="bubble-icon" src="public/assets/app/images/client/07.png" alt="Bubble Icon" />
-                                <div class="h6">I-EA-T</div>
-                                <div class="p">Operation Center</div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="bubble btn-hover pos pos-3" href="#">
-                        <img src="public/assets/app/images/icon/hex-2.png" alt="Bubble" />
-                        <div class="wrapper">
-                            <div class="inner-wrapper">
-                                <img class="bubble-icon" src="public/assets/app/images/client/08.png" alt="Bubble Icon" />
-                                <div class="h6">TSC</div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="bubble btn-hover pos pos-4" href="#">
-                        <img src="public/assets/app/images/icon/hex-1.png" alt="Bubble" />
-                        <div class="wrapper">
-                            <div class="inner-wrapper">
-                                <img class="bubble-icon" src="public/assets/app/images/client/07.png" alt="Bubble Icon" />
-                                <div class="h6">I-EA-T</div>
-                                <div class="p">Operation Center</div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="bubble btn-hover pos pos-5" href="#">
-                        <img src="public/assets/app/images/icon/hex-2.png" alt="Bubble" />
-                        <div class="wrapper">
-                            <div class="inner-wrapper">
-                                <img class="bubble-icon" src="public/assets/app/images/client/08.png" alt="Bubble Icon" />
-                                <div class="h6">TSC</div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="bubble btn-hover pos pos-6" href="#">
-                        <img src="public/assets/app/images/icon/hex-3.png" alt="Bubble" />
-                        <div class="wrapper">
-                            <div class="inner-wrapper">
-                                <img class="bubble-icon" src="public/assets/app/images/client/09.png" alt="Bubble Icon" />
-                                <div class="h6">Eco</div>
-                                <div class="p">Challenge</div>
-                            </div>
-                        </div>
-                    </a>
-                    <a class="bubble btn-hover" href="#">
-                        <img src="public/assets/app/images/icon/hex-3.png" alt="Bubble" />
-                        <div class="wrapper">
-                            <div class="inner-wrapper">
-                                <img class="bubble-icon" src="public/assets/app/images/client/09.png" alt="Bubble Icon" />
-                                <div class="h6">Eco</div>
-                                <div class="p">Challenge</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="bar">
-                    <div class="icon">
-                        <img src="public/assets/app/images/icon/quicklink-2.png" alt="Icon" />
+            <div class="tab">
+                <div class="track">
+                    <div class="wrapper">
+                        <?php foreach(['E-PR', 'Handbook', 'I-EA-T Touch', 'Eco-challenge', 'Operation Center', 'e-Library', 'Old website'] as $i=>$d){?>
+                            <a class="quick" href="#">
+                                <div class="icon">
+                                    <img src="public/assets/app/images/icon/quick-0<?= $i+1 ?>.png" alt="Image Icon" />
+                                </div>
+                                <p><?= $d ?></p>
+                            </a>
+                        <?php }?>
                     </div>
-                    <a class="btn-close btn-hover" href="#">
-                        <img src="public/assets/app/images/icon/close.png" alt="Icon" />
-                    </a>
+                    <div class="btn-close">
+                        <img src="public/assets/app/images/icon/hex-close.png" alt="Image Icon" />
+                    </div>
                 </div>
+                <a class="tab-btn" href="#">
+                    <img src="public/assets/app/images/icon/hex-5.png" alt="Icon" />
+                    <div class="wrapper">
+                        <div class="inner-wrapper">
+                            <img class="tab-icon" src="public/assets/app/images/icon/icon-chain.png" alt="Tab Icon" />
+                            <div class="p">ลิงค์ด่วน</div>
+                        </div>
+                    </div>
+                </a>
             </div>
+            
         </div>
-
     </div>
 </div>

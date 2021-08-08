@@ -242,6 +242,16 @@ $(function(){ 'use strict';
         });
     }
 
+    // Quick Tab Minisite
+    var quickTabMinisite = $('.quick-tab-minisite');
+    if(quickTabMinisite.length){
+        quickTabMinisite.find('.tab-btn, .btn-close').click(function(e){
+            e.preventDefault();
+            var parent = $(this).closest('.tab');
+            parent.toggleClass('active');
+        });
+    }
+
 
     // Date Picker
     $('input.date-picker').each(function(){
@@ -654,6 +664,33 @@ $(function(){ 'use strict';
                 var parent = $(this).closest('.faq');
                 parent.toggleClass('active');
                 parent.find('> .faq-body').slideToggle();
+            });
+        });
+    }
+
+
+    // Search Panel 01
+    var searchPanel01 = $('.search-panel-01');
+    if(searchPanel01.length){
+        searchPanel01.each(function(){
+            var self = $(this),
+                closeBtn = self.find('.btn-close'),
+                toggleBtn = self.find('.btn-toggle'),
+                searchContainer = self.find('.search-container');
+            closeBtn.click(function(e){
+                e.preventDefault();
+                toggleBtn.removeClass('active');
+                searchContainer.slideUp();
+            });
+            toggleBtn.click(function(e){
+                e.preventDefault();
+                if($(this).hasClass('active')){
+                    toggleBtn.removeClass('active');
+                    searchContainer.slideUp();
+                }else{
+                    toggleBtn.addClass('active');
+                    searchContainer.slideDown();
+                }
             });
         });
     }

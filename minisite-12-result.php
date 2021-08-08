@@ -5,11 +5,11 @@
     <?php include_once('include/style.php'); ?>
     <link rel="stylesheet" href="public/assets/app/css/style-minisite.css" />
 </head>
-<body class="loading">
+<body class="loading bg-ffgray">
     <?php include_once('include/topnav-minisite.php'); ?>
     <?php
         $breadcrumb = [
-            'bg' => 'public/assets/app/images/bg/breadcrumb-minisite-01.png',
+            'bg' => 'public/assets/app/images/bg/breadcrumb-minisite-06.png',
             'title' => 'ค้นหา',
             'desc' => 'ติดตามกิจกรรมข่าวสาร และข้อมูลอัพเดทจต่างๆ <br> เกี่ยวกับ กนอ.และนิคมอุตสาหกรรมในประเทศไทย',
             'structure' => [
@@ -22,111 +22,126 @@
 
     <section class="section-padding">
         <div class="container">
-            <div class="bg-white p-3">
-                <h6>เขตอุสาหกรรมทำเลทอง</h6>
-            </div>
-            
-            <h4 style="text-align: center;" class="h4 fw-500 color-white bg-04 py-2">ค้นหาขั้นสูง</h3>
-            
-                <form action="/" method="POST">
-                    <div class="ss-box-header shadow position-relative" style="z-index:1;">
-                        <div class="header bg-white p-4">
-                            <div class="grids">
-                                <div class="grid lg-30">
-                                    <p class="mb-1 fw-600">ระยะเวลาจาก:</p>
-                                    <div class="input-date-wrapper">
-                                        <input type="text" class="bg-white date-picker" title="General Text Input" />
-                                    </div>
-                                    <span class="px-1 fw-300">ถึง</span>
-                                    <div class="input-date-wrapper">
-                                        <input type="text" class="bg-white date-picker" title="General Text Input" />
-                                    </div>
-                                </div>
-                                <div class="grid lg-20">
-                                    <p class="mb-1 fw-600">เรียงลำดับ:</p>
-                                    <div class="select-wrapper" style="width:100%">
-                                        <select class="bg-white" style="width:100%" title="Type">
-                                            <option value="">&nbsp;</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <p class="mt-3 mb-1 fw-600">ประเภทข้อมูล:</p>
-                            <fieldset>
-                                <div class="grids">
-                                    <div class="grid md-20 mt-0">
-                                        <input class="mr-2" type="checkbox" name="checkbox_0" id="checkbox_0_0" value="0" title="General Checkbox" />
-                                        <label class="fw-300" for="checkbox_0_0">เนื้อหาเว็บไซต์</label>
-                                    </div>
-                                    <div class="grid md-20 mt-0">
-                                        <input class="mr-2" type="checkbox" name="checkbox_0" id="checkbox_0_1" value="1" title="General Checkbox" />
-                                        <label class="fw-300" for="checkbox_0_1">ข่าวสาร</label>
-                                    </div>
-                                    <div class="grid md-20 mt-0">
-                                        <input class="mr-2" type="checkbox" name="checkbox_0" id="checkbox_0_2" value="2" title="General Checkbox" />
-                                        <label class="fw-300" for="checkbox_0_2">เอกสารดาวน์โหลด</label>
-                                    </div>
-                                    <div class="grid md-20 mt-0">
-                                        <input class="mr-2" type="checkbox" name="checkbox_0" id="checkbox_0_3" value="3" title="General Checkbox" />
-                                        <label class="fw-300" for="checkbox_0_3">คลังภาพ</label>
-                                    </div>
-                                </div>
-                                <div class="grids">
-                                    <div class="grid md-20 mt-0">
-                                        <input class="mr-2" type="checkbox" name="checkbox_0" id="checkbox_0_5" value="5" title="General Checkbox" />
-                                        <label class="fw-300" for="checkbox_0_5">วีดีทัศน์</label>
-                                    </div>
-                                    <div class="grid md-20 mt-0">
-                                        <input class="mr-2" type="checkbox" name="checkbox_0" id="checkbox_0_5" value="5" title="General Checkbox" />
-                                        <label class="fw-300" for="checkbox_0_5">เว็บไซต์ย่อย</label>
-                                    </div>
-                                    <div class="grid md-20 mt-0">
-                                        <input class="mr-2" type="checkbox" name="checkbox_0" id="checkbox_0_5" value="5" title="General Checkbox" />
-                                        <label class="fw-300" for="checkbox_0_5">ถามตอบ</label>
-                                    </div>
-                                    <div class="grid md-20 mt-0">
-                                        <input class="mr-2" type="checkbox" name="checkbox_0" id="checkbox_0_5" value="5" title="General Checkbox" />
-                                        <label class="fw-300" for="checkbox_0_5">ทั้งหมด</label>
-                                    </div>
 
-                                </div>
-                            </fieldset>
-                            <div class="btns text-center mt-4">
-                                <button type="submit" class="btn btn-action mr-1">
-                                    <span>ค้นหา</span>
-                                </button>
-                                <button type="reset" class="btn btn-action btn-action-01">
-                                    <span>ล้างข้อมูล</span>
-                                </button>
+            <div 
+                class="grids jc-center position-relative" style="z-index:2;" 
+                data-aos="fade-up" data-aos-delay="300"
+            >
+                <div class="grid lg-90 sm-100 mt-0">
+                    <div class="search-panel-01 bg-white shadow">
+                        <h6 class="title h4 sm fw-500">
+                            เขตอุสาหกรรมทำเลทอง
+                            <div class="btn-close">
+                                <em class="zmdi zmdi-close"></em>
+                            </div>
+                        </h6>
+                        <div class="subtitle h4 lg fw-600 text-center">
+                            ค้นหาขั้นสูง
+                            <div class="btn-toggle active">
+                                <em class="zmdi zmdi-chevron-down"></em>
                             </div>
                         </div>
-
-
-
+                        <div class="search-container">
+                            <form action="/" method="POST">
+                                <div class="grids">
+                                    <div class="grid xl-40 lg-45 md-50 sm-75">
+                                        <div class="field mt-2">
+                                            <label class="fw-600">ระยะเวลาจาก :</label>
+                                            <div class="control">
+                                                <div class="d-flex ai-center">
+                                                    <div class="input-date-wrapper">
+                                                        <input type="text" class="bg-white date-picker" title="General Text Input" />
+                                                    </div>
+                                                    <label class="fw-400 mx-2">ถึง</label>
+                                                    <div class="input-date-wrapper">
+                                                        <input type="text" class="bg-white date-picker" title="General Text Input" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="grid xl-30 lg-1-3 md-50 sm-60 xs-80">
+                                        <div class="field mt-2">
+                                            <label class="fw-600">เรียงลำดับ :</label>
+                                            <div class="control">
+                                                <div class="select-wrapper width-full">
+                                                    <select class="bg-white width-full" title="Type">
+                                                        <option value="">&nbsp;</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sep"></div>
+                                
+                                    <div class="grid sm-100">
+                                        <div class="field mt-2">
+                                            <label class="fw-600">ประเภทข้อมูล :</label>
+                                            <div class="control">
+                                                <fieldset>
+                                                    <div class="grids">
+                                                        <?php
+                                                            foreach([
+                                                                [ 'name' => 'เนื้อหาเว็บไซต์', 'num' => 22 ],
+                                                                [ 'name' => 'ข่่าวสาร', 'num' => 12 ],
+                                                                [ 'name' => 'เอกสารดาวน์โหลด', 'num' => 5 ],
+                                                                [ 'name' => 'คลังภาพ', 'num' => 0 ],
+                                                                [ 'name' => 'วิดีทัศน์', 'num' => 1 ],
+                                                                [ 'name' => 'เว็บไซต์ย่อย', 'num' => 0 ],
+                                                                [ 'name' => 'ถามตอบ', 'num' => 0 ],
+                                                                [ 'name' => 'ทั้งหมด', 'num' => 0 ],
+                                                            ] as $j=>$d){
+                                                        ?>
+                                                            <div class="grid lg-25 md-1-3 mt-2">
+                                                                <input 
+                                                                    class="mr-2" type="checkbox" name="checkbox" id="checkbox_<?= $j ?>" 
+                                                                    value="<?= $j ?>" title="General Checkbox" style="transform:translateY(.0625rem);"
+                                                                />
+                                                                <label class="fw-300" for="checkbox_<?= $j ?>">
+                                                                    <?= $d['name'] ?>
+                                                                    <?php if($d['num']){?>
+                                                                        <span class="fw-600 color-04">
+                                                                            (<?= $d['num'] ?>)
+                                                                        </span>
+                                                                    <?php }?>
+                                                                </label>
+                                                            </div>
+                                                        <?php }?>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btns text-center mt-4 pt-2">
+                                    <button type="submit" class="btn btn-action mr-2">
+                                        <span>ค้นหา</span>
+                                    </button>
+                                    <button type="reset" class="btn btn-action btn-action-01">
+                                        <span>ล้างข้อมูล</span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                </form>
+                </div>
+            </div>
 
-
-
-        </div>
-        <div class="container">
-                <h3 style="text-align: center;" class="h3 fw-600 color-04 mt-5">“เขตอุตสาหกรรมทำเลทอง”</h3>
-                <h4 style="text-align: center;" class="mb-5">ผลลัพธ์การค้นหา 44 รายการ</h4>
-            <div class="grids">
+            <div class="bg-ffgray text-center py-4 ovf-hidden" data-aos="fade-up" data-aos-delay="0">
+                <h6 class="h3 fw-600 color-04 mt-4">“เขตอุตสาหกรรมทำเลทอง”</h6>
+                <p class="h4">ผลลัพธ์การค้นหา 44 รายการ</p>
+            </div>
+            <div class="grids" data-aos="fade-up" data-aos-delay="150">
                 <?php for($j=0; $j<10; $j++){?>
                     <div class="grid sm-100">
                         <?php
-                            $cardType = 'SearchResult';
+                            $cardType = 'Search';
                             include('component/minisite-card-list.php');
                         ?>
                     </div>
                 <?php }?>
             </div>
-        
-    
             <?php include('component/grid-footer.php'); ?>
-                               
-
         </div>
     </section>
 
