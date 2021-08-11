@@ -303,14 +303,34 @@
             <div class="tab">
                 <div class="track">
                     <div class="wrapper">
-                        <?php foreach(['E-PR', 'Handbook', 'I-EA-T Touch', 'Eco-challenge', 'Operation Center', 'e-Library', 'Old website'] as $i=>$d){?>
-                            <a class="quick" href="#">
-                                <div class="icon">
-                                    <img src="public/assets/app/images/icon/quick-0<?= $i+1 ?>.png" alt="Image Icon" />
-                                </div>
-                                <p><?= $d ?></p>
-                            </a>
-                        <?php }?>
+                        <div class="quick-set">
+                            <div class="icons">
+                                <a class="icon sm btn-font-size" href="#" data-size="-1">
+                                    <img src="public/assets/app/images/icon/text-minus.png" alt="Icon" />
+                                </a>
+                                <a class="icon btn-font-size" href="#" data-size="0">
+                                    <img src="public/assets/app/images/icon/text-normal.png" alt="Icon" />
+                                </a>
+                                <a class="icon sm btn-font-size" href="#" data-size="1">
+                                    <img src="public/assets/app/images/icon/text-plus.png" alt="Icon" />
+                                </a>
+                            </div>
+                            <p>ขนาดตัวอักษร</p>
+                        </div>
+                        <div class="quick-set">
+                            <div class="icons">
+                                <a class="icon btn-theme" href="#" data-theme="0">
+                                    <img src="public/assets/app/images/icon/theme-01.png" alt="Icon" />
+                                </a>
+                                <a class="icon btn-theme" href="#" data-theme="1">
+                                    <img src="public/assets/app/images/icon/theme-02.png" alt="Icon" />
+                                </a>
+                                <a class="icon btn-theme" href="#" data-theme="2">
+                                    <img src="public/assets/app/images/icon/theme-03.png" alt="Icon" />
+                                </a>
+                            </div>
+                            <p>ความตัดกันของสี</p>
+                        </div>
                     </div>
                     <div class="btn-close">
                         <img src="public/assets/app/images/icon/hex-close.png" alt="Image Icon" />

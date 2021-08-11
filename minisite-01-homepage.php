@@ -87,6 +87,37 @@
         </div>
     </section>
 
+    <section class="intro-02 section-padding" style="background-image:url('public/assets/app/images/bg/38.jpg');">
+        <div class="container">
+            <div class="text-right">
+                <h6 class="h2 sm fw-600 color-04 lh-xs">
+                    IEAT 4.0 : Smart Eco Industrial Estate
+                </h6>
+                <p class="md fw-200 color-white xs-no-br mt-1">
+                    โครงการพัฒนานิคมอุตสาหกรรม/ท่าเรืออุตสาหกรรม/โรงงานอุตสาหกรรม <br>
+                    สู่การเป็นนิคมอุตสาหกรรมเชิงนิเวศอัจฉริยะ
+                </p>
+            </div>
+            <div class="icons">
+                <div class="icon">
+                    <img src="public/assets/app/images/icon/minisite-01.png" alt="Image Icon" />
+                </div>
+                <div class="icon">
+                    <img src="public/assets/app/images/icon/minisite-02.png" alt="Image Icon" />
+                </div>
+                <div class="icon">
+                    <img src="public/assets/app/images/icon/minisite-03.png" alt="Image Icon" />
+                </div>
+                <div class="icon">
+                    <img src="public/assets/app/images/icon/minisite-04.png" alt="Image Icon" />
+                </div>
+                <div class="icon">
+                    <img src="public/assets/app/images/icon/minisite-05.png" alt="Image Icon" />
+                </div>
+            </div>
+        </div>
+    </section>
+
     <?php include_once('include/footer-minisite.php'); ?>
     <?php include_once('include/script.php'); ?>
 </body>
