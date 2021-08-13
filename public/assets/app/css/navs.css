@@ -216,6 +216,38 @@ nav.sidenav .menu ul.ss-list > li > a + .btn-icon{
 }
 
 
+/* Searchnav */
+nav.searchnav{
+    display:block; position:fixed; top:0; right:0; width:340px; height:100vh; z-index:98;
+    transform:translateX(340px); transition:transform .5s;
+}
+nav.searchnav.active{transform:translateX(0);}
+nav.searchnav > .wrapper{position:relative; width:100%; height:100%; overflow:hidden;}
+nav.searchnav .searchnav-toggle{
+    position:absolute; bottom:70px; left:16px; right:16px; cursor:pointer; z-index:1;
+    display:flex; align-items:center; font-size:18px;
+}
+nav.searchnav .searchnav-toggle em{transform:none; margin:0 .5rem 0 0;}
+nav.searchnav form{padding:16px; margin:0 0 10px 0;}
+nav.searchnav .scroll-wrapper{
+    width:100%; max-height:calc(100% - 200px); overflow-x:hidden; overflow-y:auto;
+    margin:0; border-top:1px solid transparent;
+}
+nav.searchnav .options > .option{
+    display:flex; align-items:center; justify-content:space-between; padding:8px 16px;
+    border-bottom:1px solid transparent;
+}
+nav.searchnav .options > .option:last-child{border-bottom:0;}
+nav.searchnav .options > .option > p{width:calc(100% - 20px);}
+nav.searchnav .options > .option > .chev{font-size:28px;}
+nav.searchnav .btns{padding:16px; margin:10px 0 0 0;}
+nav.searchnav + .searchnav-filter{
+    display:block; position:fixed; top:0; left:0; width:100%; height:100vh; z-index:97;
+    background:#000; opacity:0; pointer-events:none; cursor:pointer; transition:opacity .5s;
+}
+nav.searchnav.active + .searchnav-filter{opacity:.65; pointer-events:all;}
+
+
 /* Global Search */
 .global-search-container{
     display:block; position:fixed; top:0; left:0; width:100%; height:100vh; z-index:100;

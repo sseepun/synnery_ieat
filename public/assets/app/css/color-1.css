@@ -77,6 +77,10 @@ nav.sidenav .menu > a, nav.sidenav .item, nav.sidenav .item > a{color:#ffffff;}
 nav.sidenav .menu ul.ss-list > li > a{border-color:#ffffff;}
 nav.sidenav .menu ul.ss-list > li > a + .btn-icon{color:#ffffff;}
 
+/* Searchnav */
+nav.searchnav > .wrapper{background:#000000; border-left:1px solid #ffffff;}
+nav.searchnav .options > .option{border-color:#ffffff;}
+
 /* Global Search Container */
 .global-search-container .hamburger > *{background:#ffffff;}
 

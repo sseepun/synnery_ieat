@@ -77,7 +77,7 @@
                     <a class="option clear" href="#">
                         <em class="zmdi zmdi-more-vert"></em>
                     </a>
-                    <a class="option global-search-toggle" href="#">
+                    <a class="option searchnav-toggle" href="#">
                         <em class="zmdi zmdi-search"></em>
                     </a>
                 </div>
@@ -91,7 +91,7 @@
                     </a>
                 </div>
                 <div class="block">
-                    <a class="option global-search-toggle" href="#">
+                    <a class="option searchnav-toggle" href="#">
                         <em class="zmdi zmdi-search"></em>
                     </a>
                     <a class="option sidenav-toggle" href="#">
@@ -270,29 +270,40 @@
 </nav>
 <div class="sidenav-filter"></div>
 
-<!-- Global Search Container -->
-<div class="global-search-container use-gsap">
+
+<!-- Search Nav -->
+<nav class="searchnav">
     <div class="wrapper">
-        <div class="container">
-            <div class="hamburger active global-search-toggle">
-                <div></div><div></div><div></div>
+        <form action="/" method="GET">
+            <h6 class="h4 lg fw-600 color-04">ค้นหา</h6>
+            <div class="mt-1">
+                <input type="text" class="width-full" name="keywords" placeholder="ค้นหา" required title="Keywords" />
             </div>
-            <div class="container">
-                <form action="/" method="GET">
-                    <h5 class="h3 color-white text-center mt-0 mb-0-5">
-                        คุณกำลังมองหาอะไร?
-                    </h5>
-                    <div class="input-container field">
-                        <input type="text" name="keywords" placeholder="ค้นหา" required title="Keywords" />
-                        <button type="submit">
-                            <em class="zmdi zmdi-search"></em>
-                        </button>
-                    </div>
-                </form>
+        </form>
+        <div class="scroll-wrapper" data-simplebar>
+            <div class="options">
+                <?php foreach(['ข่าวสาร', 'คลังภาพ', 'วิดีทัศน์'] as $d){?>
+                    <a class="option color-black h-color-04" href="#">
+                        <p class="md fw-400"><?= $d ?> (<span class="fw-600">12</span>)</p>
+                        <div class="chev color-04">
+                            <em class="zmdi zmdi-chevron-right"></em>
+                        </div>
+                    </a>
+                <?php }?>
             </div>
         </div>
+        <div class="btns">
+            <a class="btn btn-action" href="#">
+                <span>ค้นหาขั้นสูง</span>
+            </a>
+        </div>
+        <div class="searchnav-toggle">
+            <em class="zmdi zmdi-close"></em>
+            ปิดหน้าต่าง
+        </div>
     </div>
-</div>
+</nav>
+<div class="searchnav-filter"></div>
 
 
 <!-- Quick Tab -->

@@ -153,6 +153,10 @@ nav.sidenav .menu > em:hover{color:#0f9684;}
 nav.sidenav .menu ul.ss-list > li > a{border-color:#ddd;}
 nav.sidenav .menu ul.ss-list > li > a + .btn-icon{color:#000000;}
 
+/* Searchnav */
+nav.searchnav > .wrapper{background:#ffffff;}
+nav.searchnav .options > .option{border-color:#e0e0e0;}
+
 /* Global Search Container */
 .global-search-container .hamburger > *{background:#ffffff;}
 
