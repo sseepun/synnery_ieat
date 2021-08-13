@@ -1343,6 +1343,31 @@
 }
 
 
+/* Intro 03 */
+.intro-03{width:100%; overflow:hidden;}
+.intro-03 > .container > .grids{--gs:0rem;}
+.intro-03 .title-container{
+    position:relative; width:100%; display:flex; align-items:flex-end;
+}
+.intro-03 img{
+    display:block; height:2rem; width:auto; margin:0 .75rem 0 0;
+    transform:translateY(-.5rem);
+}
+.intro-03 .left-container{position:relative; padding-right:3rem;}
+.intro-03 .right-container{position:relative; padding-left:3rem;}
+.intro-03 .left-container > .img-bg{
+    position:absolute; top:0; bottom:0; right:0; width:50vw; background-size:cover;
+    background-position:center;
+}
+.intro-03 .btns{text-align:right;}
+@media screen and (max-width:991.98px){
+    .intro-03 .left-container{padding-right:0;}
+    .intro-03 .right-container{padding-left:0;}
+    .intro-03 .left-container > .img-bg{right:calc(50% - 50vw); width:100vw;}
+    .intro-03 .btns{text-align:center;}
+}
+
+
 /* RSS 01 */
 .rss-01{width:100%;}
 .rss-01 > .rss{position:relative; width:100%; display:flex; align-items:center;}
@@ -1354,11 +1379,20 @@
     border-top:.0625rem solid transparent; border-right:.0625rem solid transparent;
 }
 .rss-01 > .rss:last-child .title{border-bottom:.0625rem solid transparent;}
-.rss-01 > .rss .icon-rss{
+.rss-01 > .rss .icon-rss, .rss-01 > .rss .info{
     position:absolute; top:.375rem; bottom:.375rem; right:.375rem;
     display:flex; align-items:center;
 }
+.rss-01 > .rss .info{justify-content:flex-end; right:.625rem;}
 .rss-01 > .rss .icon-rss img{display:block; height:2.9375rem; width:auto;}
+.rss-01 > .rss.no-icon .title{padding:0 1rem; height:3.6875rem;}
+.rss-01 > .rss.with-info .title{padding:0 5.5rem 0 1rem; height:3.6875rem;}
+.rss-01 > .rss .line-1, .rss-01 > .rss .line-2{
+    display:block; display:-webkit-box; text-overflow:ellipsis; overflow:hidden;
+    -webkit-box-orient:vertical; width:100%;
+}
+.rss-01 > .rss .line-1{-webkit-line-clamp:1;}
+.rss-01 > .rss .line-2{-webkit-line-clamp:2;}
 @media screen and (max-width:767.98px){
     .rss-01 > .rss .title{padding:.75rem 3.5rem .75rem .75rem;}
     .rss-01 > .rss .icon-rss img{height:2.5rem;}

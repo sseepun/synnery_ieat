@@ -90,15 +90,15 @@
     <section class="intro-02 section-padding" style="background-image:url('public/assets/app/images/bg/38.jpg');">
         <div class="container">
             <div class="text-right">
-                <h6 class="h2 sm fw-600 color-04 lh-xs">
+                <h6 class="h2 sm fw-600 color-04 lh-xs" data-aos="fade-up" data-aos-delay="0">
                     IEAT 4.0 : Smart Eco Industrial Estate
                 </h6>
-                <p class="md fw-200 color-white xs-no-br mt-1">
+                <p class="md fw-200 color-white xs-no-br mt-1" data-aos="fade-up" data-aos-delay="150">
                     โครงการพัฒนานิคมอุตสาหกรรม/ท่าเรืออุตสาหกรรม/โรงงานอุตสาหกรรม <br>
                     สู่การเป็นนิคมอุตสาหกรรมเชิงนิเวศอัจฉริยะ
                 </p>
             </div>
-            <div class="icons">
+            <div class="icons" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon">
                     <img src="public/assets/app/images/icon/minisite-01.png" alt="Image Icon" />
                 </div>
@@ -113,6 +113,99 @@
                 </div>
                 <div class="icon">
                     <img src="public/assets/app/images/icon/minisite-05.png" alt="Image Icon" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro-03">
+        <div class="container">
+            <div class="grids">
+                <div class="grid lg-50 sm-100 mt-0">
+                    <div class="section-padding left-container">
+                        <div class="img-bg" style="background-image:url('public/assets/app/images/bg/39.jpg');"></div>
+                        <div data-aos="fade-up" data-aos-delay="0">
+                            <div class="title-container">
+                                <img src="public/assets/app/images/icon/09.png" alt="Image Icon" />
+                                <h6 class="h3 xs fw-600">ประกาศจัดซื้อจัดจ้าง</h6>
+                            </div>
+                            <div class="rss-01 position-relative mt-2">
+                                <?php for($i=0; $i<4; $i++){?>
+                                    <div class="rss no-icon">
+                                        <?php if($i%2==0){?>
+                                            <div class="ss-date">
+                                                <div class="date bg-04">
+                                                    <div class="d">04</div>
+                                                    <div class="m-y">09.2563</div>
+                                                </div>
+                                            </div>
+                                        <?php }else{?>
+                                            <div class="ss-date">
+                                                <div class="date bg-11">
+                                                    <div class="d">04</div>
+                                                    <div class="m-y">09.2563</div>
+                                                </div>
+                                            </div>
+                                        <?php }?>
+                                        <a class="title p md fw-300 lh-xs color-black h-color-04" href="#">
+                                            <div class="line-1">
+                                                การใช้งานระบบการให้บริการสอบถามและแจ้งปัญหาการใช้งานระบบ 
+                                                e-GP แบบออนไลน์
+                                            </div>
+                                        </a>
+                                    </div>
+                                <?php }?>
+                            </div>
+                            <div class="btns mt-2">
+                                <a class="btn btn-action" href="#">
+                                    <span>ดูทั้งหมด</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid lg-50 sm-100">
+                    <div class="section-padding right-container" data-aos="fade-up" data-aos-delay="150">
+                        <div class="title-container">
+                            <img src="public/assets/app/images/icon/11.png" alt="Image Icon" />
+                            <h6 class="h3 xs fw-600">ประกาศรับสมัครงาน</h6>
+                        </div>
+                        <div class="rss-01 mt-2">
+                            <?php for($i=0; $i<4; $i++){?>
+                                <div class="rss with-info">
+                                    <?php if($i%2==0){?>
+                                        <div class="ss-date">
+                                            <div class="date bg-04">
+                                                <div class="d">04</div>
+                                                <div class="m-y">09.2563</div>
+                                            </div>
+                                        </div>
+                                    <?php }else{?>
+                                        <div class="ss-date">
+                                            <div class="date bg-11">
+                                                <div class="d">04</div>
+                                                <div class="m-y">09.2563</div>
+                                            </div>
+                                        </div>
+                                    <?php }?>
+                                    <a class="title p md fw-300 lh-xs color-black h-color-04" href="#">
+                                        <div class="line-2">
+                                            การใช้งานระบบการให้บริการสอบถามและแจ้งปัญหาการใช้งานระบบ 
+                                            e-GP แบบออนไลน์
+                                        </div>
+                                    </a>
+                                    <div class="info p md fw-300 color-black">
+                                        <span class="fw-500 color-04 mr-1">12</span> ตำแหน่ง
+                                    </div>
+                                </div>
+                            <?php }?>
+                        </div>
+                        <div class="btns mt-2">
+                            <a class="btn btn-action" href="#">
+                                <span>ดูทั้งหมด</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
