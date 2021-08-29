@@ -34,11 +34,10 @@
             แสดงผลต่อหน้า 
             <div class="select-wrapper">
                 <select class="pp" title="Per Page">
-                    <option value="10">10</option>
-                    <option value="25">25</option>
-                    <option value="50">50</option>
-                    <option value="75">75</option>
-                    <option value="100">100</option>
+                    <option value="10" selected>12</option>
+                    <option value="25">24</option>
+                    <option value="50">48</option>
+                    <option value="75">96</option>
                 </select>
             </div> 
             รายการ

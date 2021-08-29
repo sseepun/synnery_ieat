@@ -13,8 +13,10 @@
                 </a>
                 <div class="select-wrapper">
                     <select class="order" title="Order">
-                        <option value="" disabled="" selected="">ที่มาใหม่</option>
-                        <option value="newest">ที่มาใหม่</option>
+                        <option value="" disabled="" selected="">เรียงลำดับ</option>
+                        <option value="1">ใหม่ที่สุด</option>
+                        <option value="2">เก่าที่สุด</option>
+                        <option value="3">เป็นที่นิยม</option>
                     </select>
                 </div>
             </div>

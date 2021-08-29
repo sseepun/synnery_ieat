@@ -87,7 +87,7 @@
 
                                     <div class="table-wrapper">
                                         <table class="table table-download-02">
-                                            <?php for($i=0; $i<4; $i++){?>
+                                            <?php for($k=0; $k<4; $k++){?>
                                                 <tr class="row-title">
                                                     <td colspan="2" class="no-border">
                                                         <div class="row-header no-hover">

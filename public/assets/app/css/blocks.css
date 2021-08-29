@@ -821,12 +821,16 @@
 .client-01 .slide:first-child::before, .client-01 .slide::after{
     content:''; position:absolute; top:0; bottom:0; width:1px;
 }
-.client-01 .wrapper{
-    display:block; width:100%; padding:.25rem .5rem .5rem .5rem; transition:opacity .25s;
+.client-01 .slide:first-child::before{left:-.5px;}
+.client-01 .slide::after{right:.5px;}
+.client-01 .wrapper{display:block; width:100%; padding:.25rem .5rem .5rem .5rem;}
+.client-01 .slide > .wrapper{position:relative;}
+.client-01 .slide > .wrapper > *{position:relative;}
+.client-01 .slide > .wrapper::before{
+    content:''; position:absolute; top:0; bottom:0; left:0; right:0; opacity:0;
+    transition:opacity .25s;
 }
-.client-01 .wrapper:hover{opacity:.75;}
-.client-01 .slide:first-child > .wrapper::before{left:-.5px;}
-.client-01 .wrapper::after{right:.5px;}
+.client-01 .slide:hover > .wrapper::before{opacity:1;}
 .client-01 .img-container{display:block; position:relative; width:100%; padding:40% 0 0 0;}
 .client-01 .img-wrapper{
     position:absolute; top:0; bottom:0; left:0; right:0; display:flex; align-items:center;

@@ -398,6 +398,7 @@ table.table-download .btn-download:hover > .icon-container{
 }
 table.table-download.type-02 td{background:#ffffff; border-color:#f0eef1!important;}
 table.table-download.type-03 td{background:#f0eef1; border-color:#fff!important;}
+
 table.table-download-02 td{background:#f0eef1; border-color:#ffffff;}
 table.table-download-02 tr.row-title td{background:#ffffff; border-color:#f0eef1;}
 table.table-download-02 .row-header:not(.no-hover):hover .text-wrapper{color:#ffffff;}
@@ -405,6 +406,11 @@ table.table-download-02 .row-header:not(.no-hover)::before{
     background-image:linear-gradient(to right, #9f77cd, #8564aa, #77569d);
 }
 table.table-download-02 .btn > em{border-color:#000000; background:#ffffff;}
+table.table-download-02.stripe{border:1px solid #eeeeee;}
+table.table-download-02.stripe td{border-bottom:1px solid #eeeeee!important;}
+table.table-download-02.stripe tr:last-child > td{border-bottom:0!important;}
+table.table-download-02.stripe tr:nth-child(2n) > td{background:#f2f2f2;}
+
 table.table-estate > tbody > tr > td:nth-child(1){background:#5d4289; color:#ffffff;}
 table.table-estate > tbody > tr:nth-child(even) > td:nth-child(1){background:#936dd0;}
 table.table-estate > tbody > tr > td:nth-child(2){background:#ffffff;}
@@ -521,6 +527,9 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 
 /* Client 01 */
 .client-01 .slide:first-child::before, .client-01 .slide::after{background:#cecece;}
+.client-01 .slide > .wrapper::before{
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,.12));
+}
 .client-01 p{color:#000000;}
 
 
@@ -559,6 +568,8 @@ table.table-faq tr:nth-child(2n) > td{background:#ffffff;}
 .content-08 .btn-social-white.yt:hover{color:#ff0000;}
 .content-08 .btn-social-white.in{background:#0077b5;}
 .content-08 .btn-social-white.in:hover{color:#0077b5;}
+.content-08 .btn-social-white.ln{background:#3ace01;}
+.content-08 .btn-social-white.ln:hover{color:#3ace01;}
 
 
 /* FAQ 01 */

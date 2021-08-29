@@ -57,7 +57,7 @@
                         <?php for($i=0; $i<10; $i++){?>
                             <div class="grid sm-100 mt-3">
                                 <div class="faq">
-                                    <div class="faq-header">
+                                    <div class="faq-header cursor-pointer">
                                         <div class="faq-icon">
                                             <div class="icon"></div>
                                         </div>

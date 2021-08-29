@@ -271,7 +271,8 @@ table.table-download .btn-download:hover > i, table.table-download .btn-download
     background:#ffffff; color:#000000;
 }
 table.table-download.type-02 td{background:#000000; border-color:#fff!important;}
-table.table-download-02 td{border-color:#ffffff;}
+table.table-download-02{border:1px solid #ffffff;}
+table.table-download-02 td{border-bottom:1px solid #ffffff!important;}
 table.table-download-02 tr.row-title td{border-color:#ffffff;}
 table.table-download-02 .row-header:not(.no-hover):hover .text-wrapper{color:#000000;}
 table.table-download-02 .row-header:not(.no-hover)::before{background:#ffffff;}
@@ -350,6 +351,9 @@ table.table-faq td{border-color:#fff!important; border-bottom:1px solid #ffffff;
 /* Client 01 */
 .client-01{background:#000!important; border-top:1px solid #ffffff;}
 .client-01 .slide:first-child::before, .client-01 .slide::after{background:#ffffff;}
+.client-01 .slide > .wrapper::before{
+    background-image:linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,.2));
+}
 .client-01 p{color:#ffffff;}
 
 

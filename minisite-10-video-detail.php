@@ -77,8 +77,13 @@
                         </a>
                     </div>
                     <div class="text-center mt-1">
-                        <a class="btn-social-white" href="#">
-                            <em class="zmdi zmdi-linkedin"></em>
+                        <a class="btn-social-white ln" href="#">
+                            <em class="fab fa-line"></em>
+                        </a>
+                    </div>
+                    <div class="text-center mt-1">
+                        <a class="btn-social-white sh" href="#">
+                            <em class="fas fa-link"></em>
                         </a>
                     </div>
                 </div>

@@ -45,7 +45,7 @@
             </div>
             <div class="content">
                 <div class="btns mt-0">
-                    <a class="btn btn-action border bcolor-white" href="#">
+                    <a class="btn btn-action" href="#">
                         <span>สมัครรับข่าวสาร</span>
                     </a>
                 </div>

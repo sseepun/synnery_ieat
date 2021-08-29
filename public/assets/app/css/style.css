@@ -280,7 +280,9 @@ ul > li, ol > li{margin:.125rem 0;}
     transition:opacity .25s, background .25s;
 }
 .btn-social-white:hover::before{opacity:0;}
-.btn-social-white img{position:relative;}
+.btn-social-white img, .btn-social-white em{position:relative;}
+.btn-social-white em.fas, .btn-social-white em.fab, 
+.btn-social-white em.far{font-size:1.125rem; transform:translateY(.0625rem);}
 
 .btn-round{border-radius:1000em; padding-left:1.1875rem; padding-right:1.1875rem;}
 .btn-hex{
@@ -1382,6 +1384,8 @@ table.table-faq tr:last-child > td{border-bottom:3px solid transparent;}
 .clear-both{clear:both;}
 
 .val-middle{vertical-align:middle!important;}
+
+.cursor-pointer{cursor:pointer!important;}
 
 @media screen and (max-width:1199.98px){
     .lg-no-br > br{display:none;}

@@ -99,14 +99,14 @@
                         <div class="ss-title">
                             <span class="h3 fw-600 color-04">แบบฟอร์มการติดต่อ</span>
                         </div>
-                        <form action="">
+                        <form action="" id="form-contact">
                             <div class="grids">
                                 <div class="grid sm-50">
                                     <div class="field mt-0">
                                         <label class="fw-500">เลือกหน่วยงาน* :</label>
                                         <div class="control">
                                             <div class="select-wrapper width-full">
-                                                <select class="bg-white width-full" required title="General Input">
+                                                <select name="department" required class="bg-white width-full" title="General Input">
                                                     <option value="">&nbsp;</option>
                                                     <option value="1">หน่วยงานที่ 1</option>
                                                     <option value="2">หน่วยงานที่ 2</option>
@@ -120,7 +120,7 @@
                                     <div class="field mt-0">
                                         <label class="fw-500">หัวข้อเรื่อง* :</label>
                                         <div class="control">
-                                            <input type="text" class="bg-white" required title="General Input" />
+                                            <input name="subject" required type="text" class="bg-white" title="General Input" />
                                         </div>
                                     </div>
                                 </div>
@@ -128,7 +128,7 @@
                                     <div class="field mt-0">
                                         <label class="fw-500">ชื่อ :</label>
                                         <div class="control">
-                                            <input type="text" class="bg-white" title="General Input" />
+                                            <input name="firstname" type="text" class="bg-white" title="General Input" />
                                         </div>
                                     </div>
                                 </div>
@@ -136,7 +136,7 @@
                                     <div class="field mt-0">
                                         <label class="fw-500">นามสกุล :</label>
                                         <div class="control">
-                                            <input type="text" class="bg-white" title="General Input" />
+                                            <input name="lastname" type="text" class="bg-white" title="General Input" />
                                         </div>
                                     </div>
                                 </div>
@@ -144,7 +144,7 @@
                                     <div class="field mt-0">
                                         <label class="fw-500">อีเมล :</label>
                                         <div class="control">
-                                            <input type="email" class="bg-white" title="General Input" />
+                                            <input name="email" type="email" class="bg-white" title="General Input" />
                                         </div>
                                     </div>
                                 </div>
@@ -152,15 +152,15 @@
                                     <div class="field mt-0">
                                         <label class="fw-500">หมายเลขติดต่อ :</label>
                                         <div class="control">
-                                            <input type="text" class="bg-white" title="General Input" />
+                                            <input name="phone" type="text" class="bg-white" title="General Input" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="grid sm-100">
                                     <div class="field mt-0">
-                                        <label class="fw-500">ข้อความ</label>
+                                        <label class="fw-500">ข้อความ* :</label>
                                         <div class="control">
-                                            <textarea class="bg-white" rows="4" required title="Message"></textarea>
+                                            <textarea name="message" required class="bg-white" rows="4" title="Message"></textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -189,5 +189,21 @@
 
     <?php include_once('include/footer-minisite.php'); ?>
     <?php include_once('include/script.php'); ?>
+    
+    <script src="public/assets/lib/jquery-validation-1.19.3/jquery.validate.min.js"></script>
+    <script>
+        $('#form-contact').validate({
+            rules: {
+                department: { required: true }, 
+                subject: { required: true },
+                message: { required: true }
+	        },
+            messages: {
+                department: 'กรุณาเลือกหน่วยงาน',
+                subject: 'กรุณาใส่หัวข้อเรื่อง',
+                message: 'กรุณาใส่ข้อความ'
+            }
+        });
+    </script>
 </body>
 </html>

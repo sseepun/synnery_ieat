@@ -682,7 +682,7 @@ $(function(){ 'use strict';
     if(faq03.length){
         faq03.each(function(){
             var self = $(this);
-            self.find('.faq > .faq-header .title').click(function(e){
+            self.find('.faq > .faq-header').click(function(e){
                 e.preventDefault();
                 var parent = $(this).closest('.faq');
                 parent.toggleClass('active');

@@ -73,8 +73,13 @@
                         </a>
                     </div>
                     <div class="text-center mt-1">
-                        <a class="btn-social-white" href="#">
-                            <em class="zmdi zmdi-linkedin"></em>
+                        <a class="btn-social-white ln" href="#">
+                            <em class="fab fa-line"></em>
+                        </a>
+                    </div>
+                    <div class="text-center mt-1">
+                        <a class="btn-social-white sh" href="#">
+                            <em class="fas fa-link"></em>
                         </a>
                     </div>
                 </div>
@@ -188,7 +193,12 @@
                     </div>
                     <table class="table table-download type-03 mt-3">
                         <tbody>
-                            <?php foreach(['jpg', 'gif', 'pdf', 'xls'] as $d){?>
+                            <?php 
+                                foreach([
+                                    'doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 
+                                    'zip', 'rar', 'pdf'
+                                ] as $d){
+                            ?>
                                 <tr>
                                     <td>
                                         <div class="file-icon">

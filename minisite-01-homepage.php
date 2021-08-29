@@ -51,37 +51,89 @@
             </div>
             <div class="tab-contents mt-4">
                 <?php foreach($categories as $i=>$d){?>
-                    <div class="tab-content <?php if($i==0)echo 'active'; ?>" data-tab="<?= $i ?>">
-                        <div class="slide-container">
-                            <div class="slides">
-                                <?php for($j=0; $j<12; $j++){?>
-                                    <div class="slide">
-                                        <div class="wrapper">
-                                            <?php
-                                                $cardType = 'CMS';
-                                                include('component/minisite-card-grid.php');
-                                            ?>
+                    <?php if($i != 3){?>
+                        <div class="tab-content <?php if($i==0)echo 'active'; ?>" data-tab="<?= $i ?>">
+                            <div class="slide-container">
+                                <div class="slides">
+                                    <?php for($j=0; $j<12; $j++){?>
+                                        <div class="slide">
+                                            <div class="wrapper">
+                                                <?php
+                                                    $cardType = 'CMS';
+                                                    include('component/minisite-card-grid.php');
+                                                ?>
+                                            </div>
                                         </div>
-                                    </div>
-                                <?php }?>
-                            </div>
-                            <div class="container mt-4">
-                                <div class="bottom-container">
-                                    <a class="btn btn-action" href="#">
-                                        <span>ดูทั้งหมด</span>
-                                    </a>
-                                    <div class="arrows">
-                                        <a class="arrow bg-04 color-white btn-hex-03" href="#">
-                                            <em class="zmdi zmdi-chevron-left"></em>
+                                    <?php }?>
+                                </div>
+                                <div class="container mt-4">
+                                    <div class="bottom-container">
+                                        <a class="btn btn-action" href="#">
+                                            <span>ดูทั้งหมด</span>
                                         </a>
-                                        <a class="arrow bg-04 color-white btn-hex-03" href="#">
-                                            <em class="zmdi zmdi-chevron-right"></em>
-                                        </a>
+                                        <div class="arrows">
+                                            <a class="arrow bg-04 color-white btn-hex-03" href="#">
+                                                <em class="zmdi zmdi-chevron-left"></em>
+                                            </a>
+                                            <a class="arrow bg-04 color-white btn-hex-03" href="#">
+                                                <em class="zmdi zmdi-chevron-right"></em>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    <?php }else{?>
+                        <div class="tab-content" data-tab="<?= $i ?>">
+                            <div class="container">
+                                <div class="grids jc-center">
+                                    <div class="grid lg-90 sm-100 mt-0">
+                                        <div class="table-wrapper">
+                                            <table class="table table-download-02 stripe">
+                                                <?php for($k=0; $k<10; $k++){?>
+                                                    <tr class="row-title">
+                                                        <td colspan="2" class="no-border">
+                                                            <div class="row-header no-hover">
+                                                                <?php if($k%2 == 0){?>
+                                                                    <div class="ss-date">
+                                                                        <div class="date bg-04">
+                                                                            <div class="d">04</div>
+                                                                            <div class="m-y">09.2563</div>
+                                                                        </div>
+                                                                    </div>
+                                                                <?php }else{?>
+                                                                    <div class="ss-date">
+                                                                        <div class="date bg-11">
+                                                                            <div class="d">04</div>
+                                                                            <div class="m-y">09.2563</div>
+                                                                        </div>
+                                                                    </div>
+                                                                <?php }?>
+                                                                <div class="text-wrapper">
+                                                                    <p class="md">
+                                                                        รายงานผลการดำเนินงานภายใต้แผนปฏิบัติการ กนอ.
+                                                                        ปีงบประมาณ 2563 ประจำไตรมาส 2/2563
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td colspan="2" class="no-border val-middle">
+                                                            <div class="d-flex jc-end pr-3">
+                                                                <a class="btn btn-img" href="#">
+                                                                    <span class="mr-2">ดาวน์โหลดทั้ง (3 ไฟล์)</span>
+                                                                    <img src="public/assets/app/images/icon/download.png" alt="Image Icon" />
+                                                                </a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                <?php }?>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php }?>
                 <?php }?>
             </div>
         </div>
