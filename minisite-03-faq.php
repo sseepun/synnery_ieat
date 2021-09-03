@@ -115,10 +115,10 @@
                                                     <div class="table-wrapper">
                                                         <table class="table table-download-02">
                                                             <tbody>
-                                                                <?php foreach(['pdf', 'xls', 'doc', 'ppt'] as $d){?>
+                                                                <?php foreach(['doc', 'gif', 'jpg', 'pdf', 'png', 'ppt', 'vdo', 'xls', 'zip'] as $d){?>
                                                                     <tr>
                                                                         <td>
-                                                                            <img class="file-icon" src="public/assets/app/images/file/<?= $d ?>.png" alt="File Icon Image" />
+                                                                            <img class="file-icon" src="public/assets/app/images/file/<?= $d ?>.svg" alt="File Icon Image" />
                                                                         </td>
                                                                         <td>
                                                                             <p class="sm line-1">
@@ -176,7 +176,7 @@
                             สามารถคลิกที่ปุ่มด้านล่าง เพื่อดูช่องทางการติดต่อทางอื่น
                         </p>
                         <div class="btns mt-3">
-                            <a class="btn btn-action" href="#">
+                            <a class="btn btn-action btn-popup-toggle" data-popup="1" href="#">
                                 <span>ติดต่อเรา</span>
                             </a>
                         </div>
@@ -186,7 +186,120 @@
         </div>
     </section>
 
+    <div class="popup-container minisite" data-popup="1">
+        <div class="wrapper">
+            <div class="close-filter btn-popup-toggle" data-popup="1"></div>
+            <div class="popup-box">
+                <div class="box-header">
+                    <p class="h3 sm fw-400">แบบฟอร์มการติดต่อ</p>
+                    <div class="close-wrapper cursor-pointer btn-popup-toggle" data-popup="1">
+                        <div class="hamburger active">
+                            <div></div><div></div><div></div>
+                        </div>
+                        <p class="fw-200">ปิด</p>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <form action="" id="form-contact">
+                        <div class="grids">
+                            <div class="grid sm-50">
+                                <div class="field mt-0">
+                                    <label class="fw-500">เลือกหน่วยงาน* :</label>
+                                    <div class="control">
+                                        <div class="select-wrapper width-full">
+                                            <select name="department" required class="bg-white width-full" title="General Input">
+                                                <option value="">&nbsp;</option>
+                                                <option value="1">หน่วยงานที่ 1</option>
+                                                <option value="2">หน่วยงานที่ 2</option>
+                                                <option value="3">หน่วยงานที่ 3</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid sm-50">
+                                <div class="field mt-0">
+                                    <label class="fw-500">หัวข้อเรื่อง* :</label>
+                                    <div class="control">
+                                        <input name="subject" required type="text" class="bg-white" title="General Input" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid sm-50">
+                                <div class="field mt-0">
+                                    <label class="fw-500">ชื่อ :</label>
+                                    <div class="control">
+                                        <input name="firstname" type="text" class="bg-white" title="General Input" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid sm-50">
+                                <div class="field mt-0">
+                                    <label class="fw-500">นามสกุล :</label>
+                                    <div class="control">
+                                        <input name="lastname" type="text" class="bg-white" title="General Input" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid sm-50">
+                                <div class="field mt-0">
+                                    <label class="fw-500">อีเมล :</label>
+                                    <div class="control">
+                                        <input name="email" type="email" class="bg-white" title="General Input" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid sm-50">
+                                <div class="field mt-0">
+                                    <label class="fw-500">หมายเลขติดต่อ :</label>
+                                    <div class="control">
+                                        <input name="phone" type="text" class="bg-white" title="General Input" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid sm-100">
+                                <div class="field mt-0">
+                                    <label class="fw-500">ข้อความ* :</label>
+                                    <div class="control">
+                                        <textarea name="message" required class="bg-white" rows="4" title="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="capcha-container mt-2">
+                            <img class="img" src="public/assets/app/images/icon/capcha.png" alt="Capcha Image" />
+                        </div>
+                        <div class="btns mt-3">
+                            <button type="submit" class="btn btn-action mr-1">
+                                <span>ส่งข้อความ</span>
+                            </button>
+                            <button type="reset" class="btn btn-action btn-action-01">
+                                ล้างข้อมูล
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <?php include_once('include/footer-minisite.php'); ?>
     <?php include_once('include/script.php'); ?>
+    
+    <script src="public/assets/lib/jquery-validation-1.19.3/jquery.validate.min.js"></script>
+    <script>
+        $('#form-contact').validate({
+            rules: {
+                department: { required: true }, 
+                subject: { required: true },
+                message: { required: true }
+	        },
+            messages: {
+                department: 'กรุณาเลือกหน่วยงาน',
+                subject: 'กรุณาใส่หัวข้อเรื่อง',
+                message: 'กรุณาใส่ข้อความ'
+            }
+        });
+    </script>
 </body>
 </html>

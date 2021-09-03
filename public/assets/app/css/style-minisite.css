@@ -87,6 +87,19 @@ nav.footer.minisite img.hero{width:7.5rem;}
 }
 
 
+/* Popup */
+.popup-container > .wrapper{padding:1rem 4rem 1rem 1rem;}
+.popup-container.minisite .box-header{position:relative; border-radius:0;}
+.popup-container.minisite .box-header::before{
+    content:''; position:absolute; top:0; bottom:0; right:0; width:4rem;
+    clip-path:polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 40% 50%);
+}
+.popup-container.minisite .close-wrapper{
+    position:absolute; top:0; bottom:0; left:100%; padding:1.125rem .75rem; text-align:center;
+}
+.popup-container.minisite .close-wrapper p{margin:.5rem 0 0 0;}
+
+
 /* Quick Tab */
 .quick-tab.minisite{top:13.5rem;}
 @media screen and (max-width:575.98px){

@@ -161,6 +161,12 @@ nav.footer .tag{background:#ffffff; color:#000000;}
 .popup-container .box-btns{border:1px solid #ffffff;}
 .popup-container .box-btn{background:#000000; color:#ffffff;}
 .popup-container .box-btn:hover{background:#ffffff; color:#000000;}
+.popup-container.minisite .box-header::before{background:#ffffff;}
+.popup-container.minisite .close-wrapper{
+    border:1px solid #ffffff; color:#ffffff; background:#000000;
+}
+.popup-container.minisite .hamburger > *{background:#ffffff;}
+.popup-container.minisite .box-body{border-bottom:1px solid #ffffff;}
 
 
 /* Shortcode */

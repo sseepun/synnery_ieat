@@ -193,16 +193,11 @@
                     </div>
                     <table class="table table-download type-03 mt-3">
                         <tbody>
-                            <?php 
-                                foreach([
-                                    'doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 
-                                    'zip', 'rar', 'pdf'
-                                ] as $d){
-                            ?>
+                            <?php foreach(['doc', 'gif', 'jpg', 'pdf', 'png', 'ppt', 'vdo', 'xls', 'zip'] as $d){?>
                                 <tr>
                                     <td>
                                         <div class="file-icon">
-                                            <img src="public/assets/app/images/file/<?= $d ?>.png" alt="Icon" />
+                                            <img src="public/assets/app/images/file/<?= $d ?>.svg" alt="Icon" />
                                         </div>
                                     </td>
                                     <td class="pr-3">

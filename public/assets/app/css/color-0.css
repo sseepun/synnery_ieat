@@ -259,6 +259,10 @@ nav.footer.minisite .btn-social-white::before{background:#804097;}
 .popup-container .box-header .close-btn{color:#7b7b7b;}
 .popup-container .box-btn{background:#323232; color:#ffffff;}
 .popup-container .box-btn:hover{background:#000000;}
+.popup-container.minisite .box-header{background:#18a097; color:#ffffff;}
+.popup-container.minisite .box-header::before{background:#803f97;}
+.popup-container.minisite .close-wrapper{background:#4c1261; color:#ffffff;}
+.popup-container.minisite .hamburger > *{background:#ffffff;}
 
 
 /* Shortcode */
