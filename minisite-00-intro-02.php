@@ -22,6 +22,14 @@
                 <p class="fw-400">Industrial Estate Authority of Thailand</p>
             </div>
         </a>
+        <div class="btns text-center">
+            <a class="btn btn-action border bcolor-white mx-1" href="#">
+                <span>ไปที่เว็บไซต์</span>
+            </a>
+            <a class="btn btn-action border bcolor-white mx-1" href="#">
+                <span>Enter site</span>
+            </a>
+        </div>
     </section>
     <?php include_once('include/script.php'); ?>
 </body>

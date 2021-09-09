@@ -1278,18 +1278,16 @@
     position:absolute; bottom:0; display:block; width:17rem; height:auto;
     transform:translateX(22.5rem);
 }
+.intro-01 .btns{margin:1.625rem 0 0 0;}
 @media screen and (max-width:1199.98px){
     .intro-01 .logo{top:1.25rem; left:1.5rem;}
     .intro-01 .logo img{height:3rem; margin:0 .5rem 0 0;}
     .intro-01 .logo h6{font-size:1.5625rem;}
-    .intro-01 .content-container{height:calc(100vh - 5.5rem);}
     .intro-01 .pattern{bottom:1.25rem; left:1.5rem;}
     .intro-01 .hero-text-02{width:17rem; transform:translateX(-24.5rem);}
 }
 @media screen and (max-width:991.98px){
     .intro-01 .logo{top:1rem; left:1rem;}
-    .intro-01 .content-container{height:calc(100vh - 4.5rem);}
-    .intro-01 .content-container.white-tablet{background:#ffffff!important;}
     .intro-01 .pattern{bottom:1rem; left:1rem; height:2.5rem;}
     .intro-01 .cover-1{height:4rem;}
     .intro-01 .cover-2{height:8rem;}
@@ -1306,11 +1304,9 @@
 }
 @media screen and (max-width:575.98px){
     .intro-01 .logo .text-wrapper{display:none;}
-    .intro-01 .content-container{
-        height:calc(100vh - 4.25rem); align-items:flex-end; padding-bottom:18rem;
-    }
+    .intro-01 .content-container{align-items:flex-end; padding-bottom:18rem;}
     .intro-01 .content-container.white-tablet{align-items:center; padding-bottom:0;}
-    .intro-01 .pattern{height:2.25rem;}
+    .intro-01 .pattern{display:none; height:2.25rem;}
     .intro-01 .hero-text, .intro-01 .hero-text-02{width:16rem;}
     .intro-01 .hero{width:10rem; transform:translateX(0);}
 }
