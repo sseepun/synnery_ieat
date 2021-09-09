@@ -167,6 +167,11 @@ nav.footer .tag{background:#ffffff; color:#000000;}
 }
 .popup-container.minisite .hamburger > *{background:#ffffff;}
 .popup-container.minisite .box-body{border-bottom:1px solid #ffffff;}
+.popup-container.minisite .popup-box.style-02{border-top:1px solid #ffffff;}
+.popup-container.minisite .popup-box.style-02 > .close-wrapper{background:#000000;}
+.popup-container.minisite .popup-box.style-02 > .close-wrapper 
+.hamburger > *{background:#ffffff;}
+.popup-container.minisite .popup-box.style-02::before{background:#ffffff;}
 
 
 /* Shortcode */

@@ -183,7 +183,8 @@ nav.footer.minisite .btn-social-white::before{background:#804097;}
     background:#3d3d3d; color:#ffffff;
 }
 .btn-action::before{background:#6cdded;}
-.btn-action.btn-action-01::before{background:#ccc;}
+.btn-action.btn-action-01::before{background:#cccccc;}
+.btn-action.btn-action-02::before{background:#fab612;}
 
 .btn-social-white{background:#ffffff; color:#ffffff;}
 .btn-social-white::before{background:#4b326e;}
@@ -263,6 +264,10 @@ nav.footer.minisite .btn-social-white::before{background:#804097;}
 .popup-container.minisite .box-header::before{background:#803f97;}
 .popup-container.minisite .close-wrapper{background:#4c1261; color:#ffffff;}
 .popup-container.minisite .hamburger > *{background:#ffffff;}
+.popup-container.minisite .popup-box.style-02 > .close-wrapper{background:#000000;}
+.popup-container.minisite .popup-box.style-02 > .close-wrapper 
+.hamburger > *{background:#ffffff;}
+.popup-container.minisite .popup-box.style-02::before{background:#169f96;}
 
 
 /* Shortcode */
@@ -767,7 +772,7 @@ table.table-vote-01 tr.winning td > .progress::before{background:#803f97;}
 .btn-icon3.btn-icon-01{background:#4b326e; color:#fff;}
 .btn-icon3.btn-icon-01:hover{background:#000202; color:#fff;}
 .btn-action3, .btn-action3:focus, .btn-action3:hover, .btn-action3:active{
-    background: rgb(79,48,110);
-background: linear-gradient(87deg, rgba(79,48,110,1) 0%, rgba(102,38,110,1) 100%); color:#fff;
+    background:rgb(79,48,110); color:#fff;
+    background:linear-gradient(87deg, rgba(79,48,110,1) 0%, rgba(102,38,110,1) 100%);
 }
 .btn-action3.btn-action3-01::before{background:#ccc;}

@@ -151,21 +151,12 @@
                 </p>
             </div>
             <div class="icons" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon">
-                    <img src="public/assets/app/images/icon/minisite-01.png" alt="Image Icon" />
-                </div>
-                <div class="icon">
-                    <img src="public/assets/app/images/icon/minisite-02.png" alt="Image Icon" />
-                </div>
-                <div class="icon">
-                    <img src="public/assets/app/images/icon/minisite-03.png" alt="Image Icon" />
-                </div>
-                <div class="icon">
-                    <img src="public/assets/app/images/icon/minisite-04.png" alt="Image Icon" />
-                </div>
-                <div class="icon">
-                    <img src="public/assets/app/images/icon/minisite-05.png" alt="Image Icon" />
-                </div>
+                <?php for($j=1; $j<=5; $j++){?>
+                    <div class="icon">
+                        <img src="public/assets/app/images/icon/minisite-0<?= $j ?>.png" alt="Image Icon" />
+                        <img class="active" src="public/assets/app/images/icon/minisite-0<?= $j ?>-active.png" alt="Image Icon" />
+                    </div>
+                <?php }?>
             </div>
         </div>
     </section>

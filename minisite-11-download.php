@@ -163,7 +163,7 @@
                                                         </td>
                                                         <td>
                                                             <div class="d-flex jc-end">
-                                                                <a class="btn btn-img" href="#">
+                                                                <a class="btn btn-img btn-popup-toggle" data-popup="1" href="#">
                                                                     แจ้งไฟล์เสีย 
                                                                     <img class="ml-2" src="public/assets/app/images/icon/error.png" alt="Image Icon" />
                                                                 </a>
@@ -191,7 +191,157 @@
         </div>
     </section>
 
+    <div class="popup-container minisite" data-popup="1">
+        <div class="wrapper pr-3">
+            <div class="close-filter btn-popup-toggle" data-popup="1"></div>
+            <div class="popup-box style-02">
+                <div class="close-wrapper cursor-pointer btn-popup-toggle" data-popup="1">
+                    <div class="hamburger active">
+                        <div></div><div></div><div></div>
+                    </div>
+                </div>
+                <div class="box-body">
+                    <div class="ss-title">
+                        <span class="h3 xs fw-600 color-04">
+                            แจ้งไฟล์เสีย
+                        </span>
+                    </div>
+                    <form action="" id="form_download">
+                        <div class="grids">
+                            <div class="grid sm-100">
+                                <div class="field mt-0">
+                                    <div class="control">
+                                        <div class="select-wrapper width-full">
+                                            <select name="department" required class="bg-white width-full" title="General Input">
+                                                <option value="1" seleted>
+                                                    รายงานผลการดำเนินงานภายใต้แผนปฏิบัติการ กนอ.ปีงบประมาณ 2563
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid sm-50">
+                                <div class="field mt-0">
+                                    <label class="fw-500">ชื่อ :</label>
+                                    <div class="control">
+                                        <input name="firstname" type="text" class="bg-white" title="General Input" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid sm-50">
+                                <div class="field mt-0">
+                                    <label class="fw-500">นามสกุล :</label>
+                                    <div class="control">
+                                        <input name="lastname" type="text" class="bg-white" title="General Input" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid sm-50">
+                                <div class="field mt-0">
+                                    <label class="fw-500">อีเมล :</label>
+                                    <div class="control">
+                                        <input name="email" type="email" class="bg-white" title="General Input" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid sm-50">
+                                <div class="field mt-0">
+                                    <label class="fw-500">หมายเลขติดต่อ :</label>
+                                    <div class="control">
+                                        <input name="phone" type="text" class="bg-white" title="General Input" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid sm-100">
+                                <div class="field mt-0">
+                                    <label class="fw-500">ข้อความ* :</label>
+                                    <div class="control">
+                                        <textarea name="message" required class="bg-white" rows="4" title="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex ai-center jc-space-between fw-wrap">
+                            <div class="capcha-container mt-2">
+                                <img class="img" src="public/assets/app/images/icon/capcha.png" alt="Capcha Image" />
+                            </div>
+                            <div class="mt-2">
+                                <button type="submit" class="btn btn-action">
+                                    <span>ส่งข้อความ</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-container minisite" data-popup="2">
+        <div class="wrapper pr-3">
+            <div class="popup-box sm style-02">
+                <div class="box-body">
+                    <div class="icon-wrapper">
+                        <div class="icon">
+                            <img src="public/assets/app/images/icon/hex-success.png" alt="Image Icon" />
+                        </div>
+                        <div class="text-wrapper">
+                            <h6 class="h4 fw-600 color-04">
+                                ระบบได้ทำรับเรื่องแจ้งไฟล์แล้ว
+                            </h6>
+                            <p class="sm xs-no-br mt-1">
+                                ขอบคุณสำหรับการแจ้งข้อผิดพลาด <br>
+                                ทางหน่วยงานจะรีบทำการแก้ไข และปรับปรุงเพื่อกาให้บริการที่ดีขึ้น
+                            </p>
+                            <div class="btns">
+                                <a class="btn btn-action btn-popup-toggle" data-popup="3" href="#">
+                                    <span>ปิดหน้าต่าง</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup-container minisite" data-popup="3">
+        <div class="wrapper pr-3">
+            <div class="popup-box sm style-02">
+                <div class="box-body">
+                    <div class="icon-wrapper">
+                        <div class="icon">
+                            <img src="public/assets/app/images/icon/hex-danger.png" alt="Image Icon" />
+                        </div>
+                        <div class="text-wrapper">
+                            <h6 class="h4 fw-600" style="color:#e55701;">
+                                เกิดข้อผิดพลาดในการส่ง
+                            </h6>
+                            <p class="sm xs-no-br mt-1">
+                                ขอบคุณสำหรับการแจ้งข้อผิดพลาด <br>
+                                ทางหน่วยงานจะรีบทำการแก้ไข และปรับปรุงเพื่อกาให้บริการที่ดีขึ้น
+                            </p>
+                            <div class="btns">
+                                <a class="btn btn-action btn-popup-close-all" href="#">
+                                    <span>ปิดหน้าต่าง</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <?php include_once('include/footer-minisite.php'); ?>
     <?php include_once('include/script.php'); ?>
+
+    <script>
+        $('form#form_download').on('submit', function(e){
+            e.preventDefault();
+            $('.popup-container[data-popup="2"]').addClass('active');
+        });
+    </script>
 </body>
 </html>

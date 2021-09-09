@@ -98,6 +98,26 @@ nav.footer.minisite img.hero{width:7.5rem;}
     position:absolute; top:0; bottom:0; left:100%; padding:1.125rem .75rem; text-align:center;
 }
 .popup-container.minisite .close-wrapper p{margin:.5rem 0 0 0;}
+.popup-container.minisite .popup-box.style-02{position:relative;}
+.popup-container.minisite .popup-box.style-02 > .box-body{padding:2rem 5rem 2rem 2rem;}
+.popup-container.minisite .popup-box.style-02 > .close-wrapper{
+    top:.5rem; bottom:unset; left:unset; right:.5rem; padding:.375rem 0; z-index:1;
+}
+.popup-container.minisite .popup-box.style-02 > .close-wrapper .hamburger{transform:scale(.7);}
+.popup-container.minisite .popup-box.style-02::before{
+    content:''; position:absolute; top:0; bottom:0; right:0; width:5.5rem;
+    clip-path:polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 100% 50%);
+}
+@media screen and (max-width:767.98px){
+    .popup-container.minisite .popup-box.style-02 > .box-body{
+        padding:1.5rem 3.5rem 1.5rem 1.5rem;
+    }
+    .popup-container.minisite .popup-box.style-02::before{width:4rem;}
+}
+@media screen and (max-width:575.98px){
+    .popup-container.minisite .popup-box.style-02 > .box-body{padding:1rem 2.5rem 1rem 1rem;}
+    .popup-container.minisite .popup-box.style-02::before{width:3rem;}
+}
 
 
 /* Quick Tab */
@@ -171,9 +191,7 @@ nav.footer.minisite img.hero{width:7.5rem;}
 .quick-tab-minisite .quick-set .icon img{width:60px; margin:0;}
 .quick-tab-minisite .quick-set .icon.sm img{width:28px;}
 @media screen and (max-width:767.98px){
-    .quick-tab-minisite .tab > .track{
-        width:calc(100vw - 56px); bottom:unset; max-width:unset;
-    }
+    .quick-tab-minisite .tab > .track{width:calc(100vw - 56px); bottom:unset; max-width:unset;}
     .quick-tab-minisite .track > .wrapper{flex-wrap:wrap; justify-content:center;}
     .quick-tab-minisite .track > .wrapper::before{
         clip-path:polygon(19px 0%, calc(100% - 19px) 0%, 100% 33px,
@@ -181,6 +199,9 @@ nav.footer.minisite img.hero{width:7.5rem;}
             19px 100%, 0% calc(100% - 33px), 0% 33px);
     }
 }
+
+.theme-1 .quick-tab-minisite .track > .wrapper::before{background:rgba(255,255,255,.4);}
+.theme-2 .quick-tab-minisite .track > .wrapper::before{background:rgba(255,255,0,.4);}
 
 
 /* Tabs Minisite */

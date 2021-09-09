@@ -168,6 +168,11 @@ nav.footer .tag{background:#ffff00; color:#000;}
 }
 .popup-container.minisite .hamburger > *{background:#ffff00;}
 .popup-container.minisite .box-body{border-bottom:1px solid #ffff00;}
+.popup-container.minisite .popup-box.style-02{border-top:1px solid #ffff00;}
+.popup-container.minisite .popup-box.style-02 > .close-wrapper{background:#000000;}
+.popup-container.minisite .popup-box.style-02 > .close-wrapper 
+.hamburger > *{background:#ffff00;}
+.popup-container.minisite .popup-box.style-02::before{background:#ffff00;}
 
 
 /* Shortcode */

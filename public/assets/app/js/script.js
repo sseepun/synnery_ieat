@@ -271,7 +271,12 @@ $(function(){ 'use strict';
         quickTabMinisite.find('.tab-btn, .btn-close').click(function(e){
             e.preventDefault();
             var parent = $(this).closest('.tab');
-            parent.toggleClass('active');
+            if(parent.hasClass('active')){
+                quickTabMinisite.find('.tab').removeClass('active');
+            }else{
+                quickTabMinisite.find('.tab').removeClass('active');
+                parent.addClass('active');
+            }
         });
     }
 
@@ -301,28 +306,10 @@ $(function(){ 'use strict';
         e.preventDefault();
         $('.popup-container[data-popup="'+$(this).data('popup')+'"]').toggleClass('active');
     });
-
-    // Button Copy
-    // var copyReady = true;
-    // $('a[data-copy]').click(function(e){
-    //     e.preventDefault();
-    //     var self = $(this),
-    //         target = $('textarea[data-copy="'+self.data('copy')+'"]');
-    //     if(copyReady && target.length){
-    //         copyReady = false;
-    //         target[0].select();
-    //         target[0].setSelectionRange(0, target[0].value.length);
-    //         document.execCommand('copy');
-    //         target.blur();
-    //         self.html('<i class="fas fa-check"></i> คัดลอกโค๊ดสำเร็จ');
-    //         setTimeout(function(){
-    //             copyReady = true;
-    //             self.closest('.toggle-target').slideUp();
-    //             self.closest('.toggle-target-02').removeClass('active');
-    //             self.html('คัดลอกโค้ด');
-    //         }, 2000);
-    //     }
-    // });
+    $('.btn-popup-close-all').click(function(e){
+        e.preventDefault();
+        $('.popup-container').removeClass('active');
+    });
 
     // Shortcode
     var shortcodeReady = true,
